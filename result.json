@@ -1,0 +1,1881 @@
+{
+    "sys": {
+        "type": "Array"
+    },
+    "total": 44,
+    "skip": 0,
+    "limit": 100,
+    "items": [
+        {
+            "metadata": {
+                "tags": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8kgt6jcufmb2"
+                    }
+                },
+                "id": "5iYrtGTFccbmeB9PMMJ6XM",
+                "type": "Asset",
+                "createdAt": "2024-08-15T02:39:56.657Z",
+                "updatedAt": "2024-08-15T02:39:56.657Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "Meaghan Johnson",
+                "description": "Convener/ED, FFS",
+                "file": {
+                    "url": "//images.ctfassets.net/8kgt6jcufmb2/5iYrtGTFccbmeB9PMMJ6XM/dc249b213822a73ee586453bcab867db/img_meaghan.png",
+                    "details": {
+                        "size": 95192,
+                        "image": {
+                            "width": 300,
+                            "height": 264
+                        }
+                    },
+                    "fileName": "img_meaghan.png",
+                    "contentType": "image/png"
+                }
+            }
+        },
+        {
+            "metadata": {
+                "tags": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8kgt6jcufmb2"
+                    }
+                },
+                "id": "YOtmdYWHZRbt21KnKBPYL",
+                "type": "Asset",
+                "createdAt": "2024-08-15T02:39:08.727Z",
+                "updatedAt": "2024-08-15T02:39:08.727Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "Bayo Adekanmbi",
+                "description": "Founder/CEO, DSN",
+                "file": {
+                    "url": "//images.ctfassets.net/8kgt6jcufmb2/YOtmdYWHZRbt21KnKBPYL/8e89b7b796364c4a57c51467c15ed91d/img_bayo.png",
+                    "details": {
+                        "size": 74127,
+                        "image": {
+                            "width": 300,
+                            "height": 264
+                        }
+                    },
+                    "fileName": "img_bayo.png",
+                    "contentType": "image/png"
+                }
+            }
+        },
+        {
+            "metadata": {
+                "tags": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8kgt6jcufmb2"
+                    }
+                },
+                "id": "5mqqs0InqI2x1fRZXNkGtE",
+                "type": "Asset",
+                "createdAt": "2024-08-15T02:37:26.773Z",
+                "updatedAt": "2024-08-15T02:37:26.773Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "Boye Ademola",
+                "description": "Founder/CEO, Bazara",
+                "file": {
+                    "url": "//images.ctfassets.net/8kgt6jcufmb2/5mqqs0InqI2x1fRZXNkGtE/632da8039a27881ccad0a15bd13c6003/img_boye.png",
+                    "details": {
+                        "size": 89878,
+                        "image": {
+                            "width": 300,
+                            "height": 264
+                        }
+                    },
+                    "fileName": "img_boye.png",
+                    "contentType": "image/png"
+                }
+            }
+        },
+        {
+            "metadata": {
+                "tags": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8kgt6jcufmb2"
+                    }
+                },
+                "id": "4wpavuCurV1f7lEQIn2M65",
+                "type": "Asset",
+                "createdAt": "2024-08-15T02:35:53.142Z",
+                "updatedAt": "2024-08-15T02:35:53.142Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "Abdullo Kurbanov",
+                "description": "Co-Founder, Ayan Capital & Alif Bank",
+                "file": {
+                    "url": "//images.ctfassets.net/8kgt6jcufmb2/4wpavuCurV1f7lEQIn2M65/d373782a2f734fe1045264696147b37d/img_abdullo.png",
+                    "details": {
+                        "size": 61923,
+                        "image": {
+                            "width": 300,
+                            "height": 265
+                        }
+                    },
+                    "fileName": "img_abdullo.png",
+                    "contentType": "image/png"
+                }
+            }
+        },
+        {
+            "metadata": {
+                "tags": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8kgt6jcufmb2"
+                    }
+                },
+                "id": "5ATTy0jXSnwJYIGBAqXSSY",
+                "type": "Asset",
+                "createdAt": "2024-08-15T02:24:45.925Z",
+                "updatedAt": "2024-08-15T02:24:45.925Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "Abubakar Suleiman",
+                "description": "CEO, Sterling Bank",
+                "file": {
+                    "url": "//images.ctfassets.net/8kgt6jcufmb2/5ATTy0jXSnwJYIGBAqXSSY/d6727a70789b03bc24df1e865dbc2e06/img_abu_suleiman.png",
+                    "details": {
+                        "size": 120768,
+                        "image": {
+                            "width": 300,
+                            "height": 264
+                        }
+                    },
+                    "fileName": "img_abu_suleiman.png",
+                    "contentType": "image/png"
+                }
+            }
+        },
+        {
+            "metadata": {
+                "tags": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8kgt6jcufmb2"
+                    }
+                },
+                "id": "4Phq490gnfFmaEObvyOGdP",
+                "type": "Asset",
+                "createdAt": "2024-08-15T02:23:58.967Z",
+                "updatedAt": "2024-08-15T02:23:58.967Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "Marie Walker",
+                "description": "Open Futurist, Radiam",
+                "file": {
+                    "url": "//images.ctfassets.net/8kgt6jcufmb2/4Phq490gnfFmaEObvyOGdP/0e2b6646302f6b1afe106f490528804f/img_marie.png",
+                    "details": {
+                        "size": 93542,
+                        "image": {
+                            "width": 300,
+                            "height": 265
+                        }
+                    },
+                    "fileName": "img_marie.png",
+                    "contentType": "image/png"
+                }
+            }
+        },
+        {
+            "metadata": {
+                "tags": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8kgt6jcufmb2"
+                    }
+                },
+                "id": "5AXcqI46CLs8rKghdGXfcQ",
+                "type": "Asset",
+                "createdAt": "2024-08-15T02:22:36.702Z",
+                "updatedAt": "2024-08-15T02:22:36.702Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "Iyinoluwa Aboyeji",
+                "description": "Founding Partner, Future Africa",
+                "file": {
+                    "url": "//images.ctfassets.net/8kgt6jcufmb2/5AXcqI46CLs8rKghdGXfcQ/a96653746ae33afed0d1cbe7a053af94/img_iyinoluwa.png",
+                    "details": {
+                        "size": 124951,
+                        "image": {
+                            "width": 298,
+                            "height": 265
+                        }
+                    },
+                    "fileName": "img_iyinoluwa.png",
+                    "contentType": "image/png"
+                }
+            }
+        },
+        {
+            "metadata": {
+                "tags": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8kgt6jcufmb2"
+                    }
+                },
+                "id": "2lYQVDlwPVYMCtOWOvbPi",
+                "type": "Asset",
+                "createdAt": "2024-08-15T02:20:58.378Z",
+                "updatedAt": "2024-08-15T02:20:58.378Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "Sabrina Del Prete",
+                "description": "Founder, KORE",
+                "file": {
+                    "url": "//images.ctfassets.net/8kgt6jcufmb2/2lYQVDlwPVYMCtOWOvbPi/0284451c9740b50d71180237ba09503b/img_sabrina_pretz.png",
+                    "details": {
+                        "size": 112410,
+                        "image": {
+                            "width": 300,
+                            "height": 264
+                        }
+                    },
+                    "fileName": "img_sabrina_pretz.png",
+                    "contentType": "image/png"
+                }
+            }
+        },
+        {
+            "metadata": {
+                "tags": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8kgt6jcufmb2"
+                    }
+                },
+                "id": "2SBZUsH1iQmSqJZBHvlPk2",
+                "type": "Asset",
+                "createdAt": "2024-08-15T00:19:14.790Z",
+                "updatedAt": "2024-08-15T00:19:14.790Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "Piano robot",
+                "file": {
+                    "url": "//images.ctfassets.net/8kgt6jcufmb2/2SBZUsH1iQmSqJZBHvlPk2/87cb47aa82959e4a94a1b7eca3af98e2/possessed-photography-U3sOwViXhkY-unsplash.jpg",
+                    "details": {
+                        "size": 286119,
+                        "image": {
+                            "width": 1512,
+                            "height": 590
+                        }
+                    },
+                    "fileName": "possessed-photography-U3sOwViXhkY-unsplash.jpg",
+                    "contentType": "image/jpeg"
+                }
+            }
+        },
+        {
+            "metadata": {
+                "tags": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8kgt6jcufmb2"
+                    }
+                },
+                "id": "6KL2h91Rvd9ZBGOUUhDNE9",
+                "type": "Asset",
+                "createdAt": "2024-08-15T00:19:13.808Z",
+                "updatedAt": "2024-08-15T00:19:13.808Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "Robots set to take on more complex tasks in the future",
+                "file": {
+                    "url": "//images.ctfassets.net/8kgt6jcufmb2/6KL2h91Rvd9ZBGOUUhDNE9/6184e949564242843e0054278728f761/robots1.webp",
+                    "details": {
+                        "size": 24508,
+                        "image": {
+                            "width": 722,
+                            "height": 590
+                        }
+                    },
+                    "fileName": "robots1.webp",
+                    "contentType": "image/webp"
+                }
+            }
+        },
+        {
+            "metadata": {
+                "tags": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8kgt6jcufmb2"
+                    }
+                },
+                "id": "1ZJ2s2JDgJMhuf87j3Chnd",
+                "type": "Asset",
+                "createdAt": "2024-08-15T00:19:13.799Z",
+                "updatedAt": "2024-08-15T00:19:13.799Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "Humanoid robot 1.0",
+                "file": {
+                    "url": "//images.ctfassets.net/8kgt6jcufmb2/1ZJ2s2JDgJMhuf87j3Chnd/dc2b71b2723841efd71cd71f196ed5e4/possessed-photography-YKW0JjP7rlU-unsplash.jpg",
+                    "details": {
+                        "size": 125544,
+                        "image": {
+                            "width": 868,
+                            "height": 590
+                        }
+                    },
+                    "fileName": "possessed-photography-YKW0JjP7rlU-unsplash.jpg",
+                    "contentType": "image/jpeg"
+                }
+            }
+        },
+        {
+            "metadata": {
+                "tags": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8kgt6jcufmb2"
+                    }
+                },
+                "id": "2ezfM3gUJuFKradR9JgYE5",
+                "type": "Asset",
+                "createdAt": "2024-08-15T00:19:13.793Z",
+                "updatedAt": "2024-08-15T00:19:13.793Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "Micro robots",
+                "file": {
+                    "url": "//images.ctfassets.net/8kgt6jcufmb2/2ezfM3gUJuFKradR9JgYE5/59f6d88b640adb5b9e143d236b0eb498/hobijist3d-Auw1Cqsawtg-unsplash.jpg",
+                    "details": {
+                        "size": 37557,
+                        "image": {
+                            "width": 868,
+                            "height": 590
+                        }
+                    },
+                    "fileName": "hobijist3d-Auw1Cqsawtg-unsplash.jpg",
+                    "contentType": "image/jpeg"
+                }
+            }
+        },
+        {
+            "metadata": {
+                "tags": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8kgt6jcufmb2"
+                    }
+                },
+                "id": "3uCsWf52cDTEB7w0nJ7pl5",
+                "type": "Asset",
+                "createdAt": "2024-08-15T00:19:13.790Z",
+                "updatedAt": "2024-08-15T00:19:13.790Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "Robots in manufacturing",
+                "file": {
+                    "url": "//images.ctfassets.net/8kgt6jcufmb2/3uCsWf52cDTEB7w0nJ7pl5/2b5049c1350788dac40d92ff2dff2122/clayton-cardinalli-hkJNx0EDbjE-unsplash.jpg",
+                    "details": {
+                        "size": 292256,
+                        "image": {
+                            "width": 868,
+                            "height": 590
+                        }
+                    },
+                    "fileName": "clayton-cardinalli-hkJNx0EDbjE-unsplash.jpg",
+                    "contentType": "image/jpeg"
+                }
+            }
+        },
+        {
+            "metadata": {
+                "tags": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8kgt6jcufmb2"
+                    }
+                },
+                "id": "MhriWI9Mg2japaQXOhDR3",
+                "type": "Asset",
+                "createdAt": "2024-08-15T00:19:13.787Z",
+                "updatedAt": "2024-08-15T00:19:13.787Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "New humanoid robot",
+                "file": {
+                    "url": "//images.ctfassets.net/8kgt6jcufmb2/MhriWI9Mg2japaQXOhDR3/462b8074429202a4fc202b482862dc2b/maximalfocus-naSAHDWRNbQ-unsplash.jpg",
+                    "details": {
+                        "size": 135683,
+                        "image": {
+                            "width": 868,
+                            "height": 590
+                        }
+                    },
+                    "fileName": "maximalfocus-naSAHDWRNbQ-unsplash.jpg",
+                    "contentType": "image/jpeg"
+                }
+            }
+        },
+        {
+            "metadata": {
+                "tags": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8kgt6jcufmb2"
+                    }
+                },
+                "id": "gidU2xh7u9rjS8vj5nikT",
+                "type": "Asset",
+                "createdAt": "2024-08-15T00:19:13.782Z",
+                "updatedAt": "2024-08-15T00:19:13.782Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "How technology is transforming the world of art",
+                "file": {
+                    "url": "//images.ctfassets.net/8kgt6jcufmb2/gidU2xh7u9rjS8vj5nikT/d7165f744b68828443af33db616f83da/art1.webp",
+                    "details": {
+                        "size": 75456,
+                        "image": {
+                            "width": 722,
+                            "height": 590
+                        }
+                    },
+                    "fileName": "art1.webp",
+                    "contentType": "image/webp"
+                }
+            }
+        },
+        {
+            "metadata": {
+                "tags": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8kgt6jcufmb2"
+                    }
+                },
+                "id": "vjf9MSkYxA7rmchYemRrc",
+                "type": "Asset",
+                "createdAt": "2024-08-15T00:19:12.841Z",
+                "updatedAt": "2024-08-15T00:19:12.841Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "Humanoid joint",
+                "file": {
+                    "url": "//images.ctfassets.net/8kgt6jcufmb2/vjf9MSkYxA7rmchYemRrc/23ef09ad31c7f304edd51ecb6233c7dc/mathew-schwartz-zIIXVa5BwvM-unsplash.jpg",
+                    "details": {
+                        "size": 147015,
+                        "image": {
+                            "width": 1512,
+                            "height": 590
+                        }
+                    },
+                    "fileName": "mathew-schwartz-zIIXVa5BwvM-unsplash.jpg",
+                    "contentType": "image/jpeg"
+                }
+            }
+        },
+        {
+            "metadata": {
+                "tags": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8kgt6jcufmb2"
+                    }
+                },
+                "id": "6ydjXoyff1TMM9VDIKBpEX",
+                "type": "Asset",
+                "createdAt": "2024-08-15T00:19:12.829Z",
+                "updatedAt": "2024-08-15T00:19:12.829Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "Green space in the corner of a building",
+                "file": {
+                    "url": "//images.ctfassets.net/8kgt6jcufmb2/6ydjXoyff1TMM9VDIKBpEX/897e443c87e6e6933aee2a75f04162db/m4x1mvs-8WWqg9mcfmM-unsplash.jpg",
+                    "details": {
+                        "size": 362201,
+                        "image": {
+                            "width": 868,
+                            "height": 590
+                        }
+                    },
+                    "fileName": "m4x1mvs-8WWqg9mcfmM-unsplash.jpg",
+                    "contentType": "image/jpeg"
+                }
+            }
+        },
+        {
+            "metadata": {
+                "tags": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8kgt6jcufmb2"
+                    }
+                },
+                "id": "2kkoqnUUjSejsynR4j0TUG",
+                "type": "Asset",
+                "createdAt": "2024-08-15T00:19:12.826Z",
+                "updatedAt": "2024-08-15T00:19:12.826Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "Humanoid robots poised to revolutionize the way we live and work",
+                "file": {
+                    "url": "//images.ctfassets.net/8kgt6jcufmb2/2kkoqnUUjSejsynR4j0TUG/c0714791b6b05d906ec3ef8d0ef07304/humanoids1.webp",
+                    "details": {
+                        "size": 11390,
+                        "image": {
+                            "width": 722,
+                            "height": 590
+                        }
+                    },
+                    "fileName": "humanoids1.webp",
+                    "contentType": "image/webp"
+                }
+            }
+        },
+        {
+            "metadata": {
+                "tags": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8kgt6jcufmb2"
+                    }
+                },
+                "id": "5YVExQYPh0RVxbCn85eWQC",
+                "type": "Asset",
+                "createdAt": "2024-08-15T00:19:12.817Z",
+                "updatedAt": "2024-08-15T00:19:12.817Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "3D Model",
+                "file": {
+                    "url": "//images.ctfassets.net/8kgt6jcufmb2/5YVExQYPh0RVxbCn85eWQC/87f6a5ed478fce8893c03dfd846221e4/simon-lee-hbFKxsIqclc-unsplash.jpg",
+                    "details": {
+                        "size": 206492,
+                        "image": {
+                            "width": 868,
+                            "height": 590
+                        }
+                    },
+                    "fileName": "simon-lee-hbFKxsIqclc-unsplash.jpg",
+                    "contentType": "image/jpeg"
+                }
+            }
+        },
+        {
+            "metadata": {
+                "tags": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8kgt6jcufmb2"
+                    }
+                },
+                "id": "5CH2WqvlyAkgte2cUO8eZf",
+                "type": "Asset",
+                "createdAt": "2024-08-15T00:19:12.813Z",
+                "updatedAt": "2024-08-15T00:19:12.813Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "3D Model",
+                "file": {
+                    "url": "//images.ctfassets.net/8kgt6jcufmb2/5CH2WqvlyAkgte2cUO8eZf/4a7e0e32a106ad0161c6dd4fd8171f8c/simon-lee-ynmPY1MLwMs-unsplash.jpg",
+                    "details": {
+                        "size": 165575,
+                        "image": {
+                            "width": 868,
+                            "height": 590
+                        }
+                    },
+                    "fileName": "simon-lee-ynmPY1MLwMs-unsplash.jpg",
+                    "contentType": "image/jpeg"
+                }
+            }
+        },
+        {
+            "metadata": {
+                "tags": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8kgt6jcufmb2"
+                    }
+                },
+                "id": "1LebM1daMxNo7SMS5kscjt",
+                "type": "Asset",
+                "createdAt": "2024-08-15T00:19:12.788Z",
+                "updatedAt": "2024-08-15T00:19:12.788Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "Green spaces in cities",
+                "file": {
+                    "url": "//images.ctfassets.net/8kgt6jcufmb2/1LebM1daMxNo7SMS5kscjt/da14011a2806619599704f87e83f793a/chuttersnap-oqJxJ4TYoQg-unsplash.jpg",
+                    "details": {
+                        "size": 380246,
+                        "image": {
+                            "width": 860,
+                            "height": 590
+                        }
+                    },
+                    "fileName": "chuttersnap-oqJxJ4TYoQg-unsplash.jpg",
+                    "contentType": "image/jpeg"
+                }
+            }
+        },
+        {
+            "metadata": {
+                "tags": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8kgt6jcufmb2"
+                    }
+                },
+                "id": "73Vy6f7QzW2Nls2m6SZRFM",
+                "type": "Asset",
+                "createdAt": "2024-08-15T00:19:11.826Z",
+                "updatedAt": "2024-08-15T00:19:11.826Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "Quantum Computing",
+                "file": {
+                    "url": "//images.ctfassets.net/8kgt6jcufmb2/73Vy6f7QzW2Nls2m6SZRFM/28c05347d9460ef65f121073beb201b3/david-latorre-romero-0tNF_mHm_Ls-unsplash.jpg",
+                    "details": {
+                        "size": 76357,
+                        "image": {
+                            "width": 868,
+                            "height": 590
+                        }
+                    },
+                    "fileName": "david-latorre-romero-0tNF_mHm_Ls-unsplash.jpg",
+                    "contentType": "image/jpeg"
+                }
+            }
+        },
+        {
+            "metadata": {
+                "tags": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8kgt6jcufmb2"
+                    }
+                },
+                "id": "1VNqaLgI8xecTahqYRvWC8",
+                "type": "Asset",
+                "createdAt": "2024-08-15T00:19:11.822Z",
+                "updatedAt": "2024-08-15T00:19:11.822Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "3D Model head",
+                "file": {
+                    "url": "//images.ctfassets.net/8kgt6jcufmb2/1VNqaLgI8xecTahqYRvWC8/1b729777b88b6661c881e63074e1591a/polina-kondrashova-fhrWAh2HMnM-unsplash.jpg",
+                    "details": {
+                        "size": 160768,
+                        "image": {
+                            "width": 1512,
+                            "height": 590
+                        }
+                    },
+                    "fileName": "polina-kondrashova-fhrWAh2HMnM-unsplash.jpg",
+                    "contentType": "image/jpeg"
+                }
+            }
+        },
+        {
+            "metadata": {
+                "tags": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8kgt6jcufmb2"
+                    }
+                },
+                "id": "MJzD451juWJq7H1mufYAY",
+                "type": "Asset",
+                "createdAt": "2024-08-15T00:19:11.821Z",
+                "updatedAt": "2024-08-15T00:19:11.821Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "Layered green space on a building",
+                "file": {
+                    "url": "//images.ctfassets.net/8kgt6jcufmb2/MJzD451juWJq7H1mufYAY/1c30e2515f5c43b6e6c23eac0bed1630/danist-soh-dqXiw7nCb9Q-unsplash.jpg",
+                    "details": {
+                        "size": 729323,
+                        "image": {
+                            "width": 1512,
+                            "height": 590
+                        }
+                    },
+                    "fileName": "danist-soh-dqXiw7nCb9Q-unsplash.jpg",
+                    "contentType": "image/jpeg"
+                }
+            }
+        },
+        {
+            "metadata": {
+                "tags": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8kgt6jcufmb2"
+                    }
+                },
+                "id": "vs7Sqs8ThbWKUFB5kXRo0",
+                "type": "Asset",
+                "createdAt": "2024-08-15T00:19:11.807Z",
+                "updatedAt": "2024-08-15T00:19:11.807Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "Quantum Orb",
+                "file": {
+                    "url": "//images.ctfassets.net/8kgt6jcufmb2/vs7Sqs8ThbWKUFB5kXRo0/ff4857c255a4df7e185768156674f580/michael-dziedzic-qDG7XKJLKbs-unsplash.jpg",
+                    "details": {
+                        "size": 219736,
+                        "image": {
+                            "width": 1512,
+                            "height": 590
+                        }
+                    },
+                    "fileName": "michael-dziedzic-qDG7XKJLKbs-unsplash.jpg",
+                    "contentType": "image/jpeg"
+                }
+            }
+        },
+        {
+            "metadata": {
+                "tags": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8kgt6jcufmb2"
+                    }
+                },
+                "id": "2bcP5YjjO6orgVf2ClwVna",
+                "type": "Asset",
+                "createdAt": "2024-08-15T00:19:11.793Z",
+                "updatedAt": "2024-08-15T00:19:11.793Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "Green urbanism: a key strategy for creating sustainable cities",
+                "file": {
+                    "url": "//images.ctfassets.net/8kgt6jcufmb2/2bcP5YjjO6orgVf2ClwVna/ed8473af0706632e6accc40ebae44813/cities_1.webp",
+                    "details": {
+                        "size": 84992,
+                        "image": {
+                            "width": 722,
+                            "height": 590
+                        }
+                    },
+                    "fileName": "cities 1.webp",
+                    "contentType": "image/webp"
+                }
+            }
+        },
+        {
+            "metadata": {
+                "tags": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8kgt6jcufmb2"
+                    }
+                },
+                "id": "617p75z6jeeCQxn1nrWMRp",
+                "type": "Asset",
+                "createdAt": "2024-08-15T00:19:11.789Z",
+                "updatedAt": "2024-08-15T00:19:11.789Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "Quantum Computing",
+                "file": {
+                    "url": "//images.ctfassets.net/8kgt6jcufmb2/617p75z6jeeCQxn1nrWMRp/61df2c924b819fbd9b20d7d4db439dc0/quantum1.webp",
+                    "details": {
+                        "size": 12262,
+                        "image": {
+                            "width": 722,
+                            "height": 590
+                        }
+                    },
+                    "fileName": "quantum1.webp",
+                    "contentType": "image/webp"
+                }
+            }
+        },
+        {
+            "metadata": {
+                "tags": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8kgt6jcufmb2"
+                    }
+                },
+                "id": "iesDwdILzVwGvGpGbbI2b",
+                "type": "Asset",
+                "createdAt": "2024-08-15T00:19:10.831Z",
+                "updatedAt": "2024-08-15T00:19:10.831Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "Code",
+                "description": "",
+                "file": {
+                    "url": "//images.ctfassets.net/8kgt6jcufmb2/iesDwdILzVwGvGpGbbI2b/1405b320e13a8680fd5aacb024b59b9a/markus-spiske-cvBBO4PzWPg-unsplash.jpg",
+                    "details": {
+                        "size": 371676,
+                        "image": {
+                            "width": 868,
+                            "height": 590
+                        }
+                    },
+                    "fileName": "markus-spiske-cvBBO4PzWPg-unsplash.jpg",
+                    "contentType": "image/jpeg"
+                }
+            }
+        },
+        {
+            "metadata": {
+                "tags": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8kgt6jcufmb2"
+                    }
+                },
+                "id": "2aaddi26T6JGa1649P647b",
+                "type": "Asset",
+                "createdAt": "2024-08-15T00:19:10.828Z",
+                "updatedAt": "2024-08-15T00:19:10.828Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "People looking at code on computers",
+                "description": "",
+                "file": {
+                    "url": "//images.ctfassets.net/8kgt6jcufmb2/2aaddi26T6JGa1649P647b/7f32b5f877d5b8d9dd3c5095995f52ba/sigmund-AxAPuIRWHGk-unsplash.jpg",
+                    "details": {
+                        "size": 180034,
+                        "image": {
+                            "width": 1512,
+                            "height": 590
+                        }
+                    },
+                    "fileName": "sigmund-AxAPuIRWHGk-unsplash.jpg",
+                    "contentType": "image/jpeg"
+                }
+            }
+        },
+        {
+            "metadata": {
+                "tags": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8kgt6jcufmb2"
+                    }
+                },
+                "id": "qZ4sbxBopTOPti4OjknTK",
+                "type": "Asset",
+                "createdAt": "2024-08-15T00:19:10.826Z",
+                "updatedAt": "2024-08-15T00:19:10.826Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "Flowers and code",
+                "description": "",
+                "file": {
+                    "url": "//images.ctfassets.net/8kgt6jcufmb2/qZ4sbxBopTOPti4OjknTK/01a68f4a0b9f07fc0081a67a5d353a73/jexo-044AnorPjAU-unsplash.jpg",
+                    "details": {
+                        "size": 124886,
+                        "image": {
+                            "width": 868,
+                            "height": 590
+                        }
+                    },
+                    "fileName": "jexo-044AnorPjAU-unsplash.jpg",
+                    "contentType": "image/jpeg"
+                }
+            }
+        },
+        {
+            "metadata": {
+                "tags": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8kgt6jcufmb2"
+                    }
+                },
+                "id": "45LAhLfStKVYXM1Bvf8zFa",
+                "type": "Asset",
+                "createdAt": "2024-08-15T00:19:10.822Z",
+                "updatedAt": "2024-08-15T00:19:10.822Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "Projections on a person",
+                "description": "",
+                "file": {
+                    "url": "//images.ctfassets.net/8kgt6jcufmb2/45LAhLfStKVYXM1Bvf8zFa/c1c2b836f9e4c02984b9e12fb813b4c2/dev1.webp",
+                    "details": {
+                        "size": 37578,
+                        "image": {
+                            "width": 722,
+                            "height": 590
+                        }
+                    },
+                    "fileName": "dev1.webp",
+                    "contentType": "image/webp"
+                }
+            }
+        },
+        {
+            "metadata": {
+                "tags": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8kgt6jcufmb2"
+                    }
+                },
+                "id": "4IKGmZzgz59j3l2qBZ3axm",
+                "type": "Asset",
+                "createdAt": "2024-08-15T00:19:10.820Z",
+                "updatedAt": "2024-08-15T00:19:10.820Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "Cyber City",
+                "description": "",
+                "file": {
+                    "url": "//images.ctfassets.net/8kgt6jcufmb2/4IKGmZzgz59j3l2qBZ3axm/ff567b02b153c79f450e66b5c0624c46/fly-d-sSqjy3YQvVg-unsplash__1_.jpg",
+                    "details": {
+                        "size": 564627,
+                        "image": {
+                            "width": 1512,
+                            "height": 590
+                        }
+                    },
+                    "fileName": "fly-d-sSqjy3YQvVg-unsplash (1).jpg",
+                    "contentType": "image/jpeg"
+                }
+            }
+        },
+        {
+            "metadata": {
+                "tags": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8kgt6jcufmb2"
+                    }
+                },
+                "id": "Y9mPbDns5OMVSMvRx8M61",
+                "type": "Asset",
+                "createdAt": "2024-08-15T00:19:10.817Z",
+                "updatedAt": "2024-08-15T00:19:10.817Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "Fast Computation",
+                "file": {
+                    "url": "//images.ctfassets.net/8kgt6jcufmb2/Y9mPbDns5OMVSMvRx8M61/700e5d4c9555e53c8ae6e69388307fb1/michael-dziedzic-O99bWwDMBa8-unsplash.jpg",
+                    "details": {
+                        "size": 144173,
+                        "image": {
+                            "width": 868,
+                            "height": 590
+                        }
+                    },
+                    "fileName": "michael-dziedzic-O99bWwDMBa8-unsplash.jpg",
+                    "contentType": "image/jpeg"
+                }
+            }
+        },
+        {
+            "metadata": {
+                "tags": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8kgt6jcufmb2"
+                    }
+                },
+                "id": "4lqxYpPLHdzfy0f8hONbGq",
+                "type": "Asset",
+                "createdAt": "2024-08-15T00:19:09.812Z",
+                "updatedAt": "2024-08-15T00:19:09.812Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "Augment Reality (AR)",
+                "description": "",
+                "file": {
+                    "url": "//images.ctfassets.net/8kgt6jcufmb2/4lqxYpPLHdzfy0f8hONbGq/42d1fb1f11851b5a37011174a93bf40c/ameer-basheer-2r5adxul49E-unsplash__1_.jpg",
+                    "details": {
+                        "size": 119920,
+                        "image": {
+                            "width": 721,
+                            "height": 590
+                        }
+                    },
+                    "fileName": "ameer-basheer-2r5adxul49E-unsplash (1).jpg",
+                    "contentType": "image/jpeg"
+                }
+            }
+        },
+        {
+            "metadata": {
+                "tags": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8kgt6jcufmb2"
+                    }
+                },
+                "id": "7CxNr9Arb299R7KjO103Bt",
+                "type": "Asset",
+                "createdAt": "2024-08-15T00:19:09.808Z",
+                "updatedAt": "2024-08-15T00:19:09.808Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "Instant Access to Information (Augment Reality)",
+                "file": {
+                    "url": "//images.ctfassets.net/8kgt6jcufmb2/7CxNr9Arb299R7KjO103Bt/1f05283ab9c12a67f7ab2317afbff3e9/tobias-CyX3ZAti5DA-unsplash__1___1_.jpg",
+                    "details": {
+                        "size": 153709,
+                        "image": {
+                            "width": 868,
+                            "height": 590
+                        }
+                    },
+                    "fileName": "tobias-CyX3ZAti5DA-unsplash (1) (1).jpg",
+                    "contentType": "image/jpeg"
+                }
+            }
+        },
+        {
+            "metadata": {
+                "tags": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8kgt6jcufmb2"
+                    }
+                },
+                "id": "6laYXsjvzeNDmSoh27xedQ",
+                "type": "Asset",
+                "createdAt": "2024-08-15T00:19:09.803Z",
+                "updatedAt": "2024-08-15T00:19:09.803Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "Learning with Augmented Reality",
+                "description": "",
+                "file": {
+                    "url": "//images.ctfassets.net/8kgt6jcufmb2/6laYXsjvzeNDmSoh27xedQ/08ac7f2122f58bc1732d81d39e50aae4/justin-peralta-qRkImTcLVZU-unsplash__1_.jpg",
+                    "details": {
+                        "size": 129570,
+                        "image": {
+                            "width": 868,
+                            "height": 590
+                        }
+                    },
+                    "fileName": "justin-peralta-qRkImTcLVZU-unsplash (1).jpg",
+                    "contentType": "image/jpeg"
+                }
+            }
+        },
+        {
+            "metadata": {
+                "tags": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8kgt6jcufmb2"
+                    }
+                },
+                "id": "DCX5igdj3acW1jo6Nkkoc",
+                "type": "Asset",
+                "createdAt": "2024-08-15T00:19:09.795Z",
+                "updatedAt": "2024-08-15T00:19:09.795Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "Skylar Geidt",
+                "description": "",
+                "file": {
+                    "url": "//images.ctfassets.net/8kgt6jcufmb2/DCX5igdj3acW1jo6Nkkoc/e9c36f5b6570cea1fb5905903f740818/Skylar_Geidt.png",
+                    "details": {
+                        "size": 22582,
+                        "image": {
+                            "width": 114,
+                            "height": 112
+                        }
+                    },
+                    "fileName": "Skylar Geidt.png",
+                    "contentType": "image/png"
+                }
+            }
+        },
+        {
+            "metadata": {
+                "tags": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8kgt6jcufmb2"
+                    }
+                },
+                "id": "79jZojREuNA5pTKnZgyTOu",
+                "type": "Asset",
+                "createdAt": "2024-08-15T00:19:09.787Z",
+                "updatedAt": "2024-08-15T00:19:09.787Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "Dulce Curtis",
+                "description": "",
+                "file": {
+                    "url": "//images.ctfassets.net/8kgt6jcufmb2/79jZojREuNA5pTKnZgyTOu/a715e3167929fed97152d79e2ad3849d/Dulce_Curtis.png",
+                    "details": {
+                        "size": 22666,
+                        "image": {
+                            "width": 114,
+                            "height": 112
+                        }
+                    },
+                    "fileName": "Dulce Curtis.png",
+                    "contentType": "image/png"
+                }
+            }
+        },
+        {
+            "metadata": {
+                "tags": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8kgt6jcufmb2"
+                    }
+                },
+                "id": "grDkL5SqN1MKnbaW7cHDG",
+                "type": "Asset",
+                "createdAt": "2024-08-15T00:19:09.781Z",
+                "updatedAt": "2024-08-15T00:19:09.781Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "Omar Franci",
+                "description": "",
+                "file": {
+                    "url": "//images.ctfassets.net/8kgt6jcufmb2/grDkL5SqN1MKnbaW7cHDG/0ba71d27a14dcc37f15468f278ccac92/Omar_Franci.png",
+                    "details": {
+                        "size": 22005,
+                        "image": {
+                            "width": 114,
+                            "height": 112
+                        }
+                    },
+                    "fileName": "Omar Franci.png",
+                    "contentType": "image/png"
+                }
+            }
+        },
+        {
+            "metadata": {
+                "tags": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8kgt6jcufmb2"
+                    }
+                },
+                "id": "1zmcQeiaH7LfUovnozSjtY",
+                "type": "Asset",
+                "createdAt": "2024-08-15T00:19:08.790Z",
+                "updatedAt": "2024-08-15T00:19:08.790Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "Jaydon Curtis",
+                "description": "",
+                "file": {
+                    "url": "//images.ctfassets.net/8kgt6jcufmb2/1zmcQeiaH7LfUovnozSjtY/e0fa7343559324ca0efc2161a23854c1/jaydon.png",
+                    "details": {
+                        "size": 15400,
+                        "image": {
+                            "width": 114,
+                            "height": 112
+                        }
+                    },
+                    "fileName": "jaydon.png",
+                    "contentType": "image/png"
+                }
+            }
+        },
+        {
+            "metadata": {
+                "tags": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8kgt6jcufmb2"
+                    }
+                },
+                "id": "4cuTBzzLIp02ts0VOF1mUS",
+                "type": "Asset",
+                "createdAt": "2024-08-15T00:19:08.785Z",
+                "updatedAt": "2024-08-15T00:19:08.785Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "Livia Philips",
+                "description": "Livia Philips",
+                "file": {
+                    "url": "//images.ctfassets.net/8kgt6jcufmb2/4cuTBzzLIp02ts0VOF1mUS/c5963fca20b9a3e077586fbb8810a659/Livia_Philips.png",
+                    "details": {
+                        "size": 21331,
+                        "image": {
+                            "width": 114,
+                            "height": 112
+                        }
+                    },
+                    "fileName": "Livia Philips.png",
+                    "contentType": "image/png"
+                }
+            }
+        },
+        {
+            "metadata": {
+                "tags": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8kgt6jcufmb2"
+                    }
+                },
+                "id": "1rWN5xz2upiL4ubmnxotMC",
+                "type": "Asset",
+                "createdAt": "2024-08-15T00:19:08.780Z",
+                "updatedAt": "2024-08-15T00:19:08.780Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "Ann Philips",
+                "description": "",
+                "file": {
+                    "url": "//images.ctfassets.net/8kgt6jcufmb2/1rWN5xz2upiL4ubmnxotMC/bafb980add4e436c933fb0e4fcb250c3/Ann_Philips.png",
+                    "details": {
+                        "size": 23385,
+                        "image": {
+                            "width": 114,
+                            "height": 112
+                        }
+                    },
+                    "fileName": "Ann Philips.png",
+                    "contentType": "image/png"
+                }
+            }
+        },
+        {
+            "metadata": {
+                "tags": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8kgt6jcufmb2"
+                    }
+                },
+                "id": "45I6aJDqIZzFWkPTmhHVDl",
+                "type": "Asset",
+                "createdAt": "2024-08-15T00:19:08.773Z",
+                "updatedAt": "2024-08-15T00:19:08.773Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "Social Media Image",
+                "description": "Person wearing holographic glasses",
+                "file": {
+                    "url": "//images.ctfassets.net/8kgt6jcufmb2/45I6aJDqIZzFWkPTmhHVDl/b4b3331b3e5eb0b4721a4592ed1e012a/IMAGE__1_.jpg",
+                    "details": {
+                        "size": 62533,
+                        "image": {
+                            "width": 1200,
+                            "height": 630
+                        }
+                    },
+                    "fileName": "IMAGE (1).jpg",
+                    "contentType": "image/jpeg"
+                }
+            }
+        },
+        {
+            "metadata": {
+                "tags": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8kgt6jcufmb2"
+                    }
+                },
+                "id": "4HvHLkOxKlWEteCoTsIact",
+                "type": "Asset",
+                "createdAt": "2024-08-15T00:19:08.750Z",
+                "updatedAt": "2024-08-15T00:19:08.750Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "revision": 1,
+                "locale": "en-US"
+            },
+            "fields": {
+                "title": "Livia Dokidis",
+                "description": "",
+                "file": {
+                    "url": "//images.ctfassets.net/8kgt6jcufmb2/4HvHLkOxKlWEteCoTsIact/6c254245cb63a2361114e06d7ca4c9c1/livia.png",
+                    "details": {
+                        "size": 20333,
+                        "image": {
+                            "width": 114,
+                            "height": 112
+                        }
+                    },
+                    "fileName": "livia.png",
+                    "contentType": "image/png"
+                }
+            }
+        }
+    ]
+}
