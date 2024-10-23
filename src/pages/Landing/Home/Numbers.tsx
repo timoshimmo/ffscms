@@ -128,7 +128,7 @@ const Numbers = () => {
         axios.get("https://cdn.contentful.com/spaces/8kgt6jcufmb2/environments/master/entries/7p1RJHG8fBqdmfQCVKnwFw?access_token=0i1vMSW9uEuEaMKBV_cMWva-FkSU11BTHazrVRUxUW4")
         .then(async response => {
                
-                //console.log(`Response: ${JSON.stringify(response.data.fields.listData)}`);
+              //  console.log(`Response: ${JSON.stringify(response.data.fields.courseList)}`);
                 setWhatIsTopic(response.data.fields.title);
                 setWhatIsSummary(response.data.fields.whatIsSummary);
                 setNumbersTitleOrange(response.data.fields.numberTitle1);

@@ -31,12 +31,63 @@ import img_sabrina from "../../assets/images/speakers/img_sabrina_pretz.png";
 import img_meaghan from "../../assets/images/speakers/img_meaghan.png";
 import img_abdullo from "../../assets/images/speakers/img_abdullo.png";
 
+import img_nicky from "../../assets/images/speakers/img_nicky.png";
+import img_lumley from "../../assets/images/speakers/img_lumley.png";
+import img_igor from "../../assets/images/speakers/img_igor.png";
+import img_matt from "../../assets/images/speakers/img_matt.png";
+import img_lanre from "../../assets/images/speakers/img_lanre.png";
+
+import img_jessica_figueras from "../../assets/images/speakers/img_jessica_figueras.png";
+import img_tram_anh_nguyen from "../../assets/images/speakers/img_tram_anh_nguyen.png";
+import img_jas_shah from "../../assets/images/speakers/img_jas_shah.png";
+import img_gwera_kiwana from "../../assets/images/speakers/img_gwera_kiwana.png";
+import img_alessandro_hatami from "../../assets/images/speakers/img_alessandro_hatami.png";
+import img_paul_sweeney from "../../assets/images/speakers/img_paul_sweeney.png";
+import img_natasha_kyprianidou_ from "../../assets/images/speakers/img_natasha_kyprianidou_.png";
+//import img_michelle_he from "../../assets/images/speakers/img_michelle_he.png";
+import img_lesley_anne_mcClean from "../../assets/images/speakers/img_lesley-anne_mcClean.png";
+import img_frankie_woodhead from "../../assets/images/speakers/img_frankie_woodhead.png";
+//import img_richard_morgans from "../../assets/images/speakers/img_richard_morgans.png";
+import img_nadav_mordechai from "../../assets/images/speakers/img_nadav_mordechai.png";
+import img_royston_da_costa from "../../assets/images/speakers/img_royston_da_costa.png";
+import img_gerald_chappell from "../../assets/images/speakers/img_gerald_chappell.png";
+
+import img_barry_sullivan from "../../assets/images/speakers/img_barry_sullivan.png";
+import img_jp_fabri from "../../assets/images/speakers/img_jp_fabri.png";
+
+import img_michael_anyfantakis from "../../assets/images/speakers/img_michael_anyfantakis.png";
+import img_phil_watson from "../../assets/images/speakers/img_phil_watson.png";
+import img_paul_payne from "../../assets/images/speakers/img_paul_payne.png";
+import img_bode_pedro from "../../assets/images/speakers/img_bode_pedro.png";
+
+import img_andy from "../../assets/images/speakers/img_andy.png";
+import img_yinka_oni from "../../assets/images/speakers/img_yinka_oni.png";
+import img_tayo_bamiduro from "../../assets/images/speakers/img_tayo_bamiduro.png";
+import img_ali_paterson from "../../assets/images/speakers/img_ali_paterson.png";
+import img_kimberly_long from "../../assets/images/speakers/img_kimberly_long.png";
+import img_mathias_canales from "../../assets/images/speakers/img_mathias_canales.png";
+import img_shaul_david from "../../assets/images/speakers/img_shaul_david.png";
+import img_alex_menage from "../../assets/images/speakers/img_alex_menage.png";
+import img_sophie_guibaud from "../../assets/images/speakers/img_sophie_guibaud.png";
+import img_tunji_odumuboni from "../../assets/images/speakers/img_tunji_odumuboni.png";
+
+import img_stacey_body from "../../assets/images/speakers/img_stacey_body.png";
+import img_nathalie_weil from "../../assets/images/speakers/img_nathalie_weil.png";
+import img_nina_mohanty from "../../assets/images/speakers/img_nina_mohanty.png";
+import img_jennifer_stirrup from "../../assets/images/speakers/img_jennifer_stirrup.png";
+
 //Partners
 //import partner1 from "../../assets/images/home/partner1.png";
 //import partner2 from "../../assets/images/home/partner2.png";
 //import partner3 from "../../assets/images/home/partner3.png";
+
 import partnerBazara from "../../assets/images/brands/img_bazara_logo.png";
 import partnersPeerless from "../../assets/images/brands/peerless_logo_light.svg";
+import img_skaleet_logo from "../../assets/images/brands/skaleet_logo@2x.png";
+import img_intellibonds_logo from "../../assets/images/brands/Intellibonds_icon_logo.png";
+import img_applied_blockchain_logo from "../../assets/images/brands/img_applied_blockchain_logo.png";
+import sterling_logo_new from "../../assets/images/brands/sterling_logo_new.png";
+import SeaBaas_logo_white from "../../assets/images/brands/SeaBaas_logo_white.png";
 
 //Insights
 import insights1 from "../../assets/images/insights/insight1.png";
@@ -658,62 +709,57 @@ const agendaData = [
     {
         id: 1,
         date: "Tue, 08 Oct",
-        time: "8:00AM",
+        startTime: "8:00 AM",
+        endTime: "9:00 AM",
         dateCode: "Tue",
         duration: "60",
-        topic: "Registration and Welcome Address",
-        theme: null,
-        type: "Welcome Address",
-        speaker: [
-            {
-                name: "Boye Ademola",
-                img: img_boye,
-                pic: img_boye,
-                credentials: "Co-Founder",
-                company: "Bazara",
-                tags: ["distribution-models", "digital-business-models"],
-            }
-           
-        ]
+        topic: "",
+        theme: [],
+        type: ["break"],
+        description: "Breakfast Networking",
+        speaker: null
     },
     {
         id: 2,
         date: "Tue, 08 Oct",
-        time: "9:00AM",
+        startTime: "9:05 AM",
+        endTime: "9:15AM",
         dateCode: "Tue",
-        duration: "20",
-        topic: "Welcome Address/Opening Remarks",
-        theme: null,
-        type: "Welcome Address",
+        duration: "15",
+        topic: "",
+        theme: [],
+        type: ["remarks"],
+        description: "Welcome Address",
         speaker: [
             {
-                name: "Boye Ademola",
-                img: img_boye,
-                pic: img_boye,
-                credentials: "Co-Founder",
-                company: "Bazara",
-                tags: ["distribution-models", "digital-business-models"],
+                img: img_meaghan,
+                pic: img_meaghan,
+                name: "Meaghan Johnson",
+                credentials: "Convener/ED",
+                company: "FFS",
+                tags: ["general"],
             }
-           
         ]
     },
     {
         id: 3,
         date: "Tue, 08 Oct",
-        time: "9:20AM",
+        startTime: "9:15 AM",
+        endTime: "9:45AM",
         dateCode: "Tue",
         duration: "30",
-        topic: "Keynote Presentation on Digital Business Models",
-        theme:  ["digital-business-models"],
-        type: "Keynote Presentation",
+        topic: "The Future of Banking",
+        theme:  ["strategy-&-markets"],
+        type: ["keynote-presentation"],
+        description: "Keynote Presentation",
         speaker: [
             {
-                name: "Boye Ademola",
-                img: img_boye,
-                pic: img_boye,
-                credentials: "Co-Founder",
-                company: "Bazara",
-                tags: ["distribution-models", "digital-business-models"],
+                img: img_abu_suleiman,
+                pic: img_abu_suleiman,
+                name: "Abubakar Suleiman",
+                credentials: "CEO",
+                company: "Sterling Bank",
+                tags: ["strategy-&-markets"]
             }
            
         ]
@@ -721,20 +767,54 @@ const agendaData = [
     {
         id: 4,
         date: "Tue, 08 Oct",
-        time: "9:55AM",
+        startTime: "9:50 AM",
+        endTime: "10:40 AM",
         dateCode: "Tue",
         duration: "50",
-        topic: "Panel Session on Digital Business Models",
-        theme:  ["digital-business-models"],
-        type: "Panel Session",
+        topic: "Reflections from Innovators on the Future of Banking",
+        theme:  ["strategy-&-markets"],
+        type: ["panel-session"],
+        description: "Panel Session",
         speaker: [
             {
-                name: "Boye Ademola",
-                img: img_boye,
-                pic: img_boye,
-                credentials: "Co-Founder",
-                company: "Bazara",
-                tags: ["distribution-models", "digital-business-models"],
+                img: img_lumley,
+                pic: img_lumley,
+                name: "Elizabeth Lumley",
+                credentials: "Deputy Editor",
+                company: "The Banker",
+                tags: ["strategy-&-markets"]
+            },
+            {
+                img: img_abu_suleiman,
+                pic: img_abu_suleiman,
+                name: "Abubakar Suleiman",
+                credentials: "CEO",
+                company: "Sterling Bank",
+                tags: ["strategy-&-markets"]
+            },
+            {
+                img: img_sabrina,
+                pic: img_sabrina,
+                name: "Sabrina Del Prete",
+                credentials: "Founder",
+                company: "KORE",
+                tags: ["strategy-&-markets"]
+            },
+            {
+                img: img_barry_sullivan,
+                pic: img_barry_sullivan,
+                name: "Barry O'Sullivan",
+                credentials: "Head of Banking & Payments",
+                company: "OpenPayd",
+                tags: ["strategy-&-markets"]
+            },
+            {
+                img: img_alessandro_hatami,
+                pic: img_alessandro_hatami,
+                name: "Alessandro Hatami",
+                credentials: "Founder & Managing Partner",
+                company: "Pacemakers.io",
+                tags: ["strategy-&-markets"],
             }
            
         ]
@@ -742,20 +822,30 @@ const agendaData = [
     {
         id: 5,
         date: "Tue, 08 Oct",
-        time: "10:50AM",
+        startTime: "10:50 AM",
+        endTime: "9:45 AM",
         dateCode: "Tue",
         duration: "30",
-        topic: "Keynote Presentation on Distribution Models",
-        theme:  ["distribution-models"],
-        type: "Keynote Presentation",
+        topic: "Baas and Embedded Finance",
+        theme:  ["strategy-&-markets"],
+        type: ["fireside-chat"],
+        description: "Fireside Chat",
         speaker: [
             {
-                name: "Boye Ademola",
-                img: img_boye,
-                pic: img_boye,
-                credentials: "Co-Founder",
-                company: "Bazara",
-                tags: ["distribution-models", "digital-business-models"],
+                name: "Sophie Guibaud",
+                img: img_sophie_guibaud,
+                pic: img_sophie_guibaud,
+                credentials: "Co-Founder and CEO",
+                company: "Fiat Republic & Co-Author, The Embedded Finance Book",
+                tags: ["strategy-&-markets"], 
+            },
+            {
+                name: "Shaul David",
+                img: img_shaul_david,
+                pic: img_shaul_david,
+                credentials: "Fintech & Board Advisor",
+                company: "",
+                tags: ["strategy-&-markets"], 
             }
            
         ]
@@ -763,20 +853,21 @@ const agendaData = [
     {
         id: 6,
         date: "Tue, 08 Oct",
-        time: "11:25AM",
+        startTime: "11:20 AM",
+        endTime: "12:00 PM",
         dateCode: "Tue",
-        duration: "20",
-        topic: "Fire Chat on Distribution Models",
-        theme:  ["distribution-models"],
-        type: "Fireside Chat",
-        speaker: [
+        duration: "50",
+        topic: "Product Demo, Peerless",
+        theme: ["financial-technology"],
+        type: ["product-demo"],
+        description: "Product Demo",
+        speaker: null,
+        product: [
             {
-                name: "Boye Ademola",
-                img: img_boye,
-                pic: img_boye,
-                credentials: "Co-Founder",
-                company: "Bazara",
-                tags: ["distribution-models", "digital-business-models"],
+                name: "Peerless",
+                img: partnersPeerless,
+                company: "Peerless",
+                tags: ["fintech"],
             }
            
         ]
@@ -784,20 +875,22 @@ const agendaData = [
     {
         id: 7,
         date: "Tue, 08 Oct",
-        time: "1:10PM",
+        startTime: "11:35 AM",
+        endTime: "11:35AM",
         dateCode: "Tue",
         duration: "30",
-        topic: "Keynote Presentation on Customer Experience",
-        theme: ["customer-experience"],
-        type: "Keynote Presentation",
+        topic: "Building the Future Together: Strategic Partnerships in Financial Services",
+        theme: ["strategy-&-markets"],
+        type: ["keynote-presentation"],
+        description: "Keynote Presentation",
         speaker: [
             {
-                img: img_abu_suleiman,
-                pic: img_abu_suleiman,
-                name: "Abubakar Suleiman",
-                tags: ["fintech", "customer-experience", "distribution-models"],
-                credentials: "CEO",
-                company: " Sterling Bank",
+                name: "Boye Ademola",
+                img: img_boye,
+                pic: img_boye,
+                credentials: "Founder/CEO",
+                company: "Bazara",
+                tags: ["fintech", "strategy-&-markets"], 
             }
            
         ]
@@ -805,108 +898,609 @@ const agendaData = [
     {
         id: 8,
         date: "Tue, 08 Oct",
-        time: "2:30PM",
+        startTime: "1:05 PM",
+        endTime: "2:20PM",
         dateCode: "Tue",
-        duration: "50",
-        topic: "Panel Session on Customer Experience",
-        theme:  ["customer-experience"],
-        type: "Panel Session",
+        duration: "80",
+        topic: "The Future of Insurance",
+        theme: ["strategy-&-markets", "insurance"],
+        type: ["roundtables"],
+        description: "Roundtable",
         speaker: [
             {
-                img: img_abu_suleiman,
-                pic: img_abu_suleiman,
-                name: "Abubakar Suleiman",
-                tags: ["fintech", "customer-experience", "distribution-models"],
-                credentials: "CEO",
-                company: " Sterling Bank",
+                img: img_bode_pedro,
+                pic: img_bode_pedro,
+                name: "Bode Pedro",
+                credentials: "Founder/CEO",
+                company: "Casava",
+                tags: ["strategy-&-markets"],
             }
            
         ]
     },
     {
         id: 9,
-        date: "Wed, 09 Oct",
-        time: "8:00AM",
-        dateCode: "Wed",
-        duration: "60",
-        topic: "Breakfast Networking",
-        theme: null,
-        type: "Networking",
-        speaker: [
+        date: "Tue, 08 Oct",
+        startTime: "1:05 PM",
+        endTime: "11:00AM",
+        dateCode: "Tue",
+        duration: "10",
+        topic: "Product Demo, Skaleet",
+        theme: ["financial-technology"],
+        type: ["product-demo"],
+        description: "Product Demo",
+        speaker: null,
+        product: [
             {
-                name: "Boye Ademola",
-                img: img_boye,
-                pic: img_boye,
-                credentials: "Co-Founder",
-                company: "Bazara",
-                tags: ["distribution-models", "digital-business-models"],
+                name: "Skaleet",
+                img: img_skaleet_logo,
+                company: "Skaleet",
+                tags: ["financial-technology"],
             }
            
         ]
     },
     {
         id: 10,
-        date: "Wed, 09 Oct",
-        time: "9:00AM",
-        dateCode: "Wed",
-        duration: "60",
-        topic: "Keynote Presentation on Artificial Intelligence",
-        theme: ["artificial-intelligence"],
-        type: "Keynote Presentation",
+        date: "Tue, 08 Oct",
+        startTime: "1:20 PM",
+        endTime: "2:25PM",
+        dateCode: "Tue",
+        duration: "50",
+        topic: "Reimagining the Engine that Powers Digital",
+        theme: ["financial-technology"],
+        type: ["panel-session"],
+        description: "Panel Session",
         speaker: [
             {
-                img: img_bayo,
-                pic: img_bayo,
-                name: "Bayo Adekanmbi",
-                tags: ["artificial-intelligence"],
-                credentials: "Founder/CEO",
-                company: "DSNai",
+                img: img_tunji_odumuboni,
+                pic: img_tunji_odumuboni,
+                name: "Tunji Odumuboni",
+                credentials: "Co-Founder/CPTO",
+                company: "Bazara",
+                tags: ["fintech"]
+            },
+            {
+                img: img_yinka_oni,
+                pic: img_yinka_oni,
+                name: "Yinka Oni",
+                credentials: "ED",
+                company: "Sterling Financial Holding",
+                tags: ["financial-technology"]
+            },
+            {
+                img: img_paul_payne,
+                pic: img_paul_payne,
+                name: "Paul Payne",
+                credentials: "CTO",
+                company: "SaaScada",
+                tags: ["fintech"]
+            },
+            {
+                img: img_lanre,
+                pic: img_lanre,
+                name: "Lanre Bamisebi",
+                credentials: "ED IT & Digitalization",
+                company: "Access Holdings",
+                tags: ["fintech"]
             }
-           
         ]
     },
     {
         id: 11,
-        date: "Wed, 09 Oct",
-        time: "10:50AM",
-        dateCode: "Wed",
-        duration: "10",
-        topic: "Launch of Artificial Intelligence Thought Leadership",
-        theme: ["artificial-intelligence"],
-        type: "Roundtable",
+        date: "Tue, 08 Oct",
+        startTime: "2:15 PM",
+        endTime: "1:30PM",
+        dateCode: "Tue",
+        duration: "30",
+        topic: "The Future of WealthTech",
+        theme: ["strategy-&-markets", "wealth-management"],
+        type: ["keynote-presentation"],
+        description: "Keynote Presentation",
         speaker: [
             {
-                img: img_bayo,
-                pic: img_bayo,
-                name: "Bayo Adekanmbi",
-                tags: ["artificial-intelligence"],
-                credentials: "Founder/CEO",
-                company: "DSNai",
+                img: img_phil_watson,
+                pic: img_phil_watson,
+                name: "Phil Watson",
+                credentials: "CEO",
+                company: "Lightbox Wealth",
+                tags: ["wealth-management"]
             }
-           
         ]
     },
     {
         id: 12,
-        date: "Wed, 09 Oct",
-        time: "3:15PM",
-        dateCode: "Wed",
-        duration: "60",
-        topic: "Keynote Presentation on Technologies Powering Financial Services",
-        theme: ["fintech"],
-        type: "Keynote Presentation",
+        date: "Tue, 08 Oct",
+        startTime: "2:55 PM",
+        endTime: "3:55PM",
+        dateCode: "Tue",
+        duration: "80",
+        topic: "Funding the Next Wave of Financial Innovation",
+        theme: ["strategy-&-markets", "investment"],
+        type: ["roundtables"],
+        description: "Roundtable",
         speaker: [
             {
                 img: img_iyinoluwa,
                 pic: img_iyinoluwa,
                 name: "Iyinoluwa Aboyeji",
-                tags: ["digital-business-models", "fintech"],
+                tags: ["strategy-&-markets", "fintech"],
                 credentials: "Founding Partner",
                 company: "Future Africa",
+            },
+            {
+                img: img_tayo_bamiduro,
+                pic: img_tayo_bamiduro,
+                name: "Tayo Bamiduro",
+                credentials: "Founder/CEO",
+                company: "Max",
+                tags: ["fintech"]
+            }
+        ]
+    },
+    {
+        id: 13,
+        date: "Tue, 08 Oct",
+        startTime: "2:55 PM",
+        endTime: "2:25PM",
+        dateCode: "Tue",
+        duration: "50",
+        topic: "Redefining CX through Open Finance, AI and Technologies",
+        theme: ["customer-experience", "financial-technology", "artificial-intelligence"],
+        type: ["panel-session"],
+        description: "Panel Session",
+        speaker: [
+            {
+                img: img_meaghan,
+                pic: img_meaghan,
+                name: "Meaghan Johnson",
+                credentials: "Convener/ED",
+                company: "FFS",
+                tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
+            },
+            {
+                img: img_abdullo,
+                pic: img_abdullo,
+                name: "Abdullo Kurbanov ",
+                tags: ["customer-experience"],
+                credentials: "Co-Founder",
+                company: "Ayan Capital and Alif Bank"
+            },
+            {
+                img: img_marie,
+                pic: img_marie,
+                name: "Marie Walker",
+                tags: ["customer-experience"],
+                credentials: "Open Futurist",
+                company: "Radiam",
+            },
+            {
+                img: img_nadav_mordechai,
+                pic: img_nadav_mordechai,
+                name: "Nadav Mordechai",
+                tags: ["customer-experience"],
+                credentials: "Product and Strategy Director",
+                company: "Elsewhen",
+            },
+            {
+                img: img_jas_shah,
+                pic: img_jas_shah,
+                name: "Jas Shah",
+                tags: ["customer-experience"],
+                credentials: "Fintech Consultant",
+                company: "Bitsul",
+            }
+            
+        ]
+    },
+    {
+        id: 14,
+        date: "Wed, 09 Oct",
+        startTime: "8:00 AM",
+        endTime: "9:00AM",
+        dateCode: "Wed",
+        duration: "60",
+        topic: "",
+        theme: null,
+        type: ["break"],
+        description: "Breakfast Networking",
+        speaker: null
+    },
+    {
+        id: 15,
+        date: "Wed, 09 Oct",
+        startTime: "9:00 AM",
+        endTime: "9:15AM",
+        dateCode: "Wed",
+        duration: "15",
+        topic: "",
+        theme: null,
+        type: ["remarks"],
+        description: "Recap of Day 1",
+        speaker: [
+            {
+                img: img_nina_mohanty,
+                pic: img_nina_mohanty,
+                name: "Nina Mohanty",
+                credentials: "CEO",
+                company: "Bloom Money",
+                tags: ["general"],
             }
            
         ]
     },
+    {
+        id: 16,
+        date: "Wed, 09 Oct",
+        startTime: "9:10 AM",
+        endTime: "9:30AM",
+        dateCode: "Wed",
+        duration: "30",
+        topic: "Gen AI in Financial Services",
+        theme: ["artificial-intelligence", "financial-technology"],
+        type: ["keynote-presentation"],
+        description: "Keynote Presentation",
+        speaker: [
+            {
+                img: img_mathias_canales,
+                pic: img_mathias_canales,
+                name: "Mathias Canales",
+                credentials: "Customer Engineer AI/ML",
+                company: "Google",
+                tags: ["artificial-intelligence"],
+            }
+           
+        ]
+    },
+    {
+        id: 17,
+        date: "Wed, 09 Oct",
+        startTime: "9:45 AM",
+        endTime: "10:25AM",
+        dateCode: "Wed",
+        duration: "50",
+        topic: "AI's Competitive Edge: Shaping the Future of Financial Products",
+        theme: ["artificial-intelligence", "financial-technology"],
+        type: ["panel-session"],
+        description: "Panel Session",
+        speaker: [
+            {
+                img: img_frankie_woodhead,
+                pic: img_frankie_woodhead,
+                name: "Frankie Woodhead",
+                credentials: "Group Chief Product Officer",
+                company: "Bank of London",
+                tags: ["cybersecurity"]
+            },
+            {
+              
+                img: img_gerald_chappell,
+                pic: img_gerald_chappell,
+                name: "Gerald Chappell",
+                credentials: "CEO and Co-Founder",
+                company: "Abound",
+                tags: ["artificial-intelligence"],
+            },
+            {
+                img: img_jp_fabri,
+                pic: img_jp_fabri,
+                name: "JP Fabri",
+                tags: ["artificial-intelligence"],
+                credentials: "Founder",
+                company: "myUbuntu",
+            },
+            {
+                img: img_natasha_kyprianidou_,
+                pic: img_natasha_kyprianidou_,
+                name: "Natasa Kyprianidou",
+                tags: ["artificial-intelligence"],
+                credentials: "Senior Director",
+                company: "Alvarez & Marsal",
+            }
+           
+        ]
+    },
+    {
+        id: 18,
+        date: "Wed, 09 Oct",
+        startTime: "10:50 AM",
+        endTime: "9:30AM",
+        dateCode: "Wed",
+        duration: "30",
+        topic: "Humans and AI: Leading the Future Through Collaboration",
+        theme: ["artificial-intelligence", "financial-technology"],
+        type: ["keynote-presentation"],
+        description: "Keynote Presentation", 
+        speaker: [
+            {
+                img: img_jennifer_stirrup,
+                pic: img_jennifer_stirrup,
+                name: "Jennifer Stirrup",
+                tags: ["artificial-intelligence", "financial-technology"],
+                credentials: "Thought Leader in Business Intelligence and AI",
+                company: "Data Relish",
+            } 
+        ] 
+    },
+    {
+        id: 26,
+        date: "Wed, 09 Oct",
+        startTime: "11:20 AM",
+        endTime: "2:30PM",
+        dateCode: "Wed",
+        duration: "80",
+        topic: "Redefining Wealth Management in a Digital-First World",
+        theme: ["wealth-management"],
+        type: ["roundtables"],
+        description: "Roundtable",
+        speaker: [
+            {
+                img: img_nathalie_weil,
+                pic: img_nathalie_weil,
+                name: "Nathalie Weil",
+                tags: ["wealth-management"],
+                credentials: "Co-founder",
+                company: "Old Street Ventures"
+            },
+            {
+                img: img_stacey_body,
+                pic: img_stacey_body,
+                name: "Stacey Body",
+                tags: ["wealth-management"],
+                credentials: "Co-founder & CEO",
+                company: "Aventur"
+            }
+        ]
+    },
+    {
+        id: 19,
+        date: "Wed, 09 Oct",
+        startTime: "11:20 AM",
+        endTime: "9:30AM",
+        dateCode: "Wed",
+        duration: "30",
+        topic: "Digital Transformation in Banking",
+        theme: ["financial-technology"],
+        type: ["keynote-presentation"],
+        description: "Keynote Presentation",
+        speaker: [
+            {
+                img: img_lanre,
+                pic: img_lanre,
+                name: "Lanre Bamisebi",
+                credentials: "ED IT & Digitalization",
+                company: "Access Holdings",
+                tags: ["fintech"],
+            }
+           
+        ]
+    },
+    {
+        id: 20,
+        date: "Wed, 09 Oct",
+        startTime: "11:50 AM",
+        endTime: "9:30AM",
+        dateCode: "Wed",
+        duration: "30",
+        topic: "Web3 and Financial Services",
+        theme: ["web3"],
+        type: ["keynote-presentation"],
+        description: "Keynote Presentation",
+        speaker: [
+            {
+                img: img_gwera_kiwana,
+                pic: img_gwera_kiwana,
+                name: "Gwera Kiwana",
+                credentials: "VP Blockchain",
+                company: "Onafriq",
+                tags: ["fintech"],
+            }
+           
+        ]
+    },
+    {
+        id: 22,
+        date: "Wed, 09 Oct",
+        startTime: "1:20 PM",
+        endTime: "10:45AM",
+        dateCode: "Wed",
+        duration: "50",
+        topic: "Product Demo, Intellibonds",
+        theme: ["artificial-intelligence", "financial-technology", "wealth-management"],
+        type: ["product-demo"],
+        description: "Product Demo",
+        speaker: null,
+        product: [
+            {
+                name: "Intellibonds Demo",
+                img: img_intellibonds_logo,
+                company: "Intellibonds",
+                tags: ["artificial-intelligence"],
+            }
+        ]
+    },
+    {
+        id: 23,
+        date: "Wed, 09 Oct",
+        startTime: "1:35 PM",
+        endTime: "11:40AM",
+        dateCode: "Wed",
+        duration: "50",
+        topic: "Leveraging AI to Create Value",
+        theme: ["artificial-intelligence", "financial-technology"],
+        type: ["panel-session"],
+        description: "Panel Session",
+        speaker: [
+            
+            {
+                img: img_kimberly_long,
+                pic: img_kimberly_long,
+                name: "Kimberly Long",
+                tags: ["artificial-intelligence", "financial-technology"],
+                credentials: "Asia Editor",
+                company: "The Banker"
+            },
+            {
+                img: img_tram_anh_nguyen,
+                pic: img_tram_anh_nguyen,
+                name: "Tram Anh Nguyen",
+                tags: ["artificial-intelligence", "financial-technology"],
+                credentials: "Co-founder",
+                company: "CFTE",
+            },
+            {
+                img: img_phil_watson,
+                pic: img_phil_watson,
+                name: "Phil Watson",
+                credentials: "CEO",
+                company: "Lightbox Wealth",
+                tags: ["artificial-intelligence", "financial-technology"],
+            },
+            {
+                img: img_royston_da_costa,
+                pic: img_royston_da_costa,
+                name: "Royston Da Costa",
+                tags: ["artificial-intelligence", "financial-technology"],
+                credentials: "Assitant Treasurer",
+                company: "Ferguson"
+            },
+            {
+                img: img_bode_pedro,
+                pic: img_bode_pedro,
+                name: "Bode Pedro",
+                credentials: "Founder/CEO",
+                company: "Casava",
+                tags: ["strategy-&-markets"],
+            }
+        ]
+    },
+    {
+        id: 24,
+        date: "Wed, 09 Oct",
+        startTime: "2:30 PM",
+        endTime: "12:10PM",
+        dateCode: "Wed",
+        duration: "30",
+        topic: "Building Business Agility and Cyber Resiliece",
+        theme: ["cybersecurity", "risk"],
+        type: ["keynote-presentation"],
+        description: "Keynote Presentation",
+        speaker: [
+            {
+                img: img_jessica_figueras,
+                pic: img_jessica_figueras,
+                name: "Jessica Figueras",
+                tags: ["cybersecurity"],
+                credentials: "Chief Executive, Pionen and Co-founder",
+                company: "CxB (Cyber Governance for Boards)",
+            }
+           
+        ]
+    },
+    {
+        id: 21,
+        date: "Wed, 09 Oct",
+        startTime: "3:10 PM",
+        endTime: "2:30PM",
+        dateCode: "Wed",
+        duration: "80",
+        topic: "Launching a Digital Bank",
+        theme: ["strategy-&-markets"],
+        type: ["roundtables"],
+        description: "Roundtable",
+        speaker: [
+            {
+                img: img_nadav_mordechai,
+                pic: img_nadav_mordechai,
+                name: "Nadav Mordechai",
+                tags: ["customer-experience"],
+                credentials: "Product and Strategy Director",
+                company: "Elsewhen",
+            },
+            {
+                img: img_jas_shah,
+                pic: img_jas_shah,
+                name: "Jas Shah",
+                tags: ["customer-experience"],
+                credentials: "Fintech Consultant",
+                company: "Bitsul",
+            },
+            {
+                img: img_alex_menage,
+                pic: img_alex_menage,
+                name: "Alex Menage",
+                tags: ["strategy-&-markets"],
+                credentials: "Managing Director of EMEA and Global Head of Sales",
+                company: "Thought Machine",
+            }
+           
+        ]
+    },
+    {
+        id: 27,
+        date: "Wed, 09 Oct",
+        startTime: "3:10 PM",
+        endTime: "2:00PM",
+        dateCode: "Wed",
+        duration: "20",
+        topic: "Fighting Financial Fraud: The Future of APP Scams And Consumer Protection",
+        theme: ["cybersecurity", "risk"],
+        type: ["fireside-chat"],
+        description: "Fireside Chat",
+        speaker: [
+            {
+                img: img_ali_paterson,
+                pic: img_ali_paterson,
+                name: "Ali Paterson",
+                tags: ["artificial-intelligence"],
+                credentials: "Founder/CEO Editor in Chief",
+                company: "FF News Fintech/Finance"
+            },
+            {
+                img: img_nicky,
+                pic: img_nicky,
+                name: "Nicky Goulimis",
+                tags: ["cybersecurity", "risk"],
+                credentials: "Founder",
+                company: "Tonic Pay"
+            }
+        ]
+    },
+    {
+        id: 28,
+        date: "Wed, 09 Oct",
+        startTime: "3:35 PM",
+        endTime: "1:40PM",
+        dateCode: "Wed",
+        duration: "30",
+        topic: "The Growing Threat of Ransomware",
+        theme: ["cybersecurity", "risk"],
+        type: ["keynote-presentation"],
+        description: "Keynote Presentation",
+        speaker: [
+            {
+                img: img_andy,
+                pic: img_andy,
+                name: "Andy Jenkinson",
+                tags: ["artificial-intelligence", "financial-technology"],
+                credentials: "Group Chief Executive Officer",
+                company: "Cybersec Innovation Partners",
+            }
+        ]
+    },
+    {
+        id: 37,
+        date: "Thur, 10 Oct",
+        startTime: "9:00 AM",
+        endTime: "9:00AM",
+        dateCode: "Thu",
+        duration: "60",
+        topic: "",
+        theme: ["financial-technology", "artificial-intelligence"],
+        type: ["break"],
+        description: "Invitation-only Workshops",
+        speaker: null
+    }
 
 ]
 

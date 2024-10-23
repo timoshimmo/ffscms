@@ -51,7 +51,6 @@ const initBanner = {
 const Banner = () => {
 
     let navigate = useNavigate();
-    //const sliderRef = useRef();
     const swiperRef = useRef<SwiperRef>(null);
     const [dataEntry, setDataEntry] = useState<IBanner>(initBanner);
     const [speakersList, setSpeakersList] = useState<ISpeakers[] | []>([]);
@@ -71,20 +70,10 @@ const Banner = () => {
                 var d = new Date(b.sys.createdAt) as any;
                 return c-d;
             });
-            //console.log(`Sorted: ${JSON.stringify(sortedSpeakers)}`);
+            console.log(`Sorted: ${JSON.stringify(sortedSpeakers)}`);
             setDataEntry(fields.fields);
             setSpeakersList(sortedSpeakers);
         });
-        
-
-      /*  axios.get(`https://cdn.contentful.com/spaces/8kgt6jcufmb2/environments/master/entries/3vrx9Ezv34q2B8pY0kjP25?access_token=0i1vMSW9uEuEaMKBV_cMWva-FkSU11BTHazrVRUxUW4`)
-        .then(res => {
-          const data = res.data.fields;
-          console.log(`Response: ${JSON.stringify(data)}`);
-          setDataEntry(data);
-        }) */
-
-
     }, []);
 
     const redirect =() => {

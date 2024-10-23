@@ -1,4 +1,4 @@
-import React, { useState, useEffect  } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Container, Row, Col, Card, CardBody } from 'reactstrap';
 //import { Link } from 'react-router-dom';
 import { connectData } from '../../../common/data';
@@ -17,8 +17,8 @@ import { Scrollbar, Navigation } from 'swiper/modules';
 interface IData {
     data: {
         fields: {
-            title: '',
-            description: '',
+            title: string,
+            description: string,
             file: any
         }
     };
@@ -35,21 +35,14 @@ const Connect = () => {
     const [subTopic, setSubTopic] = useState('');
     const [entryData, setEntryData] = useState<IData[] | []>([]);
 
-    //const swiperRef = useRef<RefObject | null>(null);
-
-
-   /* swiperRef.current?.addEventListener('swiperslidechange', (e) => {
-        console.log(e.currentTarget);
-    }); */
-
     useEffect(() => {
 
         axios.get("https://cdn.contentful.com/spaces/8kgt6jcufmb2/environments/master/entries/6wt5Sjk0vO3egd1YYsuJB8?access_token=0i1vMSW9uEuEaMKBV_cMWva-FkSU11BTHazrVRUxUW4")
         .then(async response => {
                
                 //console.log(`Response: ${JSON.stringify(response.data.fields.listData)}`);
-                setTopic(response.data.fields.topic);
-                setSubTopic(response.data.fields.subTitle);
+                setTopic(response.data.fields.title1);
+                setSubTopic(response.data.fields.title2);
 
                 let arr_obj: any[] = [];
 
@@ -66,11 +59,11 @@ const Connect = () => {
                     }); */
                 });
 
-                console.log(JSON.stringify(arr_obj));
+                //console.log(JSON.stringify(arr_obj));
 
                 Promise.all(arr_obj.map((endpoint) => axios.get(endpoint))).then(results => {
                     //console.log(`Fields: ${JSON.stringify(fields.fields)}`);
-                    console.log(`Items: ${JSON.stringify(results)}`);
+                   // console.log(`Items: ${JSON.stringify(results)}`);
                     setEntryData(results);
                    // const sortedSpeakers = items.items.sort((a: any,b: any) => Date.parse(b.sys.createdAt) - Date.parse(a.sys.createdAt));
                  
