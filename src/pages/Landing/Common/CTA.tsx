@@ -1,6 +1,5 @@
 import React, { useState, useEffect }  from 'react';
-import { Container, Row, Col, Input, Form } from 'reactstrap';
-import { Link } from 'react-router-dom';
+import { Container, Row, Col, Input, Form, Alert } from 'reactstrap';
 import axios from 'axios';
 import * as Yup from "yup";
 import { useFormik } from "formik";
@@ -10,6 +9,8 @@ const CTA = () => {
 
     const [successful, setSuccessful] = useState(false);
     const [loading, setLoading] = useState(false);
+    const [errorMsg, setErrorMsg] = useState('');
+    const [closeAlert, setCloseAlert] = useState(false);
 
     useEffect(() => {
         setTimeout(() => {
@@ -35,7 +36,7 @@ const CTA = () => {
             setLoader(true)
             */
             handleClick(values);
-            resetForm();
+            //resetForm();
         }
     });
 
@@ -44,25 +45,32 @@ const CTA = () => {
         if(!validation.errors.email) {
             setLoading(true);
 
-            axios.post('https://api.futureoffinancialservices.org/api/subscribe-email', obj)
+            axios.post('https://dev-api.futureoffinancialservices.org/api/v1/subscribe', obj)
             .then(response => {
                 console.log(response);
                 setSuccessful(true);
                 setLoading(false);
+                validation.resetForm();
             })
             .catch((error) => {
                 if (error.response) {
-                console.log(error.response);
-                console.log("server error");
+                    console.log("server error");
+                    console.log(error.response.data.error);
+                    setErrorMsg(error.response.data.error);
+                    setCloseAlert(true);
                 } else if (error.request) {
-                console.log("network error");
+                    console.log("network error");
                 } else {
-                console.log(error);
+                    console.log(error);
                 }
                 setLoading(false);
           })
         }
     };
+
+    const onDismiss = () => {
+        setCloseAlert(false);
+    }
 
     return (
         <React.Fragment>
@@ -91,7 +99,7 @@ const CTA = () => {
                                         id="email"
                                         name="email"
                                         placeholder="Enter email address"
-                                        className="border-0 fs-15 px-3 w-100"  
+                                        className="border-0 fs-15 px-3 w-100 text-center cta-email"  
                                         type="email"
                                         onChange={validation.handleChange}
                                         onBlur={validation.handleBlur}
@@ -116,8 +124,11 @@ const CTA = () => {
                                     {/* End Constant Contact Inline Form Code */}
                                 
                             </Form>
-                            
+                            <div className='w-100 px-2 mt-3'>
+                                {errorMsg && errorMsg !== '' ? (<Alert color="danger" isOpen={closeAlert} toggle={onDismiss}> {errorMsg} </Alert>) : null}
+                            </div>
                         </Col>
+                       
                     </Row>
                     :
                     <Row className="justify-content-center align-items-center gy-4">
@@ -132,7 +143,6 @@ const CTA = () => {
                     }
                 </Container>
             </section>
-
             <section className="p-3 position-relative mobile-cta-home">
                 <div className="bg-overlay bg-overlay-pattern opacity-50"></div>
                 <Container>
@@ -143,7 +153,7 @@ const CTA = () => {
                                 <h2 className="text-dark mb-0 fw-bold" style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif' }}>Join Our Ever Growing Community</h2>
                             </div>
                             <div className="mt-4 hstack p-2 justify-content-between border border-1 rounded-5">
-                                <input type="email" placeholder="example@email.com" className="border-0 fs-12 px-3 w-100"  style={{ color: '#141413', backgroundColor: 'transparent' }} />
+                                <input type="email" placeholder="example@email.com" className="border-0 fs-12 px-3 w-100 cta-email-mobile"  style={{ color: '#141413', backgroundColor: 'transparent' }} />
                             </div>
                             <div className="mt-3 d-flex justify-content-center">
                                 <input type="button" className="btn btn-primary border border-primary rounded-5 py-2 fs-12" value="Subscribe" style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif' }}/>

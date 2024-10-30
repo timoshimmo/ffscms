@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 //import Navbar from './Navbar';
 import Navbar from '../Common/Navbar';
 import About from "./About";
@@ -11,7 +12,7 @@ import JoinUs from './JoinUs';
 import Footer from '../Common/footer';
 
 const index = () => {
-    document.title = "Future of Financial Services Summit | About";
+    document.title = "Future of Financial Services | About";
 
     window.onscroll = function () {
         scrollFunction();
@@ -36,13 +37,16 @@ const index = () => {
     return (
         <React.Fragment>
             <div className="layout-wrapper landing body-bg-dark">
+                <Helmet>
+                    <meta name="description" content="Future of Financial Services | About" />
+                </Helmet>
                 <Navbar />
                 <About />
                 <MissionVision />
                 <WhatWeDo />
                 <WhyChoose />
                 <JoinUs />
-                <Faq />
+                {/*<Faq />*/}
                 <CTA />
                 <Footer />
                 <button onClick={() => toTop()} className="btn btn-primary btn-icon landing-back-top" id="back-to-top">

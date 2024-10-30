@@ -1,11 +1,12 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import Navbar from '../Common/Navbar';
 import Banner from "./Banner";
 import RegisterForm from './RegisterForm';
 import Footer from '../Common/footer';
 
 const index = () => {
-    document.title = "Future of Financial Services Summit | Register";
+    document.title = "Future of Financial Services | Register";
 
     window.onscroll = function () {
         scrollFunction();
@@ -31,6 +32,9 @@ const index = () => {
     return (
         <React.Fragment>
             <div className="layout-wrapper landing body-bg-dark">
+                <Helmet>
+                    <meta name="description" content="Future of Financial Services | Register" />
+                </Helmet>
                 <Navbar />
                 <Banner />
                 <RegisterForm />

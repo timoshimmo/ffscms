@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Container, Row, Col, Card, CardBody } from 'reactstrap';
 import { Accordion, AccordionBody, AccordionHeader, AccordionItem } from 'reactstrap';
-import { faqData } from '../../../common/data';
+//import { faqData } from '../../../common/data';
 import axios from 'axios';
+
 
 interface IFAQ {
     id: string,
@@ -33,21 +34,21 @@ const Faq = () => {
         axios.get("https://cdn.contentful.com/spaces/8kgt6jcufmb2/environments/master/entries/4YJ32HF5mHMEQYpmFmkNpp?access_token=0i1vMSW9uEuEaMKBV_cMWva-FkSU11BTHazrVRUxUW4")
         .then(async response => {
                
-                console.log(`FAQS: ${JSON.stringify(response.data.fields)}`);
-                setTitle(response.data.fields.title);
-                setSubtitle(response.data.fields.subtitle);
-                setFaqs(response.data.fields.questions);
+            //console.log(`FAQS: ${JSON.stringify(response.data.fields)}`);
+            setTitle(response.data.fields.title);
+            setSubtitle(response.data.fields.subtitle);
+            setFaqs(response.data.fields.questions);
             
-            })
-            .catch((error) => {
-                if (error.response) {
-                    console.log(error.response);
-                    console.log("server error");
-                } else if (error.request) {
-                    console.log("network error");
-                } else {
-                    console.log(error);
-                }
+        })
+        .catch((error) => {
+            if (error.response) {
+                console.log(error.response);
+                console.log("server error");
+            } else if (error.request) {
+                console.log("network error");
+            } else {
+                console.log(error);
+            }
         });
 
     }, []);

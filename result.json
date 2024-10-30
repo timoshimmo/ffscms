@@ -1,69 +1,52 @@
 {
-    "topic": "Agenda Page",
-    "title": "FFS 2024 Agenda",
-    "subtitle": "Explore the Day's Tech-Focused Discussions and Interactive Sessions. Detailed Schedule of Tech Talks, Demos, and Networking Opportunities",
-    "themes": [
-        {
+    "metadata": {
+        "tags": [],
+        "concepts": []
+    },
+    "sys": {
+        "space": {
             "sys": {
                 "type": "Link",
-                "linkType": "Entry",
-                "id": "6R3pMK8HJtMlTF4eRXE91X"
+                "linkType": "Space",
+                "id": "8kgt6jcufmb2"
             }
         },
-        {
+        "id": "7fm3rMLrgGBBxHrrT6yKN5",
+        "type": "Entry",
+        "createdAt": "2024-10-28T12:11:36.789Z",
+        "updatedAt": "2024-10-28T12:28:11.465Z",
+        "environment": {
             "sys": {
+                "id": "master",
                 "type": "Link",
-                "linkType": "Entry",
-                "id": "YPEt7ZvPD04RZvRb2FVel"
+                "linkType": "Environment"
             }
         },
-        {
+        "publishedVersion": 14,
+        "revision": 2,
+        "contentType": {
             "sys": {
                 "type": "Link",
-                "linkType": "Entry",
-                "id": "4NW0MiXxFh2RPUfvb7ZxRS"
-            }
-        }
-    ],
-    "agendas": [
-        {
-            "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "6HzNTuCs60jIOt7FMUxixW"
+                "linkType": "ContentType",
+                "id": "homeModel"
             }
         },
-        {
-            "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "4fod84TnBtYk6PBQP0EBxD"
+        "locale": "en-US"
+    },
+    "fields": {
+        "topic": "Home Landing Page",
+        "title": "Future of Financial Services",
+        "titleButtonText": "Learn More",
+        "titleButtonUrl": "/about",
+        "articles": [
+            {
+                "sys": {
+                    "type": "Link",
+                    "linkType": "Entry",
+                    "id": "3xwptw22HDH5scUAVvqkvn"
+                }
             }
-        },
-        {
-            "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "2lL7qseQRpyyjv8D3k9MoZ"
-            }
-        },
-        {
-            "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "7ff4aZwolo1idbsrgTSvnS"
-            }
-        }
-    ],
-    "days": [
-        "All",
-        "Tuesday, 8 October",
-        "Wednesday, 9 October"
-    ],
-    "themesTest": [
-        "financial-technology",
-        "artificial-intelligence",
-        "cybersecurity",
-        "risk"
-    ]
+        ],
+        "introVideoUrl": "https://res.cloudinary.com/westpaybankit/video/upload/v1730055056/FFS/FFS_Summit_Summary.mp4"
+    }
 }

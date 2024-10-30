@@ -14,10 +14,15 @@ import ContactUs from '../pages/Landing/ContactUs';
 import Speakers from '../pages/Landing/Speakers';
 import Agenda from '../pages/Landing/Agenda';
 import Insights from '../pages/Landing/Insights';
+import PrivacyPolicy from '../pages/Landing/PrivacyPolicy';
+import TermsConditions from '../pages/Landing/TermsConditions';
+import CookiePolicy from '../pages/Landing/CookiesPolicy';
+import UpdateRegisterForm from "pages/Landing/UpdateRegister";
+import Faq from "pages/Landing/Faqs";
 
 const publicRoutes : any= [
   //FFS Routes
-  { path: "/", component: <Home /> },
+  { path: "/", component: <Insights /> },
   { path: "/about", component: <About /> },
   { path: "/register", component: <Register /> },
   { path: "/exhibitors", component: <Exhibitor /> },
@@ -27,6 +32,13 @@ const publicRoutes : any= [
   { path: "/speakers", component: <Speakers /> },
   { path: "/agenda", component: <Agenda /> },
   { path: "/insights", component: <Insights />},
+  { path: "/privacy", component: <PrivacyPolicy />},
+  { path: "/terms", component: <TermsConditions />},
+  { path: "/cookie-policy", component: <CookiePolicy />},
+  { path: "/summit", component: <Home />},
+  { path: "/faq", component: <Faq />},
+  {path: "/booking/:token", component: <UpdateRegisterForm />},
+  
   
   /*
   {

@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Col, Container, Row, NavLink } from 'reactstrap';
+import { Col, Container, Row } from 'reactstrap';
 
 // Import Images
-import logolight from "../../../assets/images/ffs_top_logo_light.png";
-import ffsLogoDark from "../../../assets/images/ffs_top_logo_dark.png";
+//import logolight from "../../../assets/images/ffs_top_logo_light.png";
+//import ffsLogoDark from "../../../assets/images/ffs_top_logo_dark.png";
 import ffsLogoLight1 from "../../../assets/images/ffs_top_logo_light2.png";
 
 const Footer = () => {
@@ -17,7 +17,10 @@ const Footer = () => {
                         <Col lg={5} className="mt-5">
                             <div>
                                 <div className='mb-5'>
+                                <Link to="/" className="d-block">
                                     <img src={ffsLogoLight1} alt="logo light" className="footer-logo" />
+                                 </Link>   
+                                    
                                 </div>
                                 <div className="mt-4 fs-13">
                                     <ul className="list-inline mb-0 footer-social-link">
@@ -56,6 +59,7 @@ const Footer = () => {
                                             {/* home#banner */}
                                             {/* <li><Link to="/pages-gallery" className="text-white fs-14">Team</Link></li> */}
                                             <li><Link to="/contact-us" className="text-white fs-14">Contact Us</Link></li>
+                                            <li><Link to="/faq" className="text-white fs-14">FAQs</Link></li>
                                         </ul>
                                     </div>
                                 </Col>
@@ -71,12 +75,13 @@ const Footer = () => {
                                     </div>
                                 </Col>
                                 <Col sm={4} xs={6} className="mt-4">
-                                    <h5 className="text-primary mb-0" style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif' }}>Resources</h5>
+                                    <h5 className="text-primary mb-0" style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif' }}>Events</h5>
                                     <div className="text-white  mt-3">
                                         <ul className="list-unstyled ff-secondary footer-list">
-                                            <li><Link to="/insights" className="text-white fs-14">Insights</Link></li>
-                                            <span className="text-white fs-14">Events</span>
-                                            {/* <li><Link to="#" className="text-white fs-14">Events</Link></li> */}
+                                            <li><Link to="/summit" className="text-white fs-14">FFS Summit 2024</Link></li>
+                                            {/* <li><Link to="/speakers" className="text-white fs-14">2024 Speakers</Link></li>
+                                           
+    <li><Link to="/agenda" className="text-white fs-14">2024 Agenda</Link></li> */}
                                         </ul>
                                     </div>
                                 </Col>
@@ -96,19 +101,19 @@ const Footer = () => {
                             <div className="text-sm-end mobile-copyright-area">
                                 <ul className="list-inline mb-0 footer-social-link">
                                     <li className="list-inline-item px-2">
-                                        {/* <Link to="#" className="d-block"> */}
+                                         <Link to="/terms" className="d-block">
                                             <span className="text-muted fs-14">Terms</span>
-                                        {/* </Link> */}
+                                         </Link>
                                     </li>
                                     <li className="list-inline-item px-2">
-                                        {/* <Link to="#" className="d-block"> */}
+                                         <Link to="/privacy" className="d-block"> 
                                             <span className="text-muted fs-14">Privacy</span>
-                                        {/* </Link> */}
+                                         </Link>
                                     </li>
                                     <li className="list-inline-item px-2">
-                                        {/* <Link to="#" className="d-block"> */}
+                                        <Link to="/cookie-policy" className="d-block">
                                             <span className="text-muted fs-14">Cookies</span>
-                                        {/* </Link> */}
+                                        </Link>
                                     </li> 
                                 </ul>
                             </div>

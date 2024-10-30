@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from "../Common/Navbar";
+import NavbarSecondary from '../Common/NavbarSecondary';
 import Banner from "./Banner";
 import Connect from './Connect';
 import Numbers from './Numbers';
@@ -8,10 +9,11 @@ import Sponsor from './Sponsor';
 import Latest from './Latest';
 import Faq from './Faq';
 import CTA from '../Common/CTA';
-import Footer from "../Common/footer";
+//import Footer from "../Common/footer";
+import FooterSummit from '../Common/footerSummit';
 
 const index = () => {
-    document.title = "Future of Financial Services Summit | Home";
+    document.title = "Future of Financial Services | Home";
 
     window.onscroll = function () {
         scrollFunction();
@@ -46,7 +48,9 @@ const index = () => {
     return (
         <React.Fragment>
             <div className="layout-wrapper landing body-bg-dark">
-                <Navbar />
+                {/* <NavbarSummit /> */}
+                {/* <Navbar /> */}
+                <NavbarSecondary />
                 <Banner />
                 <Connect />
                 <Numbers />
@@ -55,7 +59,7 @@ const index = () => {
                 <Latest />
                 <Faq />
                 <CTA />
-                <Footer />
+                <FooterSummit />
                 <button onClick={() => toTop()} className="btn btn-primary btn-icon landing-back-top" id="back-to-top">
                     <i className="ri-arrow-up-line"></i>
                 </button>

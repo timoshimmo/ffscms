@@ -4,9 +4,11 @@ import Footer from '../Common/footer';
 import Banner from './Banner';
 import Main from './Main';
 import CTA from '../Common/CTA';
+import Faq from './Faq';
+import Features from './Features';
 
 const index = () => {
-    document.title = "Future of Financial Services Summit | Insight";
+    document.title = "Future of Financial Services | Insight";
 
     window.onscroll = function () {
         scrollFunction();
@@ -28,7 +30,9 @@ const index = () => {
             <div className="layout-wrapper landing body-bg-dark">
                 <Navbar />
                 <Banner />
+                {/* <Features /> */}
                 <Main />
+                <Faq />
                 <CTA />
                 <Footer />
             </div>

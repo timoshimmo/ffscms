@@ -1,288 +1,363 @@
 [
     {
-        "topic": "Agenda - Reflections from Innovators on the Future of Banking",
-        "date": "Tue, 08 Oct",
-        "startTime": "9:50 AM",
-        "dateCode": "Tue",
-        "title": "Reflections from Innovators on the Future of Banking",
-        "theme": [
-            "strategy-&-markets"
-        ],
-        "type": [
-            "panel"
-        ],
-        "description": "Panel Session",
-        "speakers": [
-            {
-                "topic": "Speaker - Elizabeth Lumley",
-                "name": "Elizabeth Lumley",
-                "credentials": "Deputy Editor",
-                "company": "The Banker",
-                "image": {
-                    "sys": {
-                        "type": "Link",
-                        "linkType": "Asset",
-                        "id": "2Jgq75EUPZi64mpYZBG20F"
-                    }
-                },
-                "tags": [
-                    "strategy-&-markets"
-                ],
-                "imgs": {
-                    "title": "Elizabeth Lumley",
-                    "description": "is the Deputy Editor at The Banker. She is a global specialist commentator on global financial technology or “fintech”. She has spent 30 years working in the financial technology space, most recently as director at VC Innovations and architect of the Fintech Talents Festival, managing director at Startupbootcamp FinTech London and an editor at financial services and technology newswire, Finextra.\\n\\nShe was named Journalist of the Year for Technology and Digital Finance at State Street’s UK Press Awards for 2022.",
-                    "file": {
-                        "url": "//images.ctfassets.net/8kgt6jcufmb2/2Jgq75EUPZi64mpYZBG20F/d1e86d687a2612e83976e1c113c9db15/img_lumley.png",
-                        "details": {
-                            "size": 359935,
-                            "image": {
-                                "width": 755,
-                                "height": 666
-                            }
-                        },
-                        "fileName": "img_lumley.png",
-                        "contentType": "image/png"
-                    }
-                }
-            },
-            {
-                "topic": "Speaker - Abubakar Suleiman",
-                "name": "Abubakar Suleiman",
-                "credentials": "CEO",
-                "company": "Sterling Bank",
-                "image": {
-                    "sys": {
-                        "type": "Link",
-                        "linkType": "Asset",
-                        "id": "2j2GstBbfus11FemWtKZp1"
-                    }
-                },
-                "tags": [
-                    "strategy-&-markets"
-                ],
-                "imgs": {
-                    "title": "Abubakar Suleiman",
-                    "description": "is an economist and banker with over 20 years of experience in consulting and financial services. As CEO of Sterling Bank Plc, he focuses on optimizing financial intermediation in key sectors: Health, Education, Agriculture, Renewable Energy, and Transportation (H.E.A.R.T). \\n\\nPreviously, he served as Executive Director and CFO of Sterling Bank and led its non-interest banking business. Abubakar holds a B.Sc. in Economics from the University of Abuja and an M.Sc. in Major Programme Management from the University of Oxford. \\n\\nHe has also worked in tax advisory at Arthur Andersen and financial markets at Citibank Nigeria. Abubakar serves on the boards of Noor Takaful and the Nigerian Economic Summit Group (NESG).",
-                    "file": {
-                        "url": "//images.ctfassets.net/8kgt6jcufmb2/2j2GstBbfus11FemWtKZp1/40ba2c260836a92e49cc955ca644bd46/img_abu_suleiman.png",
-                        "details": {
-                            "size": 120768,
-                            "image": {
-                                "width": 300,
-                                "height": 264
-                            }
-                        },
-                        "fileName": "img_abu_suleiman.png",
-                        "contentType": "image/png"
-                    }
-                }
-            },
-            {
-                "topic": "Speaker - Sabrina Del Prete",
-                "name": "Sabrina Del Prete",
-                "credentials": "Founder",
-                "company": "KORE",
-                "image": {
-                    "sys": {
-                        "type": "Link",
-                        "linkType": "Asset",
-                        "id": "4cEuplHXCKYTwSribxBYu8"
-                    }
-                },
-                "tags": [
-                    "strategy-&-markets"
-                ],
-                "imgs": {
-                    "title": "Sabrina Del Prete",
-                    "description": "is a business transformation expert, digital strategist, and fintech entrepreneur with over 30 years of experience in international financial services. As the Founder and CEO of Kore Labs, she drives innovation by digitizing financial product data through a cloud-enabled platform. \\n\\nSabrina has held senior roles at JP Morgan Chase, Barclays, and RBS Group, where she served as Chief Digital Transformation Officer. She sits on the Board of Governors of the London Foundation of Banking and Finance and has received multiple innovation awards, including the EISA Entrepreneur of the Year in 2023. \\n\\nSabrina holds a Master's in Finance from London Business School and a degree in Business and Economics from the University of Turin. ",
-                    "file": {
-                        "url": "//images.ctfassets.net/8kgt6jcufmb2/4cEuplHXCKYTwSribxBYu8/bf9fe96c92c923fce3d87f3e2b4697cb/img_sabrina_pretz.png",
-                        "details": {
-                            "size": 112410,
-                            "image": {
-                                "width": 300,
-                                "height": 264
-                            }
-                        },
-                        "fileName": "img_sabrina_pretz.png",
-                        "contentType": "image/png"
-                    }
-                }
-            },
-            {
-                "topic": "Speaker - Barry O'Sullivan",
-                "name": "Barry O'Sullivan",
-                "credentials": "Head of Banking & Payments",
-                "company": "OpenPayd",
-                "image": {
-                    "sys": {
-                        "type": "Link",
-                        "linkType": "Asset",
-                        "id": "2AbwRfOXtO7ZkQ3uSIe40U"
-                    }
-                },
-                "tags": [
-                    "strategy-&-markets"
-                ],
-                "imgs": {
-                    "title": "Barry O'Sullivan",
-                    "description": ", As the Head of Strategy at OpenPayd, Barry oversees the development and execution of the company’s open banking and open finance roadmaps. With over 19 years of experience in financial services technology, he is passionate about leveraging new technologies to transform how businesses and individuals move money globally.\\n\\nWhile Barry recognizes the vast potential of open finance, he believes the priority should be refining open banking standards first through continuous innovation and widespread adoption. By focusing on real-world impact, Barry advocates for building a strong industry foundation that will support the successful evolution of an open finance ecosystem in the future.",
-                    "file": {
-                        "url": "//images.ctfassets.net/8kgt6jcufmb2/2AbwRfOXtO7ZkQ3uSIe40U/8ce09d361f728ffc331a01d376ecdaf9/img_barry_sullivan.png",
-                        "details": {
-                            "size": 559639,
-                            "image": {
-                                "width": 1200,
-                                "height": 1060
-                            }
-                        },
-                        "fileName": "img_barry_sullivan.png",
-                        "contentType": "image/png"
-                    }
-                }
-            },
-            {
-                "topic": "Speaker - Alessandro Hatami",
-                "name": "Alessandro Hatami",
-                "credentials": "Founder & Managing Partner",
-                "company": "Pacemakers.io",
-                "image": {
-                    "sys": {
-                        "type": "Link",
-                        "linkType": "Asset",
-                        "id": "7qPDuOXjT96zF2YWB1Pow4"
-                    }
-                },
-                "tags": [
-                    "strategy-&-markets"
-                ],
-                "imgs": {
-                    "title": "Alessandro Hatami",
-                    "description": "is the founder and managing partner of Pacemakers.io, an advisory firm that helps organizations manage digital transformation in payments, financial services, and banking. With extensive experience in digital innovation, he has held executive roles at companies like Lloyds Banking Group, PayPal, GE Capital, and PayPoint, gaining valuable insights into the industry's evolving landscape.\\n\\nIn addition to his executive roles, Alessandro has served as a Non-Executive Director at Zempler Bank and as a Board Advisor at MTS Group. He actively mentors fintech startups through leading accelerators and invests in innovative startups within the industry.\\n\\nAlessandro is also a recognized writer and public speaker on digital innovation. His book, Reinventing Banking and Finance, was honoured as the Best Book on Banking of 2022 by Investopedia and has been published in three languages.",
-                    "file": {
-                        "url": "//images.ctfassets.net/8kgt6jcufmb2/7qPDuOXjT96zF2YWB1Pow4/5d983960ade52cebaf7326572b579fac/img_alessandro_hatami.png",
-                        "details": {
-                            "size": 1309214,
-                            "image": {
-                                "width": 1200,
-                                "height": 1060
-                            }
-                        },
-                        "fileName": "img_alessandro_hatami.png",
-                        "contentType": "image/png"
-                    }
-                }
+        "topic": "Countdown to the Future of Financial Services Summit 2024 ",
+        "mainImage": {
+            "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "6rYupgk1botmOU8K0RnR4l"
             }
+        },
+        "title": "Countdown to the Future of Financial Services Summit 2024",
+        "tags": [
+            "FFS 2024",
+            "Financial Services"
         ],
-        "position": 4
-    },
-    {
-        "topic": "Agenda - The Future of Banking",
-        "date": "Tue, 08 Oct",
-        "startTime": "9:15 AM",
-        "dateCode": "Tue",
-        "title": "The Future of Banking",
-        "theme": [
-            "strategy-&-markets"
-        ],
-        "type": [
-            "keynote"
-        ],
-        "description": "Keynote Presentation",
-        "speakers": [
-            {
-                "topic": "Speaker - Abubakar Suleiman",
-                "name": "Abubakar Suleiman",
-                "credentials": "CEO",
-                "company": "Sterling Bank",
-                "image": {
-                    "sys": {
-                        "type": "Link",
-                        "linkType": "Asset",
-                        "id": "2j2GstBbfus11FemWtKZp1"
+        "author": {
+            "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "a4mwBMNSzQ49p8x7opuEB"
+            }
+        },
+        "publishedDate": "2024-08-05T00:00+00:00",
+        "blogType": true,
+        "contentText": {
+            "nodeType": "document",
+            "data": {},
+            "content": [
+                {
+                    "nodeType": "heading-1",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Overview",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "As we approach the highly anticipated \"Future of Financial Services Conference 2024,\" excitement is building within the financial community. This premier event, scheduled for September 15-17, 2024, in New York City, promises to be a groundbreaking convergence of industry leaders, innovators, and professionals. Here’s a detailed look at what attendees can expect and why this conference is a must-attend event for anyone in the financial services sector.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "Key Features",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-6",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "\n1. Diverse and Insightful Agenda",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "\nThe conference agenda is packed with a variety of sessions designed to provide deep insights and practical knowledge. These include:\nKeynote Addresses: Delivered by industry luminaries and visionaries who are shaping the future of financial services.\nPanel Discussions: Featuring experts who will debate and discuss critical issues and emerging trends.\nWorkshops and Interactive Sessions: Hands-on sessions where attendees can learn about new tools, technologies, and methodologies.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-6",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "\n2. Notable Speakers",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "\nThe lineup of speakers includes some of the most influential names in the financial services industry:\nJimmy Francis- CEO, Zenith Innovations\nAdaora Eze - Chief Technology Officer, TechGenius Ltd.\nEmeka Adeyemi - Chief Financial Officer, Access Bank\nFunke Adebayo - President, Nigerian Fintech Association\nKunle Oladipo - Founder & Managing Partner, Oladipo Consulting Group\nNgozi Ibe - Director of Operations, Global Finance Solutions\nThese speakers will share their insights, experiences, and predictions, providing attendees with valuable knowledge and inspiration.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-6",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "\n3. Networking Opportunities",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "\nNetworking is a cornerstone of the conference. Attendees will have numerous opportunities to connect with peers, industry leaders, and potential collaborators. Key networking events include:\nOpening Reception: A welcome event to kick off the conference and start making connections.\nNetworking Breaks: Scheduled throughout the conference to facilitate informal networking.\nExclusive VIP Luncheon: An opportunity for VIP pass holders to interact closely with keynote speakers and industry leaders.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-6",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "\n4. Exhibition Hall",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "\nThe exhibition hall will feature booths from leading companies and startups showcasing the latest innovations in financial technology. Attendees can:\nExplore new products and services.\nEngage with company representatives.\nDiscover cutting-edge solutions to enhance their business operations.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-6",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "\n5. Exclusive Content and Resources",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "\nAttendees will have access to a wealth of exclusive content, including:\nConference Materials: Presentations, whitepapers, and case studies shared by speakers.\nSession Recordings: Available post-conference for attendees to review and gain insights from sessions they may have missed.\nSpecial Reports: In-depth reports on key trends and innovations discussed during the conference.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "\nWhy Attend?",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "\nThe \"Future of Financial Services Conference 2024\" is more than just an event; it’s an opportunity to:\nGain Knowledge: Stay ahead of the curve by learning about the latest trends and innovations in financial services.\nExpand Your Network: Connect with industry leaders, peers, and potential partners.\nFind Solutions: Discover new technologies and strategies that can drive your business forward.\nGet Inspired: Hear from visionaries and thought leaders who are shaping the future of the industry.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "heading-4",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "\nRegister Today",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "\nDon’t miss out on this unparalleled opportunity to be part of the future of financial services. Register today to secure your spot and join us in New York City for what promises to be an insightful and inspiring event.",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                },
+                {
+                    "nodeType": "paragraph",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "text",
+                            "value": "",
+                            "marks": [],
+                            "data": {}
+                        }
+                    ]
+                }
+            ]
+        },
+        "blogImage": {
+            "title": "Countdown Blog Image",
+            "description": "Image for countdown blog topic",
+            "file": {
+                "url": "//images.ctfassets.net/8kgt6jcufmb2/6rYupgk1botmOU8K0RnR4l/f87d56c2f42fbd0c27844760c6d8973b/featured_insight_1.png",
+                "details": {
+                    "size": 424425,
+                    "image": {
+                        "width": 717,
+                        "height": 458
                     }
                 },
-                "tags": [
-                    "strategy-&-markets"
-                ],
-                "imgs": {
-                    "title": "Abubakar Suleiman",
-                    "description": "is an economist and banker with over 20 years of experience in consulting and financial services. As CEO of Sterling Bank Plc, he focuses on optimizing financial intermediation in key sectors: Health, Education, Agriculture, Renewable Energy, and Transportation (H.E.A.R.T). \\n\\nPreviously, he served as Executive Director and CFO of Sterling Bank and led its non-interest banking business. Abubakar holds a B.Sc. in Economics from the University of Abuja and an M.Sc. in Major Programme Management from the University of Oxford. \\n\\nHe has also worked in tax advisory at Arthur Andersen and financial markets at Citibank Nigeria. Abubakar serves on the boards of Noor Takaful and the Nigerian Economic Summit Group (NESG).",
-                    "file": {
-                        "url": "//images.ctfassets.net/8kgt6jcufmb2/2j2GstBbfus11FemWtKZp1/40ba2c260836a92e49cc955ca644bd46/img_abu_suleiman.png",
-                        "details": {
-                            "size": 120768,
-                            "image": {
-                                "width": 300,
-                                "height": 264
-                            }
-                        },
-                        "fileName": "img_abu_suleiman.png",
-                        "contentType": "image/png"
-                    }
-                }
+                "fileName": "featured_insight_1.png",
+                "contentType": "image/png"
             }
-        ],
-        "position": 3
-    },
-    {
-        "topic": "Agenda - Welcome Address",
-        "date": "Tue, 08 Oct",
-        "startTime": "9:05 AM",
-        "dateCode": "Tue",
-        "title": "Welcome Address",
-        "type": [
-            "remarks"
-        ],
-        "description": "Welcome Address",
-        "speakers": [
-            {
-                "topic": "Speaker - Meaghan Johnson",
-                "name": "Meaghan Johnson",
-                "credentials": "Convener/ED",
-                "company": "FFS",
-                "image": {
-                    "sys": {
-                        "type": "Link",
-                        "linkType": "Asset",
-                        "id": "6jpgFIpr1xEFVUDdfBw3jS"
-                    }
+        },
+        "authors": {
+            "data": {
+                "metadata": {
+                    "tags": [],
+                    "concepts": []
                 },
-                "tags": [
-                    "customer-experience",
-                    "financial-technology",
-                    "artificial-intelligence"
-                ],
-                "imgs": {
-                    "title": "Meaghan Johnson",
-                    "description": "is the CEO of FFS and the convener of the Future of Financial Services Summit. She is also an independent consultant to banks, fintechs, and regulators on digital transformation and customer experience.\\n\\nWith over 10 years in digital banking and fintech, she founded Digital Magss, advising on product development and strategic partnerships.\\n\\nMeaghan is a Senior Lecturer at CFTE, a Subject Matter Expert at Manchester Business School, and a Fintech Contributor at Forbes. Her extensive experience includes roles at 11:FS, Mapa Research, and advisory positions at various fintech startups.",
-                    "file": {
-                        "url": "//images.ctfassets.net/8kgt6jcufmb2/6jpgFIpr1xEFVUDdfBw3jS/2f8f66768b1a5a929596ad3c594d209c/img_meaghan.png",
-                        "details": {
-                            "size": 95192,
-                            "image": {
-                                "width": 300,
-                                "height": 264
-                            }
-                        },
-                        "fileName": "img_meaghan.png",
-                        "contentType": "image/png"
-                    }
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "8kgt6jcufmb2"
+                        }
+                    },
+                    "id": "a4mwBMNSzQ49p8x7opuEB",
+                    "type": "Entry",
+                    "createdAt": "2024-10-28T08:02:11.436Z",
+                    "updatedAt": "2024-10-28T08:02:11.436Z",
+                    "environment": {
+                        "sys": {
+                            "id": "master",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "publishedVersion": 5,
+                    "revision": 1,
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "componentAuthor"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "internalName": "Author - Lanre Akomolafe",
+                    "name": "Lanre Akomolafe",
+                    "avatar": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Asset",
+                            "id": "3v6mxAJohZwNlODOjh0sAb"
+                        }
+                    },
+                    "credentials": "Convener, Future of Financial Services Conference"
                 }
-            }
-        ],
-        "position": 2
-    },
-    {
-        "topic": "Agenda - Breakfast Networking",
-        "date": "Tue, 08 Oct",
-        "startTime": "8:00 AM",
-        "dateCode": "Tue",
-        "type": [
-            "break"
-        ],
-        "description": "Breakfast Networking",
-        "position": 1,
-        "speakers": []
+            },
+            "status": 200,
+            "statusText": "",
+            "headers": {
+                "content-length": "680",
+                "content-type": "application/vnd.contentful.delivery.v1+json",
+                "etag": "\"2142927787678752328\""
+            },
+            "config": {
+                "transitional": {
+                    "silentJSONParsing": true,
+                    "forcedJSONParsing": true,
+                    "clarifyTimeoutError": false
+                },
+                "adapter": [
+                    "xhr",
+                    "http",
+                    "fetch"
+                ],
+                "transformRequest": [
+                    null
+                ],
+                "transformResponse": [
+                    null
+                ],
+                "timeout": 0,
+                "xsrfCookieName": "XSRF-TOKEN",
+                "xsrfHeaderName": "X-XSRF-TOKEN",
+                "maxContentLength": -1,
+                "maxBodyLength": -1,
+                "env": {},
+                "headers": {
+                    "Accept": "application/json, text/plain, */*"
+                },
+                "method": "get",
+                "url": "https://cdn.contentful.com/spaces/8kgt6jcufmb2/environments/master/entries/a4mwBMNSzQ49p8x7opuEB?access_token=0i1vMSW9uEuEaMKBV_cMWva-FkSU11BTHazrVRUxUW4"
+            },
+            "request": {}
+        }
     }
 ]
