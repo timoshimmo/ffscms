@@ -112,7 +112,7 @@ const Banner = () => {
                                             <p className='fs-15 text-primary mb-2 fw-semibold'>{item.author.data.fields.name} <span>.</span> {moment(item.publishedDate).format("DD MMM YYYY")}</p>
                                             <div className='d-flex justify-content-between'>    
                                                 <div style={{ width: '90%' }}>
-                                                    <Link to="#" className='h5 fw-bold insight-title-link' style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif', overflow: 'hidden', textOverflow: 'ellipsis', display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical' }}>{item.title}</Link> 
+                                                    <Link to={`/blog/${item.slug}`} state={JSON.stringify(item)} className='h5 fw-bold insight-title-link' style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif', overflow: 'hidden', textOverflow: 'ellipsis', display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical' }}>{item.title}</Link> 
                                                 </div>
                             
                                                 <div className='d-flex justify-content-end mt-1' style={{ width: '10%' }}>

@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { Container, Row, Col, NavLink, Button } from 'reactstrap';
 //import { insightsData } from '../../../common/data';
 import VideoModal from 'Components/Common/VideoModal';
@@ -23,6 +23,7 @@ const Banner = () => {
 
 const videoEl = useRef<HTMLVideoElement>(null);
 const [videoModal, setVideoModal] = useState<boolean>(false);
+const navigate = useNavigate();
 
 const [title, setTitle] = useState("");
 const [btnText, setBtnText] = useState("");
@@ -81,8 +82,6 @@ useEffect(() => {
 
             arr_articles.push(compose);
         }
-
-        console.log(`NEW HOME BANNER: ${JSON.stringify(arr_articles)}`);
         setArticlesData(arr_articles);
 
     });
@@ -102,6 +101,12 @@ useEffect(() => {
   const onClickFull = () => {
     setVideoModal(true);
   };
+//to={`/blog/${item.slug}`} state={JSON.stringify(item)}
+  /*const handleRedirect = (route: string, data:any) => {
+
+    navigate(route ,{state: data});
+
+  } */
   
     return (
         <React.Fragment>
@@ -125,38 +130,6 @@ useEffect(() => {
                             </div>
                         </Col> 
                         <Col lg={7} sm={12} xs={12} className='mob-width-vid position-relative'>
-
-                            {/*
-                              <iframe
-                            src='https://www.youtube.com/embed/K6ckNHTy2r4?autoplay=1&mute=1'
-                            frameBorder='0'
-                            allow='accelerometer; autoplay; encrypted-media; '
-                            allowFullScreen
-                            title='video'
-                            className='w-100 h-100 rounded-4'
-                            />
-
-                             <video
-                                style={{ maxWidth: "100%", width: "800px", margin: "0 auto", borderRadius: '20px' }}
-                                playsInline
-                                loop
-                                muted
-                                src="https://drive.google.com/uc?id=1BIJrJLGnpJrvCQ-yR_KKuZEoE7HJDkqf"
-                                ref={videoEl}
-                            />
-
-                               <iframe 
-                            src="https://drive.google.com/file/d/1BIJrJLGnpJrvCQ-yR_KKuZEoE7HJDkqf/preview" 
-                            allow='autoplay'
-                            allowFullScreen
-                            title='video'
-                            className='w-100 h-100 rounded-4 border border-dark'
-                            />
-
-                            "https://res.cloudinary.com/westpaybankit/video/upload/v1730055056/FFS/FFS_Summit_Summary.mp4"
-                        
-                    */}
-
                             
                             <video
                                 style={{ maxWidth: "100%", width: "100%", margin: "0 auto"}}
@@ -175,14 +148,6 @@ useEffect(() => {
                 </Container>
                 <div className="features-section mobile-section">
                     <Container>
-                        {/*
-                            <Row className='px-4 mb-5'>
-                                <Col lg={4} sm={12}>
-                                    <h2 className='insight-title mb-2 fw-semibold lh-base text-primary' style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif', display: 'inline-block', width: 'auto' }}>Featured Updates</h2>
-                                </Col>
-                            </Row>
-                        */}
-                       
                         <Row className='px-4 mb-3'> 
                         {articlesData.length > 0 ?
                                 articlesData.filter(data => data.blogType === true).map((item, idx) => ( 
@@ -191,7 +156,7 @@ useEffect(() => {
                                             <div className="w-100 h-100 d-block" style={{ backgroundColor: '#000', opacity: '0.4', position: 'absolute' }}></div>
                                             <div className='px-3 mb-2' style={{ zIndex: '100' }}>
                                                 <p className='fs-14 text-primary mb-2 fw-semibold title-top-spacing'>{item.author.data.fields.name} <span>.</span> {moment(item.publishedDate).format("DD MMM YYYY")}</p>
-                                                <Link to="#" className='h5 fw-bold insight-title-link' style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif' }}>{item.title}</Link> 
+                                                <Link to={`/blog/${item.slug}`} state={JSON.stringify(item)} className='h5 fw-bold insight-title-link' style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif' }}>{item.title}</Link> 
                                             </div>
                                         </div>
                                     </Col>
@@ -227,7 +192,6 @@ useEffect(() => {
                                         </SkeletonTheme>
                                     </Col>
                                 </>
-                                
                         
                         } 
                             

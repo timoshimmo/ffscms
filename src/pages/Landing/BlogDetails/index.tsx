@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import Navbar from '../Common/Navbar';
-import Banner from "./Banner";
+//import Banner from "./Banner";
 import Main from './Main';
 import Footer from '../Common/footer';
 
@@ -33,10 +33,9 @@ const index = () => {
         <React.Fragment>
             <div className="layout-wrapper landing body-bg-dark">
                 <Helmet>
-                    <meta name="description" content="Future of Financial Services | Privacy Policy" />
+                    <meta name="description" content="Future of Financial Services | Blogs" />
                 </Helmet>
                 <Navbar />
-                <Banner />
                 <Main />
                 <Footer />
                 <button onClick={() => toTop()} className="btn btn-primary btn-icon landing-back-top" id="back-to-top">
