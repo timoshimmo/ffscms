@@ -1,5 +1,4 @@
 import React, { useEffect, useState, useRef } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
 import { Container, Row, Col, NavLink, Button } from 'reactstrap';
 //import { insightsData } from '../../../common/data';
 import VideoModal from 'Components/Common/VideoModal';
