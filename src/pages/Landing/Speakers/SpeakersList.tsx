@@ -86,7 +86,7 @@ const SpeakersList = () => {
             
             }
 
-            console.log("SPEAKERS DATA", arr_speakers);
+            //console.log("SPEAKERS DATA", arr_speakers);
             setSpeakersData(arr_speakers);
 
         });

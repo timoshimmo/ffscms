@@ -1,52 +1,650 @@
-{
-    "metadata": {
-        "tags": [],
-        "concepts": []
+[
+    {
+        "data": {
+            "metadata": {
+                "tags": [],
+                "concepts": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8kgt6jcufmb2"
+                    }
+                },
+                "id": "5DnFhlYqzo8RuVdL7W15Pk",
+                "type": "Entry",
+                "createdAt": "2024-10-12T13:49:09.891Z",
+                "updatedAt": "2024-10-12T13:49:09.891Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "publishedVersion": 6,
+                "revision": 1,
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "footerLinks"
+                    }
+                },
+                "locale": "en-US"
+            },
+            "fields": {
+                "topic": "Footer Link - About FFS",
+                "title": "About FFS",
+                "link": "/about",
+                "column": "About Us"
+            }
+        },
+        "status": 200,
+        "statusText": "",
+        "headers": {
+            "content-length": "552",
+            "content-type": "application/vnd.contentful.delivery.v1+json",
+            "etag": "\"9768898922802107247\""
+        },
+        "config": {
+            "transitional": {
+                "silentJSONParsing": true,
+                "forcedJSONParsing": true,
+                "clarifyTimeoutError": false
+            },
+            "adapter": [
+                "xhr",
+                "http",
+                "fetch"
+            ],
+            "transformRequest": [
+                null
+            ],
+            "transformResponse": [
+                null
+            ],
+            "timeout": 0,
+            "xsrfCookieName": "XSRF-TOKEN",
+            "xsrfHeaderName": "X-XSRF-TOKEN",
+            "maxContentLength": -1,
+            "maxBodyLength": -1,
+            "env": {},
+            "headers": {
+                "Accept": "application/json, text/plain, */*"
+            },
+            "method": "get",
+            "url": "https://cdn.contentful.com/spaces/8kgt6jcufmb2/environments/master/entries/5DnFhlYqzo8RuVdL7W15Pk?access_token=0i1vMSW9uEuEaMKBV_cMWva-FkSU11BTHazrVRUxUW4"
+        },
+        "request": {}
     },
-    "sys": {
-        "space": {
+    {
+        "data": {
+            "metadata": {
+                "tags": [],
+                "concepts": []
+            },
             "sys": {
-                "type": "Link",
-                "linkType": "Space",
-                "id": "8kgt6jcufmb2"
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8kgt6jcufmb2"
+                    }
+                },
+                "id": "2JUerwMKiPawwjYAmpu3Nf",
+                "type": "Entry",
+                "createdAt": "2024-10-12T13:51:59.797Z",
+                "updatedAt": "2024-10-12T13:51:59.797Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "publishedVersion": 5,
+                "revision": 1,
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "footerLinks"
+                    }
+                },
+                "locale": "en-US"
+            },
+            "fields": {
+                "topic": "Footer Link - Contact Us",
+                "title": "Contact Us",
+                "link": "/contact-us",
+                "column": "About Us"
             }
         },
-        "id": "7fm3rMLrgGBBxHrrT6yKN5",
-        "type": "Entry",
-        "createdAt": "2024-10-28T12:11:36.789Z",
-        "updatedAt": "2024-10-28T12:28:11.465Z",
-        "environment": {
-            "sys": {
-                "id": "master",
-                "type": "Link",
-                "linkType": "Environment"
-            }
+        "status": 200,
+        "statusText": "",
+        "headers": {
+            "content-length": "559",
+            "content-type": "application/vnd.contentful.delivery.v1+json",
+            "etag": "\"7727550348834592101\""
         },
-        "publishedVersion": 14,
-        "revision": 2,
-        "contentType": {
-            "sys": {
-                "type": "Link",
-                "linkType": "ContentType",
-                "id": "homeModel"
-            }
+        "config": {
+            "transitional": {
+                "silentJSONParsing": true,
+                "forcedJSONParsing": true,
+                "clarifyTimeoutError": false
+            },
+            "adapter": [
+                "xhr",
+                "http",
+                "fetch"
+            ],
+            "transformRequest": [
+                null
+            ],
+            "transformResponse": [
+                null
+            ],
+            "timeout": 0,
+            "xsrfCookieName": "XSRF-TOKEN",
+            "xsrfHeaderName": "X-XSRF-TOKEN",
+            "maxContentLength": -1,
+            "maxBodyLength": -1,
+            "env": {},
+            "headers": {
+                "Accept": "application/json, text/plain, */*"
+            },
+            "method": "get",
+            "url": "https://cdn.contentful.com/spaces/8kgt6jcufmb2/environments/master/entries/2JUerwMKiPawwjYAmpu3Nf?access_token=0i1vMSW9uEuEaMKBV_cMWva-FkSU11BTHazrVRUxUW4"
         },
-        "locale": "en-US"
+        "request": {}
     },
-    "fields": {
-        "topic": "Home Landing Page",
-        "title": "Future of Financial Services",
-        "titleButtonText": "Learn More",
-        "titleButtonUrl": "/about",
-        "articles": [
-            {
-                "sys": {
-                    "type": "Link",
-                    "linkType": "Entry",
-                    "id": "3xwptw22HDH5scUAVvqkvn"
-                }
+    {
+        "data": {
+            "metadata": {
+                "tags": [],
+                "concepts": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8kgt6jcufmb2"
+                    }
+                },
+                "id": "2FWRdyGo2Fb7i3N8zHGjsk",
+                "type": "Entry",
+                "createdAt": "2024-10-12T13:53:07.807Z",
+                "updatedAt": "2024-10-12T13:53:07.807Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "publishedVersion": 5,
+                "revision": 1,
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "footerLinks"
+                    }
+                },
+                "locale": "en-US"
+            },
+            "fields": {
+                "topic": "Footer Link - Register",
+                "title": "Register",
+                "link": "/register",
+                "column": "Get Involved"
             }
-        ],
-        "introVideoUrl": "https://res.cloudinary.com/westpaybankit/video/upload/v1730055056/FFS/FFS_Summit_Summary.mp4"
+        },
+        "status": 200,
+        "statusText": "",
+        "headers": {
+            "content-length": "557",
+            "content-type": "application/vnd.contentful.delivery.v1+json",
+            "etag": "\"11499747883941428466\""
+        },
+        "config": {
+            "transitional": {
+                "silentJSONParsing": true,
+                "forcedJSONParsing": true,
+                "clarifyTimeoutError": false
+            },
+            "adapter": [
+                "xhr",
+                "http",
+                "fetch"
+            ],
+            "transformRequest": [
+                null
+            ],
+            "transformResponse": [
+                null
+            ],
+            "timeout": 0,
+            "xsrfCookieName": "XSRF-TOKEN",
+            "xsrfHeaderName": "X-XSRF-TOKEN",
+            "maxContentLength": -1,
+            "maxBodyLength": -1,
+            "env": {},
+            "headers": {
+                "Accept": "application/json, text/plain, */*"
+            },
+            "method": "get",
+            "url": "https://cdn.contentful.com/spaces/8kgt6jcufmb2/environments/master/entries/2FWRdyGo2Fb7i3N8zHGjsk?access_token=0i1vMSW9uEuEaMKBV_cMWva-FkSU11BTHazrVRUxUW4"
+        },
+        "request": {}
+    },
+    {
+        "data": {
+            "metadata": {
+                "tags": [],
+                "concepts": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8kgt6jcufmb2"
+                    }
+                },
+                "id": "3dW19y6FFhk4DHLzgVrPrz",
+                "type": "Entry",
+                "createdAt": "2024-10-12T13:54:11.966Z",
+                "updatedAt": "2024-10-12T13:54:11.966Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "publishedVersion": 6,
+                "revision": 1,
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "footerLinks"
+                    }
+                },
+                "locale": "en-US"
+            },
+            "fields": {
+                "topic": "Footer Link - Be a Sponsor",
+                "title": "Be a Sponsor",
+                "link": "/sponsors",
+                "column": "Get Involved"
+            }
+        },
+        "status": 200,
+        "statusText": "",
+        "headers": {
+            "content-length": "565",
+            "content-type": "application/vnd.contentful.delivery.v1+json",
+            "etag": "\"13939243932446359161\""
+        },
+        "config": {
+            "transitional": {
+                "silentJSONParsing": true,
+                "forcedJSONParsing": true,
+                "clarifyTimeoutError": false
+            },
+            "adapter": [
+                "xhr",
+                "http",
+                "fetch"
+            ],
+            "transformRequest": [
+                null
+            ],
+            "transformResponse": [
+                null
+            ],
+            "timeout": 0,
+            "xsrfCookieName": "XSRF-TOKEN",
+            "xsrfHeaderName": "X-XSRF-TOKEN",
+            "maxContentLength": -1,
+            "maxBodyLength": -1,
+            "env": {},
+            "headers": {
+                "Accept": "application/json, text/plain, */*"
+            },
+            "method": "get",
+            "url": "https://cdn.contentful.com/spaces/8kgt6jcufmb2/environments/master/entries/3dW19y6FFhk4DHLzgVrPrz?access_token=0i1vMSW9uEuEaMKBV_cMWva-FkSU11BTHazrVRUxUW4"
+        },
+        "request": {}
+    },
+    {
+        "data": {
+            "metadata": {
+                "tags": [],
+                "concepts": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8kgt6jcufmb2"
+                    }
+                },
+                "id": "2fynVaqG64QQ6ueAt27Nme",
+                "type": "Entry",
+                "createdAt": "2024-10-12T13:55:09.125Z",
+                "updatedAt": "2024-10-12T13:55:09.125Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "publishedVersion": 5,
+                "revision": 1,
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "footerLinks"
+                    }
+                },
+                "locale": "en-US"
+            },
+            "fields": {
+                "topic": "Footer Link - Partner With Us",
+                "title": "Partner With Us",
+                "link": "/partners",
+                "column": "Get Involved"
+            }
+        },
+        "status": 200,
+        "statusText": "",
+        "headers": {
+            "content-length": "571",
+            "content-type": "application/vnd.contentful.delivery.v1+json",
+            "etag": "\"10969667842066663005\""
+        },
+        "config": {
+            "transitional": {
+                "silentJSONParsing": true,
+                "forcedJSONParsing": true,
+                "clarifyTimeoutError": false
+            },
+            "adapter": [
+                "xhr",
+                "http",
+                "fetch"
+            ],
+            "transformRequest": [
+                null
+            ],
+            "transformResponse": [
+                null
+            ],
+            "timeout": 0,
+            "xsrfCookieName": "XSRF-TOKEN",
+            "xsrfHeaderName": "X-XSRF-TOKEN",
+            "maxContentLength": -1,
+            "maxBodyLength": -1,
+            "env": {},
+            "headers": {
+                "Accept": "application/json, text/plain, */*"
+            },
+            "method": "get",
+            "url": "https://cdn.contentful.com/spaces/8kgt6jcufmb2/environments/master/entries/2fynVaqG64QQ6ueAt27Nme?access_token=0i1vMSW9uEuEaMKBV_cMWva-FkSU11BTHazrVRUxUW4"
+        },
+        "request": {}
+    },
+    {
+        "data": {
+            "metadata": {
+                "tags": [],
+                "concepts": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8kgt6jcufmb2"
+                    }
+                },
+                "id": "70NojaTZqeIzHDoACt0JZN",
+                "type": "Entry",
+                "createdAt": "2024-10-12T13:56:49.140Z",
+                "updatedAt": "2024-10-12T13:56:49.140Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "publishedVersion": 6,
+                "revision": 1,
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "footerLinks"
+                    }
+                },
+                "locale": "en-US"
+            },
+            "fields": {
+                "topic": "Footer Link - Insights",
+                "title": "Insights",
+                "link": "/insights",
+                "column": "Resources"
+            }
+        },
+        "status": 200,
+        "statusText": "",
+        "headers": {
+            "content-length": "554",
+            "content-type": "application/vnd.contentful.delivery.v1+json",
+            "etag": "\"5809840101498041296\""
+        },
+        "config": {
+            "transitional": {
+                "silentJSONParsing": true,
+                "forcedJSONParsing": true,
+                "clarifyTimeoutError": false
+            },
+            "adapter": [
+                "xhr",
+                "http",
+                "fetch"
+            ],
+            "transformRequest": [
+                null
+            ],
+            "transformResponse": [
+                null
+            ],
+            "timeout": 0,
+            "xsrfCookieName": "XSRF-TOKEN",
+            "xsrfHeaderName": "X-XSRF-TOKEN",
+            "maxContentLength": -1,
+            "maxBodyLength": -1,
+            "env": {},
+            "headers": {
+                "Accept": "application/json, text/plain, */*"
+            },
+            "method": "get",
+            "url": "https://cdn.contentful.com/spaces/8kgt6jcufmb2/environments/master/entries/70NojaTZqeIzHDoACt0JZN?access_token=0i1vMSW9uEuEaMKBV_cMWva-FkSU11BTHazrVRUxUW4"
+        },
+        "request": {}
+    },
+    {
+        "data": {
+            "metadata": {
+                "tags": [],
+                "concepts": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8kgt6jcufmb2"
+                    }
+                },
+                "id": "5vEZqmyI9oSbXeAfRpOEER",
+                "type": "Entry",
+                "createdAt": "2024-10-12T13:57:52.601Z",
+                "updatedAt": "2024-11-02T12:25:55.910Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "publishedVersion": 14,
+                "revision": 4,
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "footerLinks"
+                    }
+                },
+                "locale": "en-US"
+            },
+            "fields": {
+                "topic": "Footer Link - FFS Summit 2024",
+                "title": "FFS Summit 2024",
+                "link": "/summit",
+                "column": "Events"
+            }
+        },
+        "status": 200,
+        "statusText": "",
+        "headers": {
+            "content-length": "564",
+            "content-type": "application/vnd.contentful.delivery.v1+json",
+            "etag": "\"14683374264301463832\""
+        },
+        "config": {
+            "transitional": {
+                "silentJSONParsing": true,
+                "forcedJSONParsing": true,
+                "clarifyTimeoutError": false
+            },
+            "adapter": [
+                "xhr",
+                "http",
+                "fetch"
+            ],
+            "transformRequest": [
+                null
+            ],
+            "transformResponse": [
+                null
+            ],
+            "timeout": 0,
+            "xsrfCookieName": "XSRF-TOKEN",
+            "xsrfHeaderName": "X-XSRF-TOKEN",
+            "maxContentLength": -1,
+            "maxBodyLength": -1,
+            "env": {},
+            "headers": {
+                "Accept": "application/json, text/plain, */*"
+            },
+            "method": "get",
+            "url": "https://cdn.contentful.com/spaces/8kgt6jcufmb2/environments/master/entries/5vEZqmyI9oSbXeAfRpOEER?access_token=0i1vMSW9uEuEaMKBV_cMWva-FkSU11BTHazrVRUxUW4"
+        },
+        "request": {}
+    },
+    {
+        "data": {
+            "metadata": {
+                "tags": [],
+                "concepts": []
+            },
+            "sys": {
+                "space": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "8kgt6jcufmb2"
+                    }
+                },
+                "id": "5g1u6p9fWMxw3pygQl1ozP",
+                "type": "Entry",
+                "createdAt": "2024-11-02T12:21:21.295Z",
+                "updatedAt": "2024-11-02T12:21:21.295Z",
+                "environment": {
+                    "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                    }
+                },
+                "publishedVersion": 8,
+                "revision": 1,
+                "contentType": {
+                    "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "footerLinks"
+                    }
+                },
+                "locale": "en-US"
+            },
+            "fields": {
+                "topic": "Footer Links - FAQS",
+                "title": "FAQs",
+                "link": "/faq",
+                "column": "About Us"
+            }
+        },
+        "status": 200,
+        "statusText": "",
+        "headers": {
+            "content-length": "541",
+            "content-type": "application/vnd.contentful.delivery.v1+json",
+            "etag": "\"24726025729970214\""
+        },
+        "config": {
+            "transitional": {
+                "silentJSONParsing": true,
+                "forcedJSONParsing": true,
+                "clarifyTimeoutError": false
+            },
+            "adapter": [
+                "xhr",
+                "http",
+                "fetch"
+            ],
+            "transformRequest": [
+                null
+            ],
+            "transformResponse": [
+                null
+            ],
+            "timeout": 0,
+            "xsrfCookieName": "XSRF-TOKEN",
+            "xsrfHeaderName": "X-XSRF-TOKEN",
+            "maxContentLength": -1,
+            "maxBodyLength": -1,
+            "env": {},
+            "headers": {
+                "Accept": "application/json, text/plain, */*"
+            },
+            "method": "get",
+            "url": "https://cdn.contentful.com/spaces/8kgt6jcufmb2/environments/master/entries/5g1u6p9fWMxw3pygQl1ozP?access_token=0i1vMSW9uEuEaMKBV_cMWva-FkSU11BTHazrVRUxUW4"
+        },
+        "request": {}
     }
-}
+]
