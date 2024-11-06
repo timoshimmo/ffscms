@@ -1,9 +1,10 @@
 import React from 'react';
-import Navbar from '../Common/Navbar';
+//import Navbar from '../Common/Navbar';
 import Banner from "./Banner";
 import AgendaList from './AgendaList';
 //import Footer from '../Common/footer';
 import FooterSummit from '../Common/footerSummit';
+import NavbarSecondary from '../Common/NavbarSecondary';
 
 const index = () => {
     document.title = "Future of Financial Services Summit | Agenda";
@@ -32,7 +33,7 @@ const index = () => {
     return (
         <React.Fragment>
             <div className="layout-wrapper landing body-bg-dark">
-                <Navbar />
+                <NavbarSecondary />
                 <Banner /> 
                 <AgendaList />
                 <FooterSummit />

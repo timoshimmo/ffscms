@@ -1,8 +1,9 @@
 import React from 'react';
-import Navbar from '../Common/Navbar';
+//import Navbar from '../Common/Navbar';
 import Banner from "./Banner";
 import SpeakersList from './SpeakersList';
 //import Footer from '../Common/footer';
+import NavbarSecondary from '../Common/NavbarSecondary';
 import FooterSummit from '../Common/footerSummit';
 
 const index = () => {
@@ -32,7 +33,7 @@ const index = () => {
     return (
         <React.Fragment>
             <div className="layout-wrapper landing body-bg-dark">
-                <Navbar />
+                <NavbarSecondary />
                 <Banner />
                 <SpeakersList />
                 <FooterSummit />

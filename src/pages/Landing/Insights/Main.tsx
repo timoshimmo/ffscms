@@ -137,7 +137,8 @@ const Main = () => {
                 <Container>
                     <Row className='px-4 mb-3'> 
                         {featuredListData.length > 0 ?
-                                featuredListData.map((item) => ( 
+                                featuredListData.map((item, idx) => ( 
+                                    idx < 4 ?
                                     <Col lg={3}>
                                         <div onClick={()=>handleRedirect(`/blog/${item.slug}`, JSON.stringify(item))} className='insight-img-right w-100 rounded-4 d-flex align-items-end' style={{ backgroundImage: `url(${item.image.file.url})`, position: 'relative', backgroundSize: 'cover', backgroundRepeat:'no-repeat', backgroundPosition: 'center center', cursor: "pointer"  }}>
                                             <div className="w-100 h-100 d-block" style={{ backgroundColor: '#000', opacity: '0.4', position: 'absolute' }}></div>
@@ -147,6 +148,8 @@ const Main = () => {
                                             </div>
                                         </div>
                                     </Col>
+                                    :
+                                    null
                                 ))
                                 :
                                 <>

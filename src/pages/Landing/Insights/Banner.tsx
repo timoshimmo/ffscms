@@ -64,7 +64,7 @@ useEffect(() => {
                     <Row className='px-4'>
                         <Col lg={5} sm={12} className=' d-flex flex-column justify-content-center'>
                             <div className='py-5'>
-                                <h2 className='w-100 display-6 mb-4 fw-bold text-white home-title-mobile' style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif', display: 'inline-block', width: 'auto' }}>Future of <br /> Financial Services</h2>
+                                <h2 className='w-100 display-6 mb-4 fw-bold text-white home-title-mobile' style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif', display: 'inline-block', width: 'auto' }}>{title}</h2>
                                 {/* <h6 className="fw-bold text-white title" style={{ fontFamily: 'Georgia, Montserrat', fontSize: '35px' }}>Dedicated to driving the evolution and transformation of the financial services industry.</h6> */}
                                 <div className="w-100 btn-home-web">
                                     <div className="d-flex gap-3">
