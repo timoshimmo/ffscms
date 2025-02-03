@@ -63,11 +63,11 @@ const Banner = () => {
 
         Promise.all(endpoints.map((endpoint) => axios.get(endpoint))).then(([{data: fields}, {data: items}] )=> {
             //console.log(`Fields: ${JSON.stringify(fields.fields)}`);
-            //console.log(`Items: ${JSON.stringify(items.items[0].sys.createdAt)}`);
+            //console.log(`Items: ${JSON.stringify(items.items[0].sys)}`);
            // const sortedSpeakers = items.items.sort((a: any,b: any) => Date.parse(b.sys.createdAt) - Date.parse(a.sys.createdAt));
-           const sortedSpeakers = items.items.sort(function(a: any, b: any) {
-                let c = new Date(a.sys.createdAt) as any;
-                var d = new Date(b.sys.createdAt) as any;
+            const sortedSpeakers = items.items.sort(function(a: any, b: any) {
+                let c = new Date(a.sys.updatedAt) as any;
+                var d = new Date(b.sys.updatedAt) as any;
                 return c-d;
             });
             console.log(`Sorted: ${JSON.stringify(sortedSpeakers)}`);
@@ -155,12 +155,12 @@ const Banner = () => {
                             modules={[Autoplay]}
                             className="mySwiper positio-relative"
                         >
-                            {speakersData.map((item, key) => (
+                            {speakersList.map((item, key) => (
                                 <SwiperSlide key={key}>
-                                    <img src={item.img} alt="" className="avatar-speaker"/>
+                                    <img src={item.fields.file.url} alt="" className="avatar-speaker"/>
                                     <div className='w-100 mt-3'>
-                                        <h5 className="text-white fs-14 mb-0" style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif' }}>{item.name}</h5>
-                                        <p className="text-white fs-11 fw-light">{item.credentials}</p>
+                                        <h5 className="text-white fs-14 mb-0" style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif' }}>{item.fields.title}</h5>
+                                        <p className="text-white fs-11 fw-light">{item.fields.description}</p>
                                     </div>
                                 </SwiperSlide>
                             ))}

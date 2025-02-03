@@ -53,7 +53,103 @@ const AgendaList = () => {
 
     useEffect(() => {
 
-        axios.get("https://cdn.contentful.com/spaces/8kgt6jcufmb2/environments/master/entries/4TIX96uTH9z9pEQfVYPPWu?access_token=0i1vMSW9uEuEaMKBV_cMWva-FkSU11BTHazrVRUxUW4")
+        let endpoints = [
+            'https://cdn.contentful.com/spaces/8kgt6jcufmb2/environments/master/entries/4TIX96uTH9z9pEQfVYPPWu?access_token=0i1vMSW9uEuEaMKBV_cMWva-FkSU11BTHazrVRUxUW4',
+            'https://cdn.contentful.com/spaces/8kgt6jcufmb2/environments/master/entries/?access_token=0i1vMSW9uEuEaMKBV_cMWva-FkSU11BTHazrVRUxUW4&include=3&content_type=agendaModel'
+        ];
+
+        Promise.all(endpoints.map((endpoint) => axios.get(endpoint))).then(async([{data: fields}, {data: items}] )=> {
+            //console.log(`Fields: ${JSON.stringify(fields.fields)}`);
+            //console.log(`Items: ${JSON.stringify(items.items)}`);
+            //console.log(`Includes: ${JSON.stringify(items.includes)}`);
+
+            setDaysData(fields.fields.days);
+            setThemes(fields.fields.themes);
+            setSessionTypes(fields.fields.sessionTypes);
+
+            let arr_obj: any[] = [];
+
+            await items.items.forEach((item: any) => {
+
+                let entryData: any[] = [];
+                let speakersArr: any[] = [];
+
+                if(item.fields.speakers) {
+                    entryData = items.includes.Entry.filter((row: any) => item.fields.speakers.some((spk: any) => spk.sys.id === row.sys.id));
+                   
+                    entryData.forEach((entry: any) => {
+                        const assetData = items.includes.Asset.filter((row: any) => row.sys.id === entry.fields.image.sys.id);
+
+                        //delete entry.fields?.image;
+                        const speakersData = {
+                            ...entry.fields,
+                            img: assetData[0].fields.file,
+                            pic: assetData[0].fields.file,
+                        };
+
+                        speakersArr.push(speakersData);
+                    });
+
+
+                    const spkdata = {
+                        ...item.fields,
+                        speakers: speakersArr,
+                    }; 
+                    arr_obj.push(spkdata);
+                   // console.log("OBJ SPEAKERS:", spkdata);
+                }
+                else if(item.fields.products){
+                    entryData = items.includes.Entry.filter((row: any) => item.fields.products.sys.id  === row.sys.id);
+
+
+                    delete item.fields?.products;
+                    const pdtdata = {
+                        ...item.fields,
+                        speakers: null,
+                        product: [entryData[0].fields]
+                    }; 
+
+                    arr_obj.push(pdtdata);
+                  //  console.log("OBJ PRODUCTS:", pdtdata);
+                }
+                else {
+
+                    const brkdata = {
+                        ...item.fields,
+                    }; 
+
+                    arr_obj.push(brkdata);
+                   // console.log("OBJ BREAKS:", brkdata);
+
+                } 
+                
+                //console.log("ENTRY DATA:", entryData);
+                
+                //const assetData = result.data.includes.Asset.filter((row: any) => row.sys.id === item.fields.mainImage.sys.id);
+
+            });
+
+            const sortedAgendas = arr_obj.sort(function(a: any, b: any) {
+                return a.position - b.position
+            }); 
+            
+            setAgendasData(sortedAgendas);
+           // const sortedSpeakers = items.items.sort((a: any,b: any) => Date.parse(b.sys.createdAt) - Date.parse(a.sys.createdAt));
+            
+        })
+        .catch((error) => {
+            console.log("Error: ", error);
+            /*if (error.response) {
+                console.log(error.response);
+                console.log("server error");
+            } else if (error.request) {
+                console.log("network error");
+            } else {
+                console.log(error);
+            } */
+        });
+
+       /* axios.get("https://cdn.contentful.com/spaces/8kgt6jcufmb2/environments/master/entries/4TIX96uTH9z9pEQfVYPPWu?access_token=0i1vMSW9uEuEaMKBV_cMWva-FkSU11BTHazrVRUxUW4")
         .then(async response => {
 
             setDaysData(response.data.fields.days);
@@ -133,13 +229,100 @@ const AgendaList = () => {
                 } else {
                     console.log(error);
                 }
-        });
+        }); */
+
+
+       /* axios.get("https://cdn.contentful.com/spaces/8kgt6jcufmb2/environments/master/entries/?access_token=0i1vMSW9uEuEaMKBV_cMWva-FkSU11BTHazrVRUxUW4&include=3&content_type=agendaModel")
+        .then(async result => {
+
+            console.log("AGENDA INCLUDES:", result.data);
+
+            let arr_obj: any[] = [];
+
+            await result.data.items.forEach((item: any) => {
+
+                let entryData: any[] = [];
+                let speakersArr: any[] = [];
+
+                if(item.fields.speakers) {
+                    entryData = result.data.includes.Entry.filter((row: any) => item.fields.speakers.some((spk: any) => spk.sys.id === row.sys.id));
+                   
+                    entryData.forEach((entry: any) => {
+                        const assetData = result.data.includes.Asset.filter((row: any) => row.sys.id === entry.fields.image.sys.id);
+
+                        //delete entry.fields?.image;
+                        const speakersData = {
+                            ...entry.fields,
+                            img: assetData[0].fields.file,
+                            pic: assetData[0].fields.file,
+                        };
+
+                        speakersArr.push(speakersData);
+                    });
+
+
+                    const spkdata = {
+                        ...item.fields,
+                        speakers: speakersArr,
+                    }; 
+                    arr_obj.push(spkdata);
+                   // console.log("OBJ SPEAKERS:", spkdata);
+                }
+                else if(item.fields.products){
+                    entryData = result.data.includes.Entry.filter((row: any) => item.fields.products.sys.id  === row.sys.id);
+
+
+                    delete item.fields?.products;
+                    const pdtdata = {
+                        ...item.fields,
+                        speakers: null,
+                        product: [entryData[0].fields]
+                    }; 
+
+                    arr_obj.push(pdtdata);
+                  //  console.log("OBJ PRODUCTS:", pdtdata);
+                }
+                else {
+
+                    const brkdata = {
+                        ...item.fields,
+                    }; 
+
+                    arr_obj.push(brkdata);
+                   // console.log("OBJ BREAKS:", brkdata);
+
+                } 
+                
+                //console.log("ENTRY DATA:", entryData);
+                
+                //const assetData = result.data.includes.Asset.filter((row: any) => row.sys.id === item.fields.mainImage.sys.id);
+
+            });
+
+            const sortedAgendas = arr_obj.sort(function(a: any, b: any) {
+                return a.position - b.position
+            }); 
+            setAgendasData(sortedAgendas);
+
+        }); */
 
     }, []);
 
     const toggleLeftCanvas = () => {
         setOpen(!open);
     };
+
+    const splitDateWeekDay = (dateString: string) => {
+        const date_array = dateString.split(',');
+        return date_array[0];
+    };
+
+    const splitDateDay = (dateString: string) => {
+        const date_array = dateString.split(',');
+        return date_array[1];
+    };
+
+    
 
 
 
@@ -254,7 +437,13 @@ const AgendaList = () => {
                                     {
                                         daysData.map((item: any) => (
                                             <NavItem role="presentation">
-                                                <NavLink type="button" onClick={() => { setDateNav(item.substring(0,3)); setView(0); }} className={dateNav === item.substring(0,3) ? " fw-medium fs-13 text-primary border border-white rounded-2 bg-white active" : "fw-medium fs-13 nav-tab-custom"}>{item}</NavLink>
+                                                {item === "All" ?
+                                                    <NavLink type="button" onClick={() => { setDateNav(item.substring(0,3)); setView(0); }} className={dateNav === item.substring(0,3) ? " fw-medium fs-13 text-primary border border-white rounded-2 bg-white active" : "fw-medium fs-13 nav-tab-custom"}>{item}</NavLink>
+                                                    :
+                                                    <NavLink type="button" onClick={() => { setDateNav(item.substring(0,3)); setView(0); }} className={dateNav === item.substring(0,3) ? " fw-medium fs-13 text-primary border border-white rounded-2 bg-white active" : "fw-medium text-primary fs-13 nav-tab-custom"}>{splitDateWeekDay(item)} <span className={dateNav === item.substring(0,3) ? 'text-dark fs-11' : 'text-white fs-11'}>{splitDateDay(item)}</span></NavLink>
+                                                    
+                                                }
+                                                
                                             </NavItem>
                                         ))
                                     }
@@ -286,7 +475,7 @@ const AgendaList = () => {
                                                     <div className='d-flex gap-2 align-items-center mb-2'><span className='text-white fs-14'>{item.date}</span> | <span className='text-white fs-14'>{item.startTime}</span></div>
                                                     { item.title && item.title !== "" ? <h6 className='text-white fw-semibold fs-20'>{item.title}</h6> : <h6 className='text-white fw-semibold fs-20'>{item.description}</h6>}
                                                     <div className='d-flex mt-3 gap-2 align-items-center'>
-                                                        { item.topic !== "" ? <p className='fw-light fs-11 text-capitalize border border-white rounded-2 py-1 px-2' style={{ cursor: 'pointer' }}>{item.description}</p> : null }
+                                                        { item.description && item.description !== "" ? <p className='fw-light fs-11 text-capitalize border border-white rounded-2 py-1 px-2' style={{ cursor: 'pointer' }}>{item.description}</p> : null }
                                                         {
                                                             item.theme && item.theme !== null ?
                                                                 (item?.theme.map((row: string) => (
@@ -304,7 +493,7 @@ const AgendaList = () => {
                                                             item.speakers.length > 1 ?
                                                                 <Col lg={4}>
                                                                     <div className='d-flex gap-2 mt-4'>
-                                                                        <img src={row.imgs.file.url} alt="" height="60" />
+                                                                        <img src={row.img.url} alt="" height="60" />
                                                                         <div className='px-2'>
                                                                             <h5 className="text-primary fs-14 mb-2">{row.name}</h5>
                                                                             <p className="text-white fs-11 fw-light mb-0">{row.credentials}</p>
@@ -315,7 +504,7 @@ const AgendaList = () => {
                                                                 :
                                                                 <Col lg={6}>
                                                                     <div className='d-flex gap-2 mt-4'>
-                                                                        <img src={row.imgs.file.url} alt="" height="60" />
+                                                                        <img src={row.img.url} alt="" height="60" />
                                                                         <div className='px-2'>
                                                                             <h5 className="text-primary fs-14 mb-2">{row.name}</h5>
                                                                             <p className="text-white fs-11 fw-light mb-0">{row.credentials}</p>
@@ -343,7 +532,7 @@ const AgendaList = () => {
                                                     <div className='d-flex gap-2 align-items-center mb-2'><span className='text-white fs-14'>{item.date}</span> | <span className='text-white fs-14'>{item.startTime}</span></div>
                                                     { item.title && item.title !== "" ? <h6 className='text-white fw-semibold fs-20'>{item.title}</h6> : <h6 className='text-white fw-semibold fs-20'>{item.description}</h6>}
                                                     <div className='d-flex mt-3 gap-2 align-items-center'>
-                                                        { item.topic !== "" ? <p className='fw-light fs-11 text-capitalize border border-white rounded-2 py-1 px-2' style={{ cursor: 'pointer' }}>{item.description}</p> : null }
+                                                        { item.description && item.description !== "" ? <p className='fw-light fs-11 text-capitalize border border-white rounded-2 py-1 px-2' style={{ cursor: 'pointer' }}>{item.description}</p> : null }
                                                         {
                                                             item.theme && item.theme !== null ?
                                                                 (item?.theme.map((row: string) => (
@@ -361,7 +550,7 @@ const AgendaList = () => {
                                                             item.speakers.length > 1 ?
                                                                 <Col lg={4}>
                                                                     <div className='d-flex gap-2 mt-4'>
-                                                                        <img src={row.imgs.file.url} alt="" height="60" />
+                                                                        <img src={row.img.url} alt="" height="60" />
                                                                         <div className='px-2'>
                                                                             <h5 className="text-primary fs-14 mb-2">{row.name}</h5>
                                                                             <p className="text-white fs-11 fw-light mb-0">{row.credentials}</p>
@@ -372,7 +561,7 @@ const AgendaList = () => {
                                                                 :
                                                                 <Col lg={6}>
                                                                     <div className='d-flex gap-2 mt-4'>
-                                                                        <img src={row.imgs.file.url} alt="" height="60" />
+                                                                        <img src={row.img.url} alt="" height="60" />
                                                                         <div className='px-2'>
                                                                             <h5 className="text-primary fs-14 mb-2">{row.name}</h5>
                                                                             <p className="text-white fs-11 fw-light mb-0">{row.credentials}</p>
@@ -393,13 +582,15 @@ const AgendaList = () => {
                                 ))}
 
                                 {currentView === 2 && agendasData.filter(data => data.type.includes(sessionNav)).map((item, idx) => (
+                                    
                                      <Col key={idx} lg={12} sm={12}>
                                      <Card className="shadow-none border-top border-bottom border-white rounded-3 mb-4 p-4 text-white">
                                          <CardBody className='p-0'>
+                                            
                                              <div className='d-flex gap-2 align-items-center mb-2'><span className='text-white fs-14'>{item.date}</span> | <span className='text-white fs-14'>{item.startTime}</span></div>
                                              { item.title && item.title !== "" ? <h6 className='text-white fw-semibold fs-20'>{item.title}</h6> : <h6 className='text-white fw-semibold fs-20'>{item.description}</h6>}
                                              <div className='d-flex mt-3 gap-2 align-items-center'>
-                                                 { item.topic !== "" ? <p className='fw-light fs-11 text-capitalize border border-white rounded-2 py-1 px-2' style={{ cursor: 'pointer' }}>{item.description}</p> : null }
+                                                 { item.description && item.description !== "" ? <p className='fw-light fs-11 text-capitalize border border-white rounded-2 py-1 px-2' style={{ cursor: 'pointer' }}>{item.description}</p> : null }
                                                  {
                                                      item.theme && item.theme !== null ?
                                                          (item?.theme.map((row: string) => (
@@ -417,7 +608,7 @@ const AgendaList = () => {
                                                      item.speakers.length > 1 ?
                                                          <Col lg={4}>
                                                              <div className='d-flex gap-2 mt-4'>
-                                                                 <img src={row.imgs.file.url} alt="" height="60" />
+                                                                 <img src={row.img.url} alt="" height="60" />
                                                                  <div className='px-2'>
                                                                      <h5 className="text-primary fs-14 mb-2">{row.name}</h5>
                                                                      <p className="text-white fs-11 fw-light mb-0">{row.credentials}</p>
@@ -428,7 +619,7 @@ const AgendaList = () => {
                                                          :
                                                          <Col lg={6}>
                                                              <div className='d-flex gap-2 mt-4'>
-                                                                 <img src={row.imgs.file.url} alt="" height="60" />
+                                                                 <img src={row.img.url} alt="" height="60" />
                                                                  <div className='px-2'>
                                                                      <h5 className="text-primary fs-14 mb-2">{row.name}</h5>
                                                                      <p className="text-white fs-11 fw-light mb-0">{row.credentials}</p>

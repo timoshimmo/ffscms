@@ -16,7 +16,7 @@ import ic_search from '../../../assets/images/icons/ic_search.png';
 
 interface IProfile {
     id: Number,
-    imgs: string,
+    img: string,
     pic: string,
     name: string,
     tags: any,
@@ -32,8 +32,9 @@ interface IProfile {
     credentials: string,
     theme: any,
     speakers: any,
-    imgs: any,
-    tags: any
+    img: any,
+    tags: any,
+    biography: string
 
 }
 
@@ -48,11 +49,69 @@ const SpeakersList = () => {
 
     useEffect(() => {
 
-        axios.get("https://cdn.contentful.com/spaces/8kgt6jcufmb2/environments/master/entries/6DOmE5oJJmNC5Z5VP16PPB?access_token=0i1vMSW9uEuEaMKBV_cMWva-FkSU11BTHazrVRUxUW4")
-        .then(async response => {
-            setThemes(response.data.fields.themes);
+        let endpoints = [
+            'https://cdn.contentful.com/spaces/8kgt6jcufmb2/environments/master/entries/6DOmE5oJJmNC5Z5VP16PPB?access_token=0i1vMSW9uEuEaMKBV_cMWva-FkSU11BTHazrVRUxUW4',
+            'https://cdn.contentful.com/spaces/8kgt6jcufmb2/environments/master/entries/?access_token=0i1vMSW9uEuEaMKBV_cMWva-FkSU11BTHazrVRUxUW4&include=2&content_type=speakerModel'
+        ];
 
-            console.log("SPEAKERS DATA:", response.data.fields.speakers);
+        Promise.all(endpoints.map((endpoint) => axios.get(endpoint))).then(async([{data: fields}, {data: items}] )=> {
+            //console.log(`Fields: ${JSON.stringify(fields.fields)}`);
+            //console.log(`Items: ${JSON.stringify(items.items[0])}`);
+            //console.log(`Includes: ${JSON.stringify(items.includes)}`);
+
+            setThemes(fields.fields.themes);
+
+            let arr_obj: any[] = [];
+
+            await items.items.forEach((item: any) => {
+
+                console.log(`ITEM: ${JSON.stringify(item)}`);
+
+                const assetData = items.includes.Asset.filter((row: any) => row.sys.id === item.fields.image.sys.id);
+
+                delete item.fields?.image;
+
+                const spkdata = {
+                    ...item.fields,
+                    updatedAt: item.sys.updatedAt,
+                    img: assetData[0].fields.file,
+                    pic: assetData[0].fields.file,
+                }; 
+
+                //console.log("OBJ SPEAKERS:", spkdata);
+                arr_obj.push(spkdata);
+
+            });
+
+            
+            const sortedSpeakers = arr_obj.sort(function(a: any, b: any) {
+                console.log("SPEAKERS DATA", a);
+                let c = new Date(a.updatedAt) as any;
+                var d = new Date(b.updatedAt) as any;
+                return c-d;
+            });
+            setSpeakersData(sortedSpeakers);
+
+
+        })
+        .catch((error) => {
+            console.log("Error: ", error);
+            /*if (error.response) {
+                console.log(error.response);
+                console.log("server error");
+            } else if (error.request) {
+                console.log("network error");
+            } else {
+                console.log(error);
+            } */
+        });
+
+
+       /* axios.get("https://cdn.contentful.com/spaces/8kgt6jcufmb2/environments/master/entries/6DOmE5oJJmNC5Z5VP16PPB?access_token=0i1vMSW9uEuEaMKBV_cMWva-FkSU11BTHazrVRUxUW4")
+        .then(async response => {
+            //setThemes(response.data.fields.themes);
+
+           // console.log("SPEAKERS DATA:", response.data.fields.speakers);
             const dataSpeakers =  response.data.fields.speakers;
             let arr_speakers: any[] = [];
 
@@ -89,7 +148,7 @@ const SpeakersList = () => {
             //console.log("SPEAKERS DATA", arr_speakers);
             setSpeakersData(arr_speakers);
 
-        });
+        }); */
 
     }, []);
 
@@ -117,7 +176,7 @@ const SpeakersList = () => {
                                     <Col key={idx} lg={6} sm={12}>
                                         <Card onClick={()=>passData(item)} className="shadow-none rounded-0 speakers-card mb-2 text-white" style={{ cursor: "pointer" }}>
                                             <CardBody className='p-0'>
-                                                <img src={item.imgs.file.url} alt="" className="avatar-speaker-list"/>
+                                                <img src={item.img.url} alt="" className="avatar-speaker-list"/>
                                                 <div className='w-100 mt-2'>
                                                     <h5 className="text-white fs-14" style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif' }}>{item.name}</h5>
                                                     <p className="text-white fs-11 fw-light">{item.credentials}, {item.company}</p>
@@ -132,7 +191,7 @@ const SpeakersList = () => {
                                     <Col key={idx} lg={6} sm={12}>
                                         <Card onClick={()=>passData(item)} className="shadow-none rounded-0 speakers-card mb-5 text-white" style={{ cursor: "pointer" }}>
                                             <CardBody className='p-0'>
-                                                <img src={item.imgs.file.url} alt="" className="avatar-speaker-list"/>
+                                                <img src={item.img.url} alt="" className="avatar-speaker-list"/>
                                                 <div className='w-100 mt-3'>
                                                     <h5 className="text-white fs-14" style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif' }}>{item.name}</h5>
                                                     <p className="text-white fs-11 fw-light">{item.credentials}, {item.company}</p>
@@ -199,7 +258,7 @@ const SpeakersList = () => {
                             </div>
                             <Row>
                                 <Col lg={5}>
-                                    <img src={currentData?.imgs.file.url} className='w-100 border-0 rounded-3'/>
+                                    <img src={currentData?.img.url} className='w-100 border-0 rounded-3'/>
                                 </Col>
                                 <Col lg={7} className='vstack justify-content-center align-items-center'>
                                     <div className='w-100'>
@@ -210,7 +269,7 @@ const SpeakersList = () => {
                                 </Col>
                             </Row>
                             <div className='w-100 mt-4 p-4 border border-primary rounded-3'>
-                                <p className='text-white fs-13 bio-style'><span className='text-primary fw-semibold'>{currentData?.name}</span> {currentData?.imgs.description}</p>
+                                <p className='text-white fs-13 bio-style'><span className='text-primary fw-semibold'>{currentData?.name}</span> {currentData?.biography}</p>
                             </div>
                        </div>
                        
