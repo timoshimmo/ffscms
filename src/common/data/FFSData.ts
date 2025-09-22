@@ -2506,6 +2506,37 @@ const faqFullData = [
     },
 ];
 
+const faqLatestData = [
+     {
+        id: "1",
+        label: 'What is the date and location of the conference?',
+        content: 'The conference will take place from November 19-21, 2025, in Lekki, Lagos-Nigeria.',
+    },
+    {
+        id: "2",
+        label: 'Who should attend the conference?',
+        content: 'The conference is ideal for professionals in the financial services industry, including bankers, fintech, entrepreneurs, financial analysts, regulators and technology developers.',
+    },	
+    {
+        id: "3",
+        label: 'Will session recordings be available after the conference?',
+        content: `Yes, session recordings will be available to registered attendees after the conference. Details on how to access the recordings will be provided closer to the event date`,
+    },
+
+     {
+        id: "5",
+        label: 'Will there be opportunities for networking?',
+        content: `Yes, there will be dedicated sessions just for that`,
+    },
+
+    {
+        id: "7",
+        label: 'Can I get a refund if I’m unable to attend?',
+        content: `Yes we will provide a section to view previous activities in our coferences. That is videos and in writing`,
+    },
+
+]
+
 
 const whatWeDoData = [
     {
@@ -2579,4 +2610,4 @@ const workshopsData = [
 ]
 
 
-export {connectData, speakersData, whatIsData, numbersData, partnerImgsData, latestData, faqData, faqFullData, speakersFullData, agendaData, whatWeDoData, whyChooseData, joinContactsData, insightsData, workshopsData, mainBlogData }
+export {connectData, speakersData, whatIsData, numbersData, partnerImgsData, latestData, faqData, faqFullData, faqLatestData, speakersFullData, agendaData, whatWeDoData, whyChooseData, joinContactsData, insightsData, workshopsData, mainBlogData }

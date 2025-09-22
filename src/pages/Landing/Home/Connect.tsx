@@ -17,7 +17,7 @@ const Connect = () => {
                     <Row className="justify-content-center">
                         <Col lg={8} sm={12}>
                             <div className="text-center mb-4">
-                                <h2 className="mb-3 fw-semibold lh-base text-primary"  style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif' }}>The Connect Experience</h2>
+                                <h2 className="mb-3 fw-semibold lh-base text-primary"  style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif' }}>The Summit Experience</h2>
                             </div>
                         </Col>
                     </Row>
@@ -46,7 +46,7 @@ const Connect = () => {
                                     </div>
                                     <div className="flip-card-back py-5 px-3">
                                         <h1 className='flip-back-title'>AI & Open Banking</h1> 
-                                        <p className='fs-15'>Explore the future of corporate banking, from Africa to global markets.</p> 
+                                        <p className='fs-15'>Highlight how Al, open banking, and global payments are reshaping distribution models.</p> 
                                     </div>
                                 </div>
                             </div>
@@ -61,7 +61,7 @@ const Connect = () => {
                                     </div>
                                     <div className="flip-card-back py-5 px-3">
                                         <h1 className='flip-back-title'>Innovation at the Top</h1> 
-                                        <p className='fs-15'>Explore the future of corporate banking, from Africa to global markets.</p> 
+                                        <p className='fs-15'>Bring together CEOs and business leaders for dialogue and innovation.</p> 
                                     </div>
                                 </div>
                             </div>
@@ -76,7 +76,7 @@ const Connect = () => {
                                     </div>
                                     <div className="flip-card-back py-5 px-3">
                                         <h1 className='flip-back-title'>Banking Meets Business</h1> 
-                                        <p className='fs-15'>Explore the future of corporate banking, from Africa to global markets.</p> 
+                                        <p className='fs-15'>Provide a platform for strategic discussions between banks, corporates, regulators, and fintechs.</p> 
                                     </div>
                                 </div>
                             </div>

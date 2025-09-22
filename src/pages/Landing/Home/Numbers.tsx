@@ -22,23 +22,23 @@ const Numbers = () => {
                                 <div className="w-100 text-center">
                                    <div className='d-flex justify-content-center align-items-center'>
                                         <span className='display-3 fw-bold text-primary' style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif' }}>
-                                            1000
-                                        </span>
-                                        <span className='display-3 text-primary'>+</span>
-                                   </div>
-                                   <p className='text-white lg:fs-17 fs-15 mb-0 '>Attendees</p>
-                                </div>
-                            </Col>
-
-                            <Col lg={3} sm={6} xs={6} className="numbers-item">
-                                <div className="w-100 text-center">
-                                   <div className='d-flex justify-content-center align-items-center'>
-                                        <span className='display-3 fw-bold text-primary' style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif' }}>
                                             200
                                         </span>
                                         <span className='display-3 text-primary'>+</span>
                                    </div>
-                                   <p className='text-white lg:fs-17 fs-15 mb-0'>Financial Institutions</p>
+                                   <p className='text-white lg:fs-17 fs-15 mb-0 '>Participants</p>
+                                </div>
+                            </Col>
+
+                            <Col lg={3} sm={6} xs={6} className="numbers-item">
+                                <div className="w-100 text-center">
+                                   <div className='d-flex justify-content-center align-items-center'>
+                                        <span className='display-3 fw-bold text-primary' style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif' }}>
+                                            24
+                                        </span>
+                                        <span className='display-3 text-primary'>+</span>
+                                   </div>
+                                   <p className='text-white lg:fs-17 fs-15 mb-0'>Sessions</p>
                                 </div>
                             </Col>
 
@@ -47,7 +47,7 @@ const Numbers = () => {
                                 <div className="w-100 text-center">
                                    <div className='d-flex justify-content-center align-items-center'>
                                         <span className='display-3 fw-bold text-primary' style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif' }}>
-                                            20
+                                            30
                                         </span>
                                         <span className='display-3 text-primary'>+</span>
                                    </div>
@@ -60,11 +60,11 @@ const Numbers = () => {
                                 <div className="w-100 text-center">
                                    <div className='d-flex justify-content-center align-items-center'>
                                         <span className='display-3 fw-bold text-primary' style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif' }}>
-                                            73
+                                            10
                                         </span>
                                         <span className='display-3 text-primary'>+</span>
                                    </div>
-                                   <p className='text-white lg:fs-17 fs-15 mb-0'>Live Demo</p>
+                                   <p className='text-white lg:fs-17 fs-15 mb-0'>Countries</p>
                                 </div>
                             </Col>
                     </Row>

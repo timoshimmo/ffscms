@@ -57,7 +57,7 @@ const Feedback = () => {
                                     <CardBody>
                                         <Row className="align-items-center">
                                             <Col lg={4} sm={12} xs={12}>
-                                                <img src={imgFeedback} alt="" height="480" className='rounded-4 img-feedback-style' />
+                                                <img src={imgFeedback} alt="" height="280" className='rounded-4 img-feedback-style' />
                                             </Col>
                                             <Col lg={8} sm={12} xs={12}>
                                                 <div className='w-100 d-flex flex-column align-items-center justify-content-center'>
@@ -78,7 +78,7 @@ const Feedback = () => {
                                     <CardBody>
                                         <Row className="align-items-center">
                                             <Col lg={4} sm={12} xs={12}>
-                                                <img src={imgFeedback} alt="" height="480" className='rounded-4 img-feedback-style' />
+                                                <img src={imgFeedback} alt="" height="280" className='rounded-4 img-feedback-style' />
                                             </Col>
                                             <Col lg={8} sm={12} xs={12}>
                                                 <div className='w-100 d-flex flex-column align-items-center justify-content-center'>
@@ -130,7 +130,7 @@ const Feedback = () => {
                                     <CardBody>
                                         <Row className="align-items-center">
                                             <Col lg={4} sm={12} xs={12}>
-                                                <img src={imgFeedback} alt="" height="480" className='rounded-4 img-feedback-style' />
+                                                <img src={imgFeedback} alt="" height="280" className='rounded-4 img-feedback-style' />
                                             </Col>
                                             <Col lg={8} sm={12} xs={12}>
                                                 <div className='w-100 d-flex flex-column align-items-center justify-content-center'>
@@ -150,7 +150,7 @@ const Feedback = () => {
                                     <CardBody>
                                         <Row className="align-items-center">
                                             <Col lg={4} sm={12} xs={12}>
-                                                <img src={imgFeedback} alt="" height="480" className='rounded-4 img-feedback-style' />
+                                                <img src={imgFeedback} alt="" height="280" className='rounded-4 img-feedback-style' />
                                             </Col>
                                             <Col lg={8} sm={12} xs={12}>
                                                 <div className='w-100 d-flex flex-column align-items-center justify-content-center'>
