@@ -12,7 +12,7 @@ const Connect = () => {
 
     return (
         <React.Fragment>
-            <section className="connect-section px-4">
+            <section className="connect-section">
                 <Container>
                     <Row className="justify-content-center">
                         <Col lg={8} sm={12}>

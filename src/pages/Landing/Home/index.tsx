@@ -8,6 +8,7 @@ import Views from './Views';
 import WhoAttends from './WhoAttends';
 import Numbers from './Numbers';
 import ElevateExperience from './Elevate';
+import Feedback from './Feedback';
 import Faq from './Faq';
 import CTA from '../Common/CTA';
 import FooterNew from '../Common/footerNew';
@@ -58,6 +59,7 @@ const index = () => {
                 <Highlights />
                 <Connect />
                 <Views />
+                <Feedback />
                 <WhoAttends />
                 <ElevateExperience />
                 <Faq />
