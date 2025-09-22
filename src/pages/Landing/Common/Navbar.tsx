@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { Collapse, Container, NavbarToggler, NavLink, Dropdown, DropdownToggle, DropdownMenu, DropdownItem, UncontrolledDropdown, ButtonDropdown } from 'reactstrap';
+import { Collapse, Container, NavbarToggler, NavLink, Dropdown, DropdownToggle, DropdownMenu, DropdownItem, UncontrolledDropdown } from 'reactstrap';
 import { Link, NavLink as RRNavLink } from 'react-router-dom'; 
 import Scrollspy from "react-scrollspy";
 
@@ -20,17 +20,17 @@ const Navbar = () => {
     const [openEvents, setOpenEvents] = useState(false);
     const [openInvolved, setInvolved] = useState(false);
 
-    const [openFFS2024, setOpenFFS2024] = useState(false);
+  //  const [openFFS2024, setOpenFFS2024] = useState(false);
 
 
     const toggle = () => setisOpenMenu(!isOpenMenu);
     const toggleEvents = () => setOpenEvents((prevState) => !prevState);
     const toggleInvolved = () => setInvolved((prevState) => !prevState);
 
-    const toggleFFS2024 = () => setOpenFFS2024((prevState) => !prevState);
+  //  const toggleFFS2024 = () => setOpenFFS2024((prevState) => !prevState);
 
-    const closeInvolved = () => setInvolved(false);
-    const closeEvents = () => setOpenEvents(false);
+  //  const closeInvolved = () => setInvolved(false);
+   // const closeEvents = () => setOpenEvents(false);
 
     useEffect(() => {
         window.addEventListener("scroll", scrollNavigation, true);
@@ -118,22 +118,22 @@ const Navbar = () => {
                                 <NavLink className="nav-link fs-14 text-white" to="/" activeClassName="active" tag={RRNavLink}>Home</NavLink>
                             </li>
                             <li className="nav-item px-4 web-navbar">
-                                <NavLink className="nav-link fs-14 text-white" to="/about" activeClassName="active" tag={RRNavLink}>About</NavLink>
+                                <NavLink className="nav-link fs-14 text-white" to="/agenda" activeClassName="active" tag={RRNavLink}>Agenda</NavLink>
                             </li>
                             <li className="nav-item px-4 web-navbar">
+                                <NavLink className="nav-link fs-14 text-white" to="/speakers" activeClassName="active" tag={RRNavLink}>Speakers</NavLink>
+                            </li>
+                            {/*<li className="nav-item px-4 web-navbar">
                                 <Dropdown isOpen={openEvents} toggle={toggleEvents}>
                                     <DropdownToggle caret tag="button" className="nav-link fs-14">
                                         Events
                                     </DropdownToggle>
                                     <DropdownMenu className='px-2'>
                                         <DropdownItem href='/summit' className="fs-14 fw-light" style={{ color: '#E1E7EC' }}>FFS Summit 2024</DropdownItem>
-                                        {/* <DropdownItem divider style={{ borderColor: '#E1E7EC' }}/>
-                                        <DropdownItem href='/speakers' className="fs-14 fw-light" style={{ color: '#E1E7EC' }}>2024 Speakers</DropdownItem>
-                                        <DropdownItem divider style={{ borderColor: '#E1E7EC' }}/>
-                        <DropdownItem href='/agenda' className="fs-14 fw-light" style={{ color: '#E1E7EC' }}>2024 Agenda</DropdownItem> */}
+                                          
                                     </DropdownMenu>
                                 </Dropdown>
-                            </li>
+                            </li> */}
                             {/*<li className="nav-item px-4 web-navbar">
                                 <Dropdown isOpen={openEvents} toggle={toggleEvents}>
                                     <DropdownToggle caret tag="button" className="nav-link fs-14">
@@ -173,12 +173,15 @@ const Navbar = () => {
                           
                             {/* Mobile Navbar  */}
                             <li className="nav-item mobile-navbar">
-                                <NavLink className="nav-link fs-14 text-white d-flex justify-content-end" to="/home" activeClassName="active" tag={RRNavLink}>Home</NavLink>
+                                <NavLink className="nav-link fs-14 text-white d-flex justify-content-end" to="/" activeClassName="active" tag={RRNavLink}>Home</NavLink>
                             </li>
                             <li className="nav-item mobile-navbar">
-                                    <NavLink className="nav-link fs-14 text-white d-flex justify-content-end" to="/about" activeClassName="active" tag={RRNavLink}>About</NavLink>
+                                    <NavLink className="nav-link fs-14 text-white d-flex justify-content-end" to="/agenda" activeClassName="active" tag={RRNavLink}>Agenda</NavLink>
                             </li>
-                            <li className="mobile-navbar">
+                            <li className="nav-item mobile-navbar">
+                                    <NavLink className="nav-link fs-14 text-white d-flex justify-content-end" to="/speakers" activeClassName="active" tag={RRNavLink}>Speakers</NavLink>
+                            </li>
+                            {/*<li className="mobile-navbar">
                                 <UncontrolledDropdown inNavbar nav>
                                     <DropdownToggle caret nav className="nav-link nav-item-mobile fs-14 d-flex justify-content-end">
                                         Events
@@ -188,13 +191,12 @@ const Navbar = () => {
                                         <DropdownItem divider style={{ borderColor: '#E1E7EC' }}/>
                                         <DropdownItem href='/speakers' className="fs-14 fw-light text-end" style={{ color: '#E1E7EC' }}>2024 Speakers</DropdownItem>
                                         <DropdownItem divider style={{ borderColor: '#E1E7EC' }}/>
-                                        {/* <DropdownItem href="/exhibitors" className="fs-14 fw-light text-end" style={{ color: '#E1E7EC' }}>Be an Exhibitor</DropdownItem>
-                                        <DropdownItem divider style={{ borderColor: '#E1E7EC' }}/> */}
+                                          
                                         <DropdownItem href='/agenda' className="fs-14 fw-light text-end" style={{ color: '#E1E7EC' }}>2024 Agenda</DropdownItem>
                                         <DropdownItem divider style={{ borderColor: '#E1E7EC' }}/>
                                     </DropdownMenu>
                                 </UncontrolledDropdown>
-                            </li>
+                            </li> */}
 
                             {/* <li className="mobile-navbar">
                                 <UncontrolledDropdown inNavbar nav>
@@ -241,7 +243,7 @@ const Navbar = () => {
                            
                         </Scrollspy>
                         <div className='ms-4 mobile-nav-button'>
-                            <Link to="/contact-us" className="btn btn-success btn-banner">Contact Us</Link>
+                            <Link to="/register" className="btn btn-success btn-banner">Register</Link>
                         </div>       
                     </Collapse>
 

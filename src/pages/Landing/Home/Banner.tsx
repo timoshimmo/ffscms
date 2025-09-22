@@ -1,12 +1,10 @@
 import React, { useState, useEffect, useRef }  from 'react';
 import { Container, Row, Col, NavLink } from 'reactstrap';
 import { Link, useNavigate } from 'react-router-dom';
-import axios from 'axios';
-import { speakersData } from '../../../common/data';
+//import axios from 'axios';
+//import { speakersData } from '../../../common/data';
 
 // Import Swiper React components
-import { Swiper, SwiperRef, SwiperSlide } from 'swiper/react';
-import SwiperCore from 'swiper';
 //import { useSwiper } from 'swiper/react';
 
 // Import Swiper styles
@@ -15,10 +13,8 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import 'swiper/css/autoplay';
 
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
-import ic_slide_left_arrow from "../../../assets/images/icons/ic_slide_left_arrow.png";
-import ic_slide_right_arrow from "../../../assets/images/icons/ic_slide_right_arrow.png";
 
+/*
 interface IBanner {
     bannerTitle: string;
     caption: string;
@@ -28,6 +24,7 @@ interface IBanner {
     speakerImages: any;
     seoFields: any;
 }
+
 
 interface ISpeakers {
     fields: {
@@ -46,16 +43,29 @@ const initBanner = {
     speakerImages: [],
     seoFields: {}
 };
-
+*/
 
 const Banner = () => {
 
-    let navigate = useNavigate();
-    const swiperRef = useRef<SwiperRef>(null);
-    const [dataEntry, setDataEntry] = useState<IBanner>(initBanner);
-    const [speakersList, setSpeakersList] = useState<ISpeakers[] | []>([]);
+    const videoEl = useRef<HTMLVideoElement>(null);
 
     useEffect(() => {
+        attemptPlay();
+      }, []);
+
+      const attemptPlay = () => {
+            videoEl &&
+            videoEl.current &&
+            videoEl.current?.play().catch(error => {
+                console.error("Error attempting to play", error);
+            });
+
+            //https://stream.mux.com/6fiGM5ChLz8T66ZZiuzk1KZuIKX8zJz00/medium.mp4
+        };
+
+   // const [speakersList, setSpeakersList] = useState<ISpeakers[] | []>([]);
+
+   /* useEffect(() => {
         let endpoints = [
             'https://cdn.contentful.com/spaces/8kgt6jcufmb2/environments/master/entries/3vrx9Ezv34q2B8pY0kjP25?access_token=0i1vMSW9uEuEaMKBV_cMWva-FkSU11BTHazrVRUxUW4',
             'https://cdn.contentful.com/spaces/8kgt6jcufmb2/environments/master/assets?access_token=0i1vMSW9uEuEaMKBV_cMWva-FkSU11BTHazrVRUxUW4&metadata.tags.sys.id[all]=speakersImage'
@@ -74,100 +84,48 @@ const Banner = () => {
             setDataEntry(fields.fields);
             setSpeakersList(sortedSpeakers);
         });
-    }, []);
-
-    const redirect =() => {
-        navigate('/speakers');
-    }
+    }, []);*/
 
     return (
         <React.Fragment>
-            <section className="section ffs-banner parallax" id="banner">
+            <section className="section ffs-banner-home parallax" id="banner">
+               
+            {/*<iframe
+                title='Seabass Launch Presentation'
+                className="youtube-background-video"
+                src="https://www.youtube.com/embed/Z_mllESMBws?controls=0&mute=1&autoplay=1&loop=1&playlist=Z_mllESMBws"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+            ></iframe>*/}
+
+            <video
+                className='youtube-background-video'
+                playsInline
+                loop
+                muted
+                src="https://res.cloudinary.com/westpaybankit/video/upload/v1730055056/FFS/FFS_Summit_Summary.mp4"
+                ref={videoEl}
+            />
             <div className="bg-overlay"></div>
             <Container className='ffs-container'>
-                <Row className='justify-content-center'>
-                    <Col lg={7} sm={12} className='px-3'>
+                <Row className='justify-content-center align-items-end'>
+                    <Col lg={10} sm={12} className='px-4'>
                         <div className="text-center">
-                            <h1 className="display-3 fw-bold text-white title" style={{ fontFamily: 'Georgia, Montserrat' }}>{dataEntry.bannerTitle}</h1>
-                            <p className="h5 text-primary mb-4 py-2 caption-web" style={{ fontWeight: 600 }}>{dataEntry.caption}</p>
-                            <p className="h5 text-primary mb-4 py-2 caption-mobile" style={{ fontWeight: 600 }}>{dataEntry.mobileCaption}</p>
-                            {/*<p className="h4 text-white mb-4 py-2 caption">Innovating the Next Generation of Finance</p> */}
+                            <h1 className="display-3 fw-bold text-white title" style={{ fontFamily: 'Georgia, Montserrat' }}>Future of Financial Services Summit <span className='text-secondary'>2.0</span></h1>
+                            <p className="h5 text-primary mb-4 py-2 caption-web" style={{ fontWeight: 600 }}><i className="ri-calendar-2-line" style={{ fontWeight: 400, marginRight: 5 }}></i> November 19th, 2025 <span className='text-white bg-white border border-white mx-2' style={{ display: 'inline-block', height: '25px' }}></span><i className="ri-map-pin-line" style={{ fontWeight: 400, marginRight: 5 }}></i> Four Points by Sheraton, V.I, Lagos</p>
+                            <div className='w-100 caption-mobile mb-4 py-2 '>
+                                <p className="h5 text-primary" style={{ fontWeight: 600 }}><i className="ri-calendar-2-line" style={{ fontWeight: 400, marginRight: 5 }}></i> November 19th, 2025</p>
+                                <p className="h5 text-primary" style={{ fontWeight: 600 }}><i className="ri-map-pin-line" style={{ fontWeight: 400, marginRight: 5 }}></i> Four Points by Sheraton, V.I, Lagos</p>
+                            </div> 
 
+                            {/* <p className="h5 text-primary mb-4 py-2 caption-web" style={{ fontWeight: 600 }}>{dataEntry.caption}</p>
+                            <p className="h5 text-primary mb-4 py-2 caption-mobile" style={{ fontWeight: 600 }}>{dataEntry.mobileCaption}</p> */}
                         </div>
                     </Col>
                 </Row>
-                <div className='web-featured-speakers my-3 position-relative'>
-                    {/* <Col sm={12}> */}
-                        <Swiper
-                            spaceBetween={5}
-                            loop={true}
-                            centeredSlides={true}
-                            freeMode={true}
-                            allowTouchMove
-                            speed={1500}
-                            autoplay={{
-                                delay: 1000,
-                                disableOnInteraction: false,
-                            }}
-                            navigation={false}
-                            slidesPerView={5}
-                            modules={[Autoplay, Navigation]}
-                            ref={swiperRef}
-                            className="position-relative mySwiper"
-                        >
-                            {speakersList.map((item, key) => (
-                                <SwiperSlide key={key} className='swiper-slide-web' onClick={redirect} style={{ cursor: 'pointer' }}>
-                                    <img src={item.fields.file.url} alt="" className="avatar-speaker"/>
-                                    <div className='w-100 mt-3' >
-                                        <h5 className="text-white fs-14 mb-0" style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif' }}>{item.fields.title}</h5>
-                                        <p className="text-white fs-11 fw-light">{item.fields.description}</p>
-                                    </div>
-                                </SwiperSlide>
-                            ))}
-                        </Swiper>
-                    {/* </Col> */}
-                    <div className="slide-button-left-area">
-                        <button onClick={() => swiperRef?.current?.swiper.slidePrev()} className="swiper-button-custom bg-primary d-flex justify-content-center align-items-center">
-                            <img src={ic_slide_left_arrow} />
-                        </button>
-                    </div>
-                    <div className="slide-button-right-area">
-                        <button onClick={() => swiperRef?.current?.swiper.slideNext()} className="swiper-button-custom btn-primary d-flex justify-content-center align-items-center">
-                            <img src={ic_slide_right_arrow} />
-                        </button>
-                    </div>
-                </div >
-                <Row className="mobile-featured-speakers justify-content-center">
-                    <Col lg={5}>
-                        <Swiper
-                            spaceBetween={15}
-                            loop={true}
-                            centeredSlides={true}
-                            freeMode={true}
-                            allowTouchMove={true}
-                            speed={3000}
-                            autoplay={{
-                                delay: 1000,
-                                disableOnInteraction: false,
-                            }}
-                            slidesPerView={1.9}
-                            navigation={false}
-                            modules={[Autoplay]}
-                            className="mySwiper positio-relative"
-                        >
-                            {speakersList.map((item, key) => (
-                                <SwiperSlide key={key}>
-                                    <img src={item.fields.file.url} alt="" className="avatar-speaker"/>
-                                    <div className='w-100 mt-3'>
-                                        <h5 className="text-white fs-14 mb-0" style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif' }}>{item.fields.title}</h5>
-                                        <p className="text-white fs-11 fw-light">{item.fields.description}</p>
-                                    </div>
-                                </SwiperSlide>
-                            ))}
-                        </Swiper>
-                    </Col>
-                </Row>        
-                <Row className="justify-content-center mt-5">
+                   
+                <Row className="justify-content-center banner-btn-area">
                     <Col lg={8} sm={12} xs={12} className='px-3'>
                         {/*
                         
@@ -189,15 +147,15 @@ const Banner = () => {
 
                             <div className="w-100 btn-home-web">
                                 <div className="d-flex gap-3 justify-content-center">
-                                    <Link to="/register" className="btn btn-primary btn-banner">Register</Link>
-                                    <NavLink href="#whatis" className="btn btn-outline-secondary border border-secondary border-2 btn-banner btn-banner-secondary">See More</NavLink>
+                                    <Link to="/register" className="btn btn-primary btn-banner">Register Now</Link>
+                                    <Link to="/agenda" className="btn btn-outline-secondary border border-secondary border-2 btn-banner btn-banner-secondary">View Agenda</Link>
                                 </div>
                             </div>
 
                             <div className="w-100 btn-home-mobile">
                                 <div className="d-flex flex-column align-items-center gps-3 px-5">
-                                    <Link to="/register" className="w-100 btn btn-primary btn-banner">Register</Link>
-                                    <NavLink href="#whatis" className="w-100 mt-3 btn btn-outline-secondary border border-secondary border-2 btn-banner btn-banner-secondary">See More</NavLink>
+                                    <Link to="/register" className="w-100 btn btn-primary btn-banner">Register Now</Link>
+                                    <Link to="/agenda" className="w-100 mt-3 btn btn-outline-secondary border border-secondary border-2 btn-banner btn-banner-secondary">View Agenda</Link>
                                 </div>
                             </div>  
                     </Col>
