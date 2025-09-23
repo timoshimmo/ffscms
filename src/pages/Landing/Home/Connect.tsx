@@ -17,7 +17,7 @@ const Connect = () => {
                     <Row className="justify-content-center">
                         <Col lg={8} sm={12}>
                             <div className="text-center mb-4">
-                                <h2 className="mb-3 fw-semibold lh-base text-primary"  style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif' }}>The Summit Experience</h2>
+                                <h2 className="mb-3 fw-semibold lh-base text-primary"  style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif' }}>FFS 2.0 Summit Themes</h2>
                             </div>
                         </Col>
                     </Row>
