@@ -8,6 +8,7 @@ import img_boye_ademola from "../../../assets/images/speakers/2025/img_boye_adem
 import img_abubakar from "../../../assets/images/speakers/2025/img_abubakar.jpg";
 import img_tunji from "../../../assets/images/speakers/2025/img_tunji_odumuboni.jpg";
 import img_meghan from "../../../assets/images/speakers/2025/img_meghan.png";
+import img_mohammed_ghonaim from "../../../assets/images/speakers/2025/img_mohammed_ghonaim.jpeg";
 import img_speaker_overlay from "../../../assets/images/speakers/2025/img_speaker_overlay.png";
 
 
@@ -68,13 +69,13 @@ const Speakers = () => {
                         <Card className="rounded-3 shadow-none home-speakers-card-dark" style={{ cursor: 'pointer' }}>
                             <CardBody className="p-0">
                                 <div className='position-relative'>
-                                    <img src={img_abubakar} alt="Speaker" className="w-100 rounded-top-3 img-speaker-profile" />
+                                    <img src={img_mohammed_ghonaim} alt="Speaker" className="w-100 rounded-top-3 img-speaker-profile" />
                                     <img src={img_speaker_overlay} alt="Overlay" className="w-100 rounded-top-3 speaker-overlay" />
                                 </div>
                                 <div className='w-100 justify-content-between item-center px-3 py-4'>
-                                    <h5 className='text-white fs-18 mb-2 fw-bold' style={{ fontFamily: 'Georgia' }}>Abubakar Suleiman</h5>
-                                    <p className="pb-2 mb-0 fs-12">CEO</p>
-                                    <p className="pb-2 mb-0 fs-14 fw-bold">Sterling Bank</p>
+                                    <h5 className='text-white fs-18 mb-2 fw-bold' style={{ fontFamily: 'Georgia' }}>Mohammed Ghonaim</h5>
+                                    <p className="pb-2 mb-0 fs-12">Co-Founder</p>
+                                    <p className="pb-2 mb-0 fs-14 fw-bold">D360 Bank</p>
                                 </div>                       
                             </CardBody>
                         </Card>
