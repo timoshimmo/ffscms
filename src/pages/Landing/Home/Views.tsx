@@ -23,7 +23,8 @@ const Views = () => {
                     <Row className="justify-content-center">
                         <Col lg={8} sm={12}>
                             <div className="text-center mb-4">
-                                <h2 className="mb-3 fw-semibold lh-base text-primary"  style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif' }}>Views From 2024</h2>
+                                <h2 className="mb-3 fw-semibold lh-base text-primary"  style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif' }}>Highlights from FFS 1.0 London (2024)</h2>
+                                <p className="mb-5 fs-15 text-white text-center">A look back at the keynotes, panels, and roundtables that marked the bold beginning of the Future of Financial Services Summit.</p>
                             </div>
                         </Col>
                     </Row>

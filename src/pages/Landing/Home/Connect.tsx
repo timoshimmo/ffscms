@@ -22,52 +22,52 @@ const Connect = () => {
                         </Col>
                     </Row>
                     <Row className="g-4 mt-1">
-                        <Col lg={3} sm={12}>
+                        <Col lg={4} sm={12}>
                             <div className="flip-card">
                                 <div className="flip-card-inner">
                                     <div className="flip-card-front">
                                         <img src={imgConnectExp1} alt="" className="w-100 rounded-4 img-connect-exp" /> 
-                                        <div className='flip-overlay d-flex align-items-center justify-content-center'><p className='flip-front-title text-white px-5'>Next-Gen Banking</p></div>
+                                        <div className='flip-overlay d-flex align-items-center justify-content-center'><p className='flip-front-title text-white px-5'>Digital Transformation in Corporate & Transaction Banking</p></div>
                                     </div>
                                     <div className="flip-card-back py-5 px-3">
-                                        <h1 className='flip-back-title'>Next-Gen Banking</h1> 
-                                        <p className='fs-15'>Explore the future of corporate banking, from Africa to global markets.</p> 
+                                        <h1 className='flip-back-title'>Digital Transformation in Corporate & Transaction Banking</h1> 
+                                        <p className='fs-15'>Modernising cores, digitising trade and lending, and embedding services through APIs that plug directly into client workflows – driving efficiency, speed, and new distribution models.</p> 
                                     </div>
                                 </div>
                             </div>
                         </Col>
 
-                        <Col lg={3} sm={12}>
+                        <Col lg={4} sm={12}>
                             <div className="flip-card">
                                 <div className="flip-card-inner">
                                     <div className="flip-card-front">
                                         <img src={imgConnectExp2} alt="" className="w-100 rounded-4 img-connect-exp" /> 
-                                        <div className='flip-overlay d-flex align-items-center justify-content-center'><p className='flip-front-title text-white px-5'>AI & Open Banking</p></div>
+                                        <div className='flip-overlay d-flex align-items-center justify-content-center'><p className='flip-front-title text-white px-5'>AI & the Future of Corporate & Transaction Banking</p></div>
                                     </div>
                                     <div className="flip-card-back py-5 px-3">
-                                        <h1 className='flip-back-title'>AI & Open Banking</h1> 
-                                        <p className='fs-15'>Highlight how Al, open banking, and global payments are reshaping distribution models.</p> 
+                                        <h1 className='flip-back-title'>AI & the Future of Corporate & Transaction Banking</h1> 
+                                        <p className='fs-15'>AI is shifting from hype to impact. From risk detection and forecasting to CFO and treasury insights, trusted and explainable AI is reshaping how corporates and banks operate.</p> 
                                     </div>
                                 </div>
                             </div>
                         </Col>
 
-                        <Col lg={3} sm={12}>
+                        <Col lg={4} sm={12}>
                             <div className="flip-card">
                                 <div className="flip-card-inner">
                                     <div className="flip-card-front">
                                         <img src={imgConnectExp3} alt="" className="w-100 rounded-4 img-connect-exp" /> 
-                                        <div className='flip-overlay d-flex align-items-center justify-content-center'><p className='flip-front-title text-white px-5'>Innovation at the Top</p></div>
+                                        <div className='flip-overlay d-flex align-items-center justify-content-center'><p className='flip-front-title text-white px-5'>Global Payments & Treasury</p></div>
                                     </div>
                                     <div className="flip-card-back py-5 px-3">
-                                        <h1 className='flip-back-title'>Innovation at the Top</h1> 
-                                        <p className='fs-15'>Bring together CEOs and business leaders for dialogue and innovation.</p> 
+                                        <h1 className='flip-back-title'>Global Payments & Treasury</h1> 
+                                        <p className='fs-15'>Cross-border settlement, liquidity, ISO 20022, stablecoins, and tokenised deposits – the new rails powering certainty, speed, and control in global transaction banking.</p> 
                                     </div>
                                 </div>
                             </div>
                         </Col>
 
-                        <Col lg={3} sm={12}>
+                        {/*<Col lg={3} sm={12}>
                                 <div className="flip-card">
                                 <div className="flip-card-inner">
                                     <div className="flip-card-front">
@@ -80,7 +80,7 @@ const Connect = () => {
                                     </div>
                                 </div>
                             </div>
-                        </Col>
+                        </Col>*/}
                     </Row>
                 </Container>
             </section>

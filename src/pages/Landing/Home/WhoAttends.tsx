@@ -29,24 +29,24 @@ const WhoAttends = () => {
                             <div className="attends-grid-style">
                                 <div className="border-bottom border-white attends-item">
                                     <div className="pt-3 px-3 attends-hover">
-                                        <h6 className='text-white fw-bold fs-16' style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif' }}>C-Suite executives from banks, corporates, and financial institutions</h6>
-                                        <p className='text-white fs-13 mt-4'>Decision-makers shaping corporate banking. A space to connect with peers, share strategies, and unlock opportunities in the evolving financial ecosystem.</p>
+                                        <h6 className='text-white fw-bold fs-16' style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif' }}>C-Suite Executives</h6>
+                                        <p className='text-white fs-13 mt-5'>Leaders managing capital, liquidity, and growth strategies, seeking actionable insights and future-ready banking solutions.</p>
                                     </div>
                                     <img src={imgAttends1} alt="" className="w-100 rounded-3 attends-imgs-style" />
                                 </div>
 
                                 <div className="border-bottom border-white attends-item">
                                     <div className="pt-3 px-3 attends-hover">
-                                        <h6 className='text-white fw-bold fs-16' style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif' }}>Corporate CFOs, Treasurers, Business Heads</h6>
-                                        <p className='text-white fs-13 mt-4'>Finance leaders shaping strategy and growth. Connect with peers, explore new models for corporate banking, and gain insights to strengthen treasury and business operations.</p>
+                                        <h6 className='text-white fw-bold fs-16' style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif' }}>Corporate CFOs, Treasurers, and Business Heads</h6>
+                                        <p className='text-white fs-13 mt-5'>Finance leaders shaping strategy and growth. Connect with peers, explore new models for corporate banking, and gain insights to strengthen treasury and business operations.</p>
                                     </div>
                                     <img src={imgAttends2} alt="" className="w-100 rounded-3 attends-imgs-style" />
                                 </div>
 
                                 <div className="border-bottom border-white attends-item">
                                     <div className="pt-3 px-3 attends-hover">
-                                        <h6 className='text-white fw-bold fs-16' style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif' }}>Regulators and policymakers</h6>
-                                        <p className='text-white fs-13 mt-4'>Leaders driving policy and governance. Engage in strategic discussions that balance innovation, regulation, and financial inclusion.</p>
+                                        <h6 className='text-white fw-bold fs-16' style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif' }}>Regulators and Policymakers</h6>
+                                        <p className='text-white fs-13 mt-5'>Policy drivers and governance leaders engaging with industry stakeholders to shape the future of financial services.</p>
                                     </div>
                                     <img src={imgAttends3} alt="" className="w-100 rounded-3 attends-imgs-style" />
                                 </div>
@@ -56,24 +56,24 @@ const WhoAttends = () => {
                             <div className="attends-grid-style mt-5">
                                 <div className="border-bottom border-white attends-item">
                                     <div className="pt-3 px-3 attends-hover">
-                                        <h6 className='text-white fw-bold fs-16' style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif' }}>Fintechs and technology providers</h6>
-                                        <p className='text-white fs-13 mt-4'>Innovators building the future of finance. Showcase solutions, explore partnerships, and align with industry leaders to scale impact.</p>
+                                        <h6 className='text-white fw-bold fs-16' style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif' }}>Fintechs and Technology Providers</h6>
+                                        <p className='text-white fs-13 mt-5'>Innovators building next-generation platforms, partnerships, and solutions that redefine corporate and transaction banking.</p>
                                     </div>
                                     <img src={imgAttends4} alt="" className="w-100 rounded-3 attends-imgs-style" />
                                 </div>
 
                                 <div className="border-bottom border-white attends-item">
                                     <div className="pt-3 px-3 attends-hover">
-                                        <h6 className='text-white fw-bold fs-16' style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif' }}>Investors, DFIs, and analysts</h6>
-                                        <p className='text-white fs-13 mt-4'>Capital providers and market watchers. Discover new opportunities, evaluate emerging models, and connect with the next wave of growth in finance.</p>
+                                        <h6 className='text-white fw-bold fs-16' style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif' }}>Investors, DFIs, and Analysts</h6>
+                                        <p className='text-white fs-13 mt-5'>Capital providers and market watchers discovering opportunities, trends, and investment pathways in financial services.</p>
                                     </div>
                                     <img src={imgAttends5} alt="" className="w-100 rounded-3 attends-imgs-style" />
                                 </div>
 
                                 <div className="border-bottom border-white attends-item">
                                     <div className="pt-3 px-3 attends-hover">
-                                        <h6 className='text-white fw-bold fs-16' style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif' }}>Associations, consultants, and media</h6>
-                                        <p className='text-white fs-13 mt-4'>Industry enablers and storytellers. Gain first-hand insights, shape narratives, and bridge the gap between stakeholders across the financial landscape.</p>
+                                        <h6 className='text-white fw-bold fs-16' style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif' }}>Associations, Consultants, and Media</h6>
+                                        <p className='text-white fs-13 mt-5'>Industry enablers and storytellers capturing, analysing, and amplifying the latest developments in banking and finance.</p>
                                     </div>
                                     <img src={imgAttends6} alt="" className="w-100 rounded-3 attends-imgs-style" />
                                 </div>

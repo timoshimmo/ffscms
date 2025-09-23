@@ -14,9 +14,9 @@ const ElevateExperience = () => {
                             <Card className="bg-white rounded-4 shadow">
                                 <CardBody className="py-5 px-4">
                                     <div className="text-center">
-                                        <h1 className="mb-4 fw-bold text-primary" style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif' }}>Elevate Your <br />Meeting Experience</h1>
-                                        <p className="mb-3 fs-17 text-black text-center" style={{ fontFamily: 'Montserrat, "Times New Roman", Times, serif' }}>Go beyond ordinary networking and dive into the conversations shaping tomorrow’s corporate banking. Discover how AI, open banking, and global payments are transforming the way banks, corporates, and fintechs collaborate.</p>
-                                        <p className="mb-5 fs-17 text-black text-center" style={{ fontFamily: 'Montserrat, "Times New Roman", Times, serif' }}>This is your chance to connect with decision-makers, exchange bold ideas, and unlock new opportunities that will define the future of finance.</p>
+                                        <h1 className="mb-4 fw-bold text-primary" style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif' }}>Elevate Your<br />Summit Experience</h1>
+                                        <p className="mb-3 fs-17 text-black text-center" style={{ fontFamily: 'Montserrat, "Times New Roman", Times, serif' }}>Go beyond networking, immerse yourself in the conversations defining the future of corporate & transaction banking. From digital transformation and AI to global payments and treasury, discover how banks, corporates, and fintechs are forging the next generation of financial services.</p>
+                                        <p className="mb-5 fs-17 text-black text-center" style={{ fontFamily: 'Montserrat, "Times New Roman", Times, serif' }}>This is your moment to engage with industry leaders, challenge ideas, and unlock bold opportunities that will shape the next era of finance.</p>
                                         <div className="d-flex justify-content-center">
                                             <Link to="/register" className="btn btn-primary btn-number-reg">Register Now</Link>
                                         </div>

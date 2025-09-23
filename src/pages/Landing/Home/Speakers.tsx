@@ -34,7 +34,7 @@ const Speakers = () => {
                     <Col lg={5}>
                         <div className="text-center mb-5">
                             <h2 className="mb-2 fw-semibold lh-base text-primary" style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif' }}>2025 Speakers</h2>
-                            <p className="mb-5 fs-15 text-white text-center">Industry leaders, innovators, and visionaries shaping the future of corporate banking</p>
+                            <p className="mb-5 fs-15 text-white text-center">Industry leaders, innovators, and visionaries shaping the future of corporate & transaction banking</p>
                             {/* <p className="mb-3 fs-13 text-white">Our Esteemed Panel of Influential Experts Sharing Their Wisdom, Experience, and Innovative Ideas</p> */}
                         </div>
                     </Col>
@@ -43,7 +43,7 @@ const Speakers = () => {
                     <Col sm={12} xs={12}>
                         <div className="text-center mb-5">
                             <h2 className="mb-2 h1 fw-semibold lh-base text-primary" style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif' }}>2025 Speakers</h2>
-                            <p className="mb-5 fs-13 text-white text-center">Industry leaders, innovators, and visionaries shaping the future of corporate banking</p>
+                            <p className="mb-5 fs-13 text-white text-center">Industry leaders, innovators, and visionaries shaping the future of corporate & transaction banking</p>
                             {/* <p className="mb-3 fs-13 text-white">Our Esteemed Panel of Influential Experts Sharing Their Wisdom, Experience, and Innovative Ideas</p> */}
                         </div>
                     </Col>
@@ -58,8 +58,8 @@ const Speakers = () => {
                                 </div>
                                 <div className='w-100 justify-content-between item-center px-3 py-4'>
                                     <h5 className='text-white fs-18 mb-2 fw-bold' style={{ fontFamily: 'Georgia' }}>Boye Ademola</h5>
-                                    <p className="pb-2 mb-0 fs-12">Founder/CEO</p>
-                                    <p className="pb-2 mb-0 fs-14 fw-bold">Bazara</p>
+                                    <p className="pb-2 mb-0 fs-12">Founder & CEO</p>
+                                    <p className="pb-2 mb-0 fs-14 fw-bold">BazaraTech</p>
                                 </div>                       
                             </CardBody>
                         </Card>
@@ -74,8 +74,8 @@ const Speakers = () => {
                                 </div>
                                 <div className='w-100 justify-content-between item-center px-3 py-4'>
                                     <h5 className='text-white fs-18 mb-2 fw-bold' style={{ fontFamily: 'Georgia' }}>Mohammed Ghonaim</h5>
-                                    <p className="pb-2 mb-0 fs-12">Co-Founder</p>
-                                    <p className="pb-2 mb-0 fs-14 fw-bold">D360 Bank</p>
+                                    <p className="pb-2 mb-0 fs-12">Co-Founder, D360 Bank</p>
+                                    <p className="pb-2 mb-0 fs-14 fw-bold">Board Member, SICO Capital</p>
                                 </div>                       
                             </CardBody>
                         </Card>
@@ -90,8 +90,8 @@ const Speakers = () => {
                                 </div>
                                 <div className='w-100 justify-content-between item-center px-3 py-4'>
                                     <h5 className='text-white fs-18 mb-2 fw-bold' style={{ fontFamily: 'Georgia' }}>Meaghan Johnson</h5>
-                                    <p className="pb-2 mb-0 fs-12">Convener/ED</p>
-                                    <p className="pb-2 mb-0 fs-14 fw-bold">FFS</p>
+                                    <p className="pb-2 mb-0 fs-12">Convener</p>
+                                    <p className="pb-2 mb-0 fs-14 fw-bold">FFS Summit</p>
                                 </div>                       
                             </CardBody>
                         </Card>
@@ -106,8 +106,8 @@ const Speakers = () => {
                                 </div>
                                 <div className='w-100 justify-content-between item-center px-3 py-4'>
                                     <h5 className='text-white fs-18 mb-2 fw-bold' style={{ fontFamily: 'Georgia' }}>Tunji Odumuboni</h5>
-                                    <p className="pb-2 mb-0 fs-12">Co-Founder/CPTO</p>
-                                    <p className="pb-2 mb-0 fs-14 fw-bold">Bazara</p>
+                                    <p className="pb-2 mb-0 fs-12">Co-Founder & CPTO</p>
+                                    <p className="pb-2 mb-0 fs-14 fw-bold">BazaraTech</p>
                                 </div>                       
                             </CardBody>
                         </Card>

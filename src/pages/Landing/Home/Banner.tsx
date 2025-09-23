@@ -103,7 +103,6 @@ const Banner = () => {
                 className='youtube-background-video'
                 playsInline
                 loop
-                muted
                 src="https://res.cloudinary.com/westpaybankit/video/upload/v1730055056/FFS/FFS_Summit_Summary.mp4"
                 ref={videoEl}
             />
