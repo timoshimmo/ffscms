@@ -36,7 +36,7 @@ const index = () => {
                     <meta name="description" content="Future of Financial Services | Register" />
                 </Helmet>
                 <Navbar />
-                <Banner />
+                {/* <Banner /> */}
                 <RegisterForm />
                 <Footer />
             </div>

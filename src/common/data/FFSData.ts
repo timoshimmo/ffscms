@@ -2510,7 +2510,7 @@ const faqLatestData = [
      {
         id: "1",
         label: 'What is the date and location of the conference?',
-        content: 'The conference will take place from November 19-21, 2025, in Lekki, Lagos-Nigeria.',
+        content: 'The conference will take place from November 19-21, 2025 at FourPoints by Sheraton, Victoria Island, Lagos.',
     },
     {
         id: "2",
@@ -2527,13 +2527,7 @@ const faqLatestData = [
         id: "5",
         label: 'Will there be opportunities for networking?',
         content: `Yes, there will be dedicated sessions just for that`,
-    },
-
-    {
-        id: "7",
-        label: 'Can I get a refund if I’m unable to attend?',
-        content: `Yes we will provide a section to view previous activities in our coferences. That is videos and in writing`,
-    },
+    }
 
 ]
 
