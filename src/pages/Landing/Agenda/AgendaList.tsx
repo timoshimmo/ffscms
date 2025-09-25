@@ -49,11 +49,11 @@ const AgendaList = () => {
                                 <DropdownMenu className='px-2 bg-white w-100'>
                                     <DropdownItem tabIndex={0} className="fs-16 text-black fw-semibold agenda-dropdown-item" onClick={() => { setDateNav("All"); setView(0)}}>All</DropdownItem>
                                     <DropdownItem divider style={{ borderColor: '#888888ff' }}/>
-                                    <DropdownItem tabIndex={1} className="fs-16 text-black fw-semibold agenda-dropdown-item" style={{ color: '#E1E7EC' }} onClick={() => { setDateNav("Tue"); setView(0)}}>Tuesday, 19th November 2025</DropdownItem>
+                                    <DropdownItem tabIndex={1} className="fs-16 text-black fw-semibold agenda-dropdown-item" style={{ color: '#E1E7EC' }} onClick={() => { setDateNav("Wed"); setView(0)}}>Wednesday, 19th November 2025</DropdownItem>
                                      <DropdownItem divider style={{ borderColor: '#888888ff' }}/>
-                                    <DropdownItem tabIndex={2} className="fs-16 text-black fw-semibold agenda-dropdown-item" style={{ color: '#E1E7EC' }} onClick={() => { setDateNav("Wed"); setView(0)}}>Wednesday, 20th November 2025</DropdownItem>
+                                    <DropdownItem tabIndex={2} className="fs-16 text-black fw-semibold agenda-dropdown-item" style={{ color: '#E1E7EC' }} onClick={() => { setDateNav("Thur"); setView(0)}}>Thursday, 20th November 2025</DropdownItem>
                                      <DropdownItem divider style={{ borderColor: '#888888ff' }}/>
-                                    <DropdownItem tabIndex={3} className="fs-16 text-black fw-semibold agenda-dropdown-item" style={{ color: '#E1E7EC' }} onClick={() => { setDateNav("Thur"); setView(0)}}>Thursday, 21st November 2025</DropdownItem>
+                                    <DropdownItem tabIndex={3} className="fs-16 text-black fw-semibold agenda-dropdown-item" style={{ color: '#E1E7EC' }} onClick={() => { setDateNav("Fri"); setView(0)}}>Friday, 21st November 2025</DropdownItem>
                                 </DropdownMenu>
                             </Dropdown>
                         </Col>
