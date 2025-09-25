@@ -301,7 +301,7 @@ const Navbar = () => {
                    
                 </Container>
             </nav>
-            <div className="bg-overlay bg-overlay-pattern"></div>
+            {/* <div className="bg-overlay bg-overlay-pattern"></div> */}
         </React.Fragment>
     );
 }

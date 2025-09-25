@@ -71,7 +71,7 @@ const Numbers = () => {
                     <Row className="numbers-content">
                         <Col lg={8} sm={12} className='mx-auto'>
                             <div className="py-4">
-                                <h6 className="mb-4 text-white fs-17 fw-bold text-center lh-lg">Shaping the Future of Corporate Banking</h6>
+                                <h2 className="mb-2 fw-semibold lh-base text-center text-primary" style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif' }}>Shaping the Future of Corporate Banking</h2>
                                 <p className="mb-3 text-white fs-15 text-center lh-lg">The Lagos edition of the Future of Financial Services Summit will convene senior executives from banks, corporates, regulators, fintechs, and technology partners. .</p>
                                 <p className="mb-4 text-white fs-15 text-center lh-lg">It provides a dynamic platform for thought leadership, collaboration, and meaningful dialogue on how innovation and growth are reshaping corporate and transaction banking.</p>
                             </div>

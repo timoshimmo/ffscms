@@ -14,7 +14,7 @@ const Highlights = () => {
                     </Col>
                     <Col lg={8} xs={12}>
                         <div className="text-center mb-5">
-                            <h2 className="mb-2 fw-semibold lh-base text-primary" style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif' }}>Highlights from FFS 1.0 London (2024)</h2>
+                            <h2 className="mb-2 fw-semibold lh-base text-primary" style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif' }}>Video Recap for FFS 1.0 London (2024)</h2>
                             <p className="mb-5 fs-15 text-white text-center">Relive the energy and insights from our inaugural edition in London: a global platform where banks, fintechs, corporates, regulators, and innovators came together to shape the future of financial services.</p>
                         </div>
                     </Col>
@@ -25,7 +25,7 @@ const Highlights = () => {
                     </Col>
                     <Col sm={12} xs={12}>
                         <div className="text-center mb-5">
-                            <h2 className="mb-2 h1 fw-semibold lh-base text-primary" style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif' }}>Highlights from FFS 1.0 London (2024)</h2>
+                            <h2 className="mb-2 h1 fw-semibold lh-base text-primary" style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif' }}>Video Recap for FFS 1.0 London (2024)</h2>
                             <p className="mb-5 fs-15 text-white text-center">Relive the energy and insights from our inaugural edition in London: a global platform where banks, fintechs, corporates, regulators, and innovators came together to shape the future of financial services.</p>
                         </div>
                     </Col>
