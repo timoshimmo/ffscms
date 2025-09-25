@@ -186,11 +186,11 @@ const NavbarSecondary = () => {
                                     <DropdownMenu right>
                                         <DropdownItem href='/summit' className="fs-14 fw-light text-end" style={{ color: '#E1E7EC' }}>FFS Summit 2024</DropdownItem>
                                         <DropdownItem divider style={{ borderColor: '#E1E7EC' }}/>
-                                        <DropdownItem href='/speakers' className="fs-14 fw-light text-end" style={{ color: '#E1E7EC' }}>2024 Speakers</DropdownItem>
+                                        <DropdownItem href='/2024/speakers' className="fs-14 fw-light text-end" style={{ color: '#E1E7EC' }}>2024 Speakers</DropdownItem>
                                         <DropdownItem divider style={{ borderColor: '#E1E7EC' }}/>
                                         {/* <DropdownItem href="/exhibitors" className="fs-14 fw-light text-end" style={{ color: '#E1E7EC' }}>Be an Exhibitor</DropdownItem>
                                         <DropdownItem divider style={{ borderColor: '#E1E7EC' }}/> */}
-                                        <DropdownItem href='/agenda' className="fs-14 fw-light text-end" style={{ color: '#E1E7EC' }}>2024 Agenda</DropdownItem>
+                                        <DropdownItem href='/2024/agenda' className="fs-14 fw-light text-end" style={{ color: '#E1E7EC' }}>2024 Agenda</DropdownItem>
                                         <DropdownItem divider style={{ borderColor: '#E1E7EC' }}/>
                                     </DropdownMenu>
                                 </UncontrolledDropdown>
@@ -241,7 +241,7 @@ const NavbarSecondary = () => {
                            
                         </Scrollspy>
                         <div className='ms-4 mobile-nav-button'>
-                            <Link to="/register" className="btn btn-success btn-banner">Contact Us </Link>
+                            <Link to="/contact-us" className="btn btn-success btn-banner">Contact Us </Link>
                         </div>       
                     </Collapse>
 
@@ -319,10 +319,10 @@ const NavbarSecondary = () => {
                                     <NavLink className="nav-link fs-14 text-white" to="/summit" activeClassName="active" tag={RRNavLink}>Overview</NavLink>
                                 </li>
                                 <li className="nav-item px-4">
-                                    <NavLink className="nav-link fs-14 text-white" to="/speakers" activeClassName="active" tag={RRNavLink}>Speakers</NavLink>
+                                    <NavLink className="nav-link fs-14 text-white" to="/2024/speakers" activeClassName="active" tag={RRNavLink}>Speakers</NavLink>
                                 </li>
                                 <li className="nav-item px-4">
-                                    <NavLink className="nav-link fs-14 text-white" to="/agenda" activeClassName="active" tag={RRNavLink}>Agenda</NavLink>
+                                    <NavLink className="nav-link fs-14 text-white" to="/2024/agenda" activeClassName="active" tag={RRNavLink}>Agenda</NavLink>
                                 </li>
                             </div>
                         </Scrollspy>    

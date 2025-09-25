@@ -139,3 +139,9 @@ $value in $theme-colors {
       }
     }
 }
+
+.agenda-dropdown-item:hover, .agenda-dropdown-item:focus, .agenda-dropdown-item.active {
+        
+    background-color: rgb(223, 223, 223);
+    color: #000000;
+}

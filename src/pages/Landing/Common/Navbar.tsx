@@ -108,7 +108,7 @@ const Navbar = () => {
                                 "home",
                                 "agenda",
                                 "speakers",
-                                "get-involved",
+                                "events",
                             ]}
                             currentClassName="active"
                             className="navbar-nav ms-auto mt-2 mt-lg-0"
@@ -159,14 +159,15 @@ const Navbar = () => {
                             <li className="nav-item px-4 web-navbar">
                                 <Dropdown isOpen={openInvolved} toggle={toggleInvolved}>
                                     <DropdownToggle caret tag="button" className="nav-link fs-14">
-                                        Get Involved 
+                                        Events 
                                     </DropdownToggle>
                                     <DropdownMenu className='px-2'>
-                                        <DropdownItem href='/sponsors' className="fs-14 fw-light" style={{ color: '#E1E7EC' }}>Be a Sponsor</DropdownItem>
+                                        <DropdownItem href='/summit' className="fs-14 fw-light" style={{ color: '#E1E7EC' }}>FFS Summit 2024</DropdownItem>
+                                        {/*<DropdownItem href='/sponsors' className="fs-14 fw-light" style={{ color: '#E1E7EC' }}>Be a Sponsor</DropdownItem>
                                         <DropdownItem divider style={{ borderColor: '#E1E7EC' }}/>
-                                        {/* <DropdownItem href="/exhibitors" className="fs-14 fw-light" style={{ color: '#E1E7EC' }}>Be an Exhibitor</DropdownItem>
-                                        <DropdownItem divider style={{ borderColor: '#E1E7EC' }}/> */}
-                                        <DropdownItem href='/partners' className="fs-14 fw-light" style={{ color: '#E1E7EC' }}>Partner with us</DropdownItem>
+                                         <DropdownItem href="/exhibitors" className="fs-14 fw-light" style={{ color: '#E1E7EC' }}>Be an Exhibitor</DropdownItem>
+                                        <DropdownItem divider style={{ borderColor: '#E1E7EC' }}/> 
+                                        <DropdownItem href='/partners' className="fs-14 fw-light" style={{ color: '#E1E7EC' }}>Partner with us</DropdownItem> */}
                                     </DropdownMenu>
                                 </Dropdown>
                             </li>

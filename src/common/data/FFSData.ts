@@ -1648,27 +1648,29 @@ const agendaData = [
     {
         id: 1,
         date: "Tue, 08 Oct",
-        startTime: "8:00 AM",
+        startTime: "8:30 AM",
         endTime: "9:00 AM",
         dateCode: "Tue",
         duration: "60",
-        topic: "",
+        topic: "Registration and Networking",
         theme: [],
         type: ["break"],
-        description: "Breakfast Networking",
+        description: "Registration and Networking",
+        details: "Delegates arrive, connect, and prepare for the day’s conversations.",
         speaker: null
     },
     {
         id: 2,
         date: "Tue, 08 Oct",
-        startTime: "9:05 AM",
+        startTime: "9:00 AM",
         endTime: "9:15AM",
         dateCode: "Tue",
-        duration: "15",
+        duration: "30",
         topic: "",
         theme: [],
         type: ["remarks"],
-        description: "Welcome Address",
+        description: "Welcome Remarks",
+        details: "A short welcome and framing of the summit.",
         speaker: [
             {
                 img: img_meaghan,
@@ -1683,14 +1685,15 @@ const agendaData = [
     {
         id: 3,
         date: "Tue, 08 Oct",
-        startTime: "9:15 AM",
-        endTime: "9:45AM",
+        startTime: "9:05 AM",
+        endTime: "10:0AM",
         dateCode: "Tue",
-        duration: "30",
-        topic: "The Future of Banking",
+        duration: "55",
+        topic: "Keynote Block: Shaping the Next Era of Corporate & Transaction Banking",
         theme:  ["strategy-&-markets"],
         type: ["keynote"],
         description: "Keynote Presentation",
+        details: "Shaping the Next Era of Corporate & Transaction Banking \n Corporate & Transaction Banking 2030: Reinventing Growth in a World of Risk \n Beyond Banking: Building Partnerships that Power Corporate Growth",
         speaker: [
             {
                 img: img_abu_suleiman,
@@ -1706,14 +1709,15 @@ const agendaData = [
     {
         id: 4,
         date: "Tue, 08 Oct",
-        startTime: "9:50 AM",
+        startTime: "10:00 AM",
         endTime: "10:40 AM",
         dateCode: "Tue",
-        duration: "50",
-        topic: "Reflections from Innovators on the Future of Banking",
+        duration: "40",
+        topic: "Fireside Chat: Shaping the Bank–Corporate Relationship of the Future ",
         theme:  ["strategy-&-markets"],
         type: ["panel"],
         description: "Panel Session",
+        details: "A forward-looking dialogue on redefining trust, collaboration, and shared growth.",
         speaker: [
             {
                 img: img_lumley,
@@ -1761,14 +1765,15 @@ const agendaData = [
     {
         id: 5,
         date: "Tue, 08 Oct",
-        startTime: "10:50 AM",
+        startTime: "10:40 AM",
         endTime: "9:45 AM",
         dateCode: "Tue",
-        duration: "30",
-        topic: "Baas and Embedded Finance",
+        duration: "55",
+        topic: "Panel Discussion: Digital Transformation in Corporate & Transaction Banking",
         theme:  ["strategy-&-markets"],
         type: ["fireside-chat"],
         description: "Fireside Chat",
+        details: "Exploring how banks and corporates modernise payments, trade, lending, and treasury to stay competitive.",
         speaker: [
             {
                 name: "Sophie Guibaud",
@@ -1792,15 +1797,16 @@ const agendaData = [
     {
         id: 6,
         date: "Tue, 08 Oct",
-        startTime: "11:20 AM",
+        startTime: "11:35 AM",
         endTime: "12:00 PM",
         dateCode: "Tue",
-        duration: "50",
-        topic: "Product Demo, Peerless",
+        duration: "10",
+        topic: "Innovation Spotlight: Reimagining Corporate Banking with Manova",
         theme: ["financial-technology"],
         type: ["demo"],
         description: "Product Demo",
         speaker: null,
+        details: "Discussions about the future of corporate & transaction Banking are often conceptual. With the launch of Manovar, this session grounds the dialogue in reality, highlighting how modern systems can give banks and corporates the foundations to operate more seamlessly, resiliently, and at speed.",
         product: [
             {
                 name: "Peerless",
@@ -1814,14 +1820,15 @@ const agendaData = [
     {
         id: 7,
         date: "Tue, 08 Oct",
-        startTime: "11:35 AM",
+        startTime: "11:45 AM",
         endTime: "11:35AM",
         dateCode: "Tue",
-        duration: "30",
-        topic: "Building the Future Together: Strategic Partnerships in Financial Services",
+        duration: "15",
+        topic: "Light Refreshments & Networking",
         theme: ["strategy-&-markets"],
         type: ["keynote"],
         description: "Keynote Presentation",
+        details: "",
         speaker: [
             {
                 name: "Boye Ademola",
@@ -1837,14 +1844,15 @@ const agendaData = [
     {
         id: 8,
         date: "Tue, 08 Oct",
-        startTime: "1:05 PM",
+        startTime: "12:00 PM",
         endTime: "2:20PM",
         dateCode: "Tue",
-        duration: "80",
-        topic: "The Future of Insurance",
+        duration: "90",
+        topic: "Breakout Sessions: Thematic Deep Dives",
         theme: ["strategy-&-markets", "insurance"],
         type: ["roundtables"],
         description: "Roundtable",
+        details: "Delegates choose from three parallel tracks, each designed as an in-depth exploration with presentations, discussion, and Q&A: + Digital Transformation in Corporate & Transaction Banking-- AI & the Future of Corporate & Transaction Banking -- Global Payments & Treasury",
         speaker: [
             {
                 img: img_bode_pedro,
@@ -1860,15 +1868,16 @@ const agendaData = [
     {
         id: 9,
         date: "Tue, 08 Oct",
-        startTime: "1:05 PM",
+        startTime: "1:30 PM",
         endTime: "11:00AM",
         dateCode: "Tue",
-        duration: "10",
-        topic: "Product Demo, Skaleet",
+        duration: "30",
+        topic: "Closing Plenary: Highlights & Reflections",
         theme: ["financial-technology"],
         type: ["demo"],
         description: "Product Demo",
         speaker: null,
+        details: "Summaries from breakout sessions, key takeaways, and final remarks",
         product: [
             {
                 name: "Skaleet",
@@ -1882,14 +1891,15 @@ const agendaData = [
     {
         id: 10,
         date: "Tue, 08 Oct",
-        startTime: "1:20 PM",
+        startTime: "9:00 AM - 4:00 PM",
         endTime: "2:25PM",
         dateCode: "Tue",
-        duration: "50",
-        topic: "Reimagining the Engine that Powers Digital",
+        duration: "",
+        topic: "Immersive Experience Center: Journey into the Future of Corporate Banking",
         theme: ["financial-technology"],
         type: ["panel"],
         description: "Panel Session",
+        details: "Throughout the day, delegates can take part in a structured journey into the future of corporate banking. The Center combines vision storytelling, immersive VR experiences, and interactive reflection zones to help participants imagine what corporate banking could look like in the next decade. Open beyond the main summit close, it allows continued exploration and dialogue until 4:00 PM.",
         speaker: [
             {
                 img: img_tunji_odumuboni,
@@ -1925,7 +1935,7 @@ const agendaData = [
             }
         ]
     },
-    {
+    /*{
         id: 11,
         date: "Tue, 08 Oct",
         startTime: "2:15 PM",
@@ -1936,6 +1946,7 @@ const agendaData = [
         theme: ["strategy-&-markets", "wealth-management"],
         type: ["keynote"],
         description: "Keynote Presentation",
+        details: "Delegates arrive, connect, and prepare for the day’s conversations.",
         speaker: [
             {
                 img: img_phil_watson,
@@ -1958,6 +1969,7 @@ const agendaData = [
         theme: ["strategy-&-markets", "investment"],
         type: ["roundtables"],
         description: "Roundtable",
+        details: "Delegates arrive, connect, and prepare for the day’s conversations.",
         speaker: [
             {
                 img: img_iyinoluwa,
@@ -1988,6 +2000,7 @@ const agendaData = [
         theme: ["customer-experience", "financial-technology", "artificial-intelligence"],
         type: ["panel"],
         description: "Panel Session",
+        details: "Delegates arrive, connect, and prepare for the day’s conversations.",
         speaker: [
             {
                 img: img_meaghan,
@@ -2031,7 +2044,7 @@ const agendaData = [
             }
             
         ]
-    },
+    },*/
     {
         id: 14,
         date: "Wed, 09 Oct",
@@ -2043,6 +2056,7 @@ const agendaData = [
         theme: null,
         type: ["break"],
         description: "Breakfast Networking",
+        details: "Delegates arrive, connect, and prepare for the day’s conversations.",
         speaker: null
     },
     {
@@ -2056,6 +2070,7 @@ const agendaData = [
         theme: null,
         type: ["remarks"],
         description: "Recap of Day 1",
+        details: "Delegates arrive, connect, and prepare for the day’s conversations.",
         speaker: [
             {
                 img: img_nina_mohanty,
@@ -2079,6 +2094,7 @@ const agendaData = [
         theme: ["artificial-intelligence", "financial-technology"],
         type: ["keynote"],
         description: "Keynote Presentation",
+        details: "Delegates arrive, connect, and prepare for the day’s conversations.",
         speaker: [
             {
                 img: img_mathias_canales,
@@ -2102,6 +2118,7 @@ const agendaData = [
         theme: ["artificial-intelligence", "financial-technology"],
         type: ["panel"],
         description: "Panel Session",
+        details: "Delegates arrive, connect, and prepare for the day’s conversations.",
         speaker: [
             {
                 img: img_frankie_woodhead,
@@ -2150,6 +2167,7 @@ const agendaData = [
         theme: ["artificial-intelligence", "financial-technology"],
         type: ["keynote"],
         description: "Keynote Presentation", 
+        details: "Delegates arrive, connect, and prepare for the day’s conversations.",
         speaker: [
             {
                 img: img_jennifer_stirrup,
@@ -2172,6 +2190,7 @@ const agendaData = [
         theme: ["wealth-management"],
         type: ["roundtables"],
         description: "Roundtable",
+        details: "Delegates arrive, connect, and prepare for the day’s conversations.",
         speaker: [
             {
                 img: img_nathalie_weil,
@@ -2202,6 +2221,7 @@ const agendaData = [
         theme: ["financial-technology"],
         type: ["keynote"],
         description: "Keynote Presentation",
+        details: "Delegates arrive, connect, and prepare for the day’s conversations.",
         speaker: [
             {
                 img: img_lanre,
@@ -2225,6 +2245,7 @@ const agendaData = [
         theme: ["web3"],
         type: ["keynote"],
         description: "Keynote Presentation",
+        details: "Delegates arrive, connect, and prepare for the day’s conversations.",
         speaker: [
             {
                 img: img_gwera_kiwana,
@@ -2248,6 +2269,7 @@ const agendaData = [
         theme: ["artificial-intelligence", "financial-technology", "wealth-management"],
         type: ["demo"],
         description: "Product Demo",
+        details: "Delegates arrive, connect, and prepare for the day’s conversations.",
         speaker: null,
         product: [
             {
@@ -2269,6 +2291,7 @@ const agendaData = [
         theme: ["artificial-intelligence", "financial-technology"],
         type: ["panel"],
         description: "Panel Session",
+        details: "Delegates arrive, connect, and prepare for the day’s conversations.",
         speaker: [
             
             {
@@ -2324,6 +2347,7 @@ const agendaData = [
         theme: ["cybersecurity", "risk"],
         type: ["keynote"],
         description: "Keynote Presentation",
+        details: "Delegates arrive, connect, and prepare for the day’s conversations.",
         speaker: [
             {
                 img: img_jessica_figueras,
@@ -2347,6 +2371,7 @@ const agendaData = [
         theme: ["strategy-&-markets"],
         type: ["roundtables"],
         description: "Roundtable",
+        details: "Delegates arrive, connect, and prepare for the day’s conversations.",
         speaker: [
             {
                 img: img_nadav_mordechai,
@@ -2386,6 +2411,7 @@ const agendaData = [
         theme: ["cybersecurity", "risk"],
         type: ["fireside-chat"],
         description: "Fireside Chat",
+        details: "Delegates arrive, connect, and prepare for the day’s conversations.",
         speaker: [
             {
                 img: img_ali_paterson,
@@ -2416,6 +2442,7 @@ const agendaData = [
         theme: ["cybersecurity", "risk"],
         type: ["keynote"],
         description: "Keynote Presentation",
+        details: "Delegates arrive, connect, and prepare for the day’s conversations.",
         speaker: null
         /*speaker: [
             {
@@ -2439,6 +2466,7 @@ const agendaData = [
         theme: ["financial-technology", "artificial-intelligence"],
         type: ["break"],
         description: "Invitation-only Workshops",
+        details: "Delegates arrive, connect, and prepare for the day’s conversations.",
         speaker: null
     }
 

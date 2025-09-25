@@ -4,9 +4,6 @@ import { Link, NavLink as RRNavLink } from 'react-router-dom';
 import Scrollspy from "react-scrollspy";
 
 //import Images
-import logodark from "../../../assets/images/logo-dark.png";
-import logolight from "../../../assets/images/logo-light.png";
-import ffsLogoLight from "../../../assets/images/ffs_top_logo_light.png";
 import ffsLogoDark from "../../../assets/images/ffs_top_logo_dark.png";
 
 import ffsLogoLight1 from "../../../assets/images/FFS_logo_nav.png";
