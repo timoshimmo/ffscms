@@ -20,21 +20,6 @@ const AgendaList = () => {
     const toggleEvents = () => setOpenEvents((prevState) => !prevState);
     const [currentView, setView] = useState(0);
 
-    const detailsValue = (details: string) => {
-      if (details.includes("\n")) {
-        const strArr = details.split('\n');
-         strArr.forEach((row, index) => {
-                
-            });
-        return 
-        <ul>
-           
-        </ul>
-        
-      } else {
-        return <p className='fs-12 text-white'>details</p>;
-      }
-    }
 
     return (
         <React.Fragment>
@@ -50,10 +35,10 @@ const AgendaList = () => {
                                     <DropdownItem tabIndex={0} className="fs-16 text-black fw-semibold agenda-dropdown-item" onClick={() => { setDateNav("All"); setView(0)}}>All</DropdownItem>
                                     <DropdownItem divider style={{ borderColor: '#888888ff' }}/>
                                     <DropdownItem tabIndex={1} className="fs-16 text-black fw-semibold agenda-dropdown-item" style={{ color: '#E1E7EC' }} onClick={() => { setDateNav("Wed"); setView(0)}}>Wednesday, 19th November 2025</DropdownItem>
-                                     <DropdownItem divider style={{ borderColor: '#888888ff' }}/>
+                                    {/* <DropdownItem divider style={{ borderColor: '#888888ff' }}/>
                                     <DropdownItem tabIndex={2} className="fs-16 text-black fw-semibold agenda-dropdown-item" style={{ color: '#E1E7EC' }} onClick={() => { setDateNav("Thur"); setView(0)}}>Thursday, 20th November 2025</DropdownItem>
                                      <DropdownItem divider style={{ borderColor: '#888888ff' }}/>
-                                    <DropdownItem tabIndex={3} className="fs-16 text-black fw-semibold agenda-dropdown-item" style={{ color: '#E1E7EC' }} onClick={() => { setDateNav("Fri"); setView(0)}}>Friday, 21st November 2025</DropdownItem>
+                                    <DropdownItem tabIndex={3} className="fs-16 text-black fw-semibold agenda-dropdown-item" style={{ color: '#E1E7EC' }} onClick={() => { setDateNav("Fri"); setView(0)}}>Friday, 21st November 2025</DropdownItem> */}
                                 </DropdownMenu>
                             </Dropdown>
                         </Col>
@@ -72,7 +57,7 @@ const AgendaList = () => {
                                                         {item.duration !== "" && <div className='d-flex mt-2 gap-2 align-items-center'>
                                                             <i className="ri-timer-line text-white fs-20"></i><span className="text-white fs-16">{item.duration} mins</span>
                                                         </div>}
-                                                        <div className='mt-2'>{ item.details.includes("\n") ? 
+                                                        <div className='mt-2' style={{ width: "80%" }}>{ item.details.includes("\n") ? 
                                                         
                                                         (
                                                         <ul className='ps-4'>

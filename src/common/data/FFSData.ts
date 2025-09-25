@@ -2044,7 +2044,7 @@ const agendaData = [
             }
             
         ]
-    },*/
+    },
     {
         id: 14,
         date: "Wed, 09 Oct",
@@ -2444,16 +2444,7 @@ const agendaData = [
         description: "Keynote Presentation",
         details: "Delegates arrive, connect, and prepare for the day’s conversations.",
         speaker: null
-        /*speaker: [
-            {
-                img: img_andy,
-                pic: img_andy,
-                name: "Andy Jenkinson",
-                tags: ["artificial-intelligence", "financial-technology"],
-                credentials: "Group Chief Executive Officer",
-                company: "Cybersec Innovation Partners",
-            }
-        ]*/
+        
     },
     {
         id: 37,
@@ -2468,7 +2459,7 @@ const agendaData = [
         description: "Invitation-only Workshops",
         details: "Delegates arrive, connect, and prepare for the day’s conversations.",
         speaker: null
-    }
+    }*/
 
 ]
 
