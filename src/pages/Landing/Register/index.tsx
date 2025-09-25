@@ -1,9 +1,10 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import Navbar from '../Common/Navbar';
-import Banner from "./Banner";
+//import Banner from "./Banner";
 import RegisterForm from './RegisterForm';
-import Footer from '../Common/footer';
+//import Footer from '../Common/footer';
+import FooterNew from '../Common/footerNew';
 
 const index = () => {
     document.title = "Future of Financial Services | Register";
@@ -31,14 +32,14 @@ const index = () => {
 
     return (
         <React.Fragment>
-            <div className="layout-wrapper landing body-bg-dark">
+            <div>
                 <Helmet>
                     <meta name="description" content="Future of Financial Services | Register" />
                 </Helmet>
                 <Navbar />
                 {/* <Banner /> */}
                 <RegisterForm />
-                <Footer />
+                <FooterNew />
             </div>
         </React.Fragment>
     );
