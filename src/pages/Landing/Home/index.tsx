@@ -39,15 +39,6 @@ const index = () => {
         document.documentElement.scrollTop = 0;
     };
 
-    /*
- <About />
-<Products />
-<Features />
-<Trending />
-<DiscoverItems />
-<TopCreator />
-
-    */
 
     return (
         <React.Fragment>

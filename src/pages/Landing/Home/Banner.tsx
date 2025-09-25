@@ -111,8 +111,8 @@ const Banner = () => {
                 <Row className='justify-content-center align-items-end'>
                     <Col lg={10} sm={12} className='px-4'>
                         <div className="text-center">
-                            <h1 className="display-3 fw-bold text-white title" style={{ fontFamily: 'Georgia, Montserrat' }}>Future of Financial Services Summit <span className='text-secondary'>2.0</span></h1>
-                            <p className='text-white fs-18 mb-2 fw-semibold'>Shaping the Future of Corporate Banking</p>
+                            <h1 className="display-3 fw-bold text-white title" style={{ fontFamily: 'Georgia, Montserrat' }}>Shaping the Future of Corporate Banking</h1>
+                            {/* <p className='text-white fs-18 mb-2 fw-semibold'>Shaping the Future of Corporate Banking</p> */}
                             <p className="h5 text-primary mb-4 py-2 caption-web" style={{ fontWeight: 600 }}><i className="ri-calendar-2-line" style={{ fontWeight: 400, marginRight: 5 }}></i> November 19th, 2025 <span className='text-white bg-white border border-white mx-2' style={{ display: 'inline-block', height: '25px' }}></span><i className="ri-map-pin-line" style={{ fontWeight: 400, marginRight: 5 }}></i> Four Points by Sheraton, V.I, Lagos</p>
                             <div className='w-100 caption-mobile mb-4 py-2 '>
                                 <p className="h5 text-primary" style={{ fontWeight: 600 }}><i className="ri-calendar-2-line" style={{ fontWeight: 400, marginRight: 5 }}></i> November 19th, 2025</p>
