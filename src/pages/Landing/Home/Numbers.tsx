@@ -77,7 +77,7 @@ const Numbers = () => {
                             </div>
                              <div className="w-100">
                                   <div className="d-flex justify-content-center">
-                                      <Link to="/register" className="btn btn-primary btn-number-reg">Register Now</Link>
+                                      <Link to="https://tix.africa/discover/ffssummit" className="btn btn-primary btn-number-reg" target="_blank" rel="noopener noreferrer">Register Now</Link>
                                   </div>
                               </div>
                         </Col>
