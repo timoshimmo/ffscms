@@ -1158,6 +1158,41 @@ linear-gradient(0deg, rgba(51, 204, 153, 0.12), rgba(51, 204, 153, 0.12)), url('
     border-color: #33CC99;
 }
 
+
+.gallery {
+  display: grid;
+  gap: 15px;
+  width: 100%;
+  height: 430px;
+  grid-template-columns: repeat(4, auto);    
+}
+
+
+.gallery .speaker-gallery {
+    width: 260px;
+    height: 0;
+    min-height: 100%;
+    min-width: 100%;
+    transition: all 0.4s ease;
+}
+
+.gallery .speaker-gallery > img {
+    object-fit: cover;
+}
+
+.speaker-gallery:hover{
+    transform: translateY(-20px) scale(1.02);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+    z-index: 10;
+    width: 350px;
+}
+
+.gallery:has(.speaker-gallery:hover) .speaker-gallery:not(:hover) {
+    opacity: 0.5; /* Reduce opacity for boxes not being hovered within a hovered wrapper */
+    width: 200px;
+}
+
+
 .home-speakers-card {
     background-color: #383838;
     padding: 0px;
@@ -1178,6 +1213,10 @@ linear-gradient(0deg, rgba(51, 204, 153, 0.12), rgba(51, 204, 153, 0.12)), url('
     .home-speakers-card-dark {
         margin-bottom: 50px;
     }
+
+    .gallery .speaker-gallery {
+        width: 100%;
+    }
 }
 
 .speaker-overlay {
@@ -1192,14 +1231,14 @@ linear-gradient(0deg, rgba(51, 204, 153, 0.12), rgba(51, 204, 153, 0.12)), url('
     object-position: bottom left;
 }
 
-.home-speakers-card:hover {
-    transform: translateY(-20px) scale(1.02);
+/*
+.home-speakers-card:hover, .home-speakers-card-dark:hover {
+    transform: translateY(-20px) scale(1.2);
     box-shadow: 0 15px 30px rgba(0,0,0,0.2);
 }
-
-.home-speakers-card-dark:hover {
-     transform: translateY(-20px) scale(1.02);
-    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+*/
+.home-speakers-card:hover p, .home-speakers-card:hover h5 {
+    text-decoration: underline;
 }
 
 /*
@@ -1209,19 +1248,19 @@ linear-gradient(0deg, rgba(51, 204, 153, 0.12), rgba(51, 204, 153, 0.12)), url('
 
 */
 
-.home-speakers-card:hover p, .home-speakers-card:hover h5 {
-    text-decoration: underline;
-}
 
 /*
 .home-speakers-card-dark:hover .speaker-overlay {
     opacity: 0.2;
 }
-    */
+
 
 .home-speakers-card-dark:hover p, .home-speakers-card-dark:hover h5 {
     text-decoration: underline;
 }
+    */
+
+
 
 @media (max-width: 767.98px) { 
     .card-latest {

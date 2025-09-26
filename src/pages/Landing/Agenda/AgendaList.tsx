@@ -29,7 +29,7 @@ const AgendaList = () => {
                         <Col lg={12} xs={12}>
                              <Dropdown isOpen={openEvents} toggle={toggleEvents} className='w-full rounded bg-white'>
                                 <DropdownToggle tag="button" className="nav-link fs-16 w-100 text-start fw-semibold text-black px-3 py-2">
-                                    {dateNav === "All" ? "All" : "Tuesday, 19th November 2025" }
+                                    {dateNav === "All" ? "All" : "Wednesday, 19th November 2025" }
                                 </DropdownToggle>
                                 <DropdownMenu className='px-2 bg-white w-100'>
                                     <div className='d-flex'>
