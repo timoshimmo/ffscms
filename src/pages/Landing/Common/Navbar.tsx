@@ -229,15 +229,15 @@ const Navbar = () => {
                             <li className="mobile-navbar">
                                 <UncontrolledDropdown inNavbar nav>
                                     <DropdownToggle caret nav className="nav-link nav-item-mobile fs-14 d-flex justify-content-end">
-                                        Get Involved
+                                        Events
                                     </DropdownToggle>
                                     <DropdownMenu right>
-                                        <DropdownItem href='/sponsors' className="fs-14 fw-light text-end" style={{ color: '#E1E7EC' }}>Be a Sponsor</DropdownItem>
-                                        <DropdownItem divider style={{ borderColor: '#E1E7EC' }}/>
-                                        {/* <DropdownItem href="/exhibitors" className="fs-14 fw-light text-end" style={{ color: '#E1E7EC' }}>Be an Exhibitor</DropdownItem>
-                                        <DropdownItem divider style={{ borderColor: '#E1E7EC' }}/> */}
+                                        <DropdownItem href='/summit' className="fs-14 fw-light text-end" style={{ color: '#E1E7EC' }}>FFS Summit 2024</DropdownItem>
+                                        {/* <DropdownItem divider style={{ borderColor: '#E1E7EC' }}/>
+                                        <DropdownItem href="/exhibitors" className="fs-14 fw-light text-end" style={{ color: '#E1E7EC' }}>Be an Exhibitor</DropdownItem>
+                                        <DropdownItem divider style={{ borderColor: '#E1E7EC' }}/> 
                                         <DropdownItem href='/partners' className="fs-14 fw-light text-end" style={{ color: '#E1E7EC' }}>Partner with us</DropdownItem>
-                                        <DropdownItem divider style={{ borderColor: '#E1E7EC' }}/>
+                                        <DropdownItem divider style={{ borderColor: '#E1E7EC' }}/> */}
                                     </DropdownMenu>
                                 </UncontrolledDropdown>
                             </li>

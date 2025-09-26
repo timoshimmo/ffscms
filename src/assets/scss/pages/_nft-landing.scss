@@ -279,6 +279,13 @@ linear-gradient(0deg, rgba(51, 204, 153, 0.12), rgba(51, 204, 153, 0.12)), url('
     padding: 3rem 60px;
 }
 
+@media (max-width: 767.98px) { 
+    .new-agenda-list-body {
+        padding: 3rem 20px;
+    }
+
+}
+
 .speakers-list-body {
     padding-top: 87px;
 }

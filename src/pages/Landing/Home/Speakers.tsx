@@ -48,8 +48,8 @@ const Speakers = () => {
                         </div>
                     </Col>
                 </Row>
-                <div className='w-100'>
-                    <div className='web-featured-speakers gallery'>
+                <div className='web-featured-speakers  w-100'>
+                    <div className='gallery'>
                         <Card className="rounded-3 shadow-none home-speakers-card speaker-gallery" onClick={selectedSpeaker} style={{ cursor: 'pointer' }}>
                             <CardBody className="p-0">
                                 <div className='position-relative'>
@@ -188,11 +188,14 @@ const Speakers = () => {
                     <Col lg={3} sm={12}>
                         <Card className="rounded-3 shadow-none home-speakers-card" onClick={selectedSpeaker} style={{ cursor: 'pointer' }}>
                             <CardBody className="p-0">
-                                <img src={img_iyinoluwa} alt="" className="w-100 rounded-top-3" />
+                                <div className='position-relative'>
+                                    <img src={img_boye_ademola} alt="Speaker" className="w-100 rounded-top-3 img-speaker-profile" />
+                                    <img src={img_speaker_overlay} alt="Overlay" className="w-100 rounded-top-3 speaker-overlay" />
+                                </div>
                                 <div className='w-100 justify-content-between item-center px-3 py-4'>
-                                    <h5 className='text-white fs-18 mb-2 fw-bold' style={{ fontFamily: 'Georgia' }}>Iyinoluwa Aboyeji</h5>
-                                    <p className="pb-2 mb-0 fs-12">Iyinoluwa Aboyeji</p>
-                                    <p className="pb-2 mb-0 fs-14 fw-bold">Future Africa</p>
+                                    <h5 className='text-white fs-18 mb-2 fw-bold' style={{ fontFamily: 'Georgia' }}>Boye Ademola</h5>
+                                    <p className="pb-2 mb-0 fs-12">Founder & CEO</p>
+                                    <p className="pb-2 mb-0 fs-14 fw-bold">BazaraTech</p>
                                 </div>                       
                             </CardBody>
                         </Card>
@@ -201,11 +204,14 @@ const Speakers = () => {
                      <Col lg={3} sm={12}>
                         <Card className="rounded-3 shadow-none home-speakers-card-dark" style={{ cursor: 'pointer' }}>
                             <CardBody className="p-0">
-                                <img src={img_iyinoluwa} alt="" className="w-100 rounded-top-3" />
+                                <div className='position-relative'>
+                                    <img src={img_mohammed_ghonaim} alt="Speaker" className="w-100 rounded-top-3 img-speaker-profile" />
+                                    <img src={img_speaker_overlay} alt="Overlay" className="w-100 rounded-top-3 speaker-overlay" />
+                                </div>
                                 <div className='w-100 justify-content-between item-center px-3 py-4'>
-                                    <h5 className='text-white fs-18 mb-2 fw-bold' style={{ fontFamily: 'Georgia' }}>Iyinoluwa Aboyeji</h5>
-                                    <p className="pb-2 mb-0 fs-12">Iyinoluwa Aboyeji</p>
-                                    <p className="pb-2 mb-0 fs-14 fw-bold">Future Africa</p>
+                                    <h5 className='text-white fs-18 mb-2 fw-bold' style={{ fontFamily: 'Georgia' }}>Mohammed Ghonaim</h5>
+                                    <p className="pb-2 mb-0 fs-12">Co-Founder, D360 Bank</p>
+                                    <p className="pb-2 mb-0 fs-14 fw-bold">Board Member, SICO Capital</p>
                                 </div>                       
                             </CardBody>
                         </Card>
@@ -214,11 +220,14 @@ const Speakers = () => {
                      <Col lg={3} sm={12}>
                         <Card className="rounded-3 shadow-none home-speakers-card" style={{ cursor: 'pointer' }}>
                             <CardBody className="p-0">
-                                <img src={img_iyinoluwa} alt="" className="w-100 rounded-top-3" />
+                                <div className='position-relative'>
+                                    <img src={img_meghan} alt="Speaker" className="w-100 rounded-top-3 img-speaker-profile" />
+                                    <img src={img_speaker_overlay} alt="Overlay" className="w-100 rounded-top-3 speaker-overlay" />
+                                </div>
                                 <div className='w-100 justify-content-between item-center px-3 py-4'>
-                                    <h5 className='text-white fs-18 mb-2 fw-bold' style={{ fontFamily: 'Georgia' }}>Iyinoluwa Aboyeji</h5>
-                                    <p className="pb-2 mb-0 fs-12">Iyinoluwa Aboyeji</p>
-                                    <p className="pb-2 mb-0 fs-14 fw-bold">Future Africa</p>
+                                    <h5 className='text-white fs-18 mb-2 fw-bold' style={{ fontFamily: 'Georgia' }}>Meaghan Johnson</h5>
+                                    <p className="pb-2 mb-0 fs-12">Convener</p>
+                                    <p className="pb-2 mb-0 fs-14 fw-bold">FFS Summit</p>
                                 </div>                       
                             </CardBody>
                         </Card>
@@ -227,11 +236,14 @@ const Speakers = () => {
                     <Col lg={3} sm={12}>
                         <Card className="rounded-3 shadow-none home-speakers-card-dark" style={{ cursor: 'pointer' }}>
                             <CardBody className="p-0">
-                                <img src={img_iyinoluwa} alt="" className="w-100 rounded-top-3" />
+                                <div className='position-relative'>
+                                    <img src={img_tunji} alt="Speaker" className="w-100 rounded-top-3 img-speaker-profile" />
+                                    <img src={img_speaker_overlay} alt="Overlay" className="w-100 rounded-top-3 speaker-overlay" />
+                                </div>
                                 <div className='w-100 justify-content-between item-center px-3 py-4'>
-                                    <h5 className='text-white fs-18 mb-2 fw-bold' style={{ fontFamily: 'Georgia' }}>Iyinoluwa Aboyeji</h5>
-                                    <p className="pb-2 mb-0 fs-12">Iyinoluwa Aboyeji</p>
-                                    <p className="pb-2 mb-0 fs-14 fw-bold">Future Africa</p>
+                                    <h5 className='text-white fs-18 mb-2 fw-bold' style={{ fontFamily: 'Georgia' }}>Tunji Odumuboni</h5>
+                                    <p className="pb-2 mb-0 fs-12">Co-Founder & CPTO</p>
+                                    <p className="pb-2 mb-0 fs-14 fw-bold">BazaraTech</p>
                                 </div>                       
                             </CardBody>
                         </Card>
