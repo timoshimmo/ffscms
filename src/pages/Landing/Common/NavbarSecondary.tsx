@@ -85,8 +85,8 @@ const NavbarSecondary = () => {
 
     return (
         <React.Fragment>
-            <nav className={"navbar navbar-expand-lg navbar-landing fixed-top " + navClass} id="navbar">
-                            <Container>
+            <nav className={"navbar navbar-expand-lg navbar-landing fixed-top px-0" + navClass} id="navbar">
+                            <Container className='px-4'>
                                 <Link className="navbar-brand" to="/">
                                     <img src={ffsLogoDark} className="card-logo card-logo-dark" alt="logo dark" height="40" />
                                     <img src={ffsLogoLight1} className="card-logo card-logo-light" alt="logo light" height="40" />
@@ -172,75 +172,76 @@ const NavbarSecondary = () => {
                                             </Dropdown>
                                         </li>
                                       
-                                        {/* Mobile Navbar  */}
-                                        <li className="nav-item mobile-navbar">
-                                            <NavLink className="nav-link fs-14 text-white d-flex justify-content-end" to="/" activeClassName="active" tag={RRNavLink}>Home</NavLink>
-                                        </li>
-                                        <li className="nav-item mobile-navbar">
-                                                <NavLink className="nav-link fs-14 text-white d-flex justify-content-end" to="/agenda" activeClassName="active" tag={RRNavLink}>Agenda</NavLink>
-                                        </li>
-                                        <li className="nav-item mobile-navbar">
-                                                <NavLink className="nav-link fs-14 text-white d-flex justify-content-end" to="/speakers" activeClassName="active" tag={RRNavLink}>Speakers</NavLink>
-                                        </li>
-                                        {/*<li className="mobile-navbar">
-                                            <UncontrolledDropdown inNavbar nav>
-                                                <DropdownToggle caret nav className="nav-link nav-item-mobile fs-14 d-flex justify-content-end">
-                                                    Events
-                                                </DropdownToggle>
-                                                <DropdownMenu right>
-                                                    <DropdownItem href='/summit' className="fs-14 fw-light text-end" style={{ color: '#E1E7EC' }}>FFS Summit 2024</DropdownItem>
-                                                    <DropdownItem divider style={{ borderColor: '#E1E7EC' }}/>
-                                                    <DropdownItem href='/speakers' className="fs-14 fw-light text-end" style={{ color: '#E1E7EC' }}>2024 Speakers</DropdownItem>
-                                                    <DropdownItem divider style={{ borderColor: '#E1E7EC' }}/>
-                                                      
-                                                    <DropdownItem href='/agenda' className="fs-14 fw-light text-end" style={{ color: '#E1E7EC' }}>2024 Agenda</DropdownItem>
-                                                    <DropdownItem divider style={{ borderColor: '#E1E7EC' }}/>
-                                                </DropdownMenu>
-                                            </UncontrolledDropdown>
-                                        </li> */}
-            
-                                        {/* <li className="mobile-navbar">
-                                            <UncontrolledDropdown inNavbar nav>
-                                                <DropdownToggle caret nav className="nav-link nav-item-mobile fs-14 d-flex justify-content-end">
-                                                    Events
-                                                </DropdownToggle>
-                                                <DropdownMenu right>
-                                                    <ButtonDropdown className="fs-14 fw-light" style={{ color: '#E1E7EC' }}>
-                                                    <UncontrolledDropdown inNavbar nav>
-                                                        <DropdownToggle caret nav className="nav-link nav-item-mobile fs-14 d-flex justify-content-end">
-                                                            FFS Summit 2024
-                                                        </DropdownToggle>
-                                                        <DropdownMenu right>
-                                                            <DropdownItem href='/summit' className="fs-14 fw-light text-end" style={{ color: '#E1E7EC' }}> FFS Summit 2024</DropdownItem>
-                                                            <DropdownItem divider style={{ borderColor: '#E1E7EC' }}/>
-                                                            <DropdownItem href='/speakers' className="fs-14 fw-light text-end" style={{ color: '#E1E7EC' }}>2024 Speakers</DropdownItem>
-                                                            <DropdownItem divider style={{ borderColor: '#E1E7EC' }}/>
-            
-                                                            <DropdownItem href='/agenda' className="fs-14 fw-light text-end" style={{ color: '#E1E7EC' }}>2024 Agenda</DropdownItem>
-                                                            <DropdownItem divider style={{ borderColor: '#E1E7EC' }}/>
-                                                        </DropdownMenu>
-                                                    </UncontrolledDropdown>
-                                                    </ButtonDropdown>
-                                                </DropdownMenu>
-                                            </UncontrolledDropdown>
-                                                </li> */}
-            
-                                        {/* Mobile Navbar  */}
-                                        <li className="mobile-navbar">
-                                            <UncontrolledDropdown inNavbar nav>
-                                                <DropdownToggle caret nav className="nav-link nav-item-mobile fs-14 d-flex justify-content-end">
-                                                    Get Involved
-                                                </DropdownToggle>
-                                                <DropdownMenu right>
-                                                    <DropdownItem href='/sponsors' className="fs-14 fw-light text-end" style={{ color: '#E1E7EC' }}>Be a Sponsor</DropdownItem>
-                                                    <DropdownItem divider style={{ borderColor: '#E1E7EC' }}/>
-                                                    {/* <DropdownItem href="/exhibitors" className="fs-14 fw-light text-end" style={{ color: '#E1E7EC' }}>Be an Exhibitor</DropdownItem>
-                                                    <DropdownItem divider style={{ borderColor: '#E1E7EC' }}/> */}
-                                                    <DropdownItem href='/partners' className="fs-14 fw-light text-end" style={{ color: '#E1E7EC' }}>Partner with us</DropdownItem>
-                                                    <DropdownItem divider style={{ borderColor: '#E1E7EC' }}/>
-                                                </DropdownMenu>
-                                            </UncontrolledDropdown>
-                                        </li>
+        {/* Mobile Navbar  */}
+                                    <li className="nav-item mobile-navbar">
+                                        <NavLink className="nav-link fs-14 text-white d-flex justify-content-end" to="/" activeClassName="active" tag={RRNavLink}>Home</NavLink>
+                                    </li>
+                                    <li className="nav-item mobile-navbar">
+                                            <NavLink className="nav-link fs-14 text-white d-flex justify-content-end" to="/agenda" activeClassName="active" tag={RRNavLink}>Agenda</NavLink>
+                                    </li>
+                                    <li className="nav-item mobile-navbar">
+                                            <NavLink className="nav-link fs-14 text-white d-flex justify-content-end" to="/speakers" activeClassName="active" tag={RRNavLink}>Speakers</NavLink>
+                                    </li>
+                                    {/*<li className="mobile-navbar">
+                                        <UncontrolledDropdown inNavbar nav>
+                                            <DropdownToggle caret nav className="nav-link nav-item-mobile fs-14 d-flex justify-content-end">
+                                                Events
+                                            </DropdownToggle>
+                                            <DropdownMenu right>
+                                                <DropdownItem href='/summit' className="fs-14 fw-light text-end" style={{ color: '#E1E7EC' }}>FFS Summit 2024</DropdownItem>
+                                                <DropdownItem divider style={{ borderColor: '#E1E7EC' }}/>
+                                                <DropdownItem href='/speakers' className="fs-14 fw-light text-end" style={{ color: '#E1E7EC' }}>2024 Speakers</DropdownItem>
+                                                <DropdownItem divider style={{ borderColor: '#E1E7EC' }}/>
+                                                    
+                                                <DropdownItem href='/agenda' className="fs-14 fw-light text-end" style={{ color: '#E1E7EC' }}>2024 Agenda</DropdownItem>
+                                                <DropdownItem divider style={{ borderColor: '#E1E7EC' }}/>
+                                            </DropdownMenu>
+                                        </UncontrolledDropdown>
+                                    </li> */}
+        
+                                    {/* <li className="mobile-navbar">
+                                        <UncontrolledDropdown inNavbar nav>
+                                            <DropdownToggle caret nav className="nav-link nav-item-mobile fs-14 d-flex justify-content-end">
+                                                Events
+                                            </DropdownToggle>
+                                            <DropdownMenu right>
+                                                <ButtonDropdown className="fs-14 fw-light" style={{ color: '#E1E7EC' }}>
+                                                <UncontrolledDropdown inNavbar nav>
+                                                    <DropdownToggle caret nav className="nav-link nav-item-mobile fs-14 d-flex justify-content-end">
+                                                        FFS Summit 2024
+                                                    </DropdownToggle>
+                                                    <DropdownMenu right>
+                                                        <DropdownItem href='/summit' className="fs-14 fw-light text-end" style={{ color: '#E1E7EC' }}> FFS Summit 2024</DropdownItem>
+                                                        <DropdownItem divider style={{ borderColor: '#E1E7EC' }}/>
+                                                        <DropdownItem href='/speakers' className="fs-14 fw-light text-end" style={{ color: '#E1E7EC' }}>2024 Speakers</DropdownItem>
+                                                        <DropdownItem divider style={{ borderColor: '#E1E7EC' }}/>
+        
+                                                        <DropdownItem href='/agenda' className="fs-14 fw-light text-end" style={{ color: '#E1E7EC' }}>2024 Agenda</DropdownItem>
+                                                        <DropdownItem divider style={{ borderColor: '#E1E7EC' }}/>
+                                                    </DropdownMenu>
+                                                </UncontrolledDropdown>
+                                                </ButtonDropdown>
+                                            </DropdownMenu>
+                                        </UncontrolledDropdown>
+                                            </li> */}
+        
+                                    {/* Mobile Navbar  */}
+                                    <li className="mobile-navbar">
+                                        <UncontrolledDropdown inNavbar nav>
+                                            <DropdownToggle caret nav className="nav-link nav-item-mobile fs-14 d-flex justify-content-end">
+                                                Events
+                                            </DropdownToggle>
+                                            <DropdownMenu right>
+                                                <DropdownItem href='/summit' className="fs-14 fw-light text-end" style={{ color: '#E1E7EC' }}>FFS Summit 2024</DropdownItem>
+                                                {/* <DropdownItem divider style={{ borderColor: '#E1E7EC' }}/>
+                                                <DropdownItem href="/exhibitors" className="fs-14 fw-light text-end" style={{ color: '#E1E7EC' }}>Be an Exhibitor</DropdownItem>
+                                                <DropdownItem divider style={{ borderColor: '#E1E7EC' }}/> 
+                                                <DropdownItem href='/partners' className="fs-14 fw-light text-end" style={{ color: '#E1E7EC' }}>Partner with us</DropdownItem>
+                                                <DropdownItem divider style={{ borderColor: '#E1E7EC' }}/> */}
+                                            </DropdownMenu>
+                                        </UncontrolledDropdown>
+                                    </li>
+                                                                   
                                        
                                     </Scrollspy>
                                     <div className='ms-4 mobile-nav-button'>
@@ -300,6 +301,33 @@ const NavbarSecondary = () => {
                                     */}
                                
                             </Container>
+                                
+                             <Container className="w-100 px-0" style={{ backgroundColor: '#1b1b1b' }}>
+                                    <div className="w-100 py-2">
+                                        <Scrollspy
+                                            offset={-18}
+                                            items={[
+                                                "agenda",
+                                                "speakers",
+                                            ]}
+                                            currentClassName="active"
+                                            className="navbar-nav mx-auto mt-0"
+                                            id="navbar-secondary"
+                                        >
+                                            <div className='d-flex justify-content-center align-items-center'>
+                                                <li className="nav-item px-4">
+                                                    <NavLink className="nav-link fs- text-white" to="/summit" activeClassName="active" tag={RRNavLink}>Overview</NavLink>
+                                                </li>
+                                                <li className="nav-item px-4">
+                                                    <NavLink className="nav-link fs-14 text-white" to="/2024/speakers" activeClassName="active" tag={RRNavLink}>Speakers</NavLink>
+                                                </li>
+                                                <li className="nav-item px-4">
+                                                    <NavLink className="nav-link fs-14 text-white" to="/2024/agenda" activeClassName="active" tag={RRNavLink}>Agenda</NavLink>
+                                                </li>
+                                            </div>
+                                        </Scrollspy>    
+                                </div>
+                             </Container>
                         </nav>
             {/* <div className="bg-overlay bg-overlay-pattern"></div> */}
             <nav className="navbar pb-0 web-navbar">

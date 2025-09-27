@@ -1,14 +1,13 @@
 import React from 'react';
-//import Navbar from '../Common/Navbar';
+import Navbar from '../Common/Navbar';
 import Banner from "./Banner";
-import AgendaList from './AgendaList';
-//import Footer from '../Common/footer';
+import SpeakersList from './SpeakersList';
 import FooterNew from '../Common/footerNew';
+//import NavbarSecondary from '../../Common/NavbarSecondary';
 //import FooterSummit from '../Common/footerSummit';
-import Navbar from "../Common/Navbar";
 
 const index = () => {
-    document.title = "Future of Financial Services Summit | Agenda";
+    document.title = "Future of Financial Services Summit | Speakers";
 
     window.onscroll = function () {
         scrollFunction();
@@ -35,8 +34,8 @@ const index = () => {
         <React.Fragment>
             <div className="layout-wrapper landing body-bg-dark">
                 <Navbar />
-                <Banner /> 
-                <AgendaList />
+                <Banner />
+                <SpeakersList />
                 <FooterNew />
             </div>
         </React.Fragment>

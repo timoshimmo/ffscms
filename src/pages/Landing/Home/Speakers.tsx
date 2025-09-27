@@ -48,7 +48,7 @@ const Speakers = () => {
                         </div>
                     </Col>
                 </Row>
-                <div className='web-featured-speakers  w-100'>
+               {/* <div className='web-featured-speakers w-100'>
                     <div className='gallery'>
                         <Card className="rounded-3 shadow-none home-speakers-card speaker-gallery" onClick={selectedSpeaker} style={{ cursor: 'pointer' }}>
                             <CardBody className="p-0">
@@ -108,10 +108,10 @@ const Speakers = () => {
                             <Link to="/speakers" className="btn btn-primary btn-number-reg">See Speakers Lineup</Link>
                         </div>
                     </div>
-                </div> 
+                </div>  */}
                
 
-                {/* <Row className='web-featured-speakers'>
+                 <Row className='web-featured-speakers'>
                     <Col lg={3} sm={12}>
                         <Card className="rounded-3 shadow-none home-speakers-card" onClick={selectedSpeaker} style={{ cursor: 'pointer' }}>
                             <CardBody className="p-0">
@@ -182,7 +182,7 @@ const Speakers = () => {
                             </div>
                         </div>
                     </Col>
-                </Row> */}
+                </Row> 
 
                 <Row className="mobile-featured-speakers justify-content-center">
                     <Col lg={3} sm={12}>

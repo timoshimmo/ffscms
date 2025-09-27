@@ -27,7 +27,7 @@ const AgendaList = () => {
                 <Container>
                     <Row>
                         <Col lg={12} xs={12}>
-                             <Dropdown isOpen={openEvents} toggle={toggleEvents} className='w-full rounded bg-white'>
+                             <Dropdown isOpen={openEvents} toggle={toggleEvents} className='w-full rounded bg-white agent-web-dropdown'>
                                 <DropdownToggle tag="button" className="nav-link fs-16 w-100 text-start fw-semibold text-black px-3 py-2">
                                     {dateNav === "All" ? "All" : "Wednesday, 19th November 2025" }
                                 </DropdownToggle>
@@ -41,6 +41,17 @@ const AgendaList = () => {
                                     <DropdownItem tabIndex={2} className="fs-16 text-black fw-semibold agenda-dropdown-item" style={{ color: '#E1E7EC' }} onClick={() => { setDateNav("Thur"); setView(0)}}>Thursday, 20th November 2025</DropdownItem>
                                      <DropdownItem divider style={{ borderColor: '#888888ff' }}/>
                                     <DropdownItem tabIndex={3} className="fs-16 text-black fw-semibold agenda-dropdown-item" style={{ color: '#E1E7EC' }} onClick={() => { setDateNav("Fri"); setView(0)}}>Friday, 21st November 2025</DropdownItem> */}
+                                </DropdownMenu>
+                            </Dropdown>
+
+                            <Dropdown isOpen={openEvents} toggle={toggleEvents} className='w-full rounded bg-white agent-mobile-dropdown'>
+                                <DropdownToggle tag="button" className="nav-link fs-16 w-100 text-start fw-semibold text-black px-3 py-2">
+                                    {dateNav === "All" ? "All" : "Wednesday, 19th November 2025" }
+                                </DropdownToggle>
+                                <DropdownMenu className='px-2 bg-white w-100'>
+                                    <DropdownItem tabIndex={0} className="fs-16 text-black fw-semibold agenda-dropdown-item" onClick={() => { setDateNav("All"); setView(0)}} style={{ width: 90 }}>All</DropdownItem>
+                                    <DropdownItem divider style={{ borderColor: '#888888ff' }}/>
+                                    <DropdownItem tabIndex={1} className="fs-16 text-black fw-semibold agenda-dropdown-item" style={{ color: '#E1E7EC', width: 300 }} onClick={() => { setDateNav("Wed"); setView(0)}}>Wednesday, 19th November 2025</DropdownItem>
                                 </DropdownMenu>
                             </Dropdown>
                         </Col>

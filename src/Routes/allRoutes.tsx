@@ -15,6 +15,7 @@ import ContactUs from '../pages/Landing/ContactUs';
 import Speakers from '../pages/Landing/2024/Speakers';
 import Agenda from '../pages/Landing/2024/Agenda';
 import NewAgenda from '../pages/Landing/Agenda';
+import NewSpeakers from '../pages/Landing/Speakers';
 import Insights from '../pages/Landing/Insights';
 import PrivacyPolicy from '../pages/Landing/PrivacyPolicy';
 import TermsConditions from '../pages/Landing/TermsConditions';
@@ -36,6 +37,7 @@ const publicRoutes : any= [
   { path: "/2024/speakers", component: <Speakers /> },
   { path: "/2024/agenda", component: <Agenda /> },
   { path: "/agenda", component: <NewAgenda /> },
+  { path: "/speakers", component: <NewSpeakers /> },
   { path: "/insights", component: <Insights />},
   { path: "/privacy", component: <PrivacyPolicy />},
   { path: "/terms", component: <TermsConditions />},
