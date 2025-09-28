@@ -5,14 +5,16 @@ import { Container,
     Card, 
     CardBody, 
     Button,
-    Nav, 
-    NavItem, 
-    NavLink,
     Offcanvas,
     OffcanvasBody } from 'reactstrap';
 import { speakersFullData } from '../../../common/data';
 import axios from 'axios';
-import ic_search from '../../../assets/images/icons/ic_search.png';
+import img_iyinoluwa from "../../../assets/images/speakers/2025/img_iyinoluwa.png";
+import img_boye_ademola from "../../../assets/images/speakers/2025/img_boye_ademola.png";
+import img_abubakar from "../../../assets/images/speakers/2025/img_abubakar.jpg";
+import img_tunji from "../../../assets/images/speakers/2025/img_tunji_odumuboni.jpg";
+import img_meghan from "../../../assets/images/speakers/2025/img_meghan.png";
+import img_mohammed_ghonaim from "../../../assets/images/speakers/2025/img_mohammed_ghonaim.jpeg";
 
 /*interface IProfile {
     id: Number,
@@ -169,21 +171,12 @@ const SpeakersList = () => {
         <React.Fragment>
             <section className="section speakers-list-body">
                 <Container>
-                     <Row className='w-100 justify-content-center mb-5'>
-                        <Col lg={12} sm={12} xs={12}>
-                            <h2 className="w-100 fw-bold lh-base text-primary text-center display-4 px-5" style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif' }}>2025 Speaker Lineup</h2>
-                            <p className="w-70 mb-3 fs-15 text-white text-center">We have brought together, carefully selected experts and visionaries to share bold strategies, fresh insights, and game-changing opportunities, many revealing their perspectives for the very first time. The lineup featured a strong presence from the C-suite and beyond, including CEOs, founders, and innovators from fintechs, banks, and leading financial institutions</p>
-                        </Col>
-                        {/* <Col lg={7} sm={12} xs={12}>
-                            <p className="w-70 mb-3 fs-15 text-white text-center">{subTopic}</p>
-                        </Col> */}
-                    </Row>
                     <Row>
                         <Col lg={12} sm={12}>
                             <div className='w-100 sticky-top py-3 speakers-web-row' style={{ backgroundColor: '#141413', top: '60px' }}></div>
-                            <Row className='speakers-web-row'>
+                            {/*<Row className='speakers-web-row'>
                                 {speakersFullData.filter(data => data.tags.includes(nav) || nav === 'All').map((item, idx) => (
-                                    <Col key={idx} lg={6} sm={12}>
+                                    <Col key={idx} lg={3} sm={12}>
                                         <Card onClick={()=>passData(item)} className="shadow-none rounded-0 speakers-card mb-2 text-white" style={{ cursor: "pointer" }}>
                                             <CardBody className='p-0'>
                                                 <img src={item.img} alt="" className="avatar-speaker-list"/>
@@ -195,10 +188,74 @@ const SpeakersList = () => {
                                         </Card>
                                     </Col>
                                 ))}
-                            </Row>
-                            <Row className='speakers-mobile-row'>
+                            </Row>*/}
+
+                             <Row className='web-featured-speakers'>
+                                <Col lg={3} sm={12}>
+                                    <Card className="rounded-3 shadow-none home-speakers-card" style={{ cursor: 'pointer' }}>
+                                        <CardBody className="p-0">
+                                            <div className='position-relative'>
+                                                <img src={img_boye_ademola} alt="Speaker" className="w-100 rounded-top-3 img-speaker-profile" />
+                                            </div>
+                                            <div className='w-100 justify-content-between item-center px-3 py-4'>
+                                                <h5 className='text-white fs-18 mb-2 fw-bold' style={{ fontFamily: 'Georgia' }}>Boye Ademola</h5>
+                                                <p className="pb-2 mb-0 fs-12">Founder & CEO</p>
+                                                <p className="pb-2 mb-0 fs-14 fw-bold">BazaraTech</p>
+                                            </div>                       
+                                        </CardBody>
+                                    </Card>
+                                </Col>
+            
+                                    <Col lg={3} sm={12}>
+                                    <Card className="rounded-3 shadow-none home-speakers-card-dark" style={{ cursor: 'pointer' }}>
+                                        <CardBody className="p-0">
+                                            <div className='position-relative'>
+                                                <img src={img_mohammed_ghonaim} alt="Speaker" className="w-100 rounded-top-3 img-speaker-profile" />
+                                            </div>
+                                            <div className='w-100 justify-content-between item-center px-3 py-4'>
+                                                <h5 className='text-white fs-18 mb-2 fw-bold' style={{ fontFamily: 'Georgia' }}>Mohammed Ghonaim</h5>
+                                                <p className="pb-2 mb-0 fs-12">Co-Founder, D360 Bank</p>
+                                                <p className="pb-2 mb-0 fs-14 fw-bold">Board Member, SICO Capital</p>
+                                            </div>                       
+                                        </CardBody>
+                                    </Card>
+                                </Col>
+            
+                                    <Col lg={3} sm={12}>
+                                    <Card className="rounded-3 shadow-none home-speakers-card" style={{ cursor: 'pointer' }}>
+                                        <CardBody className="p-0">
+                                            <div className='position-relative'>
+                                                <img src={img_meghan} alt="Speaker" className="w-100 rounded-top-3 img-speaker-profile" />
+                                            </div>
+                                            <div className='w-100 justify-content-between item-center px-3 py-4'>
+                                                <h5 className='text-white fs-18 mb-2 fw-bold' style={{ fontFamily: 'Georgia' }}>Meaghan Johnson</h5>
+                                                <p className="pb-2 mb-0 fs-12">Convener</p>
+                                                <p className="pb-2 mb-0 fs-14 fw-bold">FFS Summit</p>
+                                            </div>                       
+                                        </CardBody>
+                                    </Card>
+                                </Col>
+            
+                                    <Col lg={3} sm={12}>
+                                    <Card className="rounded-3 shadow-none home-speakers-card-dark" style={{ cursor: 'pointer' }}>
+                                        <CardBody className="p-0">
+                                            <div className='position-relative'>
+                                                <img src={img_tunji} alt="Speaker" className="w-100 rounded-top-3 img-speaker-profile" />
+                                            </div>
+                                            <div className='w-100 justify-content-between item-center px-3 py-4'>
+                                                <h5 className='text-white fs-18 mb-2 fw-bold' style={{ fontFamily: 'Georgia' }}>Tunji Odumuboni</h5>
+                                                <p className="pb-2 mb-0 fs-12">Co-Founder & CPTO</p>
+                                                <p className="pb-2 mb-0 fs-14 fw-bold">BazaraTech</p>
+                                            </div>                       
+                                        </CardBody>
+                                    </Card>
+                                </Col>
+                            </Row> 
+
+                            
+                            {/* <Row className='speakers-mobile-row'>
                                 {speakersFullData.filter(data => data.tags.includes(nav) || nav === 'All').map((item, idx) => (
-                                    <Col key={idx} lg={6} sm={12}>
+                                    <Col key={idx} sm={12}>
                                         <Card onClick={()=>passData(item)} className="shadow-none rounded-0 speakers-card mb-5 text-white" style={{ cursor: "pointer" }}>
                                             <CardBody className='p-0'>
                                                 <img src={item.img} alt="" className="avatar-speaker-list"/>
@@ -210,7 +267,71 @@ const SpeakersList = () => {
                                         </Card>
                                     </Col>
                                 ))}
-                            </Row>
+                            </Row> */}
+
+                                 <Row className="mobile-featured-speakers justify-content-center">
+                                                <Col lg={3} sm={12}>
+                                                    <Card className="rounded-3 shadow-none home-speakers-card" style={{ cursor: 'pointer' }}>
+                                                        <CardBody className="p-0">
+                                                            <div className='position-relative'>
+                                                                <img src={img_boye_ademola} alt="Speaker" className="w-100 rounded-top-3 img-speaker-profile" />
+                                                            </div>
+                                                            <div className='w-100 justify-content-between item-center px-3 py-4'>
+                                                                <h5 className='text-white fs-18 mb-2 fw-bold' style={{ fontFamily: 'Georgia' }}>Boye Ademola</h5>
+                                                                <p className="pb-2 mb-0 fs-12">Founder & CEO</p>
+                                                                <p className="pb-2 mb-0 fs-14 fw-bold">BazaraTech</p>
+                                                            </div>                       
+                                                        </CardBody>
+                                                    </Card>
+                                                </Col>
+                            
+                                                 <Col lg={3} sm={12}>
+                                                    <Card className="rounded-3 shadow-none home-speakers-card-dark" style={{ cursor: 'pointer' }}>
+                                                        <CardBody className="p-0">
+                                                            <div className='position-relative'>
+                                                                <img src={img_mohammed_ghonaim} alt="Speaker" className="w-100 rounded-top-3 img-speaker-profile" />
+                                                            </div>
+                                                            <div className='w-100 justify-content-between item-center px-3 py-4'>
+                                                                <h5 className='text-white fs-18 mb-2 fw-bold' style={{ fontFamily: 'Georgia' }}>Mohammed Ghonaim</h5>
+                                                                <p className="pb-2 mb-0 fs-12">Co-Founder, D360 Bank</p>
+                                                                <p className="pb-2 mb-0 fs-14 fw-bold">Board Member, SICO Capital</p>
+                                                            </div>                       
+                                                        </CardBody>
+                                                    </Card>
+                                                </Col>
+                            
+                                                 <Col lg={3} sm={12}>
+                                                    <Card className="rounded-3 shadow-none home-speakers-card" style={{ cursor: 'pointer' }}>
+                                                        <CardBody className="p-0">
+                                                            <div className='position-relative'>
+                                                                <img src={img_meghan} alt="Speaker" className="w-100 rounded-top-3 img-speaker-profile" />
+                                                            </div>
+                                                            <div className='w-100 justify-content-between item-center px-3 py-4'>
+                                                                <h5 className='text-white fs-18 mb-2 fw-bold' style={{ fontFamily: 'Georgia' }}>Meaghan Johnson</h5>
+                                                                <p className="pb-2 mb-0 fs-12">Convener</p>
+                                                                <p className="pb-2 mb-0 fs-14 fw-bold">FFS Summit</p>
+                                                            </div>                       
+                                                        </CardBody>
+                                                    </Card>
+                                                </Col>
+                            
+                                                <Col lg={3} sm={12}>
+                                                    <Card className="rounded-3 shadow-none home-speakers-card-dark" style={{ cursor: 'pointer' }}>
+                                                        <CardBody className="p-0">
+                                                            <div className='position-relative'>
+                                                                <img src={img_tunji} alt="Speaker" className="w-100 rounded-top-3 img-speaker-profile" />
+                                                            </div>
+                                                            <div className='w-100 justify-content-between item-center px-3 py-4'>
+                                                                <h5 className='text-white fs-18 mb-2 fw-bold' style={{ fontFamily: 'Georgia' }}>Tunji Odumuboni</h5>
+                                                                <p className="pb-2 mb-0 fs-12">Co-Founder & CPTO</p>
+                                                                <p className="pb-2 mb-0 fs-14 fw-bold">BazaraTech</p>
+                                                            </div>                       
+                                                        </CardBody>
+                                                    </Card>
+                                                </Col>
+                            
+                                               
+                                            </Row>     
                         </Col>
 
                         {/*  

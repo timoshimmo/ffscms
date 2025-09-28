@@ -34,6 +34,14 @@ const Views = () => {
                                 <img src={imgViews1} alt="" className="w-100 rounded-4 views-imgs-style" />
                                 <img src={imgViews2} alt="" className="w-100 rounded-4 views-imgs-style" />
                                 <img src={imgViews3} alt="" className="w-100 rounded-4 views-imgs-style" />
+
+                                {/* <img src={imgViews4} alt="" className="w-100 rounded-4 views-imgs-style large-item" />
+                                <img src={imgViews5} alt="" className="w-100 rounded-4 views-imgs-style small-item" />
+                                <img src={imgViews6} alt="" className="w-100 rounded-4 views-imgs-style" />
+
+                                <img src={imgViews7} alt="" className="w-100 rounded-4 views-imgs-style small-item" />
+                                <img src={imgViews8} alt="" className="w-100 rounded-4 views-imgs-style" />
+                                <img src={imgViews9} alt="" className="w-100 rounded-4 views-imgs-style large-item" /> */}
                             </div>
 
                             <div className="grid-style-2">
@@ -47,6 +55,7 @@ const Views = () => {
                                 <img src={imgViews8} alt="" className="w-100 rounded-4 views-imgs-style" />
                                 <img src={imgViews9} alt="" className="w-100 rounded-4 views-imgs-style" />
                             </div>
+                           
                         </Col>
                     </Row>
 

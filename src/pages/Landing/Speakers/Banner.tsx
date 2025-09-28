@@ -36,7 +36,7 @@ const Banner = () => {
                 {/*<div className="bg-overlay"></div>*/}
                 <Row className='w-100 justify-content-center'>
                     <Col lg={12} sm={12} xs={12}>
-                        <h2 className="w-100 fw-bold lh-base text-primary display-4 px-5" style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif' }}>FFS 2025 Speakers</h2>
+                        <h2 className="w-100 fw-bold lh-base text-primary display-4 lg:px-5 px-0" style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif' }}>FFS 2025 Speakers</h2>
                     </Col>
                    {/* <Col lg={7} sm={12} xs={12}>
                         <p className="w-70 mb-3 fs-15 text-white text-center">{subTopic}</p>
