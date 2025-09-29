@@ -7,12 +7,12 @@ import { Container,
     Button,
     Offcanvas,
     OffcanvasBody } from 'reactstrap';
-import { speakersFullData } from '../../../common/data';
+//import { speakersFullData } from '../../../common/data';
 import axios from 'axios';
-import img_iyinoluwa from "../../../assets/images/speakers/2025/img_iyinoluwa.png";
+//import img_iyinoluwa from "../../../assets/images/speakers/2025/img_iyinoluwa.png";
 import img_boye_ademola from "../../../assets/images/speakers/2025/img_boye_ademola.png";
-import img_abubakar from "../../../assets/images/speakers/2025/img_abubakar.jpg";
-import img_tunji from "../../../assets/images/speakers/2025/img_tunji_odumuboni.jpg";
+//import img_abubakar from "../../../assets/images/speakers/2025/img_abubakar.jpg";
+import img_tunji from "../../../assets/images/speakers/2025/img_tunji_odumuboni.png";
 import img_meghan from "../../../assets/images/speakers/2025/img_meghan.png";
 import img_mohammed_ghonaim from "../../../assets/images/speakers/2025/img_mohammed_ghonaim.jpeg";
 

@@ -6,7 +6,10 @@ import { Col, Container, Row } from 'reactstrap';
 //import logolight from "../../../assets/images/ffs_top_logo_light.png";
 //import ffsLogoDark from "../../../assets/images/ffs_top_logo_dark.png";
 //import ffsLogoLight1 from "../../../assets/images/ffs_top_logo_light2.png";
-import img_footer_logo from "../../../assets/images/img_footer_logo.png";
+//import img_footer_logo from "../../../assets/images/img_footer_logo.png";
+
+import ffs_logo_2_0 from "../../../assets/images/FFS_Summit_2025_Logo.png";
+
 import axios from 'axios';
 
 interface IFooter {
@@ -101,7 +104,7 @@ const FooterNew = () => {
                             <div>
                                 <div className='mb-5'>
                                 <Link to="/" className="d-block">
-                                    <img src={img_footer_logo} alt="logo light" className="footer-logo" />
+                                    <img src={ffs_logo_2_0} alt="logo light" className="footer-logo" />
                                  </Link>   
                                     
                                 </div>

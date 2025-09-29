@@ -55,10 +55,10 @@ const Feedback = () => {
                             <SwiperSlide className='swiper-slide-web'>
                                 <Card className='bg-white rounded-4 p-4'>
                                     <CardBody>
-                                        <Row className="align-items-center">
-                                            <Col lg={4} sm={12} xs={12}>
+                                        <Row className="align-items-center justify-content-center">
+                                            {/* <Col lg={4} sm={12} xs={12}>
                                                 <img src={imgFeedback} alt="" height="280" className='rounded-4 img-feedback-style' />
-                                            </Col>
+                                            </Col> */}
                                             <Col lg={8} sm={12} xs={12}>
                                                 <div className='w-100 d-flex flex-column align-items-center justify-content-center'>
                                                         <img src={ic_quotes} alt="" className='mx-auto' /> 
@@ -76,10 +76,10 @@ const Feedback = () => {
                              <SwiperSlide className='swiper-slide-web'>
                                 <Card className='bg-white rounded-4 p-4'>
                                     <CardBody>
-                                        <Row className="align-items-center">
-                                            <Col lg={4} sm={12} xs={12}>
+                                        <Row className="align-items-center justify-content-center">
+                                            {/*<Col lg={4} sm={12} xs={12}>
                                                 <img src={imgFeedback} alt="" height="280" className='rounded-4 img-feedback-style' />
-                                            </Col>
+                                            </Col> */}
                                             <Col lg={8} sm={12} xs={12}>
                                                 <div className='w-100 d-flex flex-column align-items-center justify-content-center'>
                                                         <img src={ic_quotes} alt="" className='mx-auto' /> 
@@ -128,10 +128,10 @@ const Feedback = () => {
                             <SwiperSlide>
                                 <Card className='bg-white rounded-4 p-4'>
                                     <CardBody>
-                                        <Row className="align-items-center">
-                                            <Col lg={4} sm={12} xs={12}>
+                                        <Row className="align-items-center justify-content-center">
+                                           {/* <Col lg={4} sm={12} xs={12}>
                                                 <img src={imgFeedback} alt="" height="280" className='rounded-4 img-feedback-style' />
-                                            </Col>
+                                            </Col> */}
                                             <Col lg={8} sm={12} xs={12}>
                                                 <div className='w-100 d-flex flex-column align-items-center justify-content-center'>
                                                         <img src={ic_quotes} alt="" className='mx-auto' /> 
@@ -148,10 +148,10 @@ const Feedback = () => {
                             <SwiperSlide>
                                 <Card className='bg-white rounded-4 p-4'>
                                     <CardBody>
-                                        <Row className="align-items-center">
-                                            <Col lg={4} sm={12} xs={12}>
+                                        <Row className="align-items-center justify-content-center">
+                                            {/*<Col lg={4} sm={12} xs={12}>
                                                 <img src={imgFeedback} alt="" height="280" className='rounded-4 img-feedback-style' />
-                                            </Col>
+                                            </Col> */}
                                             <Col lg={8} sm={12} xs={12}>
                                                 <div className='w-100 d-flex flex-column align-items-center justify-content-center'>
                                                         <img src={ic_quotes} alt="" className='mx-auto' /> 

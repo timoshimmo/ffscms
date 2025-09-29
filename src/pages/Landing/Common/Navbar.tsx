@@ -3,14 +3,10 @@ import { Collapse, Container, NavbarToggler, NavLink, Dropdown, DropdownToggle, 
 import { Link, NavLink as RRNavLink } from 'react-router-dom'; 
 import Scrollspy from "react-scrollspy";
 
-//import Images
+//import ffsLogoDark from "../../../assets/images/ffs_top_logo_dark.png";
+//import ffsLogoLight1 from "../../../assets/images/ffs_top_logo_light2.png";
 
-/*import logodark from "../../../assets/images/logo-dark.png";
-import logolight from "../../../assets/images/logo-light.png";
-import ffsLogoLight from "../../../assets/images/ffs_top_logo_light.png";
-*/
-import ffsLogoDark from "../../../assets/images/ffs_top_logo_dark.png";
-import ffsLogoLight1 from "../../../assets/images/ffs_top_logo_light2.png";
+import ffs_logo_2_0 from "../../../assets/images/FFS_Summit_2025_Logo.png";
 
 
 const Navbar = () => {
@@ -88,8 +84,8 @@ const Navbar = () => {
             <nav className={"navbar navbar-expand-lg navbar-landing fixed-top " + navClass} id="navbar">
                 <Container>
                     <Link className="navbar-brand" to="/">
-                        <img src={ffsLogoDark} className="card-logo card-logo-dark" alt="logo dark" height="40" />
-                        <img src={ffsLogoLight1} className="card-logo card-logo-light" alt="logo light" height="40" />
+                        <img src={ffs_logo_2_0} className="card-logo card-logo-dark" alt="logo dark" height="40" />
+                        <img src={ffs_logo_2_0} className="card-logo card-logo-light" alt="logo light" height="40" />
                     </Link>
                     <NavbarToggler className="navbar-toggler py-0 fs-20 text-body" onClick={toggle} type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
