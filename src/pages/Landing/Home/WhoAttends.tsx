@@ -4,9 +4,9 @@ import { Container, Row, Col } from 'reactstrap';
 //import axios from 'axios';
 
 import imgCExecs from "../../../assets/images/home/2025/img_csuite_executives1.jpg";
-import imgCFOs from "../../../assets/images/home/2025/img_CFOs_treasurers1.jpg";
+import imgCFOs from "../../../assets/images/home/2025/img_cfos_treasurers_biz_leads.jpg";
 import imgPolicyMakers from "../../../assets/images/home/2025/img_regulators_policymakers_main.jpg";
-import imgFinTech from "../../../assets/images/home/2025/img_fintech_tech_providers_main.jpg";
+import imgFinTech from "../../../assets/images/home/2025/img_fintech_tech_providers.jpg";
 import imgInvestors from "../../../assets/images/home/2025/img_investors_dfis_analysts_main2.jpg";
 import imgMedia from "../../../assets/images/home/2025/img_associations_media_main.png";
 

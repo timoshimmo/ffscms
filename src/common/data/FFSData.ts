@@ -877,6 +877,68 @@ const speakersData = [
     },
 ]
 
+const speakers2025Data = [
+
+    {
+        id: 1,
+        img: img_boye,
+        pic: img_boye,
+        name: "Boye Ademola",
+        tags: ["strategy-&-markets"],
+        credentials: "Founder/CEO",
+        company: "Bazara",
+        courses: [
+            {
+                title: "Building the Future Together: Strategic Partnerships in Financial Services", 
+                date: "Tuesday 08, October 2024",
+                time: "11:35 AM",
+                tags: ["strategy-&-markets"],
+            }
+            
+        ],
+        bio: "is the Founder/CEO of Bazara Technologies Inc., a software engineering & systems integration firm carving a niche for taking on audacious innovation projects in the B2B space. Bazara is reimagining and re-engineering systems that power financial services leveraging UI/UX, Microservices, APIs, AI & the Cloud.\n\nPrior to Bazara, Boye was Partner and Head of Digital Transformation at KPMG in Africa, where he led digital strategy, AI implementation and cloud transformation projects for large corporates.\n\nHe served on KPMG’s Global Digital Transformation Leadership, Global Fintech Leadership and is an adviser to banks, Fintechs, FS players and regulators on the future of financial services."
+    },
+
+    {
+        id: 3,
+        img: img_meaghan,
+        pic: img_meaghan,
+        name: "Meaghan Johnson",
+        tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
+        credentials: "Convener",
+        company: "FFS Summit",
+        courses: [
+            {
+                title: "Redefining CX through Open Finance, AI and Technologies", 
+                date: "Tuesday 08, October 2024",
+                time: "2:55 PM",
+                tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
+            },
+        ],
+        bio: "is the CEO of FFS and the convener of the Future of Financial Services Summit. She is also an independent consultant to banks, fintechs, and regulators on digital transformation and customer experience.\n\nWith over 10 years in digital banking and fintech, she founded Digital Magss, advising on product development and strategic partnerships.\n\nMeaghan is a Senior Lecturer at CFTE, a Subject Matter Expert at Manchester Business School, and a Fintech Contributor at Forbes. Her extensive experience includes roles at 11:FS, Mapa Research, and advisory positions at various fintech startups."
+    },
+
+    {
+        id: 4,
+        img: img_tunji_odumuboni,
+        pic: img_tunji_odumuboni,
+        name: "Tunji Odumuboni",
+        tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
+        credentials: "Co-Founder & CPTO",
+        company: "BazaraTech",
+        courses: [
+            {
+                title: "Redefining CX through Open Finance, AI and Technologies", 
+                date: "Tuesday 08, October 2024",
+                time: "2:55 PM",
+                tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
+            },
+        ],
+        bio: "is the Co-Founder & CPTO of BazaraTech."
+    },
+
+];
+
 const speakersFullData = [
 
     {
@@ -1000,6 +1062,25 @@ const speakersFullData = [
             
         ],
         bio: "is the Founder/CEO of Bazara Technologies Inc., a software engineering & systems integration firm carving a niche for taking on audacious innovation projects in the B2B space. Bazara is reimagining and re-engineering systems that power financial services leveraging UI/UX, Microservices, APIs, AI & the Cloud.\n\nPrior to Bazara, Boye was Partner and Head of Digital Transformation at KPMG in Africa, where he led digital strategy, AI implementation and cloud transformation projects for large corporates.\n\nHe served on KPMG’s Global Digital Transformation Leadership, Global Fintech Leadership and is an adviser to banks, Fintechs, FS players and regulators on the future of financial services."
+    },
+
+    {
+        id: 7,
+        img: img_meaghan,
+        pic: img_meaghan,
+        name: "Meaghan Johnson",
+        tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
+        credentials: "Convener/ED",
+        company: "FFS",
+        courses: [
+            {
+                title: "Redefining CX through Open Finance, AI and Technologies", 
+                date: "Tuesday 08, October 2024",
+                time: "2:55 PM",
+                tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
+            },
+        ],
+        bio: "is the CEO of FFS and the convener of the Future of Financial Services Summit. She is also an independent consultant to banks, fintechs, and regulators on digital transformation and customer experience.\n\nWith over 10 years in digital banking and fintech, she founded Digital Magss, advising on product development and strategic partnerships.\n\nMeaghan is a Senior Lecturer at CFTE, a Subject Matter Expert at Manchester Business School, and a Fintech Contributor at Forbes. Her extensive experience includes roles at 11:FS, Mapa Research, and advisory positions at various fintech startups."
     },
     {
         id: 9,
@@ -1934,6 +2015,34 @@ const agendaData = [
                 tags: ["fintech"]
             }
         ]
+    },
+    {
+        id: 11,
+        date: "Tue, 08 Oct",
+        startTime: "2:00 PM",
+        endTime: "1:30PM",
+        dateCode: "Tue",
+        duration: "120",
+        topic: "Roundtable 1: Leveraging the Startup Ecosystem to Power Corporate Innovation",
+        theme: ["strategy-&-markets", "wealth-management"],
+        type: ["keynote"],
+        description: "Keynote Presentation",
+        details: "Brings together startups, corporate VCs, angel investors, PE firms, and corporates. \n Focus on building scalable startup–corporate partnerships, funding innovation pipelines, and investing wisely for long-term value.",
+        speaker: null
+    },
+    {
+        id: 12,
+        date: "Tue, 08 Oct",
+        startTime: "2:00 PM",
+        endTime: "1:30PM",
+        dateCode: "Tue",
+        duration: "120",
+        topic: "Roundtable 2: Implementing Open Banking to Drive Ecosystem Value",
+        theme: ["strategy-&-markets", "wealth-management"],
+        type: ["keynote"],
+        description: "Keynote Presentation",
+        details: "With regulators (e.g., CBN), bank CIOs/CTOs, corporates, and fintechs. \n Focus on moving beyond regulation to practical implementation: infrastructure, standards, partnerships, and new value streams in trade, treasury, lending, and payments.",
+        speaker: null
     },
     /*{
         id: 11,
