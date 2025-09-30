@@ -21,6 +21,13 @@ import round_tables from "../../assets/images/home/round_tables1.jpg";
 import field_visit from "../../assets/images/home/field_visit1.jpg";
 import specialized_workshops from "../../assets/images/home/specialized_workshops1.jpeg";
 
+
+//2025 Speakers
+import img_boye_ademola_2025 from "../../assets/images/speakers/2025/img_boye_ademola.png";
+import img_tunji_2025 from "../../assets/images/speakers/2025/img_tunji_odumuboni.png";
+import img_meghan_2025 from "../../assets/images/speakers/2025/img_meghan.png";
+import img_mohammed_ghonaim_2025 from "../../assets/images/speakers/2025/img_mohammed_ghonaim.jpeg";
+
 //Speakers
 import img_boye from "../../assets/images/speakers/img_boye.png";
 import img_abu_suleiman from "../../assets/images/speakers/img_abu_suleiman.png";
@@ -881,11 +888,11 @@ const speakers2025Data = [
 
     {
         id: 1,
-        img: img_boye,
-        pic: img_boye,
+        img: img_boye_ademola_2025,
+        pic: img_boye_ademola_2025,
         name: "Boye Ademola",
         tags: ["strategy-&-markets"],
-        credentials: "Founder/CEO",
+        credentials: "Founder & CEO",
         company: "Bazara",
         courses: [
             {
@@ -896,13 +903,32 @@ const speakers2025Data = [
             }
             
         ],
-        bio: "is the Founder/CEO of Bazara Technologies Inc., a software engineering & systems integration firm carving a niche for taking on audacious innovation projects in the B2B space. Bazara is reimagining and re-engineering systems that power financial services leveraging UI/UX, Microservices, APIs, AI & the Cloud.\n\nPrior to Bazara, Boye was Partner and Head of Digital Transformation at KPMG in Africa, where he led digital strategy, AI implementation and cloud transformation projects for large corporates.\n\nHe served on KPMG’s Global Digital Transformation Leadership, Global Fintech Leadership and is an adviser to banks, Fintechs, FS players and regulators on the future of financial services."
+        bio: "is the Founder & CEO of Bazara Technologies Inc., a software engineering & systems integration firm carving a niche for taking on audacious innovation projects in the B2B space. Bazara is reimagining and re-engineering systems that power financial services leveraging UI/UX, Microservices, APIs, AI & the Cloud.\n\nPrior to Bazara, Boye was Partner and Head of Digital Transformation at KPMG in Africa, where he led digital strategy, AI implementation and cloud transformation projects for large corporates.\n\nHe served on KPMG’s Global Digital Transformation Leadership, Global Fintech Leadership and is an adviser to banks, Fintechs, FS players and regulators on the future of financial services."
+    },
+
+     {
+        id: 2,
+        img: img_mohammed_ghonaim_2025,
+        pic: img_mohammed_ghonaim_2025,
+        name: "Mohammed Ghonaim",
+        tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
+        credentials: "Co-Founder, D360 Bank",
+        company: "Board Member, SICO Capital",
+        courses: [
+            {
+                title: "Redefining CX through Open Finance, AI and Technologies", 
+                date: "Tuesday 08, October 2024",
+                time: "2:55 PM",
+                tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
+            },
+        ],
+        bio: "is the Co-Founder, D360 Bank & Board Member, SICO Capital."
     },
 
     {
         id: 3,
-        img: img_meaghan,
-        pic: img_meaghan,
+        img: img_meghan_2025,
+        pic: img_meghan_2025,
         name: "Meaghan Johnson",
         tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
         credentials: "Convener",
@@ -920,8 +946,8 @@ const speakers2025Data = [
 
     {
         id: 4,
-        img: img_tunji_odumuboni,
-        pic: img_tunji_odumuboni,
+        img: img_tunji_2025,
+        pic: img_tunji_2025,
         name: "Tunji Odumuboni",
         tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
         credentials: "Co-Founder & CPTO",
@@ -1732,7 +1758,7 @@ const agendaData = [
         startTime: "8:30 AM",
         endTime: "9:00 AM",
         dateCode: "Wed",
-        duration: "60",
+        duration: "30",
         topic: "Registration and Networking",
         theme: [],
         type: ["break"],
@@ -1746,7 +1772,7 @@ const agendaData = [
         startTime: "9:00 AM",
         endTime: "9:15AM",
         dateCode: "Wed",
-        duration: "30",
+        duration: "5",
         topic: "",
         theme: [],
         type: ["remarks"],
@@ -2732,4 +2758,4 @@ const workshopsData = [
 ]
 
 
-export {connectData, speakersData, whatIsData, numbersData, partnerImgsData, latestData, faqData, faqFullData, faqLatestData, speakersFullData, agendaData, whatWeDoData, whyChooseData, joinContactsData, insightsData, workshopsData, mainBlogData }
+export {connectData, speakersData, whatIsData, numbersData, partnerImgsData, latestData, faqData, faqFullData, faqLatestData, speakersFullData, agendaData, whatWeDoData, whyChooseData, joinContactsData, insightsData, workshopsData, mainBlogData, speakers2025Data }
