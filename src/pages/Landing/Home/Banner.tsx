@@ -131,14 +131,14 @@ const Banner = () => {
                         
                                 <div className="w-100 btn-home-web">
                                         <div className="d-flex gap-3 justify-content-center">
-                                            <Link to="/register" className="btn btn-primary btn-banner">Register</Link>
+                                            <Link to="/https://tix.africa/discover/ffssummit" className="btn btn-primary btn-banner">Register</Link>
                                             <NavLink href="#whatis" className="btn btn-outline-secondary border border-secondary border-2 btn-banner btn-banner-secondary">See More</NavLink>
                                         </div>
                                 </div>
 
                                 <div className="w-100">
                                     <div className="d-flex gap-3 justify-content-center">
-                                        <Link to="/register" className="btn btn-primary btn-banner">Register</Link>
+                                        <Link to="/https://tix.africa/discover/ffssummit" className="btn btn-primary btn-banner">Register</Link>
                                         <NavLink href="#whatis" className="btn btn-outline-secondary border border-secondary border-2 btn-banner btn-banner-secondary">See More</NavLink>
                                     </div>
                                 </div>
@@ -147,14 +147,14 @@ const Banner = () => {
 
                             <div className="w-100 btn-home-web">
                                 <div className="d-flex gap-3 justify-content-center">
-                                    <Link to="https://tix.africa/discover/ffssummit" className="btn btn-primary btn-banner" target="_blank" rel="noopener noreferrer">Register Now</Link>
+                                    <Link to="https://ffssummit2025.eventbrite.com/" className="btn btn-primary btn-banner" target="_blank" rel="noopener noreferrer">Register Now</Link>
                                     <Link to="/agenda" className="btn btn-outline-secondary border border-secondary border-2 btn-banner btn-banner-secondary">View Agenda</Link>
                                 </div>
                             </div>
 
                             <div className="w-100 btn-home-mobile">
                                 <div className="d-flex flex-column align-items-center gps-3 px-5">
-                                    <Link to="https://tix.africa/discover/ffssummit" className="w-100 btn btn-primary btn-banner" target="_blank" rel="noopener noreferrer">Register Now</Link>
+                                    <Link to="https://ffssummit2025.eventbrite.com/" className="w-100 btn btn-primary btn-banner" target="_blank" rel="noopener noreferrer">Register Now</Link>
                                     <Link to="/agenda" className="w-100 mt-3 btn btn-outline-secondary border border-secondary border-2 btn-banner btn-banner-secondary">View Agenda</Link>
                                 </div>
                             </div>  
