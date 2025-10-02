@@ -11,12 +11,13 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import 'swiper/css/autoplay';
 
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { Autoplay, Navigation } from 'swiper/modules';
 import ic_slide_left_arrow from "../../../assets/images/icons/ic_slide_left_arrow.png";
 import ic_slide_right_arrow from "../../../assets/images/icons/ic_slide_right_arrow.png";
 
-import imgFeedback from "../../../assets/images/home/2025/img_feedback.png";
+//import imgFeedback from "../../../assets/images/home/2025/img_feedback.png";
 import ic_quotes from "../../../assets/images/icons/2025/ic_quotes.png";
+import { feedbackData } from 'common/data';
 
 const Feedback = () => {
 
@@ -42,7 +43,7 @@ const Feedback = () => {
                             allowTouchMove
                             speed={3000}
                             autoplay={{
-                                delay: 5000,
+                                delay: 10000,
                                 disableOnInteraction: false,
                             }}
                             navigation={false}
@@ -51,48 +52,29 @@ const Feedback = () => {
                             ref={swiperRef}
                             className="position-relative mySwiper"
                         >
-                           
-                            <SwiperSlide className='swiper-slide-web'>
-                                <Card className='bg-white rounded-4 p-4'>
-                                    <CardBody>
-                                        <Row className="align-items-center justify-content-center">
-                                            {/* <Col lg={4} sm={12} xs={12}>
-                                                <img src={imgFeedback} alt="" height="280" className='rounded-4 img-feedback-style' />
-                                            </Col> */}
-                                            <Col lg={8} sm={12} xs={12}>
-                                                <div className='w-100 d-flex flex-column align-items-center justify-content-center'>
-                                                        <img src={ic_quotes} alt="" className='mx-auto' /> 
-                                                    <p className="text-black fs-14 mx-auto text-center">Using Dealpreneur made buying my first business a seamless experience. The secure dealroom, AI-powered matching, and expert support helped me find the right opportunity and navigate the complexities of the transaction with confidence. I couldn't have asked for a better platform to make such a significant decision.</p>
-                                                    <h5 className="text-primary fw-bold fs-20 mb-4 text-center">Jimmy Francis</h5>
-                                                    <p className="text-black fs-16 text-center">Business Owner</p>
-                                                </div>
-                                            </Col>
-                                        </Row>
-                                    </CardBody>
-                                </Card>
-                                
-                            </SwiperSlide>
+                           {feedbackData.map((item, idx) => (
 
-                             <SwiperSlide className='swiper-slide-web'>
-                                <Card className='bg-white rounded-4 p-4'>
-                                    <CardBody>
-                                        <Row className="align-items-center justify-content-center">
-                                            {/*<Col lg={4} sm={12} xs={12}>
-                                                <img src={imgFeedback} alt="" height="280" className='rounded-4 img-feedback-style' />
-                                            </Col> */}
-                                            <Col lg={8} sm={12} xs={12}>
-                                                <div className='w-100 d-flex flex-column align-items-center justify-content-center'>
-                                                        <img src={ic_quotes} alt="" className='mx-auto' /> 
-                                                    <p className="text-black fs-14 mx-auto text-center">Using Dealpreneur made buying my first business a seamless experience. The secure dealroom, AI-powered matching, and expert support helped me find the right opportunity and navigate the complexities of the transaction with confidence. I couldn't have asked for a better platform to make such a significant decision.</p>
-                                                    <h5 className="text-primary fw-bold fs-20 mb-4 text-center">Jane Doe</h5>
-                                                    <p className="text-black fs-16 text-center">C.E.O</p>
-                                                </div>
-                                            </Col>
-                                        </Row>
-                                    </CardBody>
-                                </Card>
-                                
-                            </SwiperSlide>
+                                <SwiperSlide className='swiper-slide-web' key={item.id}>
+                                    <Card className='bg-white rounded-4 p-4' style={{ height: 354 }}>
+                                        <CardBody>
+                                            <Row className="align-items-center justify-content-center" style={{ height: '100%' }}>
+                                                {/* <Col lg={4} sm={12} xs={12}>
+                                                    <img src={imgFeedback} alt="" height="280" className='rounded-4 img-feedback-style' />
+                                                </Col> */}
+                                                <Col lg={8} sm={12} xs={12}>
+                                                    <div className='w-100 d-flex flex-column align-items-center justify-content-center'>
+                                                            <img src={ic_quotes} alt="" className='mx-auto' /> 
+                                                        <p className="text-black fs-14 mx-auto text-center">{item.label}</p>
+                                                        <h5 className="text-primary fw-bold fs-20 mb-4 text-center">{item.name}</h5>
+                                                        <p className="text-black fs-16 text-center">{item.credentials}</p>
+                                                    </div>
+                                                </Col>
+                                            </Row>
+                                        </CardBody>
+                                    </Card>
+                                    
+                                </SwiperSlide>
+                           ))}
                            
                         </Swiper>
                     {/* </Col> */}
@@ -117,7 +99,7 @@ const Feedback = () => {
                             allowTouchMove={true}
                             speed={3000}
                             autoplay={{
-                                delay: 5000,
+                                delay: 7000,
                                 disableOnInteraction: false,
                             }}
                             slidesPerView={1}
@@ -125,45 +107,28 @@ const Feedback = () => {
                             modules={[Autoplay]}
                             className="mySwiper position-relative"
                         >
-                            <SwiperSlide>
-                                <Card className='bg-white rounded-4 p-4'>
-                                    <CardBody>
-                                        <Row className="align-items-center justify-content-center">
-                                           {/* <Col lg={4} sm={12} xs={12}>
-                                                <img src={imgFeedback} alt="" height="280" className='rounded-4 img-feedback-style' />
-                                            </Col> */}
-                                            <Col lg={8} sm={12} xs={12}>
-                                                <div className='w-100 d-flex flex-column align-items-center justify-content-center'>
-                                                        <img src={ic_quotes} alt="" className='mx-auto' /> 
-                                                    <p className="text-black fs-14 mx-auto text-center">Using Dealpreneur made buying my first business a seamless experience. The secure dealroom, AI-powered matching, and expert support helped me find the right opportunity and navigate the complexities of the transaction with confidence. I couldn't have asked for a better platform to make such a significant decision.</p>
-                                                    <h5 className="text-primary fw-bold fs-20 mb-4 text-center">Jimmy Francis</h5>
-                                                    <p className="text-black fs-16 text-center">Business Owner</p>
-                                                </div>
-                                            </Col>
-                                        </Row>
-                                    </CardBody>
-                                </Card>
-                            </SwiperSlide>
+                            {feedbackData.map((item, idx) => (
 
-                            <SwiperSlide>
-                                <Card className='bg-white rounded-4 p-4'>
-                                    <CardBody>
-                                        <Row className="align-items-center justify-content-center">
-                                            {/*<Col lg={4} sm={12} xs={12}>
-                                                <img src={imgFeedback} alt="" height="280" className='rounded-4 img-feedback-style' />
-                                            </Col> */}
-                                            <Col lg={8} sm={12} xs={12}>
-                                                <div className='w-100 d-flex flex-column align-items-center justify-content-center'>
-                                                        <img src={ic_quotes} alt="" className='mx-auto' /> 
-                                                    <p className="text-black fs-14 mx-auto text-center">Using Dealpreneur made buying my first business a seamless experience. The secure dealroom, AI-powered matching, and expert support helped me find the right opportunity and navigate the complexities of the transaction with confidence. I couldn't have asked for a better platform to make such a significant decision.</p>
-                                                    <h5 className="text-primary fw-bold fs-20 mb-4 text-center">Jane Doe</h5>
-                                                    <p className="text-black fs-16 text-center">C.E.O</p>
-                                                </div>
-                                            </Col>
-                                        </Row>
-                                    </CardBody>
-                                </Card>
-                            </SwiperSlide>
+                                <SwiperSlide key={item.id}>
+                                    <Card className='bg-white rounded-4 p-3' style={{ height: 525 }}>
+                                        <CardBody>
+                                            <Row className="align-items-center justify-content-center"  style={{ height: '100%' }}>
+                                            {/* <Col lg={4} sm={12} xs={12}>
+                                                    <img src={imgFeedback} alt="" height="280" className='rounded-4 img-feedback-style' />
+                                                </Col> */}
+                                                <Col lg={8} sm={12} xs={12}>
+                                                    <div className='w-100 d-flex flex-column align-items-center justify-content-center'>
+                                                            <img src={ic_quotes} alt="" className='mx-auto' /> 
+                                                        <p className="text-black fs-14 mx-auto text-center">{item.label}</p>
+                                                        <h5 className="text-primary fw-bold fs-20 mb-4 text-center">{item.name}</h5>
+                                                        <p className="text-black fs-16 text-center">{item.credentials}</p>
+                                                    </div>
+                                                </Col>
+                                            </Row>
+                                        </CardBody>
+                                    </Card>
+                                </SwiperSlide>
+                            ))}
                         </Swiper>
                     </Col>
                 </Row>  

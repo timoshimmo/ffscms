@@ -2757,5 +2757,38 @@ const workshopsData = [
     }
 ]
 
+const feedbackData = [
+    {
+        id: 1,
+        label: 'The Future of Financial Services Summit was an insightful and inspiring experience. The discussions on trust, customer experience, and creating practical frameworks for scaling propositions provided valuable perspectives on the future of financial services.',
+        name: 'Nadav Mordechai',
+        credentials: "Product & Strategy Director, Elsewhen"
+    },
+    {
+         id: 2,
+        label: 'Being part of the Future of Financial Services Summit was a great experience. The conversations on AI and Treasury highlighted how the world is already embracing AI and reaping its benefits. The key takeaway was clear - be open to innovation, approach it thoughtfully, and don’t be afraid to experiment.',
+        name: 'Royston Da Costa',
+        credentials: "Assistant Treasurer, Ferguson"
+    },	
+    {
+        id: 3,
+        label: 'The Future of Financial Services Summit offered powerful insights into AI’s transformative role in banking and wealth management. Discussions highlighted how predictive and generative AI are enhancing customer experience, strengthening regulatory compliance, and reshaping cybersecurity strategies. The future of financial services is here, and it’s AI-powered.',
+        name: 'Barry Gilbert',
+        credentials: "Sales Manager, EMEA at Fime Services UK"
+    },
+    {
+        id: 4,
+        label: 'Attending the Future of Financial Services Summit was an inspiring experience. The session on ‘Launching a Digital Bank’ provided valuable insights and the opportunity to engage with senior fintech leaders in a thought-provoking setting.',
+        name: 'Shriya Johari',
+        credentials: "Product Manager, Syndesi"
+    },
+    {
+        id: 5,
+        label: 'The Future of Financial Services Summit was a truly thought-provoking experience. The sessions delivered deep insights on innovation, strategic partnerships, and the future of banking. The discussions around open finance, AI, and emerging technologies were both inspiring and practical, offering a clear vision of what’s ahead for the industry.',
+        name: 'Vinay Handa',
+        credentials: "Finance Projects & Automation, LV"
+    },
+];
 
-export {connectData, speakersData, whatIsData, numbersData, partnerImgsData, latestData, faqData, faqFullData, faqLatestData, speakersFullData, agendaData, whatWeDoData, whyChooseData, joinContactsData, insightsData, workshopsData, mainBlogData, speakers2025Data }
+
+export {connectData, speakersData, whatIsData, numbersData, partnerImgsData, latestData, faqData, faqFullData, faqLatestData, speakersFullData, agendaData, whatWeDoData, whyChooseData, joinContactsData, insightsData, workshopsData, mainBlogData, speakers2025Data, feedbackData }
