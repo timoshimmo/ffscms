@@ -64,8 +64,8 @@ const Feedback = () => {
                                                 <Col lg={8} sm={12} xs={12}>
                                                     <div className='w-100 d-flex flex-column align-items-center justify-content-center'>
                                                             <img src={ic_quotes} alt="" className='mx-auto' /> 
-                                                        <p className="text-black fs-14 mx-auto text-center">{item.label}</p>
-                                                        <h5 className="text-primary fw-bold fs-20 mb-4 text-center">{item.name}</h5>
+                                                        <p className="text-black mb-4 fs-14 mx-auto text-center">{item.label}</p>
+                                                        <h5 className="text-primary fw-bold fs-20 mb-0 text-center">{item.name}</h5>
                                                         <p className="text-black fs-16 text-center">{item.credentials}</p>
                                                     </div>
                                                 </Col>
@@ -119,8 +119,8 @@ const Feedback = () => {
                                                 <Col lg={8} sm={12} xs={12}>
                                                     <div className='w-100 d-flex flex-column align-items-center justify-content-center'>
                                                             <img src={ic_quotes} alt="" className='mx-auto' /> 
-                                                        <p className="text-black fs-14 mx-auto text-center">{item.label}</p>
-                                                        <h5 className="text-primary fw-bold fs-20 mb-4 text-center">{item.name}</h5>
+                                                        <p className="text-black mb-4 fs-14 mx-auto text-center">{item.label}</p>
+                                                        <h5 className="text-primary fw-bold fs-20 mb-0 text-center">{item.name}</h5>
                                                         <p className="text-black fs-16 text-center">{item.credentials}</p>
                                                     </div>
                                                 </Col>
