@@ -5,11 +5,11 @@ import Navbar from '../Common/Navbar';
 import About from "./About";
 import WhyChoose from './WhyChoose';
 import WhatWeDo from './WhatWeDo';
-import Faq from './Faq';
 import CTA from '../Common/CTA';
 import MissionVision from './MissionVision';
 import JoinUs from './JoinUs';
-import Footer from '../Common/footer';
+//import Footer from '../Common/footer';
+import FooterNew from '../Common/footerNew';
 
 const index = () => {
     document.title = "Future of Financial Services | About";
@@ -48,7 +48,7 @@ const index = () => {
                 <JoinUs />
                 {/*<Faq />*/}
                 <CTA />
-                <Footer />
+                <FooterNew />
                 <button onClick={() => toTop()} className="btn btn-primary btn-icon landing-back-top" id="back-to-top">
                     <i className="ri-arrow-up-line"></i>
                 </button>

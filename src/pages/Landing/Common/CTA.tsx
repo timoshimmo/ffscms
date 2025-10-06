@@ -134,7 +134,7 @@ const CTA = () => {
                     <Row className="justify-content-center align-items-center gy-4">
                         <Col lg={8}>
                             <div className='mx-auto d-flex flex-column align-items-center'>
-                                <img src={img_successful_subscription} />
+                                <img src={img_successful_subscription} alt=""/>
                                 <h4 className="text-dark mb-0 fw-bold" style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif' }}>Thank you for subscribing with us</h4>
                                 <p className="text-dark mt-3 fs-13">We'll continue to keep in touch with the latest future financial services news, updates and our upcoming events ad summits.</p>
                             </div>

@@ -1451,7 +1451,7 @@ linear-gradient(0deg, rgba(51, 204, 153, 0.12), rgba(51, 204, 153, 0.12)), url('
 }
 
 .faq-page-body {
-    height: 1150px;
+    height: 1300px;
 }
 
 .mobile-cta-home {
@@ -1476,7 +1476,7 @@ linear-gradient(0deg, rgba(51, 204, 153, 0.12), rgba(51, 204, 153, 0.12)), url('
     }
 
     .faq-page-body {
-        height: 950px;
+        height: 1100px;
     }
 }
 
@@ -1501,6 +1501,16 @@ linear-gradient(0deg, rgba(51, 204, 153, 0.12), rgba(51, 204, 153, 0.12)), url('
 }
 
 .web-cta {
+    position: absolute;
+    bottom: 7%;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    max-width: 900px;
+    margin-bottom: 30px;
+}
+
+.web-cta-faq {
     position: absolute;
     bottom: 7%;
     left: 0;

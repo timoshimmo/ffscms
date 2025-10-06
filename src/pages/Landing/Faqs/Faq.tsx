@@ -1,14 +1,11 @@
 import React, { useState } from 'react';
-import { Container, Row, Col, Card, CardBody } from 'reactstrap';
-import { Link } from 'react-router-dom';
-import Panel from 'Components/Common/Panel';
+import { Container, Row, Col } from 'reactstrap';
 import { Accordion, AccordionBody, AccordionHeader, AccordionItem } from 'reactstrap';
-import { faqFullData } from '../../../common/data';
+//import { faqFullData } from '../../../common/data';
+import { faq2025Data } from '../../../common/data';
 
 const Faq = () => {
 
-
-    const [activeTab, setActiveTab] = useState<number | undefined>(0);
     const [openFlush, setOpenFlush] = useState('0');
     const toggleFlush = (id: any) => {
         if (openFlush !== id) {
@@ -19,9 +16,6 @@ const Faq = () => {
         }
     };
 
-    const activateTab = (index: number | undefined) => {
-        setActiveTab((prevState: number | undefined) => ( prevState === index ? -1 : index));
-      }
     
     return (
         <React.Fragment>
@@ -39,7 +33,7 @@ const Faq = () => {
                 <Row className='justify-content-center partners-row mx-auto'>
                     <Col lg={10} sm={12} xs={12}>
                         <Accordion id="default-accordion-example" flush open={openFlush} toggle={toggleFlush}>
-                            {faqFullData.map((item, key) => (
+                            {faq2025Data.map((item: any, key) => (
                                 <AccordionItem key={key} className='shadow-none border-0 py-3'>
                                     <AccordionHeader targetId={item.id} className='text-white'>{item.label}</AccordionHeader>
                                     <AccordionBody accordionId={item.id} className='text-muted fs-14'>

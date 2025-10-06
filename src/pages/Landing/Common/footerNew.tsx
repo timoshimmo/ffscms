@@ -159,14 +159,10 @@ const FooterNew = () => {
                                     <h5 className="text-primary mb-0" style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif' }}>Get Involved</h5>
                                     <div className="text-white mt-3">
                                         <ul className="list-unstyled ff-secondary footer-list">
-                                            {dataEntry.filter(row => row.data.fields.column === "Get Involved").map((item, idx) => (
-                                                <li><Link to={item.data.fields.link} className="text-white fs-14">{item.data.fields.title}</Link></li>
-                                            ))}
-                                            {/* 
-                                                <li><Link to="/register" className="text-white fs-14">Register</Link></li>
-                                                <li><Link to="/sponsors" className="text-white fs-14">Be a Sponsor</Link></li>
-                                                <li><Link to="/partners" className="text-white fs-14">Partner With Us</Link></li>
-                                            */}
+                                            <li><Link to="https://ffssummit2025.eventbrite.com/" className="text-white fs-14" target="_blank" rel="noopener noreferrer">Register</Link></li>
+                                            <li><Link to="/sponsors" className="text-white fs-14">Be a Sponsor</Link></li>
+                                            <li><Link to="/partners" className="text-white fs-14">Partner With Us</Link></li>
+                                            
                                         </ul>
                                     </div>
                                 </Col>

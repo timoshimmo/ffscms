@@ -3,7 +3,8 @@ import { Helmet } from 'react-helmet';
 import Navbar from '../Common/Navbar';
 import Banner from "./Banner";
 import ContactUsForm from './ContactUsForm';
-import Footer from '../Common/footer';
+//import Footer from '../Common/footer';
+import FooterNew from '../Common/footerNew';
 import Contact from './Contact';
 
 const index = () => {
@@ -34,7 +35,7 @@ const index = () => {
                 <Banner />
                 <ContactUsForm />
                 <Contact />
-                <Footer />
+                <FooterNew />
             </div>
         </React.Fragment>
     );

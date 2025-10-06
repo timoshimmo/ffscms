@@ -5,6 +5,7 @@ import Navbar from '../Common/Navbar';
 import Faq from './Faq';
 import CTA from '../Common/CTA';
 import Footer from '../Common/footer';
+import FooterNew from '../Common/footerNew';
 import Banner from './Banner';
 
 const index = () => {
@@ -40,7 +41,7 @@ const index = () => {
                 <Banner />
                 <Faq />
                 <CTA />
-                <Footer />
+                <FooterNew />
                 <button onClick={() => toTop()} className="btn btn-primary btn-icon landing-back-top" id="back-to-top">
                     <i className="ri-arrow-up-line"></i>
                 </button>

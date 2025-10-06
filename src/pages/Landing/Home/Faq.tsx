@@ -1,22 +1,22 @@
-import React, { useState, useEffect } from 'react';
-import { Container, Row, Col, Card, CardBody } from 'reactstrap';
+import React, { useState } from 'react';
+import { Container, Row, Col } from 'reactstrap';
 import { Accordion, AccordionBody, AccordionHeader, AccordionItem } from 'reactstrap';
 import { faqLatestData } from '../../../common/data';
-import axios from 'axios';
+//import axios from 'axios';
 
-
+/*
 interface IFAQ {
     id: string,
     question: string,
     answer: string   
-}
+}  */
 
 const Faq = () => {
 
 
-    const [title, setTitle] = useState('');
+   /* const [title, setTitle] = useState('');
     const [subTitle, setSubtitle] = useState('');
-    const [faqs, setFaqs] = useState<IFAQ[] | []>([]);
+    const [faqs, setFaqs] = useState<IFAQ[] | []>([]); */
     //const [activeTab, setActiveTab] = useState<number | undefined>(0);
     const [openFlush, setOpenFlush] = useState('0');
     const toggleFlush = (id: any) => {
@@ -28,7 +28,7 @@ const Faq = () => {
         }
     };
 
-    useEffect(() => {
+  /*  useEffect(() => {
 
         axios.get("https://cdn.contentful.com/spaces/8kgt6jcufmb2/environments/master/entries/4YJ32HF5mHMEQYpmFmkNpp?access_token=0i1vMSW9uEuEaMKBV_cMWva-FkSU11BTHazrVRUxUW4")
         .then(async response => {
@@ -50,7 +50,7 @@ const Faq = () => {
             }
         });
 
-    }, []);
+    }, []); */
 
     /*
     const activateTab = (index: number | undefined) => {
@@ -66,8 +66,8 @@ const Faq = () => {
                 <Row className="justify-content-center">
                     <Col lg={7}>
                         <div className="text-center mb-5">
-                            <h2 className="mb-2 fw-semibold lh-base text-primary" style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif' }}>{title}</h2>
-                            <p className="fs-13 text-white">{subTitle}</p>
+                            <h2 className="mb-2 fw-semibold lh-base text-primary" style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif' }}>FAQs</h2>
+                            <p className="fs-13 text-white">Find answers to common questions about the conference, including registration details, schedule information, and more.</p>
                         </div>
                     </Col>
                 </Row>
@@ -91,58 +91,18 @@ const Faq = () => {
                         </div>
                                 </Col> */}
 
-                                 <Col lg={10} sm={12} xs={12}>
-                                    <Accordion id="default-accordion-example" flush open={openFlush} toggle={toggleFlush}>
-                                        {faqLatestData.map((item: any, key: any) => (
-                                            <AccordionItem key={key} className='shadow-none border-0 py-3'>
-                                                <AccordionHeader targetId={item.id} className='text-white'>{item.label}</AccordionHeader>
-                                                <AccordionBody accordionId={item.id} className='text-muted fs-14'>
-                                                    {item.content}
-                                                </AccordionBody>
-                                            </AccordionItem>
-                                        ))}
-                                    </Accordion>
-                                </Col>       
-                    {/*<Col lg={10} sm={12} xs={12}>
+                    <Col lg={10} sm={12} xs={12}>
                         <Accordion id="default-accordion-example" flush open={openFlush} toggle={toggleFlush}>
-                             <AccordionItem className='shadow-none border-0 py-3'>
-                                <AccordionHeader targetId="1" className='text-white'>What is the date and location of the conference?</AccordionHeader>
-                                <AccordionBody accordionId="10" className='text-muted fs-14'>
-                                    The conference will take place from November 19-21, 2025, in Lekki, Lagos-Nigeria
-                                </AccordionBody>
-                            </AccordionItem>
-
-                             <AccordionItem className='shadow-none border-0 py-3'>
-                                <AccordionHeader targetId="2" className='text-white'>Who should attend the conference?</AccordionHeader>
-                                <AccordionBody accordionId="11" className='text-muted fs-14'>
-                                    The conference is ideal for professionals in the financial services industry, including bankers, fintech, entrepreneurs, financial analysts, regulators and technology developers. 
-                                </AccordionBody>
-                            </AccordionItem>
-
-                            <AccordionItem className='shadow-none border-0 py-3'>
-                                <AccordionHeader targetId="3" className='text-white'>Will session recordings be available after the conference?</AccordionHeader>
-                                <AccordionBody accordionId="12" className='text-muted fs-14'>
-                                    Yes, session recordings will be available to registered attendees after the conference. Details on how to access the recordings will be provided closer to the event date 
-                                </AccordionBody>
-                            </AccordionItem>
-
-                            <AccordionItem className='shadow-none border-0 py-3'>
-                                    <AccordionHeader targetId="4" className='text-white'>Will there be opportunities for networking?</AccordionHeader>
-                                    <AccordionBody accordionId="13" className='text-muted fs-14'>
-                                       Yes we will provide a section to view previous activities in our coferences. That is videos and in writing.
+                            {faqLatestData.map((item: any, key: any) => (
+                                <AccordionItem key={key} className='shadow-none border-0 py-3'>
+                                    <AccordionHeader targetId={item.id} className='text-white'>{item.label}</AccordionHeader>
+                                    <AccordionBody accordionId={item.id} className='text-muted fs-14'>
+                                        {item.content}
                                     </AccordionBody>
                                 </AccordionItem>
-                       
-
-                   
-                             <AccordionItem className='shadow-none border-0 py-3'>
-                                    <AccordionHeader targetId="5" className='text-white'>Can I get a refund if I'm unable to attend?</AccordionHeader>
-                                    <AccordionBody accordionId="14" className='text-muted fs-14'>
-                                       Yes we will provide a section to view previous activities in our coferences. That is videos and in writing.
-                                    </AccordionBody>
-                                </AccordionItem>
+                            ))}
                         </Accordion>
-                    </Col> */}                          
+                    </Col>                               
                 </Row>
             </Container>
         </section>

@@ -2662,25 +2662,80 @@ const faqFullData = [
 
 const faqLatestData = [
      {
-        id: "1",
+        id: 1,
         label: 'What is the date and location of the conference?',
-        content: 'The conference will take place from November 19-21, 2025 at FourPoints by Sheraton, Victoria Island, Lagos.',
+        content: 'The Future of Financial Services Summit 2.0 will take place on Tuesday, 19 November 2025, at Four Points by Sheraton, Victoria Island, Lagos, Nigeria.',
     },
     {
-        id: "2",
+        id: 2,
         label: 'Who should attend the conference?',
-        content: 'The conference is ideal for professionals in the financial services industry, including bankers, fintech, entrepreneurs, financial analysts, regulators and technology developers.',
+        content: 'FFS 2.0 brings together C-Suite executives, corporate CFOs and treasurers, regulators and policymakers, fintechs and technology providers, investors, DFIs, analysts, associations, consultants, and media.',
     },	
     {
-        id: "3",
-        label: 'Will session recordings be available after the conference?',
-        content: `Yes, session recordings will be available to registered attendees after the conference. Details on how to access the recordings will be provided closer to the event date`,
+        id: 3,
+        label: 'How can I register for the conference?',
+        content: `Registration can be completed online through the official FFS 2.0 website. Early registration is recommended to secure your place.`,
     },
 
      {
-        id: "5",
+        id: 4,
+        label: 'Will session recordings be available after the conference?',
+        content: `Yes. Key sessions will be recorded and made available to registered participants after the summit.`,
+    }
+
+]
+
+const faq2025Data = [
+     {
+        id: 1,
+        label: 'What is the date and location of the conference?',
+        content: 'The Future of Financial Services Summit 2.0 will take place on Tuesday, 19 November 2025, at Four Points by Sheraton, Victoria Island, Lagos, Nigeria.',
+    },
+    {
+        id: 2,
+        label: 'Who should attend the conference?',
+        content: 'FFS 2.0 brings together C-Suite executives, corporate CFOs and treasurers, regulators and policymakers, fintechs and technology providers, investors, DFIs, analysts, associations, consultants, and media.',
+    },	
+    {
+        id: 3,
+        label: 'How can I register for the conference?',
+        content: `Registration can be completed online through the official FFS 2.0 website. Early registration is recommended to secure your place.`,
+    },
+
+     {
+        id: 4,
+        label: 'Will session recordings be available after the conference?',
+        content: `Yes. Key sessions will be recorded and made available to registered participants after the summit.`,
+    },
+
+     {
+        id: 5,
         label: 'Will there be opportunities for networking?',
-        content: `Yes, there will be dedicated sessions just for that`,
+        content: `Absolutely. Beyond formal sessions, FFS 2.0 is designed for collaboration and dialogue, with structured networking breaks, roundtables, and an immersive experience center to connect with peers.`,
+    },
+
+    {
+        id: 6,
+        label: 'Are there sponsorship or partnership opportunities?',
+        content: `Yes. FFS 2.0 welcomes sponsors and partners who want to engage directly with senior executives and innovators in corporate & transaction banking. Please contact the organizing team for sponsorship details.`,
+    },
+
+    {
+        id: 7,
+        label: 'Can I apply to be a speaker or panelist?',
+        content: `The agenda is curated by the FFS team in collaboration with industry leaders. If you are interested in speaking or nominating a thought leader, please reach out to the program committee.`,
+    },
+
+     {
+        id: 8,
+        label: 'Will visas be required for international attendees?',
+        content: `International delegates traveling to Nigeria may require a visa. We recommend checking with your local Nigerian embassy or consulate. Upon request, the FFS team can provide an official invitation letter to support your visa application.`,
+    },
+
+     {
+        id: 9,
+        label: 'What is the dress code for the conference?',
+        content: `Business formal or business smart is recommended.`,
     }
 
 ]
@@ -2791,4 +2846,4 @@ const feedbackData = [
 ];
 
 
-export {connectData, speakersData, whatIsData, numbersData, partnerImgsData, latestData, faqData, faqFullData, faqLatestData, speakersFullData, agendaData, whatWeDoData, whyChooseData, joinContactsData, insightsData, workshopsData, mainBlogData, speakers2025Data, feedbackData }
+export {connectData, speakersData, whatIsData, numbersData, partnerImgsData, latestData, faqData, faqFullData, faqLatestData, speakersFullData, agendaData, whatWeDoData, whyChooseData, joinContactsData, insightsData, workshopsData, mainBlogData, speakers2025Data, feedbackData, faq2025Data }

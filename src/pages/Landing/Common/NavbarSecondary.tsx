@@ -85,7 +85,7 @@ const NavbarSecondary = () => {
 
     return (
         <React.Fragment>
-            <nav className={"navbar navbar-expand-lg navbar-landing fixed-top px-0" + navClass} id="navbar">
+            <nav className={"navbar navbar-expand-lg navbar-landing fixed-top px-0 pb-2 " + navClass} id="navbar">
                             <Container className='px-4'>
                                 <Link className="navbar-brand" to="/">
                                     <img src={ffsLogoDark} className="card-logo card-logo-dark" alt="logo dark" height="40" />
@@ -302,7 +302,7 @@ const NavbarSecondary = () => {
                                
                             </Container>
                                 
-                             <Container className="w-100 px-0" style={{ backgroundColor: '#1b1b1b' }}>
+                             {/*<Container className="w-100 px-0 mobile-navbar" style={{ backgroundColor: '#1b1b1b' }}>
                                     <div className="w-100 py-2">
                                         <Scrollspy
                                             offset={-18}
@@ -327,7 +327,7 @@ const NavbarSecondary = () => {
                                             </div>
                                         </Scrollspy>    
                                 </div>
-                             </Container>
+                             </Container> */}
                         </nav>
             {/* <div className="bg-overlay bg-overlay-pattern"></div> */}
             <nav className="navbar pb-0 web-navbar">
@@ -353,6 +353,35 @@ const NavbarSecondary = () => {
                                 </li>
                                 <li className="nav-item px-4">
                                     <NavLink className="nav-link fs-14 text-white" to="/2024/agenda" activeClassName="active" tag={RRNavLink}>2024 Agenda</NavLink>
+                                </li>
+                            </div>
+                        </Scrollspy>    
+                </div>
+            </nav>
+
+            <nav className="navbar pb-0 mobile-navbar">
+
+                <div className="w-100 d-flex align-items-center" style={{ height: '60px', marginTop: '69px', backgroundColor: '#1b1b1b' }}>
+               
+                        <Scrollspy
+                            offset={-18}
+                            items={[
+                                "agenda",
+                                "speakers",
+                            ]}
+                            currentClassName="active"
+                            className="navbar-nav mx-auto"
+                            id="navbar-secondary"
+                        >
+                            <div className='d-flex justify-content-center align-items-center'>
+                                <li className="nav-item px-4">
+                                    <NavLink className="nav-link fs-13 text-white" to="/summit" activeClassName="active" tag={RRNavLink}>Overview</NavLink>
+                                </li>
+                                <li className="nav-item px-4">
+                                    <NavLink className="nav-link fs-13 text-white" to="/2024/speakers" activeClassName="active" tag={RRNavLink}>2024 Speakers</NavLink>
+                                </li>
+                                <li className="nav-item px-4">
+                                    <NavLink className="nav-link fs-13 text-white" to="/2024/agenda" activeClassName="active" tag={RRNavLink}>2024 Agenda</NavLink>
                                 </li>
                             </div>
                         </Scrollspy>    
