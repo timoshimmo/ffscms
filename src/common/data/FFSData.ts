@@ -23,8 +23,8 @@ import specialized_workshops from "../../assets/images/home/specialized_workshop
 
 
 //2025 Speakers
-import img_boye_ademola_2025 from "../../assets/images/speakers/2025/img_boye_ademola.png";
-import img_tunji_2025 from "../../assets/images/speakers/2025/img_tunji_odumuboni.png";
+import img_boye_ademola_2025 from "../../assets/images/speakers/2025/img_boye_ademola.jpg";
+import img_tunji_2025 from "../../assets/images/speakers/2025/img_tunji_odumuboni_edited.jpg";
 import img_meghan_2025 from "../../assets/images/speakers/2025/img_meghan.png";
 import img_mohammed_ghonaim_2025 from "../../assets/images/speakers/2025/img_mohammed_ghonaim.jpeg";
 
@@ -49,10 +49,10 @@ import img_tram_anh_nguyen from "../../assets/images/speakers/img_tram_anh_nguye
 import img_jas_shah from "../../assets/images/speakers/img_jas_shah.png";
 import img_gwera_kiwana from "../../assets/images/speakers/img_gwera_kiwana.png";
 import img_alessandro_hatami from "../../assets/images/speakers/img_alessandro_hatami.png";
-import img_paul_sweeney from "../../assets/images/speakers/img_paul_sweeney.png";
+//import img_paul_sweeney from "../../assets/images/speakers/img_paul_sweeney.png";
 import img_natasha_kyprianidou_ from "../../assets/images/speakers/img_natasha_kyprianidou_.png";
 //import img_michelle_he from "../../assets/images/speakers/img_michelle_he.png";
-import img_lesley_anne_mcClean from "../../assets/images/speakers/img_lesley-anne_mcClean.png";
+//import img_lesley_anne_mcClean from "../../assets/images/speakers/img_lesley-anne_mcClean.png";
 import img_frankie_woodhead from "../../assets/images/speakers/img_frankie_woodhead.png";
 //import img_richard_morgans from "../../assets/images/speakers/img_richard_morgans.png";
 import img_nadav_mordechai from "../../assets/images/speakers/img_nadav_mordechai.png";
@@ -67,11 +67,11 @@ import img_phil_watson from "../../assets/images/speakers/img_phil_watson.png";
 import img_paul_payne from "../../assets/images/speakers/img_paul_payne.png";
 import img_bode_pedro from "../../assets/images/speakers/img_bode_pedro.png";
 
-import img_andy from "../../assets/images/speakers/img_andy.png";
+//import img_andy from "../../assets/images/speakers/img_andy.png";
 import img_yinka_oni from "../../assets/images/speakers/img_yinka_oni.png";
-import img_tayo_bamiduro from "../../assets/images/speakers/img_tayo_bamiduro.png";
-import img_ali_paterson from "../../assets/images/speakers/img_ali_paterson.png";
-import img_kimberly_long from "../../assets/images/speakers/img_kimberly_long.png";
+//import img_tayo_bamiduro from "../../assets/images/speakers/img_tayo_bamiduro.png";
+//import img_ali_paterson from "../../assets/images/speakers/img_ali_paterson.png";
+//import img_kimberly_long from "../../assets/images/speakers/img_kimberly_long.png";
 import img_mathias_canales from "../../assets/images/speakers/img_mathias_canales.png";
 import img_shaul_david from "../../assets/images/speakers/img_shaul_david.png";
 import img_alex_menage from "../../assets/images/speakers/img_alex_menage.png";
@@ -84,11 +84,11 @@ import img_nina_mohanty from "../../assets/images/speakers/img_nina_mohanty.png"
 import img_jennifer_stirrup from "../../assets/images/speakers/img_jennifer_stirrup.png";
 
 
-import img_speaker_1 from "../../assets/images/speakers/speaker1.png";
-import img_speaker_3 from "../../assets/images/speakers/speaker3.png";
-import img_speaker_5 from "../../assets/images/speakers/speaker5.png";
+//import img_speaker_1 from "../../assets/images/speakers/speaker1.png";
+//import img_speaker_3 from "../../assets/images/speakers/speaker3.png";
+//import img_speaker_5 from "../../assets/images/speakers/speaker5.png";
 
-import img_user_placeholder from "../../assets/images/speakers/user_placeholder.png";
+//import img_user_placeholder from "../../assets/images/speakers/user_placeholder.png";
 
 //Partners
 //import partner1 from "../../assets/images/home/partner1.png";
@@ -97,8 +97,8 @@ import img_user_placeholder from "../../assets/images/speakers/user_placeholder.
 import partnerBazara from "../../assets/images/brands/img_bazara_logo.png";
 import partnersPeerless from "../../assets/images/brands/peerless_logo_light.svg";
 import img_skaleet_logo from "../../assets/images/brands/skaleet_logo@2x.png";
-import img_intellibonds_logo from "../../assets/images/brands/Intellibonds_icon_logo.png";
-import img_applied_blockchain_logo from "../../assets/images/brands/img_applied_blockchain_logo.png";
+//import img_intellibonds_logo from "../../assets/images/brands/Intellibonds_icon_logo.png";
+//import img_applied_blockchain_logo from "../../assets/images/brands/img_applied_blockchain_logo.png";
 import sterling_logo_new from "../../assets/images/brands/sterling_logo_new.png";
 import SeaBaas_logo_white from "../../assets/images/brands/SeaBaas_logo_white.png";
 
@@ -106,7 +106,7 @@ import SeaBaas_logo_white from "../../assets/images/brands/SeaBaas_logo_white.pn
 
 //Insights
 import insights1 from "../../assets/images/insights/insight1.png";
-import insights2 from "../../assets/images/insights/insight2.png";
+//import insights2 from "../../assets/images/insights/insight2.png";
 import insights3 from "../../assets/images/insights/insight3.png";
 
 import insights4 from "../../assets/images/insights/insight4.png";

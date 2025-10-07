@@ -18,7 +18,7 @@ const ElevateExperience = () => {
                                         <p className="mb-3 fs-17 text-black text-center" style={{ fontFamily: 'Montserrat, "Times New Roman", Times, serif' }}>Go beyond networking, immerse yourself in the conversations defining the future of corporate & transaction banking. From digital transformation and AI to global payments and treasury, discover how banks, corporates, and fintechs are forging the next generation of financial services.</p>
                                         <p className="mb-5 fs-17 text-black text-center" style={{ fontFamily: 'Montserrat, "Times New Roman", Times, serif' }}>This is your moment to engage with industry leaders, challenge ideas, and unlock bold opportunities that will shape the next era of finance.</p>
                                         <div className="d-flex justify-content-center">
-                                            <Link to="https://ffssummit2025.eventbrite.com/" className="btn btn-primary btn-number-reg" target="_blank" rel="noopener noreferrer">Register Now</Link>
+                                            <Link to="https://luma.com/lfbedsha" className="btn btn-primary btn-number-reg" target="_blank" rel="noopener noreferrer">Register Now</Link>
                                         </div>
                                     </div>
                                 </CardBody>

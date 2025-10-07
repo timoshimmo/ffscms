@@ -3,16 +3,16 @@ import { Container, Row, Col } from 'reactstrap';
 //import { Link } from 'react-router-dom';
 //import axios from 'axios';
 
-import imgViews1 from "../../../assets/images/home/2025/img_views_1.png";
-import imgViews2 from "../../../assets/images/home/2025/img_views_2.png";
-import imgViews3 from "../../../assets/images/home/2025/img_views_3.png";
-import imgViews4 from "../../../assets/images/home/2025/img_views_4.png";
-import imgViews5 from "../../../assets/images/home/2025/img_views_5.png";
-import imgViews6 from "../../../assets/images/home/2025/img_views_6.png";
+import imgViews1 from "../../../assets/images/home/2025/img_views_1.jpg";
+import imgViews2 from "../../../assets/images/home/2025/img_views_2.jpg";
+import imgViews3 from "../../../assets/images/home/2025/img_views_3.jpg";
+import imgViews4 from "../../../assets/images/home/2025/img_views_4.jpg";
+import imgViews5 from "../../../assets/images/home/2025/img_views_5.jpg";
+import imgViews6 from "../../../assets/images/home/2025/img_views_6.jpg";
 
-import imgViews7 from "../../../assets/images/home/2025/img_views_7.png";
-import imgViews8 from "../../../assets/images/home/2025/img_views_8.png";
-import imgViews9 from "../../../assets/images/home/2025/img_views_9.png";
+import imgViews7 from "../../../assets/images/home/2025/img_views_7.jpg";
+import imgViews8 from "../../../assets/images/home/2025/img_views_8.jpg";
+import imgViews9 from "../../../assets/images/home/2025/img_views_9.jpg";
 
 const Views = () => {
 
