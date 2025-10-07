@@ -3,10 +3,10 @@ import { Container, Row, Col } from 'reactstrap';
 //import { Link } from 'react-router-dom';
 //import axios from 'axios';
 
-import imgConnectExp1 from "../../../assets/images/home/2025/img_connect_1.png";
-import imgConnectExp2 from "../../../assets/images/home/2025/img_connect_2.png";
-import imgConnectExp3 from "../../../assets/images/home/2025/img_connect_3.png";
-import imgConnectExp4 from "../../../assets/images/home/2025/img_connect_4.png";
+import imgConnectExp1 from "../../../assets/images/home/2025/img_connect_1.jpg";
+import imgConnectExp2 from "../../../assets/images/home/2025/img_connect_2.jpg";
+import imgConnectExp3 from "../../../assets/images/home/2025/img_connect_3.jpg";
+import imgConnectExp4 from "../../../assets/images/home/2025/img_connect_4.jpg";
 
 const Connect = () => {
 

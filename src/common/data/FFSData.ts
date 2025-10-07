@@ -24,7 +24,7 @@ import specialized_workshops from "../../assets/images/home/specialized_workshop
 
 //2025 Speakers
 import img_boye_ademola_2025 from "../../assets/images/speakers/2025/img_boye_ademola.jpg";
-import img_tunji_2025 from "../../assets/images/speakers/2025/img_tunji_odumuboni_edited.jpg";
+import img_tunji_2025 from "../../assets/images/speakers/2025/img_tunji_odumuboni_2.jpg";
 import img_meghan_2025 from "../../assets/images/speakers/2025/img_meghan.png";
 import img_mohammed_ghonaim_2025 from "../../assets/images/speakers/2025/img_mohammed_ghonaim.jpeg";
 
