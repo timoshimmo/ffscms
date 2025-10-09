@@ -9,7 +9,7 @@ const Banner = () => {
                 {/*<div className="bg-overlay"></div>*/}
                 <Row className='w-100 justify-content-center'>
                     <Col lg={12}>
-                        <h2 className="w-100 text-center fw-bold lh-base text-primary display-4 side-spacing" style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif' }}>Register For FFS 2024</h2>
+                        <h2 className="w-100 text-center fw-bold lh-base text-primary display-4 side-spacing" style={{ fontFamily: 'Georgia, "Times New Roman", Times, serif' }}>Register For FFS Summit 2.0</h2>
                     </Col>
                     {/*
                      <Col lg={7} sm={12} xs={12}>

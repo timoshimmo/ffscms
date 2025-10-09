@@ -1402,6 +1402,10 @@ linear-gradient(0deg, rgba(51, 204, 153, 0.12), rgba(51, 204, 153, 0.12)), url('
     color: #9ba7b3;
 }
 
+footer.bg-dark {
+    background-color: var(--vz-secondary-bg) !important;
+}
+
 @media (max-width: 767.98px) { 
     .footer-style {
         padding-top: 40px;

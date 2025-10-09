@@ -240,7 +240,7 @@ const Navbar = () => {
                            
                         </Scrollspy>
                         <div className='ms-4 mobile-nav-button'>
-                            <Link to="https://luma.com/lfbedsha" className="btn btn-success btn-banner" target="_blank" rel="noopener noreferrer">Register</Link>
+                            <Link to="/register" className="btn btn-success btn-banner" target="_blank" rel="noopener noreferrer">Register</Link>
                         </div>       
                     </Collapse>
 
