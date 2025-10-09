@@ -1402,10 +1402,6 @@ linear-gradient(0deg, rgba(51, 204, 153, 0.12), rgba(51, 204, 153, 0.12)), url('
     color: #9ba7b3;
 }
 
-footer.bg-dark {
-    background-color: var(--vz-secondary-bg) !important;
-}
-
 @media (max-width: 767.98px) { 
     .footer-style {
         padding-top: 40px;
@@ -1413,6 +1409,33 @@ footer.bg-dark {
         padding-right: 25px;
     }
 }
+
+footer.bg-dark {
+    background-color: var(--vz-secondary-bg) !important;
+}
+
+.reg-form-style {
+    height: 1100px;
+}
+
+.zm-container {
+    padding: 60px 1.25rem 0px;
+}
+
+ .reg-form-style .card-wrapper.jsx-3828742203 {
+        padding: 60px 1.25rem 0px;
+    }
+
+@media (max-width: 767.98px) { 
+    .reg-form-style {
+        min-height: 1150px;
+        display: flex;
+        align-items: center;
+    }
+   
+
+}
+
 
 .footer-logo {
     height: 70px;

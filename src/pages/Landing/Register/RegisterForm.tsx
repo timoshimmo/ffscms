@@ -8,12 +8,11 @@ const RegisterForm = () => {
                    <iframe
                         title='Luma Registration Form'
                         src="https://luma.com/embed/event/evt-zrcYCR54aGWKowz/simple"
-                        height="850"
                         frameBorder="0"
                         allow="fullscreen; payment"
                         aria-hidden="false"
                         tabIndex={0}
-                        className='w-100'
+                        className='w-100 reg-form-style'
                         ></iframe>
             </div>
             
