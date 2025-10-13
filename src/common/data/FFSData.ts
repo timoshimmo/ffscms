@@ -28,6 +28,16 @@ import img_tunji_2025 from "../../assets/images/speakers/2025/img_tunji_odumubon
 import img_meghan_2025 from "../../assets/images/speakers/2025/img_meghan.png";
 import img_mohammed_ghonaim_2025 from "../../assets/images/speakers/2025/img_mohammed_ghonaim.jpeg";
 
+import img_bayo_adekanmbi_2025 from "../../assets/images/speakers/2025/img_bayo_adekanmbi.jpg";
+import img_lanre_bamisebi_2025 from "../../assets/images/speakers/2025/img_lanre_bamisebi.png";
+import img_olusegun_alebiosu_2025 from "../../assets/images/speakers/2025/img_olusegun_alebiosun.jpg";
+import img_olubunmi_olukoju_2025 from "../../assets/images/speakers/2025/img_olubunmi_olukoju.jpg";
+import img_ogo_bello_osagie_2025 from "../../assets/images/speakers/2025/img_ogo_bello_osagie.jpg";
+
+import img_bunmi_akinyemiju_2025 from "../../assets/images/speakers/2025/img_bunmi_akinyemiju.jpg";
+import img_babalola_oyeleye_2025 from "../../assets/images/speakers/2025/img_babalola_oyeleye.jpg";
+
+
 //Speakers
 import img_boye from "../../assets/images/speakers/img_boye.png";
 import img_abu_suleiman from "../../assets/images/speakers/img_abu_suleiman.png";
@@ -922,7 +932,7 @@ const speakers2025Data = [
                 tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
             },
         ],
-        bio: "is the Co-Founder, D360 Bank & Board Member, SICO Capital."
+        bio: "is a recognized leader in fintech, digital banking, and innovation across the Middle East. He is currently a Board Member at SICO Capital, bringing deep expertise in investment, technology, and strategy. \nAs Co-founder and former CEO of D360 Bank, one of Saudi Arabia’s pioneering digital banks, Mohammed played a pivotal role in redefining customer experience and advancing the Kingdom’s fintech ecosystem. His leadership helped shape regulatory frameworks and drove D360’s rapid adoption in a highly competitive market. \n\nHe holds an Engineering degree from the University of Manchester and an MBA from Harvard Business School. \n\n A passionate advocate for financial innovation, leadership, and digital transformation, Mohammed continues to champion the future of fintech and inspire the next generation of leaders in the industry."
     },
 
     {
@@ -960,7 +970,139 @@ const speakers2025Data = [
                 tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
             },
         ],
-        bio: "is the Co-Founder & CPTO of BazaraTech."
+        bio: "is the Co-Founder & CPTO of BazaraTech, with over 18 years in digital transformation, software and product engineering, and agile delivery, Tunji Odumuboni has extensive experience in technical leadership and product innovation across multiple countries, including the USA, India, China, and several African nations.\n\nHe previously served as the Executive Director, Africa at EMTECH Solutions Inc. (New York, USA), and held a director-level position at KPMG, where he led the fintech practice at KPMG Nigeria. Tunji was also part of the Digital Transformation leadership team at KPMG Africa."
+    },
+
+    {
+        id: 5,
+        img: img_bayo_adekanmbi_2025,
+        pic: img_bayo_adekanmbi_2025,
+        name: "Bayo Adekanmbi",
+        tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
+        credentials: "CEO & Founder",
+        company: "DSN",
+        courses: [
+            {
+                title: "Redefining CX through Open Finance, AI and Technologies", 
+                date: "Tuesday 08, October 2024",
+                time: "2:55 PM",
+                tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
+            },
+        ],
+        bio: "is an award-winning executive with over 22 years of experience in AI, Data Science, and Digital Innovation across 30 African markets. He won the Bill and Melinda Gates Global Grand Challenge for AI-enabled financial tools and led five UNESCO/IRCAI Top 100 AI products.\n\nA top-ranking data scientist and prolific researcher, he has advanced education from prestigious institutions and a PhD from City, University of London. Bayo also founded Data Scientist Network, training over 500,000 students and authored Africa's first AI book for kids."
+    },
+
+     {
+        id: 6,
+        img: img_lanre_bamisebi_2025,
+        pic: img_lanre_bamisebi_2025,
+        name: "Lanre Bamisebi",
+        tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
+        credentials: "ED IT & Digitalization",
+        company: "Access Holdings",
+        courses: [
+            {
+                title: "Redefining CX through Open Finance, AI and Technologies", 
+                date: "Tuesday 08, October 2024",
+                time: "2:55 PM",
+                tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
+            },
+        ],
+        bio: "is Executive Director of IT and Digitalization at Access Holdings and is a seasoned professional with over two decades of pan-African experience spanning various sectors across 22 countries. Prior to joining Access Holdings, Lanre served as the Managing Director of Finserve Africa, the fintech arm of Equity Bank. He also held the position of Executive Group Director for IT & Operations at Equity Group Holding Limited (EGHL) and has served in advisory roles for Mastercard Technology and the Tony Elumelu Foundation, offering extensive fintech consulting services to African finance institutions.\n\nLanre holds two Bachelor’s degrees, a master's degree in business administration from Durham Business School, UK, and is currently undertaking a PhD in Global Strategy. He has completed several digitalization and leadership development courses at Harvard Business School, Wharton, IMD and Cambridge Judge Business School."
+    },
+    {
+        id: 7,
+        img: img_olusegun_alebiosu_2025,
+        pic: img_olusegun_alebiosu_2025,
+        name: "Olusegun Alebiosu",
+        tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
+        credentials: "Chief Executive Officer",
+        company: "First Bank Nigeria",
+        courses: [
+            {
+                title: "Redefining CX through Open Finance, AI and Technologies", 
+                date: "Tuesday 08, October 2024",
+                time: "2:55 PM",
+                tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
+            },
+        ],
+        bio: "is a seasoned leader with over 28 years of experience in the banking and financial services industry, bringing expertise across corporate and commercial banking, risk management, trade finance, and project financing. Olusegun (“Segun”) Alebiosu currently serves as the Managing Director and Chief Executive Officer of First Bank of Nigeria Limited (FirstBank Group).\n\nBefore his appointment as MD/CEO in June 2024, he served as Acting CEO, Executive Director, Chief Risk Officer, and Executive Compliance Officer at FirstBank, where he played a pivotal role in strengthening risk frameworks and driving the Group’s corporate banking strategy. His career also includes senior leadership roles at Coronation Merchant Bank, African Development Bank, and United Bank for Africa."
+    },
+
+     {
+        id: 8,
+        img: img_olubunmi_olukoju_2025,
+        pic: img_olubunmi_olukoju_2025,
+        name: "Olubunmi Olukoju",
+        tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
+        credentials: "Group Chief Financial Officer",
+        company: "Sahara group",
+        courses: [
+            {
+                title: "Redefining CX through Open Finance, AI and Technologies", 
+                date: "Tuesday 08, October 2024",
+                time: "2:55 PM",
+                tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
+            },
+        ],
+        bio: "is an accomplished finance executive with over 20 years of experience shaping financial strategy in the energy and power sector. She is the Group Chief Financial Officer at Sahara Power Group, where she drives financial performance and corporate strategy across the Group’s power generation and distribution entities.\n\nHer career spans leadership roles including Chief Financial Officer at Ikeja Electric, Head of Finance at Egbin Power Plc, and Financial Controller at Sahara Energy Resource Ltd. She began her career at KPMG Nigeria, rising to Senior Manager during her decade-long tenure.\n\nOlubunmi holds an MBA in Finance from the University of Manchester and completed the Advanced Management Program at Harvard Business School. She is recognized for her expertise in financial analysis, reporting, and governance, and for her insight into the evolving power and energy landscape in Africa."
+    },
+
+    {
+        id: 9,
+        img: img_ogo_bello_osagie_2025,
+        pic: img_ogo_bello_osagie_2025,
+        name: "Ogo Belo-Osagie",
+        tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
+        credentials: "Chief Financial Officer",
+        company: "Shell Energy",
+        courses: [
+            {
+                title: "Redefining CX through Open Finance, AI and Technologies", 
+                date: "Tuesday 08, October 2024",
+                time: "2:55 PM",
+                tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
+            },
+        ],
+        bio: "is a seasoned finance leader with over 20 years of experience in the energy and financial services sectors. As Chief Financial Officer of Shell Energy Nigeria, she leads the finance function, driving strategy, risk management, and sustainable growth.\n\nHer career at Shell Plc has included senior roles such as Chief of Staff to the Country Chairman/MD SPDC and Senior Project Manager for Finance Digitisation, where she delivered data-driven solutions that transformed reporting and decision-making. She began her career in audit and advisory with KPMG and Arthur Andersen.Ogochukwu holds an MBA from MIT Sloan, is a Fellow of ICAN, and an FMVA-certified professional, with expertise spanning financial strategy, treasury, and performance management."
+    },
+
+    {
+        id: 10,
+        img: img_bunmi_akinyemiju_2025,
+        pic: img_bunmi_akinyemiju_2025,
+        name: "Bunmi Akinyemiju",
+        tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
+        credentials: "Founder",
+        company: "Venture Garden group",
+        courses: [
+            {
+                title: "Redefining CX through Open Finance, AI and Technologies", 
+                date: "Tuesday 08, October 2024",
+                time: "2:55 PM",
+                tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
+            },
+        ],
+        bio: "is a visionary entrepreneur and venture capitalist with over 23 years of global experience building and scaling technology-driven businesses. He is the CEO and Co-Founder of Venture Garden Group (VGG) and Founding Partner of GreenHouse Capital, through which he has invested in more than 25 African startups, including Flutterwave, Helium Health, Wallets Africa, and Resource.\n\nPassionate about nation-building, Bunmi serves as Head of the Digital Economy Policy Commission at the Nigerian Economic Summit Group, shaping Nigeria’s technology agenda through policy and collaboration. Recognized globally, he was named among the UN’s Top 100 Most Influential People of African Descent (2017) and received the Trailblazer Award (2018)."
+    },
+
+    {
+        id: 11,
+        img: img_babalola_oyeleye_2025,
+        pic: img_babalola_oyeleye_2025,
+        name: "Babalola Oyeleye",
+        tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
+        credentials: "Chief Strategy and Innovation Officer",
+        company: "MTN Nigeria",
+        courses: [
+            {
+                title: "Redefining CX through Open Finance, AI and Technologies", 
+                date: "Tuesday 08, October 2024",
+                time: "2:55 PM",
+                tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
+            },
+        ],
+        bio: "leads MTN’s strategy team, driving initiatives that accelerate business performance, sustain growth, and enhance operational efficiency. With over 25 years of experience in procurement, supply chain, project management, and business transformation, he brings deep expertise in innovation and organizational excellence.\n\nSince joining MTN in 2003, he has held several leadership roles, including General Manager of Procurement & Support Services and General Manager of Strategy & Innovation, before assuming his current position in 2023. Babalola is passionate about integrating systems, people, and technology to position MTN for long-term success.\n\nA firm believer that the future of business depends on the seamless integration of systems, processes, people, and technology, Babalola is committed to ensuring MTN remains equipped with the best frameworks to drive innovation and long-term success."
     },
 
 ];
