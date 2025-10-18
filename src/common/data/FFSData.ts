@@ -37,6 +37,12 @@ import img_ogo_bello_osagie_2025 from "../../assets/images/speakers/2025/img_ogo
 import img_bunmi_akinyemiju_2025 from "../../assets/images/speakers/2025/img_bunmi_akinyemiju.jpg";
 import img_babalola_oyeleye_2025 from "../../assets/images/speakers/2025/img_babalola_oyeleye.jpg";
 
+import img_abubakar_suleiman_2025 from "../../assets/images/speakers/2025/img_abubakar_suleiman.png";
+import img_wole_adeniyi_2025 from "../../assets/images/speakers/2025/img_wole_adeniyi.jpg";
+import img_funke_feyisetan_ladimeji_2025 from "../../assets/images/speakers/2025/img_funke_feyisetan_ladimeji.jpg";
+import img_royston_da_costa_2025 from "../../assets/images/speakers/2025/img_royston_dacosta.png";
+import img_tayo_bamiduro_2025 from "../../assets/images/speakers/2025/img_tayo_bamiduro.jpg";
+
 
 //Speakers
 import img_boye from "../../assets/images/speakers/img_boye.png";
@@ -1105,7 +1111,105 @@ const speakers2025Data = [
         bio: "leads MTN’s strategy team, driving initiatives that accelerate business performance, sustain growth, and enhance operational efficiency. With over 25 years of experience in procurement, supply chain, project management, and business transformation, he brings deep expertise in innovation and organizational excellence.\n\nSince joining MTN in 2003, he has held several leadership roles, including General Manager of Procurement & Support Services and General Manager of Strategy & Innovation, before assuming his current position in 2023. Babalola is passionate about integrating systems, people, and technology to position MTN for long-term success.\n\nA firm believer that the future of business depends on the seamless integration of systems, processes, people, and technology, Babalola is committed to ensuring MTN remains equipped with the best frameworks to drive innovation and long-term success."
     },
 
+    {
+        id: 12,
+        img: img_abubakar_suleiman_2025,
+        pic: img_abubakar_suleiman_2025,
+        name: "Abubakar Suleiman",
+        tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
+        credentials: "Chief Executive Officer",
+        company: "Sterling Bank",
+        courses: [
+            {
+                title: "Redefining CX through Open Finance, AI and Technologies", 
+                date: "Tuesday 08, October 2024",
+                time: "2:55 PM",
+                tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
+            },
+        ],
+        bio: "is an economist and banker with over 20 years of experience in consulting and financial services. As CEO of Sterling Bank Plc, he focuses on optimizing financial intermediation in key sectors: Health, Education, Agriculture, Renewable Energy, and Transportation (H.E.A.R.T). Previously, he served as Executive Director and CFO of Sterling Bank and led its non-interest banking business.\n\nAbubakar holds a B.Sc. in Economics from the University of Abuja and an M.Sc. in Major Programme Management from the University of Oxford. He has also worked in tax advisory at Arthur Andersen and financial markets at Citibank Nigeria. Abubakar serves on the boards of Noor Takaful and the Nigerian Economic Summit Group (NESG)."
+    },
+
+    {
+        id: 13,
+        img: img_wole_adeniyi_2025,
+        pic: img_wole_adeniyi_2025,
+        name: "Wole Adeniyi",
+        tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
+        credentials: "Chief Executive Officer",
+        company: "Stanbic IBTC Bank",
+        courses: [
+            {
+                title: "Redefining CX through Open Finance, AI and Technologies", 
+                date: "Tuesday 08, October 2024",
+                time: "2:55 PM",
+                tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
+            },
+        ],
+        bio: "is the Chief Executive of Stanbic IBTC Bank with over 30 years’ experience in banking operations, process management, and business support. He has held several leadership roles within the Stanbic IBTC Group, including Deputy Chief Executive and Head of Business Operations.\n\nA Fellow of the Institute of Chartered Accountants of Nigeria, Mr. Adeniyi holds a First-Class degree in Business Administration from the University of Benin and a master's in administration from the University of Manchester. He also serves as a Non-Executive Director on the Boards of Stanbic IBTC Nominees Limited and FITC."
+    },
+
+    {
+        id: 14,
+        img: img_funke_feyisetan_ladimeji_2025,
+        pic: img_funke_feyisetan_ladimeji_2025,
+        name: "Funke Feyisetan Ladimeji",
+        tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
+        credentials: "Executive Director",
+        company: "Coronation Merchant Bank",
+        courses: [
+            {
+                title: "Redefining CX through Open Finance, AI and Technologies", 
+                date: "Tuesday 08, October 2024",
+                time: "2:55 PM",
+                tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
+            },
+        ],
+        bio: "is the Executive Director of Coronation Merchant Bank with over 30 years of experience in banking and financial services across EMEA, North America, and Asia. She previously served as Chief Operating Officer at FBNQuest Merchant Bank and as Executive Director/COO at J.P. Morgan. A Fellow of the Institute of Chartered Accountants of England and Wales.\n\nFunke holds a master's degree in Globalization and a bachelor's degree in economics from Queen Mary and Brunel Universities. At Coronation Merchant Bank, she oversees Compliance, IT, Centralized Operations, Customer Service, Global Trade, and Administration, and also serves as Executive Compliance Officer."
+    },
+
+
+    {
+        id: 15,
+        img: img_royston_da_costa_2025,
+        pic: img_royston_da_costa_2025,
+        name: "Royston Da Costa",
+        tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
+        credentials: "Asst. Group Treasurer",
+        company: "Ferguson",
+        courses: [
+            {
+                title: "Redefining CX through Open Finance, AI and Technologies", 
+                date: "Tuesday 08, October 2024",
+                time: "2:55 PM",
+                tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
+            },
+        ],
+        bio: "brings over 36 years of treasury experience and has been with Ferguson (formerly Wolseley) since 2002. He played a pivotal role in automating treasury processes, leading the implementation of Ferguson’s cloud-based treasury management system in 2015.\n\nPromoted to Assistant Treasurer in 2016, Royston expanded his remit to oversee middle office, front office, and the UK intercompany loan structure. Under his leadership, Ferguson received multiple prestigious awards, including the 2020 BELLIN Champions Award for “Best Practice,” the 2018 TMI Award for Innovation and Excellence, and the 2019 Adam Smith Award for “Best Cyber-Security Solution.” Royston is also a frequent international speaker and senior lecturer at CFTE, specializing in Generative AI in Corporate Treasury."
+    },
+
+     {
+        id: 16,
+        img: img_tayo_bamiduro_2025,
+        pic: img_tayo_bamiduro_2025,
+        name: "Tayo Bamiduro",
+        tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
+        credentials: "Chief Executive Officer",
+        company: "MAX.NG",
+        courses: [
+            {
+                title: "Redefining CX through Open Finance, AI and Technologies", 
+                date: "Tuesday 08, October 2024",
+                time: "2:55 PM",
+                tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
+            },
+        ],
+        bio: "is the Co-founder and CEO of MAX, a leading mobility and financial services company transforming transportation across Africa. Under his leadership, MAX has expanded from a logistics startup to a pioneering electric vehicle and driver-financing platform. Before founding MAX, Tayo worked as a software engineer and management consultant with PwC, Dalberg, and Natural Gas Company.\n\nHe holds a bachelor's degree in computer science from the University of Ibadan and an MBA from MIT Sloan and London Business School. Tayo is passionate about sustainable mobility, technology, and economic empowerment across Africa."
+    },
+
+
 ];
+
 
 const speakersFullData = [
 
