@@ -23,10 +23,10 @@ import specialized_workshops from "../../assets/images/home/specialized_workshop
 
 
 //2025 Speakers
-import img_boye_ademola_2025 from "../../assets/images/speakers/2025/img_boye_ademola.jpg";
-import img_tunji_2025 from "../../assets/images/speakers/2025/img_tunji_odumuboni_2.jpg";
+import img_boye_ademola_2025 from "../../assets/images/speakers/2025/img_boye2.jpg";
+import img_tunji_2025 from "../../assets/images/speakers/2025/img_tunji_odumuboni_edited.jpg";
 import img_meghan_2025 from "../../assets/images/speakers/2025/img_meghan.png";
-import img_mohammed_ghonaim_2025 from "../../assets/images/speakers/2025/img_mohammed_ghonaim.jpeg";
+import img_mohammed_ghonaim_2025 from "../../assets/images/speakers/2025/img_ghonaim2.jpg";
 
 import img_bayo_adekanmbi_2025 from "../../assets/images/speakers/2025/img_bayo_adekanmbi.jpg";
 import img_lanre_bamisebi_2025 from "../../assets/images/speakers/2025/img_lanre_bamisebi.png";
@@ -1035,7 +1035,7 @@ const speakers2025Data = [
         bio: "is a seasoned leader with over 28 years of experience in the banking and financial services industry, bringing expertise across corporate and commercial banking, risk management, trade finance, and project financing. Olusegun (“Segun”) Alebiosu currently serves as the Managing Director and Chief Executive Officer of First Bank of Nigeria Limited (FirstBank Group).\n\nBefore his appointment as MD/CEO in June 2024, he served as Acting CEO, Executive Director, Chief Risk Officer, and Executive Compliance Officer at FirstBank, where he played a pivotal role in strengthening risk frameworks and driving the Group’s corporate banking strategy. His career also includes senior leadership roles at Coronation Merchant Bank, African Development Bank, and United Bank for Africa."
     },
 
-     {
+    {
         id: 8,
         img: img_olubunmi_olukoju_2025,
         pic: img_olubunmi_olukoju_2025,
@@ -1188,7 +1188,7 @@ const speakers2025Data = [
         bio: "brings over 36 years of treasury experience and has been with Ferguson (formerly Wolseley) since 2002. He played a pivotal role in automating treasury processes, leading the implementation of Ferguson’s cloud-based treasury management system in 2015.\n\nPromoted to Assistant Treasurer in 2016, Royston expanded his remit to oversee middle office, front office, and the UK intercompany loan structure. Under his leadership, Ferguson received multiple prestigious awards, including the 2020 BELLIN Champions Award for “Best Practice,” the 2018 TMI Award for Innovation and Excellence, and the 2019 Adam Smith Award for “Best Cyber-Security Solution.” Royston is also a frequent international speaker and senior lecturer at CFTE, specializing in Generative AI in Corporate Treasury."
     },
 
-     {
+    {
         id: 16,
         img: img_tayo_bamiduro_2025,
         pic: img_tayo_bamiduro_2025,

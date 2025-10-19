@@ -4,11 +4,11 @@ import { Container, Row, Col, Card, CardBody } from 'reactstrap';
 //import { speakersData } from '../../../common/data';
 import { Link } from 'react-router-dom';
 //import img_iyinoluwa from "../../../assets/images/speakers/2025/img_iyinoluwa.png";
-import img_boye_ademola from "../../../assets/images/speakers/2025/img_boye_ademola.jpg";
+import img_boye_ademola from "../../../assets/images/speakers/2025/img_boye2.jpg";
 //import img_abubakar from "../../../assets/images/speakers/2025/img_abubakar.jpg";
-import img_tunji from "../../../assets/images/speakers/2025/img_tunji_odumuboni_2.jpg";
+import img_tunji from "../../../assets/images/speakers/2025/img_tunji_odumuboni_edited.jpg";
 import img_meghan from "../../../assets/images/speakers/2025/img_meghan.png";
-import img_mohammed_ghonaim from "../../../assets/images/speakers/2025/img_mohammed_ghonaim.jpeg";
+import img_mohammed_ghonaim from "../../../assets/images/speakers/2025/img_ghonaim2.jpg";
 import img_speaker_overlay from "../../../assets/images/speakers/2025/img_speaker_overlay.png";
 
 
