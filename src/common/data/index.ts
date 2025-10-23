@@ -1,5 +1,5 @@
 
-import { connectData, whatIsData, speakersData, numbersData, partnerImgsData, latestData, faqData, faqLatestData, faqFullData, speakersFullData, agendaData, whatWeDoData, whyChooseData, joinContactsData, insightsData, workshopsData, mainBlogData, speakers2025Data, feedbackData, faq2025Data } from "./FFSData";
+import { connectData, whatIsData, speakersData, numbersData, partnerImgsData, latestData, faqData, faqLatestData, faqFullData, speakersFullData, agendaData, whatWeDoData, whyChooseData, joinContactsData, insightsData, workshopsData, mainBlogData, speakers2025Data, feedbackData, faq2025Data, connect2025Data } from "./FFSData";
 
 export {
   connectData, 
@@ -21,5 +21,6 @@ export {
   mainBlogData,
   speakers2025Data,
   feedbackData,
-  faq2025Data
+  faq2025Data,
+  connect2025Data
 };

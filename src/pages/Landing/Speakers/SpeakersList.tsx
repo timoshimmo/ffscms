@@ -72,9 +72,9 @@ const SpeakersList = () => {
                             <Row className='web-featured-speakers'>
                                 {speakers2025Data.map((item, idx) => (
                                     <Col key={idx} lg={3} sm={12}>
-                                        <Card onClick={()=>passData(item)} className={idx % 2 == 0 ? "rounded-3 shadow-none home-speakers-card" : "rounded-3 shadow-none home-speakers-card-dark"} style={{ cursor: 'pointer' }}>
+                                        <Card onClick={()=>passData(item)} className={idx % 2 === 0 ? "rounded-3 shadow-none home-speakers-card" : "rounded-3 shadow-none home-speakers-card-dark"} style={{ cursor: 'pointer' }}>
                                             <CardBody className="p-0">
-                                                <div className='position-relative'>
+                                                <div className='position-relative bg-white rounded-top-3'>
                                                     <img src={item.img} alt="Speaker" className="w-100 rounded-top-3 img-speaker-profile" />
                                                 </div>
                                                 <div className='w-100 justify-content-between item-center px-3 py-4'>

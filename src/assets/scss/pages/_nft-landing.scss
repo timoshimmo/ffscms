@@ -1298,12 +1298,14 @@ linear-gradient(0deg, rgba(51, 204, 153, 0.12), rgba(51, 204, 153, 0.12)), url('
     background-color: #383838;
     padding: 0px;
     transition: all 0.4s ease;
+    height: 420px;
 }
 
 .home-speakers-card-dark {
     background-color: #1C1C1C;
     padding: 0px;
     transition: all 0.4s ease;
+    height: 420px;
 }
 
 @media (max-width: 767.98px) { 
@@ -1973,6 +1975,29 @@ footer.bg-dark {
     z-index: 999;
     display: flex;
     margin-right: -80px;
+ }
+
+ .speaker-slide-button-left-area {
+    position: absolute;
+    width: 70px;
+    height: 100px;
+    top: 40%;
+    transform: translateY(-70%);
+    z-index: 999;
+    display: flex;
+    margin-left: -30px;
+  }
+
+ .speaker-slide-button-right-area {
+    position: absolute;
+    width: 70px;
+    height: 100px;
+    right: 0;
+    top: 40%;
+    transform: translateY(-70%);
+    z-index: 999;
+    display: flex;
+    margin-right: -50px;
  }
 
 .phone-input-style {

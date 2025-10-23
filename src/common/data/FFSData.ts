@@ -34,8 +34,10 @@ import img_olusegun_alebiosu_2025 from "../../assets/images/speakers/2025/img_ol
 import img_olubunmi_olukoju_2025 from "../../assets/images/speakers/2025/img_olubunmi_olukoju.jpg";
 import img_ogo_bello_osagie_2025 from "../../assets/images/speakers/2025/img_ogo_bello_osagie.jpg";
 
-import img_bunmi_akinyemiju_2025 from "../../assets/images/speakers/2025/img_bunmi_akinyemiju.jpg";
+import img_bunmi_akinyemiju_2025 from "../../assets/images/speakers/2025/img-bunmi-akinyemiju1.png";
 import img_babalola_oyeleye_2025 from "../../assets/images/speakers/2025/img_babalola_oyeleye.jpg";
+
+import img_adedeji_olowe_2025 from "../../assets/images/speakers/2025/img_adedeji_olowe.png";
 
 import img_abubakar_suleiman_2025 from "../../assets/images/speakers/2025/img_abubakar_suleiman.png";
 import img_wole_adeniyi_2025 from "../../assets/images/speakers/2025/img_wole_adeniyi.jpg";
@@ -98,6 +100,12 @@ import img_stacey_body from "../../assets/images/speakers/img_stacey_body.png";
 import img_nathalie_weil from "../../assets/images/speakers/img_nathalie_weil.png";
 import img_nina_mohanty from "../../assets/images/speakers/img_nina_mohanty.png";
 import img_jennifer_stirrup from "../../assets/images/speakers/img_jennifer_stirrup.png";
+
+import imgConnectExp1 from "../../assets/images/home/2025/img_connect_1.jpg";
+import imgConnectExp2 from "../../assets/images/home/2025/img_connect_2.jpg";
+import imgConnectExp3 from "../../assets/images/home/2025/img_connect_3.jpg";
+import imgConnectExp4 from "../../assets/images/home/2025/img_connect_4.jpg";
+import imgConnectExp5 from "../../assets/images/home/2025/img_connect_5.jpg";
 
 
 //import img_speaker_1 from "../../assets/images/speakers/speaker1.png";
@@ -922,100 +930,6 @@ const speakers2025Data = [
         bio: "is the Founder & CEO of Bazara Technologies Inc., a software engineering & systems integration firm carving a niche for taking on audacious innovation projects in the B2B space. Bazara is reimagining and re-engineering systems that power financial services leveraging UI/UX, Microservices, APIs, AI & the Cloud.\n\nPrior to Bazara, Boye was Partner and Head of Digital Transformation at KPMG in Africa, where he led digital strategy, AI implementation and cloud transformation projects for large corporates.\n\nHe served on KPMG’s Global Digital Transformation Leadership, Global Fintech Leadership and is an adviser to banks, Fintechs, FS players and regulators on the future of financial services."
     },
 
-     {
-        id: 2,
-        img: img_mohammed_ghonaim_2025,
-        pic: img_mohammed_ghonaim_2025,
-        name: "Mohammed Ghonaim",
-        tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
-        credentials: "Co-Founder, D360 Bank",
-        company: "Board Member, SICO Capital",
-        courses: [
-            {
-                title: "Redefining CX through Open Finance, AI and Technologies", 
-                date: "Tuesday 08, October 2024",
-                time: "2:55 PM",
-                tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
-            },
-        ],
-        bio: "is a recognized leader in fintech, digital banking, and innovation across the Middle East. He is currently a Board Member at SICO Capital, bringing deep expertise in investment, technology, and strategy. \nAs Co-founder and former CEO of D360 Bank, one of Saudi Arabia’s pioneering digital banks, Mohammed played a pivotal role in redefining customer experience and advancing the Kingdom’s fintech ecosystem. His leadership helped shape regulatory frameworks and drove D360’s rapid adoption in a highly competitive market. \n\nHe holds an Engineering degree from the University of Manchester and an MBA from Harvard Business School. \n\n A passionate advocate for financial innovation, leadership, and digital transformation, Mohammed continues to champion the future of fintech and inspire the next generation of leaders in the industry."
-    },
-
-    {
-        id: 3,
-        img: img_meghan_2025,
-        pic: img_meghan_2025,
-        name: "Meaghan Johnson",
-        tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
-        credentials: "Convener",
-        company: "FFS Summit",
-        courses: [
-            {
-                title: "Redefining CX through Open Finance, AI and Technologies", 
-                date: "Tuesday 08, October 2024",
-                time: "2:55 PM",
-                tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
-            },
-        ],
-        bio: "is the CEO of FFS and the convener of the Future of Financial Services Summit. She is also an independent consultant to banks, fintechs, and regulators on digital transformation and customer experience.\n\nWith over 10 years in digital banking and fintech, she founded Digital Magss, advising on product development and strategic partnerships.\n\nMeaghan is a Senior Lecturer at CFTE, a Subject Matter Expert at Manchester Business School, and a Fintech Contributor at Forbes. Her extensive experience includes roles at 11:FS, Mapa Research, and advisory positions at various fintech startups."
-    },
-
-    {
-        id: 4,
-        img: img_tunji_2025,
-        pic: img_tunji_2025,
-        name: "Tunji Odumuboni",
-        tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
-        credentials: "Co-Founder & CPTO",
-        company: "BazaraTech",
-        courses: [
-            {
-                title: "Redefining CX through Open Finance, AI and Technologies", 
-                date: "Tuesday 08, October 2024",
-                time: "2:55 PM",
-                tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
-            },
-        ],
-        bio: "is the Co-Founder & CPTO of BazaraTech, with over 18 years in digital transformation, software and product engineering, and agile delivery, Tunji Odumuboni has extensive experience in technical leadership and product innovation across multiple countries, including the USA, India, China, and several African nations.\n\nHe previously served as the Executive Director, Africa at EMTECH Solutions Inc. (New York, USA), and held a director-level position at KPMG, where he led the fintech practice at KPMG Nigeria. Tunji was also part of the Digital Transformation leadership team at KPMG Africa."
-    },
-
-    {
-        id: 5,
-        img: img_bayo_adekanmbi_2025,
-        pic: img_bayo_adekanmbi_2025,
-        name: "Bayo Adekanmbi",
-        tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
-        credentials: "CEO & Founder",
-        company: "DSN",
-        courses: [
-            {
-                title: "Redefining CX through Open Finance, AI and Technologies", 
-                date: "Tuesday 08, October 2024",
-                time: "2:55 PM",
-                tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
-            },
-        ],
-        bio: "is an award-winning executive with over 22 years of experience in AI, Data Science, and Digital Innovation across 30 African markets. He won the Bill and Melinda Gates Global Grand Challenge for AI-enabled financial tools and led five UNESCO/IRCAI Top 100 AI products.\n\nA top-ranking data scientist and prolific researcher, he has advanced education from prestigious institutions and a PhD from City, University of London. Bayo also founded Data Scientist Network, training over 500,000 students and authored Africa's first AI book for kids."
-    },
-
-     {
-        id: 6,
-        img: img_lanre_bamisebi_2025,
-        pic: img_lanre_bamisebi_2025,
-        name: "Lanre Bamisebi",
-        tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
-        credentials: "ED IT & Digitalization",
-        company: "Access Holdings",
-        courses: [
-            {
-                title: "Redefining CX through Open Finance, AI and Technologies", 
-                date: "Tuesday 08, October 2024",
-                time: "2:55 PM",
-                tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
-            },
-        ],
-        bio: "is Executive Director of IT and Digitalization at Access Holdings and is a seasoned professional with over two decades of pan-African experience spanning various sectors across 22 countries. Prior to joining Access Holdings, Lanre served as the Managing Director of Finserve Africa, the fintech arm of Equity Bank. He also held the position of Executive Group Director for IT & Operations at Equity Group Holding Limited (EGHL) and has served in advisory roles for Mastercard Technology and the Tony Elumelu Foundation, offering extensive fintech consulting services to African finance institutions.\n\nLanre holds two Bachelor’s degrees, a master's degree in business administration from Durham Business School, UK, and is currently undertaking a PhD in Global Strategy. He has completed several digitalization and leadership development courses at Harvard Business School, Wharton, IMD and Cambridge Judge Business School."
-    },
     {
         id: 7,
         img: img_olusegun_alebiosu_2025,
@@ -1033,82 +947,6 @@ const speakers2025Data = [
             },
         ],
         bio: "is a seasoned leader with over 28 years of experience in the banking and financial services industry, bringing expertise across corporate and commercial banking, risk management, trade finance, and project financing. Olusegun (“Segun”) Alebiosu currently serves as the Managing Director and Chief Executive Officer of First Bank of Nigeria Limited (FirstBank Group).\n\nBefore his appointment as MD/CEO in June 2024, he served as Acting CEO, Executive Director, Chief Risk Officer, and Executive Compliance Officer at FirstBank, where he played a pivotal role in strengthening risk frameworks and driving the Group’s corporate banking strategy. His career also includes senior leadership roles at Coronation Merchant Bank, African Development Bank, and United Bank for Africa."
-    },
-
-    {
-        id: 8,
-        img: img_olubunmi_olukoju_2025,
-        pic: img_olubunmi_olukoju_2025,
-        name: "Olubunmi Olukoju",
-        tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
-        credentials: "Group Chief Financial Officer",
-        company: "Sahara group",
-        courses: [
-            {
-                title: "Redefining CX through Open Finance, AI and Technologies", 
-                date: "Tuesday 08, October 2024",
-                time: "2:55 PM",
-                tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
-            },
-        ],
-        bio: "is an accomplished finance executive with over 20 years of experience shaping financial strategy in the energy and power sector. She is the Group Chief Financial Officer at Sahara Power Group, where she drives financial performance and corporate strategy across the Group’s power generation and distribution entities.\n\nHer career spans leadership roles including Chief Financial Officer at Ikeja Electric, Head of Finance at Egbin Power Plc, and Financial Controller at Sahara Energy Resource Ltd. She began her career at KPMG Nigeria, rising to Senior Manager during her decade-long tenure.\n\nOlubunmi holds an MBA in Finance from the University of Manchester and completed the Advanced Management Program at Harvard Business School. She is recognized for her expertise in financial analysis, reporting, and governance, and for her insight into the evolving power and energy landscape in Africa."
-    },
-
-    {
-        id: 9,
-        img: img_ogo_bello_osagie_2025,
-        pic: img_ogo_bello_osagie_2025,
-        name: "Ogo Belo-Osagie",
-        tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
-        credentials: "Chief Financial Officer",
-        company: "Shell Energy",
-        courses: [
-            {
-                title: "Redefining CX through Open Finance, AI and Technologies", 
-                date: "Tuesday 08, October 2024",
-                time: "2:55 PM",
-                tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
-            },
-        ],
-        bio: "is a seasoned finance leader with over 20 years of experience in the energy and financial services sectors. As Chief Financial Officer of Shell Energy Nigeria, she leads the finance function, driving strategy, risk management, and sustainable growth.\n\nHer career at Shell Plc has included senior roles such as Chief of Staff to the Country Chairman/MD SPDC and Senior Project Manager for Finance Digitisation, where she delivered data-driven solutions that transformed reporting and decision-making. She began her career in audit and advisory with KPMG and Arthur Andersen.Ogochukwu holds an MBA from MIT Sloan, is a Fellow of ICAN, and an FMVA-certified professional, with expertise spanning financial strategy, treasury, and performance management."
-    },
-
-    {
-        id: 10,
-        img: img_bunmi_akinyemiju_2025,
-        pic: img_bunmi_akinyemiju_2025,
-        name: "Bunmi Akinyemiju",
-        tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
-        credentials: "Founder",
-        company: "Venture Garden group",
-        courses: [
-            {
-                title: "Redefining CX through Open Finance, AI and Technologies", 
-                date: "Tuesday 08, October 2024",
-                time: "2:55 PM",
-                tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
-            },
-        ],
-        bio: "is a visionary entrepreneur and venture capitalist with over 23 years of global experience building and scaling technology-driven businesses. He is the CEO and Co-Founder of Venture Garden Group (VGG) and Founding Partner of GreenHouse Capital, through which he has invested in more than 25 African startups, including Flutterwave, Helium Health, Wallets Africa, and Resource.\n\nPassionate about nation-building, Bunmi serves as Head of the Digital Economy Policy Commission at the Nigerian Economic Summit Group, shaping Nigeria’s technology agenda through policy and collaboration. Recognized globally, he was named among the UN’s Top 100 Most Influential People of African Descent (2017) and received the Trailblazer Award (2018)."
-    },
-
-    {
-        id: 11,
-        img: img_babalola_oyeleye_2025,
-        pic: img_babalola_oyeleye_2025,
-        name: "Babalola Oyeleye",
-        tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
-        credentials: "Chief Strategy and Innovation Officer",
-        company: "MTN Nigeria",
-        courses: [
-            {
-                title: "Redefining CX through Open Finance, AI and Technologies", 
-                date: "Tuesday 08, October 2024",
-                time: "2:55 PM",
-                tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
-            },
-        ],
-        bio: "leads MTN’s strategy team, driving initiatives that accelerate business performance, sustain growth, and enhance operational efficiency. With over 25 years of experience in procurement, supply chain, project management, and business transformation, he brings deep expertise in innovation and organizational excellence.\n\nSince joining MTN in 2003, he has held several leadership roles, including General Manager of Procurement & Support Services and General Manager of Strategy & Innovation, before assuming his current position in 2023. Babalola is passionate about integrating systems, people, and technology to position MTN for long-term success.\n\nA firm believer that the future of business depends on the seamless integration of systems, processes, people, and technology, Babalola is committed to ensuring MTN remains equipped with the best frameworks to drive innovation and long-term success."
     },
 
     {
@@ -1150,6 +988,103 @@ const speakers2025Data = [
     },
 
     {
+        id: 6,
+        img: img_lanre_bamisebi_2025,
+        pic: img_lanre_bamisebi_2025,
+        name: "Lanre Bamisebi",
+        tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
+        credentials: "ED IT & Digitalization",
+        company: "Access Holdings",
+        courses: [
+            {
+                title: "Redefining CX through Open Finance, AI and Technologies", 
+                date: "Tuesday 08, October 2024",
+                time: "2:55 PM",
+                tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
+            },
+        ],
+        bio: "is Executive Director of IT and Digitalization at Access Holdings and is a seasoned professional with over two decades of pan-African experience spanning various sectors across 22 countries. Prior to joining Access Holdings, Lanre served as the Managing Director of Finserve Africa, the fintech arm of Equity Bank. He also held the position of Executive Group Director for IT & Operations at Equity Group Holding Limited (EGHL) and has served in advisory roles for Mastercard Technology and the Tony Elumelu Foundation, offering extensive fintech consulting services to African finance institutions.\n\nLanre holds two Bachelor’s degrees, a master's degree in business administration from Durham Business School, UK, and is currently undertaking a PhD in Global Strategy. He has completed several digitalization and leadership development courses at Harvard Business School, Wharton, IMD and Cambridge Judge Business School."
+    },
+
+
+    {
+        id: 11,
+        img: img_babalola_oyeleye_2025,
+        pic: img_babalola_oyeleye_2025,
+        name: "Babalola Oyeleye",
+        tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
+        credentials: "Chief Strategy and Innovation Officer",
+        company: "MTN Nigeria",
+        courses: [
+            {
+                title: "Redefining CX through Open Finance, AI and Technologies", 
+                date: "Tuesday 08, October 2024",
+                time: "2:55 PM",
+                tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
+            },
+        ],
+        bio: "leads MTN’s strategy team, driving initiatives that accelerate business performance, sustain growth, and enhance operational efficiency. With over 25 years of experience in procurement, supply chain, project management, and business transformation, he brings deep expertise in innovation and organizational excellence.\n\nSince joining MTN in 2003, he has held several leadership roles, including General Manager of Procurement & Support Services and General Manager of Strategy & Innovation, before assuming his current position in 2023. Babalola is passionate about integrating systems, people, and technology to position MTN for long-term success.\n\nA firm believer that the future of business depends on the seamless integration of systems, processes, people, and technology, Babalola is committed to ensuring MTN remains equipped with the best frameworks to drive innovation and long-term success."
+    },
+
+    {
+        id: 4,
+        img: img_tunji_2025,
+        pic: img_tunji_2025,
+        name: "Tunji Odumuboni",
+        tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
+        credentials: "Co-Founder & CPTO",
+        company: "BazaraTech",
+        courses: [
+            {
+                title: "Redefining CX through Open Finance, AI and Technologies", 
+                date: "Tuesday 08, October 2024",
+                time: "2:55 PM",
+                tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
+            },
+        ],
+        bio: "is the Co-Founder & CPTO of BazaraTech, with over 18 years in digital transformation, software and product engineering, and agile delivery, Tunji Odumuboni has extensive experience in technical leadership and product innovation across multiple countries, including the USA, India, China, and several African nations.\n\nHe previously served as the Executive Director, Africa at EMTECH Solutions Inc. (New York, USA), and held a director-level position at KPMG, where he led the fintech practice at KPMG Nigeria. Tunji was also part of the Digital Transformation leadership team at KPMG Africa."
+    },
+
+     {
+        id: 3,
+        img: img_meghan_2025,
+        pic: img_meghan_2025,
+        name: "Meaghan Johnson",
+        tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
+        credentials: "Convener",
+        company: "FFS Summit",
+        courses: [
+            {
+                title: "Redefining CX through Open Finance, AI and Technologies", 
+                date: "Tuesday 08, October 2024",
+                time: "2:55 PM",
+                tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
+            },
+        ],
+        bio: "is the CEO of FFS and the convener of the Future of Financial Services Summit. She is also an independent consultant to banks, fintechs, and regulators on digital transformation and customer experience.\n\nWith over 10 years in digital banking and fintech, she founded Digital Magss, advising on product development and strategic partnerships.\n\nMeaghan is a Senior Lecturer at CFTE, a Subject Matter Expert at Manchester Business School, and a Fintech Contributor at Forbes. Her extensive experience includes roles at 11:FS, Mapa Research, and advisory positions at various fintech startups."
+    },
+
+
+    {
+        id: 2,
+        img: img_mohammed_ghonaim_2025,
+        pic: img_mohammed_ghonaim_2025,
+        name: "Mohammed Ghonaim",
+        tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
+        credentials: "Co-Founder, D360 Bank",
+        company: "Board Member, SICO Capital",
+        courses: [
+            {
+                title: "Redefining CX through Open Finance, AI and Technologies", 
+                date: "Tuesday 08, October 2024",
+                time: "2:55 PM",
+                tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
+            },
+        ],
+        bio: "is a recognized leader in fintech, digital banking, and innovation across the Middle East. He is currently a Board Member at SICO Capital, bringing deep expertise in investment, technology, and strategy. \nAs Co-founder and former CEO of D360 Bank, one of Saudi Arabia’s pioneering digital banks, Mohammed played a pivotal role in redefining customer experience and advancing the Kingdom’s fintech ecosystem. His leadership helped shape regulatory frameworks and drove D360’s rapid adoption in a highly competitive market. \n\nHe holds an Engineering degree from the University of Manchester and an MBA from Harvard Business School. \n\n A passionate advocate for financial innovation, leadership, and digital transformation, Mohammed continues to champion the future of fintech and inspire the next generation of leaders in the industry."
+    },
+
+    {
         id: 14,
         img: img_funke_feyisetan_ladimeji_2025,
         pic: img_funke_feyisetan_ladimeji_2025,
@@ -1168,6 +1103,62 @@ const speakers2025Data = [
         bio: "is the Executive Director of Coronation Merchant Bank with over 30 years of experience in banking and financial services across EMEA, North America, and Asia. She previously served as Chief Operating Officer at FBNQuest Merchant Bank and as Executive Director/COO at J.P. Morgan. A Fellow of the Institute of Chartered Accountants of England and Wales.\n\nFunke holds a master's degree in Globalization and a bachelor's degree in economics from Queen Mary and Brunel Universities. At Coronation Merchant Bank, she oversees Compliance, IT, Centralized Operations, Customer Service, Global Trade, and Administration, and also serves as Executive Compliance Officer."
     },
 
+    {
+        id: 5,
+        img: img_bayo_adekanmbi_2025,
+        pic: img_bayo_adekanmbi_2025,
+        name: "Bayo Adekanmbi",
+        tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
+        credentials: "CEO & Founder",
+        company: "DSN",
+        courses: [
+            {
+                title: "Redefining CX through Open Finance, AI and Technologies", 
+                date: "Tuesday 08, October 2024",
+                time: "2:55 PM",
+                tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
+            },
+        ],
+        bio: "is an award-winning executive with over 22 years of experience in AI, Data Science, and Digital Innovation across 30 African markets. He won the Bill and Melinda Gates Global Grand Challenge for AI-enabled financial tools and led five UNESCO/IRCAI Top 100 AI products.\n\nA top-ranking data scientist and prolific researcher, he has advanced education from prestigious institutions and a PhD from City, University of London. Bayo also founded Data Scientist Network, training over 500,000 students and authored Africa's first AI book for kids."
+    },
+
+     {
+        id: 16,
+        img: img_tayo_bamiduro_2025,
+        pic: img_tayo_bamiduro_2025,
+        name: "Tayo Bamiduro",
+        tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
+        credentials: "Chief Executive Officer",
+        company: "MAX.NG",
+        courses: [
+            {
+                title: "Redefining CX through Open Finance, AI and Technologies", 
+                date: "Tuesday 08, October 2024",
+                time: "2:55 PM",
+                tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
+            },
+        ],
+        bio: "is the Co-founder and CEO of MAX, a leading mobility and financial services company transforming transportation across Africa. Under his leadership, MAX has expanded from a logistics startup to a pioneering electric vehicle and driver-financing platform. Before founding MAX, Tayo worked as a software engineer and management consultant with PwC, Dalberg, and Natural Gas Company.\n\nHe holds a bachelor's degree in computer science from the University of Ibadan and an MBA from MIT Sloan and London Business School. Tayo is passionate about sustainable mobility, technology, and economic empowerment across Africa."
+    },
+
+    {
+        id: 10,
+        img: img_bunmi_akinyemiju_2025,
+        pic: img_bunmi_akinyemiju_2025,
+        name: "Bunmi Akinyemiju",
+        tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
+        credentials: "Founder",
+        company: "Venture Garden group",
+        courses: [
+            {
+                title: "Redefining CX through Open Finance, AI and Technologies", 
+                date: "Tuesday 08, October 2024",
+                time: "2:55 PM",
+                tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
+            },
+        ],
+        bio: "is a visionary entrepreneur and venture capitalist with over 23 years of global experience building and scaling technology-driven businesses. He is the CEO and Co-Founder of Venture Garden Group (VGG) and Founding Partner of GreenHouse Capital, through which he has invested in more than 25 African startups, including Flutterwave, Helium Health, Wallets Africa, and Resource.\n\nPassionate about nation-building, Bunmi serves as Head of the Digital Economy Policy Commission at the Nigerian Economic Summit Group, shaping Nigeria’s technology agenda through policy and collaboration. Recognized globally, he was named among the UN’s Top 100 Most Influential People of African Descent (2017) and received the Trailblazer Award (2018)."
+    },
 
     {
         id: 15,
@@ -1189,13 +1180,13 @@ const speakers2025Data = [
     },
 
     {
-        id: 16,
-        img: img_tayo_bamiduro_2025,
-        pic: img_tayo_bamiduro_2025,
-        name: "Tayo Bamiduro",
+        id: 17,
+        img: img_adedeji_olowe_2025,
+        pic: img_adedeji_olowe_2025,
+        name: "Adedeji Olowe",
         tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
         credentials: "Chief Executive Officer",
-        company: "MAX.NG",
+        company: "Lendsqr",
         courses: [
             {
                 title: "Redefining CX through Open Finance, AI and Technologies", 
@@ -1204,8 +1195,48 @@ const speakers2025Data = [
                 tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
             },
         ],
-        bio: "is the Co-founder and CEO of MAX, a leading mobility and financial services company transforming transportation across Africa. Under his leadership, MAX has expanded from a logistics startup to a pioneering electric vehicle and driver-financing platform. Before founding MAX, Tayo worked as a software engineer and management consultant with PwC, Dalberg, and Natural Gas Company.\n\nHe holds a bachelor's degree in computer science from the University of Ibadan and an MBA from MIT Sloan and London Business School. Tayo is passionate about sustainable mobility, technology, and economic empowerment across Africa."
+        bio: "is a visionary fintech leader dedicated to transforming how Africa accesses credit and financial services. As the Founder and CEO of Lendsqr, he is building the infrastructure that empowers lenders to reach millions through technology and data. He also serves as Board Chair of Paystack and Trustee of Open Banking Nigeria, driving initiatives that are reshaping digital finance across the continent.\n\nWith decades of experience in banking and technology, Adedeji combines deep industry expertise with a passion for inclusion and innovation. His work continues to inspire a new generation of entrepreneurs reimagining Africa’s financial future."
     },
+    
+    {
+        id: 8,
+        img: img_olubunmi_olukoju_2025,
+        pic: img_olubunmi_olukoju_2025,
+        name: "Olubunmi Olukoju",
+        tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
+        credentials: "Group Chief Financial Officer",
+        company: "Sahara group",
+        courses: [
+            {
+                title: "Redefining CX through Open Finance, AI and Technologies", 
+                date: "Tuesday 08, October 2024",
+                time: "2:55 PM",
+                tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
+            },
+        ],
+        bio: "is an accomplished finance executive with over 20 years of experience shaping financial strategy in the energy and power sector. She is the Group Chief Financial Officer at Sahara Power Group, where she drives financial performance and corporate strategy across the Group’s power generation and distribution entities.\n\nHer career spans leadership roles including Chief Financial Officer at Ikeja Electric, Head of Finance at Egbin Power Plc, and Financial Controller at Sahara Energy Resource Ltd. She began her career at KPMG Nigeria, rising to Senior Manager during her decade-long tenure.\n\nOlubunmi holds an MBA in Finance from the University of Manchester and completed the Advanced Management Program at Harvard Business School. She is recognized for her expertise in financial analysis, reporting, and governance, and for her insight into the evolving power and energy landscape in Africa."
+    },
+
+   /* {
+        id: 9,
+        img: img_ogo_bello_osagie_2025,
+        pic: img_ogo_bello_osagie_2025,
+        name: "Ogo Belo-Osagie",
+        tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
+        credentials: "Chief Financial Officer",
+        company: "Shell Energy",
+        courses: [
+            {
+                title: "Redefining CX through Open Finance, AI and Technologies", 
+                date: "Tuesday 08, October 2024",
+                time: "2:55 PM",
+                tags: ["customer-experience", "financial-technology", "artificial-intelligence"],
+            },
+        ],
+        bio: "is a seasoned finance leader with over 20 years of experience in the energy and financial services sectors. As Chief Financial Officer of Shell Energy Nigeria, she leads the finance function, driving strategy, risk management, and sustainable growth.\n\nHer career at Shell Plc has included senior roles such as Chief of Staff to the Country Chairman/MD SPDC and Senior Project Manager for Finance Digitisation, where she delivered data-driven solutions that transformed reporting and decision-making. She began her career in audit and advisory with KPMG and Arthur Andersen.Ogochukwu holds an MBA from MIT Sloan, is a Fellow of ICAN, and an FMVA-certified professional, with expertise spanning financial strategy, treasury, and performance management."
+    },
+    */
+
 
 
 ];
@@ -2009,7 +2040,7 @@ const agendaData = [
         theme: [],
         type: ["break"],
         description: "Registration and Networking",
-        details: "Delegates arrive, connect, and prepare for the day’s conversations.",
+        details: "Delegates arrive, register, and network over light refreshments ahead of the day’s plenary sessions. This opening period offers time to connect with peers, review event materials, and ease into the day’s conversations.",
         speaker: null
     },
     {
@@ -2018,12 +2049,12 @@ const agendaData = [
         startTime: "9:00 AM",
         endTime: "9:15AM",
         dateCode: "Wed",
-        duration: "5",
+        duration: "15",
         topic: "",
         theme: [],
         type: ["remarks"],
-        description: "Welcome Remarks",
-        details: "A short welcome and framing of the summit.",
+        description: "Opening Remarks – Framing the Future of Corporate Banking",
+        details: "The opening remarks set the tone for the summit, highlighting its objectives, structure, and the shared vision for shaping the next era of corporate and transaction banking.",
         speaker: [
             {
                 img: img_meaghan,
@@ -2038,15 +2069,15 @@ const agendaData = [
     {
         id: 3,
         date: "Tue, 08 Oct",
-        startTime: "9:05 AM",
+        startTime: "9:15 AM",
         endTime: "10:0AM",
         dateCode: "Wed",
-        duration: "55",
-        topic: "Keynote Block: Shaping the Next Era of Corporate & Transaction Banking",
+        duration: "15",
+        topic: "Keynote Address 1 – Corporate Banking 2030: Reinventing Growth in a World of Risk",
         theme:  ["strategy-&-markets"],
         type: ["keynote"],
         description: "Keynote Presentation",
-        details: "Shaping the Next Era of Corporate & Transaction Banking \n Corporate & Transaction Banking 2030: Reinventing Growth in a World of Risk \n Beyond Banking: Building Partnerships that Power Corporate Growth",
+        details: "A short welcome and framing of the summit keynote on how corporate banking must evolve amid global volatility, shifting regulations, and accelerating digital transformation. The session redefines how financial institutions and enterprises can drive growth, resilience, and innovation in the decade ahead.",
         speaker: [
             {
                 img: img_abu_suleiman,
@@ -2062,15 +2093,15 @@ const agendaData = [
     {
         id: 4,
         date: "Tue, 08 Oct",
-        startTime: "10:00 AM",
+        startTime: "9:35 AM",
         endTime: "10:40 AM",
         dateCode: "Wed",
-        duration: "40",
-        topic: "Fireside Chat: Shaping the Bank–Corporate Relationship of the Future ",
+        duration: "10",
+        topic: "Keynote Address 2 – Powering the One-Trillion-Dollar Economy: The Corporate Banking Imperative",
         theme:  ["strategy-&-markets"],
         type: ["panel"],
         description: "Panel Session",
-        details: "A forward-looking dialogue on redefining trust, collaboration, and shared growth.",
+        details: "An insightful address highlighting the role of corporate banking in driving sustainable economic growth. The session emphasizes collaboration between corporates, financial institutions, and policymakers to unlock long-term value.",
         speaker: [
             {
                 img: img_lumley,
@@ -2118,15 +2149,15 @@ const agendaData = [
     {
         id: 5,
         date: "Tue, 08 Oct",
-        startTime: "10:40 AM",
+        startTime: "9:45 AM",
         endTime: "9:45 AM",
         dateCode: "Wed",
-        duration: "55",
-        topic: "Panel Discussion: Digital Transformation in Corporate & Transaction Banking",
+        duration: "30",
+        topic: "Panel Session 1 – Powering a Trillion-Dollar Economy: The Corporate Banking Imperative",
         theme:  ["strategy-&-markets"],
         type: ["fireside-chat"],
         description: "Fireside Chat",
-        details: "Exploring how banks and corporates modernise payments, trade, lending, and treasury to stay competitive.",
+        details: "A dynamic conversation on how corporate banking can catalyze economic expansion. Discussions will cover policy alignment, access to capital, and how partnerships between banks, corporates, and government can accelerate progress.",
         speaker: [
             {
                 name: "Sophie Guibaud",
@@ -2150,16 +2181,16 @@ const agendaData = [
     {
         id: 6,
         date: "Tue, 08 Oct",
-        startTime: "11:35 AM",
+        startTime: "10:15 AM",
         endTime: "12:00 PM",
         dateCode: "Wed",
-        duration: "10",
-        topic: "Innovation Spotlight: Reimagining Corporate Banking with Manova",
+        duration: "35",
+        topic: "Panel Session 2 – Co-Creating the Future of Corporate Banking: Driving Growth, Efficiency & Resilience",
         theme: ["financial-technology"],
         type: ["demo"],
         description: "Product Demo",
         speaker: null,
-        details: "Discussions about the future of corporate & transaction Banking are often conceptual. With the launch of Manovar, this session grounds the dialogue in reality, highlighting how modern systems can give banks and corporates the foundations to operate more seamlessly, resiliently, and at speed.",
+        details: "CFOs, Treasurers, and Strategy Executives discuss how corporates and banks are working together to create new value through technology and data. The conversation highlights how collaboration enhances efficiency, mitigates risk, and enables shared growth in a fast-changing digital economy.",
         product: [
             {
                 name: "Peerless",
@@ -2173,15 +2204,15 @@ const agendaData = [
     {
         id: 7,
         date: "Tue, 08 Oct",
-        startTime: "11:45 AM",
+        startTime: "10:50 AM",
         endTime: "11:35AM",
         dateCode: "Wed",
         duration: "15",
-        topic: "Light Refreshments & Networking",
+        topic: "Fireside Chat – Delivering the Future: Building the Digital Bank Corporate Clients Imagine",
         theme: ["strategy-&-markets"],
         type: ["keynote"],
         description: "Keynote Presentation",
-        details: "",
+        details: "A one-on-one discussion on how banks are transforming their architecture, talent, and partnerships to deliver the kind of digital experience corporate clients envision.",
         speaker: [
             {
                 name: "Boye Ademola",
@@ -2197,15 +2228,15 @@ const agendaData = [
     {
         id: 8,
         date: "Tue, 08 Oct",
-        startTime: "12:00 PM",
+        startTime: "11:05 AM",
         endTime: "2:20PM",
         dateCode: "Wed",
-        duration: "90",
-        topic: "Breakout Sessions: Thematic Deep Dives",
+        duration: "25",
+        topic: "Panel Session 3 – Powering the Future: AI, Payments & the Technology Behind Transformation",
         theme: ["strategy-&-markets", "insurance"],
         type: ["roundtables"],
         description: "Roundtable",
-        details: "Delegates choose from three parallel tracks, each designed as an in-depth exploration with presentations, discussion, and Q&A: + Digital Transformation in Corporate & Transaction Banking-- AI & the Future of Corporate & Transaction Banking -- Global Payments & Treasury",
+        details: "Technology leaders share insights on how artificial intelligence, data, and digital infrastructure are redefining corporate banking. The session explores how technology is enabling faster, more scalable, and more resilient financial ecosystems.",
         speaker: [
             {
                 img: img_bode_pedro,
@@ -2221,16 +2252,16 @@ const agendaData = [
     {
         id: 9,
         date: "Tue, 08 Oct",
-        startTime: "1:30 PM",
+        startTime: "11:30 AM",
         endTime: "11:00AM",
         dateCode: "Wed",
-        duration: "30",
-        topic: "Closing Plenary: Highlights & Reflections",
+        duration: "15",
+        topic: "Innovation Spotlight – Reimagining Corporate & Transaction Banking",
         theme: ["financial-technology"],
         type: ["demo"],
         description: "Product Demo",
         speaker: null,
-        details: "Summaries from breakout sessions, key takeaways, and final remarks",
+        details: "A fast-paced presentation showcasing how intelligent design, automation, and AI-powered platforms are transforming enterprise engagement models. The session demonstrates how technology simplifies complexity and enhances collaboration.",
         product: [
             {
                 name: "Skaleet",
@@ -2244,15 +2275,15 @@ const agendaData = [
     {
         id: 10,
         date: "Tue, 08 Oct",
-        startTime: "9:00 AM - 4:00 PM",
-        endTime: "2:25PM",
+        startTime: "11:45 AM",
+        endTime: "11:45PM",
         dateCode: "Wed",
-        duration: "",
-        topic: "Immersive Experience Center: Journey into the Future of Corporate Banking",
+        duration: "15",
+        topic: "Networking Break & Refreshments – Informal Networking Before Breakouts",
         theme: ["financial-technology"],
         type: ["panel"],
         description: "Panel Session",
-        details: "Throughout the day, delegates can take part in a structured journey into the future of corporate banking. The Center combines vision storytelling, immersive VR experiences, and interactive reflection zones to help participants imagine what corporate banking could look like in the next decade. Open beyond the main summit close, it allows continued exploration and dialogue until 4:00 PM.",
+        details: "Delegates connect, exchange insights, and prepare for the afternoon’s interactive sessions.",
         speaker: [
             {
                 img: img_tunji_odumuboni,
@@ -2291,29 +2322,57 @@ const agendaData = [
     {
         id: 11,
         date: "Tue, 08 Oct",
-        startTime: "2:00 PM",
+        startTime: "12:00 PM",
         endTime: "1:30PM",
-        dateCode: "Tue",
+        dateCode: "Wed",
         duration: "120",
-        topic: "Roundtable 1: Leveraging the Startup Ecosystem to Power Corporate Innovation",
+        topic: "Roundtable 1 – Executive Boardroom: Navigating Disruption in the Boardroom",
         theme: ["strategy-&-markets", "wealth-management"],
         type: ["keynote"],
         description: "Keynote Presentation",
-        details: "Brings together startups, corporate VCs, angel investors, PE firms, and corporates. \n Focus on building scalable startup–corporate partnerships, funding innovation pipelines, and investing wisely for long-term value.",
+        details: "A high-level conversation for board members and CXOs on leadership, governance, and agility in an era of disruption. The dialogue explores strategies that strengthen resilience, competitiveness, and long-term readiness.",
         speaker: null
     },
     {
         id: 12,
         date: "Tue, 08 Oct",
-        startTime: "2:00 PM",
+        startTime: "",
         endTime: "1:30PM",
-        dateCode: "Tue",
+        dateCode: "Wed",
         duration: "120",
-        topic: "Roundtable 2: Implementing Open Banking to Drive Ecosystem Value",
+        topic: "Roundtable 2 – Innovation Leaders: Leveraging the Startup Ecosystem to Power Corporate Innovation",
         theme: ["strategy-&-markets", "wealth-management"],
         type: ["keynote"],
         description: "Keynote Presentation",
-        details: "With regulators (e.g., CBN), bank CIOs/CTOs, corporates, and fintechs. \n Focus on moving beyond regulation to practical implementation: infrastructure, standards, partnerships, and new value streams in trade, treasury, lending, and payments.",
+        details: "A collaborative session exploring how corporates, fintechs, and startups can co-create solutions that drive enterprise transformation. Discussions include responsible data sharing, innovation governance, and scaling co-creation models for real-world impact.",
+        speaker: null
+    },
+    {
+        id: 13,
+        date: "Tue, 08 Oct",
+        startTime: "",
+        endTime: "1:30PM",
+        dateCode: "Wed",
+        duration: "120",
+        topic: "Demo Stage – Product Innovation Showcase: Showcasing Corporate Banking Innovation",
+        theme: ["strategy-&-markets", "wealth-management"],
+        type: ["keynote"],
+        description: "Keynote Presentation",
+        details: "Live demonstrations of next-generation corporate banking platforms, highlighting: + AI-powered treasury automation -- Ecosystem-integrated financial services -- Real-time analytics built for enterprise agility",
+        speaker: null
+    },
+    {
+        id: 14,
+        date: "Tue, 08 Oct",
+        startTime: "2:00 PM",
+        endTime: "1:30PM",
+        dateCode: "Wed",
+        duration: "120",
+        topic: "Investor Cocktail (Side Event) – Connecting Capital, Innovation & Collaboration",
+        theme: ["strategy-&-markets", "wealth-management"],
+        type: ["keynote"],
+        description: "Keynote Presentation",
+        details: "A relaxed evening of curated networking where investors, corporates, and innovators explore partnerships, funding opportunities, and product commercialization. The session features live demos, engaging discussions, and a vibrant networking atmosphere.",
         speaker: null
     },
     /*{
@@ -3091,5 +3150,38 @@ const feedbackData = [
     },
 ];
 
+const connect2025Data = [
+    {
+        id: 1,
+        label: 'Reimagining Growth in Corporate and Transaction Banking',
+        description: 'Corporate banking is being redesigned for a new era of resilience and opportunity. Banks are modernising core systems, digitising trade and lending, and connecting ecosystems through APIs and data platforms. For corporates, this means faster access to capital, smarter liquidity management, and partnerships that enable global growth.',
+        img: imgConnectExp1
+    },
+    {
+        id: 2,
+        label: 'Co-Creation and Collaboration as the New Growth Model',
+        description: 'Growth today depends on collaboration. Banks, corporates, fintechs, and regulators are building solutions that unlock shared value—from embedded finance to supply-chain ecosystems. This theme explores partnership models that balance innovation, governance, and speed to market.',
+        img: imgConnectExp2
+    },	
+    {
+        id: 3,
+        label: 'AI Use Cases for Corporate and Transaction Banking',
+        description: 'AI is moving from concept to capability: automating credit assessments and compliance, predicting cash flows, and optimising treasury operations. The focus is on practical, responsible adoption that delivers measurable business outcomes.',
+        img: imgConnectExp3
+    },
+    {
+        id: 4,
+        label: 'Disruption, Governance, and the Future-Ready Boardroom',
+        description: 'Technology disruption demands agile oversight. Boardrooms must lead digital transformation while maintaining trust, ethics, and resilience. This theme explores how governance, risk, and innovation can align to build future-ready institutions.',
+        img: imgConnectExp4
+    },
+    {
+        id: 5,
+        label: 'Startups and Corporate Innovation',
+        description: 'Innovation thrives where startups and large enterprises meet. This theme looks at how corporates engage startup ecosystems to accelerate transformation, scale experimentation, and deliver impact—via fintech partnerships and open-innovation programs.',
+        img: imgConnectExp5
+    },
+];
 
-export {connectData, speakersData, whatIsData, numbersData, partnerImgsData, latestData, faqData, faqFullData, faqLatestData, speakersFullData, agendaData, whatWeDoData, whyChooseData, joinContactsData, insightsData, workshopsData, mainBlogData, speakers2025Data, feedbackData, faq2025Data }
+
+export {connectData, speakersData, whatIsData, numbersData, partnerImgsData, latestData, faqData, faqFullData, faqLatestData, speakersFullData, agendaData, whatWeDoData, whyChooseData, joinContactsData, insightsData, workshopsData, mainBlogData, speakers2025Data, feedbackData, faq2025Data, connect2025Data }

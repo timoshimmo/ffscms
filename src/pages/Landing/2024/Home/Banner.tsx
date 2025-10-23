@@ -128,15 +128,16 @@ const Banner = () => {
                     {/* </Col> */}
                     <div className="slide-button-left-area">
                         <button onClick={() => swiperRef?.current?.swiper.slidePrev()} className="swiper-button-custom bg-primary d-flex justify-content-center align-items-center">
-                            <img src={ic_slide_left_arrow} />
+                            <img src={ic_slide_left_arrow} alt='left-arrow'/>
                         </button>
                     </div>
                     <div className="slide-button-right-area">
                         <button onClick={() => swiperRef?.current?.swiper.slideNext()} className="swiper-button-custom btn-primary d-flex justify-content-center align-items-center">
-                            <img src={ic_slide_right_arrow} />
+                            <img src={ic_slide_right_arrow} alt='right-arrow' />
                         </button>
                     </div>
                 </div >
+
                 <Row className="mobile-featured-speakers justify-content-center">
                     <Col lg={5}>
                         <Swiper
