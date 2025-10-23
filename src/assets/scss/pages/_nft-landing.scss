@@ -1981,8 +1981,8 @@ footer.bg-dark {
     position: absolute;
     width: 70px;
     height: 100px;
-    top: 40%;
-    transform: translateY(-70%);
+    top: 50%;
+    transform: translateY(-50%);
     z-index: 999;
     display: flex;
     margin-left: -30px;
@@ -1993,8 +1993,8 @@ footer.bg-dark {
     width: 70px;
     height: 100px;
     right: 0;
-    top: 40%;
-    transform: translateY(-70%);
+    top: 50%;
+    transform: translateY(-50%);
     z-index: 999;
     display: flex;
     margin-right: -50px;
@@ -2018,6 +2018,29 @@ footer.bg-dark {
     right: 0;
     top: 50%;
     transform: translateY(-50%);
+    z-index: 999;
+    display: flex;
+    margin-right: -50px;
+ }
+
+ .home-speaker-slide-button-left-area {
+    position: absolute;
+    width: 70px;
+    height: 100px;
+    top: 40%;
+    transform: translateY(-70%);
+    z-index: 999;
+    display: flex;
+    margin-left: -30px;
+  }
+
+ .home-speaker-slide-button-right-area {
+    position: absolute;
+    width: 70px;
+    height: 100px;
+    right: 0;
+    top: 40%;
+    transform: translateY(-70%);
     z-index: 999;
     display: flex;
     margin-right: -50px;
