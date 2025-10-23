@@ -76,12 +76,12 @@ const Connect = () => {
                                             ))}
                                         </Swiper>
                                     {/* </Col> */}
-                                    <div className="speaker-slide-button-left-area">
+                                    <div className="connect-slide-button-left-area">
                                         <button onClick={() => connectRef?.current?.swiper.slidePrev()} className="swiper-button-custom bg-primary d-flex justify-content-center align-items-center">
                                             <img src={ic_slide_left_arrow} alt=''/>
                                         </button>
                                     </div>
-                                    <div className="speaker-slide-button-right-area">
+                                    <div className="connect-slide-button-right-area">
                                         <button onClick={() => connectRef?.current?.swiper.slideNext()} className="swiper-button-custom btn-primary d-flex justify-content-center align-items-center">
                                             <img src={ic_slide_right_arrow} alt=''/>
                                         </button>

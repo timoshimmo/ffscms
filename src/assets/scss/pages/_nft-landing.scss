@@ -2000,6 +2000,29 @@ footer.bg-dark {
     margin-right: -50px;
  }
 
+ .connect-slide-button-left-area {
+     position: absolute;
+    width: 70px;
+    height: 100px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 999;
+    display: flex;
+    margin-left: -30px;
+ }
+
+ .connect-slide-button-right-area {
+    position: absolute;
+    width: 70px;
+    height: 100px;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 999;
+    display: flex;
+    margin-right: -50px;
+ }
+
 .phone-input-style {
     width: 100% !important;
 }
